@@ -370,5 +370,60 @@ Exists.intro (MagnificaHumanitas.DeveloperResponsibility.governance true false)
 'MagnificaHumanitas.DeveloperResponsibility.shared_stages_without_universal_developer_assignment' does not depend on any axioms
 'MagnificaHumanitas.DeveloperResponsibility.additional_developer_assignment_is_compatible' does not depend on any axioms
 'MagnificaHumanitas.DeveloperResponsibility.extra_assignment_preserves_duties_and_design' does not depend on any axioms
+theorem MagnificaHumanitas.Authority.technical_control_without_mandate : ∃ o,
+  MagnificaHumanitas.Oversight.governance.highImpact MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+    MagnificaHumanitas.Oversight.governance.affected () MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+      MagnificaHumanitas.CompliantAt MagnificaHumanitas.Oversight.governance
+          (MagnificaHumanitas.broadAppealPolicy MagnificaHumanitas.Oversight.governance)
+          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+        MagnificaHumanitas.CompliantAt MagnificaHumanitas.Oversight.governance
+            (MagnificaHumanitas.harmRemedyPolicy MagnificaHumanitas.Oversight.governance)
+            MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+          o.canIntervene false MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+            ¬(o.recognized false ∧ o.covers false MagnificaHumanitas.PublicBenefits.Decision.benefitDenial) ∧
+              MagnificaHumanitas.ActionableIndependentOversight o
+                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial :=
+Exists.intro (MagnificaHumanitas.Authority.office false)
+  ⟨rfl,
+    ⟨rfl,
+      ⟨MagnificaHumanitas.Oversight.person_facing_fragments_satisfied.left,
+        ⟨MagnificaHumanitas.Oversight.person_facing_fragments_satisfied.right,
+          ⟨MagnificaHumanitas.Authority.actual_control_available false false
+              MagnificaHumanitas.PublicBenefits.Decision.benefitDenial,
+            ⟨fun h =>
+              Or.casesOn (motive := fun t => h.left = t → False) h.left
+                (fun h_1 h =>
+                  Eq.casesOn (motive := fun a t => true = a → h_1 ≍ t → False) h_1
+                    (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl true) (HEq.refl h_1))
+                (fun h_1 h =>
+                  Eq.casesOn (motive := fun a t => true = a → h_1 ≍ t → False) h_1
+                    (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl true) (HEq.refl h_1))
+                (Eq.refl h.left),
+              Exists.intro true
+                ⟨Or.inl rfl,
+                  ⟨rfl,
+                    ⟨rfl,
+                      ⟨True.intro,
+                        MagnificaHumanitas.Authority.actual_control_available false true
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial⟩⟩⟩⟩⟩⟩⟩⟩⟩⟩
+theorem MagnificaHumanitas.Authority.operator_mandate_iff_granted : ∀ (recognized : Bool),
+  (MagnificaHumanitas.Authority.office recognized).recognized false ∧
+      (MagnificaHumanitas.Authority.office recognized).covers false
+        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ↔
+    recognized = true :=
+fun recognized =>
+  {
+    mp := fun h =>
+      Or.casesOn (motive := fun t => h.left = t → recognized = true) h.left
+        (fun h_1 h =>
+          Eq.casesOn (motive := fun a t => true = a → h_1 ≍ t → recognized = true) h_1
+            (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl true) (HEq.refl h_1))
+        (fun h_1 h => h_1) (Eq.refl h.left),
+    mpr := fun h => ⟨Or.inr h, rfl⟩ }
+'MagnificaHumanitas.Authority.actual_control_available' does not depend on any axioms
+'MagnificaHumanitas.Authority.technical_control_without_mandate' does not depend on any axioms
+'MagnificaHumanitas.Authority.granted_mandate_is_compatible' does not depend on any axioms
+'MagnificaHumanitas.Authority.operator_mandate_iff_granted' does not depend on any axioms
+'MagnificaHumanitas.Authority.granting_preserves_technical_facts' does not depend on any axioms
 
 Exit code: 0

@@ -25,6 +25,8 @@ Prototype 0.7 update: the bounded T7/C6 comparison is checked in Participation.l
 
 Prototype 0.8 update: the T8 stage-allocation slice is checked in DeveloperResponsibility.lean using existing Governance/policies. Design compliance does not fill a missing downstream assignee; developer/deployer split and additional shared downstream assignment both satisfy the same fragments. The wider ethical-design bundle needs justified semantics and is not claimed proved. Production/delegation remains a separate T2 gap. See I22 and TECHNICAL_RESULTS.md.
 
+Prototype 0.9 update: T9 has a bounded technical-control/recognition comparison in Authority.lean; full legitimacy is not encoded. V1_COMPLETION_MATRIX.md records the completed fixed-target disposition audit, including the unestablished targets and missing semantics. Final writing and release are next.
+
 ## Recommended first result package
 
 Use the appeal/remedy distinction to test an actual dependency:
@@ -39,6 +41,6 @@ Any bridge lemma that merely extracts an appeal field is labeled an interface le
 
 ## Gate result
 
-MH-002 has exposed distinct decisions about bearer type, obligation triggers, oversight coverage, and remedy semantics. The formal model remains unbuilt. This is evidence to attempt the tiny prototype; it is not enough to declare the full V1 successful.
+MH-002 has exposed distinct decisions about bearer type, obligation triggers, oversight coverage, and remedy semantics. At the historical MH-002 checkpoint the model remained unbuilt. Later sections and the completion matrix record the implemented evidence and remaining failures. The original gate alone does not establish V1 completion.
 
 Reserve T11–T15 remain empty. Data, sustainability, education, and labor must not expand the theorem suite without a specific analytical question and a corresponding scope decision.

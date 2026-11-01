@@ -50,11 +50,11 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.8", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.9", "SmallMH")
 p("Who can challenge,<br/>correct and decide?", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
-p("Our checked examples separate responsibility at design and use, appeal, correction power, timely control, oversight and community participation. A named designer does not cover an unassigned later decision. A board can miss decisions outside its remit, and community input can matter without final control. Each example states its rules and limits.")
+p("Our checked examples separate responsibility, appeal, correction power, timely control, oversight, participation and institutional recognition. They expose specific missing links: a known contact may not be the case assignee, an eventual stop may arrive too late, and technical control may exist without a recognized mandate. Each finding depends on stated rules and assumptions.")
 
 p("A simple employment example", "H2MH")
 p("Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.")
@@ -86,29 +86,31 @@ plain.extend(" | ".join(row) for row in cells)
 p("Why this matters", "H2MH")
 p("When assessing an AI appeal process, ask two separate questions: Can the person get a review? Can someone correct the decision if that review finds an error? A positive answer to the first question does not supply the second.")
 
-p("These are hypothetical, small models. Lean checks consequences of our rules, not whether our source interpretation is uniquely correct or an actual institution complies. A written duty does not establish that its safeguard is provided.", "SmallMH")
+p("These hypothetical models check consequences of stated rules. They do not establish a uniquely correct source reading, real-institution compliance or major research novelty. Several original targets remain unproved and will be reported explicitly. A written duty does not provide its safeguard.", "SmallMH")
 p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions: docs/TECHNICAL_RESULTS.md and project verification logs.', "SmallMH")
 
 story.append(PageBreak())
-p("NEW RESULT / COMMUNITY PARTICIPATION", "SmallMH")
-p("Having a voice<br/>and having the last word", "TitleMH")
-p("A community can contribute, amend its recommendation and influence an outcome while the institution keeps final control.", "DeckMH")
+p("PARTICIPATION, TECHNICAL CONTROL AND RECOGNITION", "SmallMH")
+p("Who has the<br/>last word?", "TitleMH")
+p("Influence, technical control and recognition are different.", "DeckMH")
 
-p("The example", "H2MH")
-p("A community contributes to review of our hypothetical benefit denial. Its recommendation is accepted and recorded. It can amend that record from 'deny' to 'grant.' When the institution does not override, that amendment changes the result. If it does override, the institution can choose either result regardless of the recommendation.")
+p("The participation finding", "H2MH")
+p("A community's recommendation about the hypothetical denial is recorded and amendable. Without an override, changing it changes the result. An institutional override can still select either result, so influence does not supply final control or a veto. Making the recommendation binding supplies control while acceptance, recording and amendment stay fixed.")
 
-participation_rows = [
-    ["Check in the review procedure", "Central rule", "Binding local rule"],
-    ["Input accepted, recorded and amendable?", "Yes", "Yes"],
-    ["Input can change result without an override?", "Yes", "Yes"],
-    ["Institution can override the recommendation?", "Yes", "No"],
-    ["Community can impose either final outcome?", "No", "Yes"],
+p("Now: control and a recognized mandate", "H2MH")
+p("An operator can use the bounded review rule to produce either result. In one version, the institution does not recognize that operator for the denial. In the other, it does. The operator's technical powers stay the same. An independent, recognized board remains available in both versions, alongside the person's appeal and correction safeguards.")
+
+authority_rows = [
+    ["Check for the operator", "Unrecognized", "Recognized"],
+    ["Can produce either review outcome?", "Yes", "Yes"],
+    ["Institution recognizes operator for this denial?", "No", "Yes"],
+    ["Independent board remains available?", "Yes", "Yes"],
 ]
-participation_table = Table([
+authority_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-     for v in row] for i, row in enumerate(participation_rows)],
+     for v in row] for i, row in enumerate(authority_rows)],
     colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
-participation_table.setStyle(TableStyle([
+authority_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
@@ -117,18 +119,17 @@ participation_table.setStyle(TableStyle([
     ("TOPPADDING", (0,0), (-1,-1), 7),
     ("BOTTOMPADDING", (0,0), (-1,-1), 7),
 ]))
-story.append(participation_table)
-plain.extend(" | ".join(row) for row in participation_rows)
-p("Both versions retain the original denial's named responsibility, appeal, correction capacity and the previously tested oversight condition. They change only the final rule of this review procedure.", "SmallMH")
+story.append(authority_table)
+plain.extend(" | ".join(row) for row in authority_rows)
 
-p("What Lean checked", "H2MH")
-p("The central version has real input and a demonstrated influence on the outcome, yet no local final control or absolute veto over a grant. In the comparison, the recorded recommendation becomes binding. Acceptance, recording and amendment stay the same. The extra final-rule commitment supplies control; consultation alone does not.")
+p("What follows - and what does not", "H2MH")
+p("Technical control does not supply institutional recognition here. A capable, recognized operator is also possible. Recognition remains a separate fact, not proof of moral or legal legitimacy. The wider authority question is unresolved.")
 
 p("The practical question", "H2MH")
-p("When told 'communities participate,' ask what they can change and when the institution can overrule them. Correcting a community's own recorded recommendation is different from correcting the final decision or changing the institution's standards.")
+p("Ask what people can change, who can overrule them, who recognizes the decision-maker and what justifies that authority. Having a voice, having technical control and having a justified right to decide require different evidence.")
 
-p("Assumptions and limits", "H2MH")
-p("Recording and amendment are stipulated, not audited real-world facts. The example does not establish full subsidiarity, fairness or legitimate authority. Its interpretation of paragraphs 107-109 leaves broader powers open. Neither final rule is endorsed. Governing authority and the remaining fixed targets are next.")
+p("Limits and the stopping point", "H2MH")
+p("These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. Unproved targets are recorded. Final writing and reproducible V1 release are next, with no new case-building campaign.")
 
 story.append(PageBreak())
 p("PUBLIC BENEFITS / DEVELOPER AND DEPLOYER", "SmallMH")

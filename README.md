@@ -1,6 +1,6 @@
 # Magnifica Humanitas Formalization
 
-Research prototype 0.8 — 2026-11-01. Lean models for appeal/remedy, public-benefits responsibility, high-stakes timing, and appeal obligations under narrow/broad readings, oversight coverage/power, participation versus final control, and developer/deployer responsibility by stage. Repository access is connected; the version 0.7 GitHub build was independently verified. Current checks are visible in GitHub Actions.
+Research prototype 0.9 — 2026-11-01. Lean models for appeal/remedy, public-benefits responsibility, high-stakes timing, and appeal obligations under narrow/broad readings, oversight coverage/power, participation versus final control, developer/deployer responsibility by stage, and technical control versus scoped institutional recognition. Repository access is connected; the version 0.8 GitHub build was independently verified. Current checks are visible in GitHub Actions.
 
 Question: what governance conclusions follow from explicit formal interpretations, and what additional assumptions do other conclusions need?
 
@@ -21,6 +21,8 @@ Question: what governance conclusions follow from explicit formal interpretation
 13. [Target coverage and definition ceiling](docs/RESULT_COVERAGE.md)
 14. [Update the existing Mac/GitHub repository](docs/UPDATE_EXISTING_REPOSITORY.md)
 15. [Current user-approved build guidelines](docs/CURRENT_BUILD_GUIDELINES.md)
+16. [Fixed-target completion matrix and final deliverables](docs/V1_COMPLETION_MATRIX.md)
+17. [Scope and significance audit](docs/SCOPE_AUDIT_0_9.md)
 
 The machine-readable claim ledger is [claims.csv](data/claims.csv), with the same records in [JSON](data/claims.json).
 
@@ -28,7 +30,7 @@ The machine-readable claim ledger is [claims.csv](data/claims.csv), with the sam
 
 Selection is an editorial decision for this prototype, not acceptance of a claim as universally true. Formal candidates are our modeling proposals. Only small responsibility/appeal/remedy fragments and bounded case models are implemented; oversight adds an explicitly limited capacity interpretation. Source fidelity, satisfiability, formal consequences, and empirical validation are separate questions.
 
-Local build evidence is recorded in verification/. Remote CI for version 0.7 was verified at [the successful main-branch run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41358489940). Check the current run for later changes. Release 1.0, novelty priority, and operational compliance certification are not claimed.
+Local build evidence is recorded in verification/. Remote CI for version 0.8 was verified at [the successful main-branch run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41359559886). Check the current run for later changes. Release 1.0, novelty priority, and operational compliance certification are not claimed.
 
 ## Build and reproduce
 
@@ -40,4 +42,4 @@ lake env lean Audit.lean
 python3 scripts/audit_sources.py
 ```
 
-An official Lean binary distribution also works when its `bin` directory is on PATH. The recourse example separates appeal from correction capacity. The public-benefits example distinguishes general staffing, identifiable assignment, and correction power. The high-stakes example compares the same events in different orders and proves conditional invariants over all finite modeled continuations. The oversight example separates the existence of an independent board from its remit and intervention capacity for a specific denial. The participation example records and amends community input with demonstrated outcome influence while separating it from a binding final decision rule. These are limited capacity/procedure interpretations, not complete definitions of effective oversight or subsidiarity. The developer example checks how design-stage responsibility differs from assignment for a later denial; it does not determine legal liability or complete ethical design. Explicit satisfying cases accompany the separation examples. See the public PDF and technical result map for the scope of those claims.
+An official Lean binary distribution also works when its `bin` directory is on PATH. The recourse example separates appeal from correction capacity. The public-benefits example distinguishes general staffing, identifiable assignment, and correction power. The high-stakes example compares the same events in different orders and proves conditional invariants over all finite modeled continuations. The oversight example separates the existence of an independent board from its remit and intervention capacity for a specific denial. The participation example records and amends community input with demonstrated outcome influence while separating it from a binding final decision rule. These are limited capacity/procedure interpretations, not complete definitions of effective oversight or subsidiarity. The developer example checks how design-stage responsibility differs from assignment for a later denial; it does not determine legal liability or complete ethical design. The authority case distinguishes operational control from institutional recognition; it does not define full legitimacy. Explicit satisfying cases accompany the separation examples. The disposition audit now records all fixed targets, including unmet formal targets and the numerical shortfall. Final writing and reproducible V1 release are next; no further application-building campaign is planned. See the public PDF and technical result map for the scope of those claims.

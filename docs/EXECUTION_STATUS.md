@@ -1,4 +1,4 @@
-# Execution status — prototype 0.8, 2026-11-01
+# Execution status — prototype 0.9, 2026-11-01
 
 ## Completed
 
@@ -16,13 +16,15 @@
 - MH-006B1: independent regime provision is separated from decision remit and intervention capacity in the existing public-benefits case. Paired gap/repair witnesses, a sufficient bridge and a non-vacuous joint satisfying instance are checked.
 - MH-006B2: accepted, recorded and amendable community recommendations have actual conditional outcome influence without final control or a veto. A paired binding rule, sufficient bridge and joint satisfying cases complete the limited C6 comparison and document the broader T7 ambiguity.
 - MH-006B3: design compliance is separated from later-use responsibility coverage; distinct developer/deployer assignments and an optional additional developer assignment are checked under the existing policies. Wider ethical-design duties remain a documented interpretation gap.
-- The reuse audit keeps 30 principal definitions and three case domains; one design-review context is added within the public-benefits case.
-- Successful clean-copy build: fourteen Lake jobs. The thirteen checked Lean files include the separate Audit.lean file.
-- Forty-four principal theorem declarations audited: thirty-nine use no logical axioms and five use only standard propext. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
+- MH-006B4: technical outcome control is separated from institutional recognition/remit using existing structures and the same review rule. Both capable/unrecognized and capable/recognized witnesses satisfy the named safeguard fragments. Full legitimacy remains outside the proxy.
+- Fixed-target disposition audit completed in V1_COMPLETION_MATRIX.md, with unestablished targets and numerical shortfalls explicit; no further rolling example campaign is planned.
+- The reuse/significance audit keeps 30 principal definitions and three case domains.
+- Successful clean-copy build: fifteen Lake jobs. The fourteen checked Lean files include the separate Audit.lean file.
+- Forty-nine principal theorem declarations audited: forty-four use no logical axioms and five use only standard propext. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
 - Source integrity checks passed. No proof placeholders or custom axiom declarations in the delivered Lean files.
-- Six-page plain-language progress report, consolidated to include developer/deployer stages alongside participation, appeal and oversight, created and visually checked.
+- Six-page plain-language progress report, consolidated to include scoped authority alongside developer stages, participation, appeal and oversight, created and visually checked.
 - Plain-language final report made a mandatory completion deliverable alongside the technical paper.
-- GitHub access is connected. The version 0.7 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
+- GitHub access is connected. The version 0.8 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
 
 ## Scope and limitations
 
@@ -36,20 +38,22 @@ The participation comparison records and amends a community recommendation and d
 
 The developer comparison does not confuse a design-stage assignee with an assignee for every later decision. A downstream gap violates an existing duty. Distinct stage assignees satisfy the fragments, and an additional developer assignee is also compatible. Legal liability, full ethical-design duties and actual production/delegation semantics are not established.
 
+Technical control in the authority case is computed from the review rule. Independent institutional recognition changes without changing that capability. Recognition is not moral or legal legitimacy. The scope/significance audit identifies useful checked dependencies while declining any major-novelty or comprehensive-coverage claim.
+
 ## Prototype gate
 
 The prototype supports proceeding narrowly. The current appeal comparison shows where a guaranteed appeal depends on a stronger interpretation. The shared exclusion consequence is labeled a baseline rule consequence. Significance and source fidelity still require external scholarly assessment. RESULT_COVERAGE.md records unfinished targets and the current 30-definition principal-domain count.
 
-## Next action: MH-006B — remaining fixed target suite
+## Next action: final writing and reproducible release
 
-1. Address governing authority next using existing semantics where appropriate. T8 now has a checked responsibility-scope result and a documented missing interpretation for its wider ethical-design bundle; T6/T7 retain their stated limits.
-2. Keep delegation and full meaningful recourse explicitly tracked; an appeal guarantee alone does not close them.
-3. Preserve failures and ambiguities rather than adding premises to manufacture the planned theorem count.
-4. Complete the remaining countermodel program and compare admissible interpretations.
-5. Develop the final research paper and consolidate the public report from actual results; the current six-page report remains a progress report.
+The disposition audit is complete under the frozen semantics. T2/T10 and C1/C4/C5 are explicitly unestablished; the larger interpretation limits are recorded in V1_COMPLETION_MATRIX.md. This is not completion of all planned formal theorems, and the original numerical aspirations have not been met.
 
-No additional source chapter, modal-logic framework, or theorem-count expansion is authorized by this step.
+1. Write the required 12–20-page technical paper around the actual bounded results and documented failures/ambiguities, with accurate source provenance and a limited methods/case-study claim.
+2. Finalize the 4–6-page plain-language report and check every public claim against the result map. The current six-page PDF remains a progress report.
+3. Perform the final clean build, dependency/source audits and remote CI verification; package the final artifacts and reproducibility instructions; create the V1 release tag.
+
+No new application domain, reserve theorem target or additional principal abstraction is part of this closeout. Correctness fixes remain allowed. Expansion beyond the documented V1 semantics requires a separate scope decision.
 
 ## Repository and release
 
-Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.7 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The full theorem suite, complete treatment of all three cases, final public report, and technical paper remain unfinished.
+Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.8 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The final paper, final public report and release remain unfinished. The unestablished formal targets and the bounded scope of all three cases will remain explicit V1 limitations under the completed disposition audit.

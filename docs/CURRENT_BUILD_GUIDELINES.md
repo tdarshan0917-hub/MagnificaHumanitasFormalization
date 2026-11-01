@@ -23,9 +23,13 @@ The user's instruction to proceed after MH-006A authorizes the next fixed target
 
 The user's instruction to continue authorizes the next agreed participation comparison, T7/C6. Use the existing public-benefits decision to test accepted, recorded and amendable recommendations with demonstrable influence on the outcome, while distinguishing those powers from final control or a veto. Display the actual final rule, compare a binding-local rule with other participation operations fixed, and preserve the prior person-facing and oversight fragments. Amendment of the community's own record must not be advertised as complete subsidiarity. Keep the public report within six pages by consolidation. The next agreed question is developer responsibility; the V1 endpoint is unchanged.
 
-### Current execution: MH-006B3, developer responsibility
+### Completed execution: MH-006B3, developer responsibility
 
 The user authorized proceeding and asked that developments be committed. Verify the prior main-branch commits and build the bounded developer-responsibility comparison using the existing Governance and policy definitions. Distinguish design-context responsibility from later-use assignment, construct a downstream gap and repaired assignments, and keep any wider ethical-design or liability interpretation explicitly unresolved where the semantics are absent. Use the same public-benefits domain and retain the 30-definition ceiling. Consolidate the report within six pages, commit the verified result on GitHub, and check CI. Governing authority is next; the fixed endpoint is unchanged.
+
+### Current execution: MH-006B4, authority and completion audit
+
+The user reaffirmed the fixed objectives and asked that the work remain meaningful. Test technical control against an explicitly limited institutional-mandate proxy in the existing case, allow both capable/unrecognized and capable/recognized roles, and do not identify recognition with moral legitimacy. Reuse the existing structures and review rule, add no case domain or principal abstraction, and update the readable report. Record an honest target-by-target completion matrix, the numerical shortfall and the remaining final deliverables. New proof work must close an already named gap with justified semantics; do not start a fresh sequence of applications. V1_COMPLETION_MATRIX.md records the completed disposition audit and the remaining writing/release gates. The original V1 endpoint remains unchanged.
 
 ## Endpoint
 

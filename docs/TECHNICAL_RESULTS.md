@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.8. Earlier recourse, public-benefits, high-stakes, appeal, oversight and participation results remain. The developer-responsibility scope comparison is added at the end.
+Current checkpoint: prototype 0.9. Earlier recourse, public-benefits, high-stakes, appeal, oversight, participation and developer-scope results remain. The authority-proxy comparison and completion audit are added at the end.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -163,3 +163,26 @@ The uncovered denial is a violation, not evidence that its responsibility duty d
 Provenance: MH-020 (§105 lifecycle responsibility), with MH-040 (§111 developer responsibility) motivating the scope question; I01/I02/I09/I22, A25/A26. MH-019 design scrutiny, MH-038 justice assessment and the fuller MH-040 transparency/community-responsibility bundle are not implemented by these formulas. A justified assessment criterion and affected-community specification would be needed to translate those parts. The result therefore must not be described as formalizing all developer ethics or proving absence of downstream liability. T8 records the remaining interpretation explicitly. T2 remains distinct: this module does not model production or delegation to AI.
 
 These new stage models satisfy only the specified responsibility/appeal/remedy fragments. They do not automatically compose with the separate oversight and participation models; no joint full-source consistency claim follows. Exactly three application domains and 30 principal definitions remain.
+
+
+## MH-006B4: technical control and scoped institutional recognition
+
+T9 is tested with a deliberately bounded mandate proxy: an existing institution recognizes a role and its remit covers the denial. This is not defined to be moral or legal legitimacy. The wider right-to-govern question remains an interpretation gap. MH-039 (§110) motivates the distinction; I13/I23 and A12/A27/A28 carry the exact operational and institutional commitments.
+
+Authority.lean reuses OversightSystem and the existing binding Participation.process instance. Technical control is a quantified capability: for either desired outcome, a proposal makes the review rule return that outcome against every institutional override. Bool roles denote the platform operator and independent board. Both have this modeled technical capability; the board is recognized, independent and covers the denial. The operator's institutional recognition is varied with the technical rule and remit unchanged. Each role's capability is assessed separately; concurrent control and real-system enforcement are not modeled.
+
+| Finding | Declaration | Scope |
+|---|---|---|
+| The bounded rule supplies actual outcome control | `Authority.actual_control_available` | Operational capability, not a Power=True label; helper, not a research discovery |
+| A capable operator can lack a recognized mandate | `Authority.technical_control_without_mandate` | Countermodel to capability implying recognized-plus-covered; original high-impact denial, affected person, broad appeal/harm-remedy compliance and an actionable independent board remain present |
+| A capable recognized operator is also compatible | `Authority.granted_mandate_is_compatible` | Non-vacuous satisfying comparison under the same named fragments; avoids claiming every capable role lacks a mandate |
+| The operator's proxy mandate depends exactly on recognition in this family | `Authority.operator_mandate_iff_granted` | Finite-family characterization; not a universal legitimacy criterion |
+| Changing recognition preserves technical capability, review, remit and independence | `Authority.granting_preserves_technical_facts` | Paired institutional-fact change with identical technical behavior |
+
+The gap is intentionally between technical behavior and independent institutional evidence. Recognition is stipulated, not justified from a moral theory. This elementary specification-independence check is not a flagship discovery, does not prove the truth of the source, and does not solve legitimate government. Its value is keeping the normative question from disappearing into a technical-control flag.
+
+## Completion and significance boundary
+
+V1_COMPLETION_MATRIX.md records a disposition and evidence boundary for all ten T questions and six C questions. C2/C3/C6 are implemented; C1/C4/C5 remain unestablished. T2 and the broader T10 ethics-declaration target lack their required semantics. Wider recourse, design, subsidiarity and legitimacy claims retain explicit limits. These shortfalls will be reported in V1 rather than filled by unsupported predicates. The original numerical result aspirations are not met; interface and baseline results must not be counted to conceal that fact.
+
+The fixed disposition audit is complete under the current semantics. Next are the required technical paper and final readable report, followed by reproducible release. SCOPE_AUDIT_0_9.md records why the existing richer dependency checks support a limited methods/case-study claim, while scholarly novelty, source fidelity and empirical usefulness remain unestablished. There is no further rolling series of model applications before writing.

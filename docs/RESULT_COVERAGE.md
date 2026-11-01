@@ -1,4 +1,4 @@
-# Result coverage after prototype 0.7
+# Result coverage after prototype 0.8
 
 This inventory prevents helper-lemma counts from being confused with completion of the research contract. All findings are about declared models. Textual fidelity and external significance remain separate assessments.
 
@@ -13,7 +13,7 @@ This inventory prevents helper-lemma counts from being confused with completion 
 | T5 Responsibility and identifiability | Case-level separation and sufficient conditions implemented; no universal implication without an identification premise |
 | T6 Independent oversight | Disposed for the fixed question: regime-level provision does not ensure decision coverage; covered review does not ensure intervention capacity. Paired countermodels, sufficient bridges and a joint satisfying witness are checked. Full effectiveness and a unique source reading are not established |
 | T7 Participation/subsidiarity | Bounded non-implication/source-ambiguity disposition: recorded and amendable community input with demonstrated outcome influence does not imply final control or veto; a binding decision rule changes that conclusion. Full subsidiarity and stronger standards-setting powers are not established |
-| T8 Developer duties | Not implemented |
+| T8 Developer duties | Bounded stage-allocation result checked: design compliance can coexist with an uncovered denial; distinct developer/deployer assignments or an additional downstream developer assignee satisfy the same fragments. Wider ethical-design/transparency/community duties need a justified interpretation; no legal-liability conclusion |
 | T9 Technical power and authority | Not implemented |
 | T10 Ethics-only insufficiency | Not implemented |
 
@@ -36,8 +36,8 @@ There are 30 principal definitions at this checkpoint, counting structures, indu
 - Oversight.lean: 2 (OversightSystem and ActionableIndependentOversight).
 - Participation.lean: 1 (ConsultationProcess).
 
-Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, AppealReview, Oversight and Participation. The exclusion does not authorize new unused ontology. The 30-definition ceiling is reached; SCOPE_AUDIT_0_7.md records the extension audit. Any further principal abstraction requires an explicit contract revision; predicates must not be relabeled bookkeeping to avoid the ceiling.
+Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, AppealReview, Oversight, Participation and DeveloperResponsibility. The exclusion does not authorize new unused ontology. The 30-definition ceiling is reached; SCOPE_AUDIT_0_7.md records the last principal-definition extension; SCOPE_AUDIT_0_8.md records the current reuse audit. Any further principal abstraction requires an explicit contract revision; predicates must not be relabeled bookkeeping to avoid the ceiling.
 
 ## Next research move
 
-MH-006A completed appeal and review. MH-006B1 has now disposed of the fixed oversight implication question with a bounded capacity interpretation. MH-006B2 now tests participation versus final control under a deliberately limited record-amendment interpretation, completing C6 and documenting the broader T7 ambiguity. Next come developer responsibility and authority, with delegation, full recourse, C1/C4/C5 and ethics-only insufficiency still tracked. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.
+MH-006A completed appeal and review. MH-006B1 has now disposed of the fixed oversight implication question with a bounded capacity interpretation. MH-006B2 now tests participation versus final control under a deliberately limited record-amendment interpretation, completing C6 and documenting the broader T7 ambiguity. MH-006B3 checks developer/deployer responsibility by stage and records the missing semantics for the wider design-duty bundle. Governing authority is next, with delegation, full recourse, C1/C4/C5 and ethics-only insufficiency still tracked. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.

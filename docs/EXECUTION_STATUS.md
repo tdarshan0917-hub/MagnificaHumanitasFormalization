@@ -1,4 +1,4 @@
-# Execution status — prototype 0.7, 2026-11-01
+# Execution status — prototype 0.8, 2026-11-01
 
 ## Completed
 
@@ -15,13 +15,14 @@
 - The user's four-step current build guide is recorded in CURRENT_BUILD_GUIDELINES.md; no case domain was added.
 - MH-006B1: independent regime provision is separated from decision remit and intervention capacity in the existing public-benefits case. Paired gap/repair witnesses, a sufficient bridge and a non-vacuous joint satisfying instance are checked.
 - MH-006B2: accepted, recorded and amendable community recommendations have actual conditional outcome influence without final control or a veto. A paired binding rule, sufficient bridge and joint satisfying cases complete the limited C6 comparison and document the broader T7 ambiguity.
-- The scope audit records 30 principal definitions: the ceiling is reached. No new case domain was added.
-- Successful clean-copy build: thirteen Lake jobs. The twelve checked Lean files include the separate Audit.lean file.
-- Thirty-eight principal theorem declarations audited: thirty-three use no logical axioms and five use only standard propext. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
+- MH-006B3: design compliance is separated from later-use responsibility coverage; distinct developer/deployer assignments and an optional additional developer assignment are checked under the existing policies. Wider ethical-design duties remain a documented interpretation gap.
+- The reuse audit keeps 30 principal definitions and three case domains; one design-review context is added within the public-benefits case.
+- Successful clean-copy build: fourteen Lake jobs. The thirteen checked Lean files include the separate Audit.lean file.
+- Forty-four principal theorem declarations audited: thirty-nine use no logical axioms and five use only standard propext. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
 - Source integrity checks passed. No proof placeholders or custom axiom declarations in the delivered Lean files.
-- Six-page plain-language progress report, consolidated to include participation alongside the appeal and oversight comparisons, created and visually checked.
+- Six-page plain-language progress report, consolidated to include developer/deployer stages alongside participation, appeal and oversight, created and visually checked.
 - Plain-language final report made a mandatory completion deliverable alongside the technical paper.
-- GitHub access is connected. The version 0.6 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
+- GitHub access is connected. The version 0.7 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
 
 ## Scope and limitations
 
@@ -33,13 +34,15 @@ The oversight comparison preserves the same named responsibility, person-accessi
 
 The participation comparison records and amends a community recommendation and demonstrates its influence when no institutional override is used. An explicit override can still select either outcome. Binding the final rule to the recommendation supplies operational control, but no legitimacy or full-subsidiarity conclusion follows.
 
+The developer comparison does not confuse a design-stage assignee with an assignee for every later decision. A downstream gap violates an existing duty. Distinct stage assignees satisfy the fragments, and an additional developer assignee is also compatible. Legal liability, full ethical-design duties and actual production/delegation semantics are not established.
+
 ## Prototype gate
 
 The prototype supports proceeding narrowly. The current appeal comparison shows where a guaranteed appeal depends on a stronger interpretation. The shared exclusion consequence is labeled a baseline rule consequence. Significance and source fidelity still require external scholarly assessment. RESULT_COVERAGE.md records unfinished targets and the current 30-definition principal-domain count.
 
 ## Next action: MH-006B — remaining fixed target suite
 
-1. Address developer responsibility next, then governing authority, using existing structures where appropriate. T6 and T7 have bounded model-relative dispositions; full effectiveness and full subsidiarity remain interpretation limits.
+1. Address governing authority next using existing semantics where appropriate. T8 now has a checked responsibility-scope result and a documented missing interpretation for its wider ethical-design bundle; T6/T7 retain their stated limits.
 2. Keep delegation and full meaningful recourse explicitly tracked; an appeal guarantee alone does not close them.
 3. Preserve failures and ambiguities rather than adding premises to manufacture the planned theorem count.
 4. Complete the remaining countermodel program and compare admissible interpretations.
@@ -49,4 +52,4 @@ No additional source chapter, modal-logic framework, or theorem-count expansion 
 
 ## Repository and release
 
-Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.6 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The full theorem suite, complete treatment of all three cases, final public report, and technical paper remain unfinished.
+Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.7 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The full theorem suite, complete treatment of all three cases, final public report, and technical paper remain unfinished.

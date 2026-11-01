@@ -50,11 +50,11 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.7", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.8", "SmallMH")
 p("Who can challenge,<br/>correct and decide?", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
-p("Our computer-checked examples separate a named officer, an appeal, correction power, timely control, independent oversight and community participation. These safeguards need separate evidence. A board can miss decisions outside its remit, and community input can matter without giving the community final control. Each example states its rules and limits.")
+p("Our checked examples separate responsibility at design and use, appeal, correction power, timely control, oversight and community participation. A named designer does not cover an unassigned later decision. A board can miss decisions outside its remit, and community input can matter without final control. Each example states its rules and limits.")
 
 p("A simple employment example", "H2MH")
 p("Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.")
@@ -128,28 +128,30 @@ p("The practical question", "H2MH")
 p("When told 'communities participate,' ask what they can change and when the institution can overrule them. Correcting a community's own recorded recommendation is different from correcting the final decision or changing the institution's standards.")
 
 p("Assumptions and limits", "H2MH")
-p("Recording and amendment are stipulated, not audited real-world facts. The example does not establish full subsidiarity, fairness or legitimate authority. Its interpretation of paragraphs 107-109 leaves broader powers open. Neither final rule is endorsed. Developer responsibility and governing authority are next.")
+p("Recording and amendment are stipulated, not audited real-world facts. The example does not establish full subsidiarity, fairness or legitimate authority. Its interpretation of paragraphs 107-109 leaves broader powers open. Neither final rule is endorsed. Governing authority and the remaining fixed targets are next.")
 
 story.append(PageBreak())
-p("NEW RESULT / PUBLIC BENEFITS", "SmallMH")
-p("Who owns this decision?", "TitleMH")
-p("A named agency and a public contact do not necessarily identify the person assigned to your case.", "DeckMH")
-p("The example", "H2MH")
-p("Imagine an AI-assisted public-benefit denial. The agency accepts responsibility, publishes a contact's name, and assigns every important decision internally. But the contact handles routine inquiries; another employee handles the denial. In the first version, that case officer is not identifiable. Known staffing and internal assignment therefore do not supply an identifiable case owner.")
-p("These are stipulated facts in a hypothetical office. We have not audited an actual public-benefits agency.", "SmallMH")
+p("PUBLIC BENEFITS / DEVELOPER AND DEPLOYER", "SmallMH")
+p("Who answers at<br/>each stage?", "TitleMH")
+p("Naming a developer for design does not identify the person assigned to a later benefit denial.", "DeckMH")
+
+p("The earlier finding", "H2MH")
+p("Our hypothetical office has a public contact for routine inquiries and a different officer for a denial. Known staffing and internal allocation do not identify that case officer. Naming the officer still does not give correction power. Lean checked both gaps and a case with the named, empowered assignee.")
+
+p("New: design and use", "H2MH")
+p("We add a consequential design-review context to the same case. The developer is named for design. With nobody assigned to the later denial, the design checklist passes but the denial violates its own responsibility requirement. Assigning a named deployer fills that gap while the developer remains assigned to design.")
+p("These are stipulated, hypothetical arrangements. No real agency or developer has been audited.", "SmallMH")
 
 comparison = [
-    ["Question about the denial", "Unnamed", "Named only", "Name + power"],
-    ["Agency and public contact identified?", "Yes", "Yes", "Yes"],
-    ["An officer assigned to the denial?", "Yes", "Yes", "Yes"],
-    ["That officer identifiable?", "No", "Yes", "Yes"],
-    ["That officer has correction power?", "Yes", "No", "Yes"],
-    ["Identifiable case owner with power?", "No", "No", "Yes"],
+    ["Responsibility check", "Design only", "Both stages"],
+    ["Developer assigned to design?", "Yes", "Yes"],
+    ["Named assignee for the denial?", "No", "Yes: deployer"],
+    ["Both stages meet the responsibility checklist?", "No", "Yes"],
 ]
 comparison_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
      for v in row] for i, row in enumerate(comparison)],
-    colWidths=[2.7*inch, .95*inch, .95*inch, 1.0*inch])
+    colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
 comparison_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
@@ -161,16 +163,13 @@ comparison_table.setStyle(TableStyle([
 ]))
 story.append(comparison_table)
 plain.extend(" | ".join(row) for row in comparison)
+p("Appeal and correction channels remain available in both versions. Their presence does not fill a missing responsibility assignment.", "SmallMH")
 
-p("What Lean checked", "H2MH")
-p("The first version has known staff and internal allocation, yet no identifiable assignee for the denial. The second names that assignee but supplies no correction power. The third provides both. The agency, membership, and assignments stay fixed.")
-p("We also checked a sufficient rule: assign the decision to a person and ensure that this person is identifiable. Correction capacity through that person needs a separate authority condition for the same decision.")
+p("Shared assignment is also possible", "H2MH")
+p("Another checked version assigns both developer and deployer to the denial and meets the same limited rules. Those rules leave that additional assignment open. The design assignment and the written duties stay fixed throughout the comparison.")
 
-p("The practical lesson", "H2MH")
-p("Ask who is assigned to this decision, whether that person is identifiable, and whether they can correct it. These are separate questions. A general contact list does not answer all three.")
-
-p("What this still does not establish", "H2MH")
-p("Authority does not prove that the officer will act, that the applicant can reach them, or that every loss can be undone. We have not established legal liability, a uniquely correct reading of the source, or major research novelty.")
+p("The practical question and the limit", "H2MH")
+p("Ask who answers for design and who answers for this particular use. This model does not determine legal liability or prove developers have no downstream duties. The wider source duties of design scrutiny, justice assessment and responsibility toward communities still need a justified specification. Our stage-allocation reading is motivated by paragraphs 105 and 111; it is not the full developer-ethics package.")
 
 story.append(PageBreak())
 p("NEW RESULT / HIGH-STAKES AUTONOMY", "SmallMH")

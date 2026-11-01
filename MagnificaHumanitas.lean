@@ -8,3 +8,4 @@ import MagnificaHumanitas.HighStakes
 import MagnificaHumanitas.AppealReview
 import MagnificaHumanitas.Oversight
 import MagnificaHumanitas.Participation
+import MagnificaHumanitas.DeveloperResponsibility

@@ -19,12 +19,16 @@ Address the remaining fixed questions about oversight, participation, developer 
 
 The user's instruction to proceed after MH-006A authorizes the next fixed target, T6. Use the existing public-benefits decisions to compare regime-level independent review, decision coverage and intervention capacity. Preserve the person-facing safeguards, name the fragments each witness satisfies, and document the limits of the operational effectiveness proxy. Record the definition-budget audit and update the public report. Participation is the next fixed question after this bounded slice; no new domain or expansion of the V1 endpoint is introduced.
 
-### Current execution: MH-006B2, participation
+### Completed execution: MH-006B2, participation
 
 The user's instruction to continue authorizes the next agreed participation comparison, T7/C6. Use the existing public-benefits decision to test accepted, recorded and amendable recommendations with demonstrable influence on the outcome, while distinguishing those powers from final control or a veto. Display the actual final rule, compare a binding-local rule with other participation operations fixed, and preserve the prior person-facing and oversight fragments. Amendment of the community's own record must not be advertised as complete subsidiarity. Keep the public report within six pages by consolidation. The next agreed question is developer responsibility; the V1 endpoint is unchanged.
+
+### Current execution: MH-006B3, developer responsibility
+
+The user authorized proceeding and asked that developments be committed. Verify the prior main-branch commits and build the bounded developer-responsibility comparison using the existing Governance and policy definitions. Distinguish design-context responsibility from later-use assignment, construct a downstream gap and repaired assignments, and keep any wider ethical-design or liability interpretation explicitly unresolved where the semantics are absent. Use the same public-benefits domain and retain the 30-definition ceiling. Consolidate the report within six pages, commit the verified result on GitHub, and check CI. Governing authority is next; the fixed endpoint is unchanged.
 
 ## Endpoint
 
 V1 ends with a disposition for the fixed target suite, documented countermodels/failures/ambiguities, exactly three case domains, final plain-language report, technical companion paper, reproducible proof audit, green CI, and a V1 release. Full numerical details and the definition/line ceilings remain in V1_RESEARCH_CONTRACT.md.
 
-The public report must stay readable and bounded. The current five-page progress report is not an invitation to append a page for every helper lemma; future updates should consolidate where needed. No new source chapter or case domain is added by this instruction.
+The public report must stay readable and bounded. The current six-page progress report is not an invitation to append a page for every helper lemma; future updates should consolidate where needed. No new source chapter or case domain is added by this instruction.

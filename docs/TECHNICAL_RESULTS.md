@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.7. Earlier recourse, public-benefits, high-stakes, appeal and oversight results remain. The participation comparison is added at the end.
+Current checkpoint: prototype 0.8. Earlier recourse, public-benefits, high-stakes, appeal, oversight and participation results remain. The developer-responsibility scope comparison is added at the end.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -141,3 +141,25 @@ Operational final control is displayed in full in the theorem statements: for ea
 The Governance record concerns the original denial and its safeguards, not the later computed review outcome. An amended recommendation may therefore lead to approval on review without contradicting the original exclusion fact. The prior person-facing and oversight facts are identical through the comparison; by refinement, the narrow appeal fragment is also satisfied. This demonstrates compatibility of these limited fragments, not the fidelity of every possible source-interpretation combination.
 
 Provenance: MH-029 (§107), MH-032 (§108), MH-036 (§109), I07/I21 and A22/A23/A24. Own-record amendment and optional binding authority are explicit operational choices. The source does not uniquely prescribe this small protocol, and our result must not be reported as proving that subsidiarity needs no stronger community powers. T7 records that interpretation limit; C6 receives the checked non-implication disposition. C5 (multiple controllers versus local agency) remains unfinished.
+
+
+## MH-006B3: developer responsibility and later-use assignment
+
+T8 has a bounded checked stage-allocation result and an explicit missing-interpretation disposition for the broader design-duty bundle. The case reuses Governance and the existing policies over Sum Unit PublicBenefits.Decision: one consequential design-review context, the existing benefit denial and the routine inquiry. Bool actors are the developer (false) and deployer (true). The design context and denial are classified as high-impact; the person is affected, excluded and harmed by the denial. These are stipulated case facts A25, not an assertion that every design choice is high-impact.
+
+The developer is assigned to the design context in all comparisons. The deployer's assignment to the denial and an optional additional developer assignment are varied explicitly. Person-accessible review/correction channels, identification, explanation and human review are fixed. Neither an explained flag nor a reviewed flag is treated as satisfaction of the source's full design-ethics requirements.
+
+| Finding | Declaration | Named scope and limit |
+|---|---|---|
+| Design compliance can coexist with an uncovered downstream responsibility duty | `DeveloperResponsibility.design_compliance_leaves_downstream_gap` | Narrow responsibility/appeal compliance at design; the consequential denial still requires an identifiable assignee and violates that requirement |
+| A named deployer supplies coverage of the denial while the developer remains assigned to design | `DeveloperResponsibility.shared_stages_without_universal_developer_assignment` | High-impact design and denial, affected person, and broad appeal/harm-remedy compliance at every context in this finite carrier; developer need not be assigned to the denial under these fragments |
+| Additional developer assignment at deployment is also compatible | `DeveloperResponsibility.additional_developer_assignment_is_compatible` | Developer and deployer are both assigned to the denial; same full finite-fragment compliance, no exclusivity or legal-liability finding |
+| All finite contexts can satisfy the two existing policy interpretations with either optional assignment | `DeveloperResponsibility.covered_stages_satisfy_existing_fragments` | Non-vacuous satisfaction family; narrow appeal follows by refinement |
+| The assignment comparison preserves earlier design assignment and all encoded policy triggers | `DeveloperResponsibility.extra_assignment_preserves_duties_and_design` | Paired cases differ in an actual downstream assignment; existing obligations, appeal and remedy capacity are unchanged |
+| The design-only context satisfies its existing checklist | `DeveloperResponsibility.design_fragment_satisfied` | Interface/satisfaction helper, not a flagship discovery |
+
+The uncovered denial is a violation, not evidence that its responsibility duty disappeared. Conversely, satisfying a requirement for some identifiable assignee is not the same formula as requiring a particular developer to answer for every later decision. The paired satisfying cases show that the existing fragments do not settle that additional allocation. No established actor-specific duty is deleted or shown to terminate.
+
+Provenance: MH-020 (§105 lifecycle responsibility), with MH-040 (§111 developer responsibility) motivating the scope question; I01/I02/I09/I22, A25/A26. MH-019 design scrutiny, MH-038 justice assessment and the fuller MH-040 transparency/community-responsibility bundle are not implemented by these formulas. A justified assessment criterion and affected-community specification would be needed to translate those parts. The result therefore must not be described as formalizing all developer ethics or proving absence of downstream liability. T8 records the remaining interpretation explicitly. T2 remains distinct: this module does not model production or delegation to AI.
+
+These new stage models satisfy only the specified responsibility/appeal/remedy fragments. They do not automatically compose with the separate oversight and participation models; no joint full-source consistency claim follows. Exactly three application domains and 30 principal definitions remain.

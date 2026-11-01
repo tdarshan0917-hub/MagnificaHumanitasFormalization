@@ -23,6 +23,8 @@ Prototype 0.6 update: T6 now has a checked regime-to-decision countermodel, a co
 
 Prototype 0.7 update: the bounded T7/C6 comparison is checked in Participation.lean. Recorded contribution, own-record amendment and demonstrated outcome influence coexist with a central override rule and no final control. A binding-local comparison isolates an extra premise. Full subsidiarity and legitimate authority remain outside this protocol; the broader source ambiguity is explicit in I21 and TECHNICAL_RESULTS.md.
 
+Prototype 0.8 update: the T8 stage-allocation slice is checked in DeveloperResponsibility.lean using existing Governance/policies. Design compliance does not fill a missing downstream assignee; developer/deployer split and additional shared downstream assignment both satisfy the same fragments. The wider ethical-design bundle needs justified semantics and is not claimed proved. Production/delegation remains a separate T2 gap. See I22 and TECHNICAL_RESULTS.md.
+
 ## Recommended first result package
 
 Use the appeal/remedy distinction to test an actual dependency:

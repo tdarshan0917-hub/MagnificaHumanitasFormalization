@@ -1,0 +1,1280 @@
+# MAGNIFICA HUMANITAS FORMALIZATION
+## Research handoff, bounded V1 contract, and execution plan
+
+### 0. Project identity
+
+Working title:
+
+**Magnifica Humanitas Formalization: A Machine-Checked AI Governance Core in Lean 4**
+
+Primary source:
+
+Pope Leo XIV, *Magnifica Humanitas: On Safeguarding the Human Person in the Time of Artificial Intelligence*, signed May 15, 2026.
+
+The source document is an encyclical concerned with Catholic social doctrine, technological power, artificial intelligence, human dignity, responsibility, governance, transparency, subsidiarity, justice, work, freedom, and related questions.
+
+For V1, the project is **not** an attempt to formalize the entire encyclical.
+
+The formal source lock is:
+
+**Primary AI scope: paragraphs 97–111.**
+
+Earlier Chapter Two material may be used only to define the foundational concepts explicitly invoked by the AI section:
+
+- human dignity
+- common good
+- universal destination of goods
+- subsidiarity
+- solidarity
+- social justice
+
+No additional chapter becomes part of V1 merely because it is interesting.
+
+Later paragraphs may be consulted as interpretive evidence or used in one bounded case study, but they do not expand the formal core.
+
+---
+
+# 1. Central research question
+
+The project is built around one precise question:
+
+**What governance obligations follow mechanically from a carefully documented formal interpretation of the AI principles in *Magnifica Humanitas*, and which apparently plausible governance conclusions do not follow without additional assumptions?**
+
+This is critical.
+
+The project is not:
+
+> “Can Lean prove the Pope is correct?”
+
+It is:
+
+> “If we state the encyclical's relevant premises precisely, what follows from them, what does not follow from them, and where are additional assumptions required?”
+
+That distinction must remain visible throughout the repository.
+
+---
+
+# 2. Epistemic boundary
+
+Lean can certify valid consequences of encoded assumptions.
+
+Lean cannot by itself establish:
+
+- the truth of Catholic theology;
+- the existence of God;
+- the metaphysical truth of inherent human dignity;
+- the empirical accuracy of every factual claim about current AI;
+- that one English-language reading of an ambiguous paragraph is the uniquely correct interpretation;
+- that a normative premise is universally binding merely because it occurs in the source.
+
+Therefore every source-derived proposition must receive an explicit epistemic classification.
+
+V1 claim categories:
+
+```text
+TheologicalPremise
+AnthropologicalPremise
+EmpiricalClaim
+NormativePrinciple
+InstitutionalRequirement
+DerivedClaim
+InterpretiveChoice
+```
+
+No derived theorem may hide a normative or theological premise inside a definition merely to make the theorem easier to prove.
+
+---
+
+# 3. V1 definition of completion
+
+V1 is FINISHED when all of the following exist:
+
+- source scope frozen to §§97–111 plus selected Chapter Two foundations;
+- 25–35 accepted source-linked principles;
+- no more than 30 principal domain definitions;
+- 10–15 substantive positive theorems;
+- 5–8 countermodels, independence results, or non-implication results;
+- 3 concrete AI-system case studies;
+- an assumption ledger;
+- an interpretation ledger;
+- source provenance for every substantive principle;
+- zero `sorry`;
+- no undeclared custom axioms;
+- green CI build;
+- reproducible build instructions;
+- a 12–20 page companion research paper;
+- a release/tag representing V1.0.
+
+After those conditions are met, V1 stops.
+
+No new chapter is added to V1.
+
+No theorem count expansion is allowed merely because formalization makes more theorems possible.
+
+Any expansion becomes **V2** and requires a new written research contract.
+
+---
+
+# 4. Hard size ceiling
+
+Target size:
+
+**2,000–5,000 lines of Lean for V1.**
+
+This is intentionally small relative to the RH project.
+
+A soft warning occurs around 4,000 lines.
+
+If V1 approaches 5,000 lines without completing the fixed theorem suite, pause development and conduct a scope audit.
+
+The project must not recursively grow into hundreds of files before producing its core intellectual result.
+
+---
+
+# 5. Source claim ledger
+
+Before serious Lean development, create a source ledger.
+
+Every selected claim must have something equivalent to:
+
+```text
+Claim ID
+Source paragraph
+Source wording summary
+Claim type
+Formal proposition
+Interpretive assumptions
+Confidence in interpretation
+Dependencies
+Status
+```
+
+Example:
+
+```text
+MH-102-A
+Source: §102
+Type: InstitutionalRequirement
+
+Natural-language reading:
+AI decisions affecting rights, opportunities, status, or freedom
+require stronger governance protections.
+
+Formal candidate:
+HighImpact d → RequiresGovernanceSafeguards d
+
+Interpretive note:
+"HighImpact" is our formal abstraction, not terminology used verbatim
+by the source.
+
+Status:
+candidate
+```
+
+No Lean axiom should be added until its corresponding ledger entry exists.
+
+---
+
+# 6. Initial ontology
+
+V1 should begin with the smallest useful ontology.
+
+## Actors
+
+```lean
+Person
+HumanActor
+Developer
+DeployingOrganization
+PublicAuthority
+AffectedCommunity
+AffectedPerson
+OversightBody
+```
+
+## Systems and actions
+
+```lean
+AISystem
+Decision
+Deployment
+DataProcess
+```
+
+Possible decision domains:
+
+```lean
+inductive DecisionDomain
+| employment
+| credit
+| publicService
+| reputation
+| education
+| healthcare
+| security
+```
+
+## Governance predicates
+
+Candidate predicates:
+
+```lean
+HighImpact
+AffectsRights
+AffectsOpportunity
+AffectsFreedom
+ResponsibleFor
+Identifiable
+Reviewable
+HasRecourse
+CanChallenge
+CanRemedy
+Transparent
+Explainable
+IndependentOversight
+HumanOversight
+Participatory
+AffectedBy
+ProtectsDignity
+PromotesCommonGood
+RespectsSubsidiarity
+RespectsSolidarity
+```
+
+Do not create abstractions unless at least one fixed theorem target needs them.
+
+---
+
+# 7. Normative modeling strategy
+
+V1 should NOT begin with a full custom deontic-modal logic.
+
+Use ordinary Lean propositions and predicates first.
+
+Example style:
+
+```lean
+def AccountableDecision (d : Decision) : Prop :=
+  ∃ a : HumanActor,
+    ResponsibleFor a d ∧
+    Identifiable a
+```
+
+and:
+
+```lean
+def MeaningfulRecourse (p : Person) (d : Decision) : Prop :=
+  CanChallenge p d ∧ CanRemedy p d
+```
+
+This makes the semantic commitments transparent.
+
+Only after V1 should we consider a formal deontic layer such as:
+
+```text
+O φ   obligatory
+P φ   permitted
+F φ   forbidden
+```
+
+A Phase II could embed a genuine modal/deontic semantics if V1 demonstrates that it would add analytical value.
+
+---
+
+# 8. Initial source principles to investigate
+
+Do not immediately declare all of these axioms.
+
+They are the candidate pool from which the final 25–35 source principles will be selected.
+
+## Human primacy
+
+Candidate interpretation:
+
+- AI is a tool rather than a human moral agent.
+- AI lacks moral responsibility in the relevant sense.
+- human conscience and freedom must remain authoritative in determining AI use and limits.
+
+## Consequential decision-making
+
+Candidate interpretation:
+
+- some AI-mediated decisions affect rights, opportunity, status, and freedom;
+- such decisions require heightened governance;
+- automated neutrality cannot simply be presumed.
+
+## Responsibility
+
+Candidate interpretation:
+
+- consequential decisions require identifiable responsibility;
+- responsibility cannot terminate in the artificial system;
+- institutional deployment does not eliminate human responsibility.
+
+## Review and recourse
+
+Candidate interpretation:
+
+- affected persons must have meaningful ways to challenge consequential decisions;
+- governance must support correction and remedy when harm occurs.
+
+## Oversight
+
+Candidate interpretation:
+
+- high-impact uses may require independent oversight;
+- ethics statements alone are insufficient governance.
+
+## Participation
+
+Candidate interpretation:
+
+- affected communities are not merely passive objects of technical governance;
+- their participation has normative significance.
+
+## Transparency
+
+Candidate interpretation:
+
+- relevant systems and institutions have transparency obligations;
+- transparency does not necessarily mean full technical interpretability.
+
+## Developer responsibility
+
+Candidate interpretation:
+
+- developers bear responsibility for design choices;
+- technical design embeds or operationalizes assumptions about persons and society.
+
+## Subsidiarity
+
+Candidate interpretation:
+
+- higher-level technological governance should not unnecessarily displace the agency of lower-level persons and communities;
+- centralization requires justification where local participation is possible.
+
+These interpretations must be validated against the source before they enter the formal theory.
+
+---
+
+# 9. Fixed V1 positive theorem targets
+
+These are theorem TARGETS, not assumed truths.
+
+The first research objective is to determine which are actually derivable from the final source principles.
+
+## T1 — Human Responsibility
+
+Tentative statement:
+
+```lean
+theorem highImpact_has_human_responsibility
+    (d : Decision)
+    (hImpact : HighImpact d)
+    (hComp : MHCompliant d) :
+    ∃ a : HumanActor, ResponsibleFor a d
+```
+
+Research question:
+
+Does the source actually justify this directly, or do we need an explicit responsibility principle?
+
+---
+
+## T2 — No AI as Terminal Responsibility Bearer
+
+Tentative statement:
+
+```lean
+theorem ai_not_terminal_responsibility
+    (s : AISystem)
+    (d : Decision)
+    (hProduced : ProducedBy s d)
+    (hImpact : HighImpact d)
+    (hComp : MHCompliant d) :
+    ∃ a : HumanActor, ResponsibleFor a d
+```
+
+Flagship candidate.
+
+---
+
+## T3 — High-Impact Recourse
+
+```lean
+theorem highImpact_requires_recourse
+    (p : Person)
+    (d : Decision)
+    (ha : AffectedBy p d)
+    (hImpact : HighImpact d)
+    (hComp : MHCompliant d) :
+    MeaningfulRecourse p d
+```
+
+---
+
+## T4 — Unappealable Exclusion Is Non-Compliant
+
+```lean
+theorem exclusion_without_recourse_not_compliant ...
+```
+
+Case focus:
+
+employment / credit / public services.
+
+---
+
+## T5 — Responsibility Requires Identifiability
+
+```lean
+theorem responsibility_implies_identifiable_actor ...
+```
+
+Question:
+
+Is responsibility meaningful in the theory if no accountable actor can be identified?
+
+---
+
+## T6 — Oversight for High-Risk Opacity
+
+```lean
+theorem opaque_highImpact_requires_oversight ...
+```
+
+Important:
+
+Do not assume opacity itself implies non-compliance.
+
+---
+
+## T7 — Affected-Community Participation
+
+```lean
+theorem subsidiarity_requires_participation ...
+```
+
+This may require stronger interpretation and could fail.
+
+If it fails, that is potentially a useful result.
+
+---
+
+## T8 — Developer Responsibility Is Non-Zero
+
+```lean
+theorem developer_design_has_normative_responsibility ...
+```
+
+This should trace closely to §111.
+
+---
+
+## T9 — Technical Power Does Not Confer Governance Authority
+
+Formalize the source's rejection of the idea that technical capability by itself creates legitimate governing authority.
+
+Possible theorem:
+
+```lean
+TechnicalPower x →
+¬ (TechnicalPower x → LegitimateAuthority x)
+```
+
+This needs careful formal semantics.
+
+---
+
+## T10 — Ethics-Only Governance Is Insufficient
+
+The theory should distinguish:
+
+```text
+HasEthicalPrinciples
+```
+
+from:
+
+```text
+HasLegalFramework
+HasOversight
+HasAccountability
+HasRecourse
+```
+
+Potential theorem:
+
+```lean
+EthicsOnly s → ¬ SufficientGovernance s
+```
+
+Only if supported by source principles rather than built tautologically into definitions.
+
+---
+
+## T11–T15 reserve slots
+
+Do not fill these merely to reach a number.
+
+Possible domains:
+
+- data governance;
+- discrimination/bias;
+- public-sector AI;
+- human control;
+- common-good constraints.
+
+Only promote a theorem into V1 if it reveals a substantive dependency.
+
+---
+
+# 10. Mandatory countermodel / non-implication program
+
+This is one of the most important parts of the project.
+
+Formalizing only positive consequences would make this a transcription exercise.
+
+We need systems satisfying one attractive principle while violating another.
+
+## C1 — Transparency does not imply accountability
+
+Construct:
+
+```text
+Transparent s
+¬ Accountable s
+```
+
+If consistent with the base theory, prove:
+
+```lean
+¬ (∀ s, Transparent s → Accountable s)
+```
+
+or produce a finite model/witness.
+
+---
+
+## C2 — Human oversight does not imply recourse
+
+A human can review a decision without affected persons having a meaningful appeal.
+
+Test formally.
+
+---
+
+## C3 — Responsibility does not imply remedy
+
+An identifiable responsible actor may exist while no remedy process exists.
+
+---
+
+## C4 — Explainability does not imply justice
+
+A discriminatory system could be perfectly explainable.
+
+---
+
+## C5 — Decentralization does not imply subsidiarity
+
+Merely distributing technical control may not satisfy the normative idea of subsidiarity.
+
+---
+
+## C6 — Participation does not automatically imply authority
+
+Consultation and decision-making power are distinct.
+
+---
+
+## C7/C8 reserve
+
+Potentially:
+
+- oversight without independence;
+- accountability without transparency.
+
+A failed implication is considered a successful research result if the formal assumptions and countermodel are clear.
+
+---
+
+# 11. Three fixed case studies
+
+V1 gets exactly three.
+
+## Case A — Employment decision system
+
+Scenario:
+
+AI ranks applicants for employment.
+
+Questions:
+
+- Is the decision high-impact?
+- Who bears responsibility?
+- What review exists?
+- What recourse exists?
+- Does explanation suffice?
+- What happens if ranking errors are discovered?
+
+---
+
+## Case B — Public-benefit / public-service decision system
+
+Scenario:
+
+AI recommends or determines access to a public benefit or public service.
+
+Questions:
+
+- rights/opportunity impact;
+- public authority responsibility;
+- human review;
+- appeal;
+- remedy;
+- transparency;
+- affected-person participation.
+
+This is especially useful because the encyclical explicitly identifies access to public services among consequential uses.
+
+---
+
+## Case C — High-stakes autonomous decision system
+
+Preferably a bounded lethal/autonomous-weapons example or similarly extreme governance system.
+
+This case should stress-test:
+
+- terminal human responsibility;
+- effective human control;
+- reviewability;
+- irreversibility;
+- whether after-the-fact recourse is meaningful.
+
+Do not let this domain expand the entire project into military ethics.
+
+It is one stress test only.
+
+---
+
+# 12. Interpretation ledger
+
+Natural-language normative texts are not formal specifications.
+
+Therefore the repository must explicitly preserve interpretive choices.
+
+Example:
+
+```text
+I-004
+
+Source:
+MH §105
+
+Phrase:
+"responsibility must be clearly defined"
+
+Formal reading A:
+Every high-impact decision has at least one identifiable responsible human actor.
+
+Formal reading B:
+Every high-impact decision has at least one identifiable responsible institutional actor.
+
+Status:
+Both admissible.
+
+Question:
+Which downstream theorems survive both readings?
+```
+
+This creates one of the project's potentially strongest contributions:
+
+**interpretation-robust theorems.**
+
+Definition:
+
+A theorem is interpretation-robust when it holds across every admissible formalization in the project's interpretation family.
+
+This could become a flagship concept.
+
+---
+
+# 13. Minimal and strong interpretations
+
+Eventually maintain two theory instances:
+
+```text
+MHMinimal
+MHStrong
+```
+
+`MHMinimal` includes only implications with very conservative textual support.
+
+`MHStrong` includes defensible but stronger interpretations.
+
+Then ask:
+
+```text
+Which V1 theorems hold in both?
+Which require MHStrong?
+```
+
+This is substantially more intellectually honest than pretending there is one inevitable formalization of the encyclical.
+
+---
+
+# 14. Proposed repository structure
+
+```text
+MagnificaHumanitasFormalization/
+├── README.md
+├── lakefile.toml
+├── lean-toolchain
+│
+├── docs/
+│   ├── V1_RESEARCH_CONTRACT.md
+│   ├── CLAIM_LEDGER.md
+│   ├── INTERPRETATION_LEDGER.md
+│   ├── ASSUMPTION_LEDGER.md
+│   └── SOURCE_SCOPE.md
+│
+├── MagnificaHumanitas/
+│   ├── Source/
+│   │   ├── Reference.lean
+│   │   └── Claim.lean
+│   │
+│   ├── Foundations/
+│   │   ├── Person.lean
+│   │   ├── Dignity.lean
+│   │   ├── CommonGood.lean
+│   │   ├── Subsidiarity.lean
+│   │   └── Justice.lean
+│   │
+│   ├── AI/
+│   │   ├── System.lean
+│   │   ├── Decision.lean
+│   │   ├── Responsibility.lean
+│   │   ├── Accountability.lean
+│   │   ├── Recourse.lean
+│   │   └── Oversight.lean
+│   │
+│   ├── Theory/
+│   │   ├── Minimal.lean
+│   │   ├── Strong.lean
+│   │   └── Compliance.lean
+│   │
+│   ├── Theorems/
+│   │   ├── HumanResponsibility.lean
+│   │   ├── Recourse.lean
+│   │   ├── Oversight.lean
+│   │   └── Participation.lean
+│   │
+│   ├── Countermodels/
+│   │   ├── TransparencyNotAccountability.lean
+│   │   ├── OversightNotRecourse.lean
+│   │   └── ResponsibilityNotRemedy.lean
+│   │
+│   ├── Cases/
+│   │   ├── Employment.lean
+│   │   ├── PublicBenefits.lean
+│   │   └── HighStakesAutonomy.lean
+│   │
+│   └── Main.lean
+│
+└── .github/
+    └── workflows/
+        └── lean.yml
+```
+
+Do NOT create all files on day one.
+
+The directory plan is architectural, not a command to instantiate dozens of empty files.
+
+---
+
+# 15. Execution sequence
+
+## PHASE 0 — Research contract
+Status: COMPLETE in this handoff.
+
+Deliverable:
+
+`docs/V1_RESEARCH_CONTRACT.md`
+
+This document should be frozen before serious Lean work.
+
+---
+
+## PHASE 1 — Source audit and claim extraction
+
+Objective:
+
+Read §§97–111 closely and create 40 candidate source claims.
+
+Then reduce to 25–35 accepted principles.
+
+Tasks:
+
+1. Extract candidate claims.
+2. Give each claim an ID.
+3. Assign source paragraph.
+4. Classify epistemically.
+5. Distinguish quotation/source meaning from our abstraction.
+6. Flag ambiguous interpretations.
+7. Reject claims too vague to formalize usefully.
+
+No substantive theorem proving yet.
+
+Deliverable:
+
+`CLAIM_LEDGER.md`
+
+GO condition:
+
+At least 25 sufficiently precise claims with defensible source mapping.
+
+NO-GO condition:
+
+If almost every interesting theorem requires interpretive assumptions not meaningfully grounded in the source, reconsider the project before building Lean infrastructure.
+
+---
+
+## PHASE 2 — Formal ontology
+
+Objective:
+
+Implement the minimum structures required by the fixed theorem suite.
+
+Begin with perhaps:
+
+```lean
+structure Person where
+  id : Nat
+
+structure HumanActor where
+  person : Person
+
+structure AISystem where
+  id : Nat
+
+structure Decision where
+  id : Nat
+  domain : DecisionDomain
+```
+
+Then governance relations.
+
+Do not introduce modal logic.
+
+Deliverable:
+
+small compiling ontology.
+
+GO condition:
+
+At least three flagship theorem statements can be written naturally.
+
+---
+
+## PHASE 3 — Minimal theory
+
+Objective:
+
+Encode the conservative source principles.
+
+Use a structure rather than global axioms where possible:
+
+```lean
+structure MHMinimalTheory where
+  humanPrimacy : ...
+  responsibility : ...
+  recourse : ...
+  oversight : ...
+```
+
+Advantages:
+
+- assumptions remain explicit;
+- alternative interpretations can instantiate different structures;
+- theorem dependency becomes inspectable;
+- custom global axioms are minimized.
+
+Deliverable:
+
+`Theory/Minimal.lean`
+
+---
+
+## PHASE 4 — Positive theorem suite
+
+Attempt T1–T10.
+
+Important rule:
+
+If a target does not follow, DO NOT strengthen definitions until it becomes tautologically true.
+
+Instead classify:
+
+```text
+PROVED
+REQUIRES_ADDITIONAL_PRINCIPLE
+FALSE_IN_BASE_THEORY
+AMBIGUOUS_SOURCE
+```
+
+This is a central research discipline.
+
+---
+
+## PHASE 5 — Countermodel campaign
+
+Build C1–C6 minimum.
+
+Possible methods:
+
+- explicit finite structures;
+- Boolean-valued compliance models;
+- simple witnesses;
+- later, model-finding semantics if useful.
+
+A countermodel is a first-class result.
+
+---
+
+## PHASE 6 — Strong interpretation and robustness
+
+Define `MHStrong`.
+
+Re-run theorem suite.
+
+Produce matrix:
+
+```text
+                       Minimal   Strong
+Human responsibility    ✓        ✓
+Recourse                 ?        ✓
+Independent oversight    ✗        ✓
+...
+```
+
+Then identify interpretation-robust results.
+
+This may become the most publishable output.
+
+---
+
+## PHASE 7 — Case studies
+
+Instantiate:
+
+1. employment;
+2. public benefits/public services;
+3. high-stakes autonomy.
+
+Each case must contain:
+
+- system description;
+- formal facts;
+- compliance theorem or failure theorem;
+- exact principles relied upon;
+- counterfactual: what change would alter the result?
+
+---
+
+## PHASE 8 — Audit and release
+
+Run:
+
+- zero-`sorry` audit;
+- axiom audit;
+- dependency audit;
+- source-reference audit;
+- CI from clean clone;
+- documentation consistency check.
+
+Then publish V1.0.
+
+---
+
+# 16. Technical strategy
+
+Preferred baseline:
+
+Lean 4 + pinned Mathlib.
+
+Do not initially depend on a large modal/deontic framework unless necessary.
+
+However, relevant prior infrastructure exists.
+
+The Lean project `FormalizedFormalLogic/Foundation` formalizes substantial propositional, first-order, intuitionistic, modal/provability, and semantic machinery in Lean 4, so a later modal/deontic extension would not need to begin from nothing.
+
+A neighboring research methodology is LogiKEy, which uses higher-order logic and semantic embeddings to engineer deontic logics and ethical/legal domain theories for intelligent autonomous systems.
+
+Those projects demonstrate that formal ethical/normative reasoning is a real research area.
+
+Our intended contribution is different:
+
+**source-linked formalization of a contemporary AI-governance encyclical in Lean, preserving assumptions and interpretations while proving consequences and countermodels.**
+
+Do not claim priority until a much deeper literature search has been completed.
+
+---
+
+# 17. Novelty hypothesis
+
+Current working hypothesis:
+
+There is substantial prior work on:
+
+- formal deontic logic;
+- ethical reasoning systems;
+- legal/normative formalization;
+- formalized philosophical arguments;
+- Lean formal logic.
+
+A quick search did NOT reveal a directly comparable Lean project formalizing a papal social encyclical as a source-linked AI-governance theory.
+
+This is not proof that none exists.
+
+Therefore use language such as:
+
+> “To our knowledge after an initial literature search…”
+
+only after a proper review.
+
+Never claim:
+
+> “first ever”
+
+without evidence.
+
+---
+
+# 18. What makes this a meaningful project rather than a novelty
+
+The project succeeds only if it produces at least one of these:
+
+### Result A — non-obvious dependency
+
+Example:
+
+Meaningful recourse requires more than identifiable responsibility.
+
+### Result B — non-implication
+
+Example:
+
+Transparency does not imply accountability.
+
+### Result C — interpretive robustness
+
+Example:
+
+A human-responsibility theorem survives both minimal and strong readings of the source.
+
+### Result D — inconsistency/tension
+
+Example:
+
+Two plausible governance principles require an additional reconciliation principle when instantiated in a particular case.
+
+### Result E — reusable methodology
+
+A claim/source/interpretation/theorem framework that can be applied to:
+
+- EU AI Act;
+- UNESCO AI ethics recommendations;
+- NIST AI RMF;
+- other religious/social documents;
+- corporate AI constitutions or governance frameworks.
+
+If V1 only converts English sentences into Lean predicates and proves tautologies, the project has failed intellectually even if the code compiles.
+
+---
+
+# 19. Publication concept
+
+Possible companion-paper title:
+
+**From Encyclical to Executable Norms: Formalizing AI Governance Principles from *Magnifica Humanitas* in Lean 4**
+
+Paper structure:
+
+1. Motivation
+2. Source and scope
+3. Epistemic classification
+4. Formal ontology
+5. Minimal and strong interpretations
+6. Positive theorem results
+7. Countermodels / non-implications
+8. Three case studies
+9. Interpretation robustness
+10. Limitations
+11. Reusable methodology
+12. Reproducibility
+
+Do not market this as computerized theology.
+
+Market it as:
+
+**formal analysis of normative AI-governance reasoning derived from an influential contemporary source.**
+
+---
+
+# 20. Public-facing explanation
+
+A good one-sentence description:
+
+> We translated selected AI-governance principles from Pope Leo XIV's *Magnifica Humanitas* into an explicit Lean 4 theory and used machine-checked proofs and countermodels to determine which governance conclusions actually follow from those principles.
+
+An even more accessible question:
+
+> If a framework says AI must be transparent and accountable, does that actually guarantee that a person can appeal a harmful automated decision?
+
+That is the kind of question the public can understand.
+
+---
+
+# 21. Research-integrity rules
+
+These rules are mandatory.
+
+1. Never say Lean proved Catholic doctrine true.
+2. Never disguise normative premises as definitions.
+3. Every substantive source premise receives a paragraph reference.
+4. Every interpretive strengthening is logged.
+5. Counterexamples are retained, not engineered away.
+6. Failed theorem targets are documented.
+7. No conclusion stronger than its assumptions.
+8. Empirical claims are separated from normative claims.
+9. Source meaning and formal abstraction are distinguished.
+10. V1 scope cannot expand without a written V2 contract.
+
+---
+
+# 22. Immediate next move in the new chat
+
+DO NOT initialize a large Lean project immediately.
+
+First action:
+
+### MH-001 — Source Claim Extraction
+
+Read paragraphs 97–111 and produce a table of approximately 40 candidate claims with:
+
+```text
+ID
+Paragraph
+Claim summary
+Claim type
+Formalizability
+Ambiguity level
+Candidate formal predicate
+Relevant theorem targets
+Accept / Reject / Defer
+```
+
+Then reduce that table to the 25–35 V1 principles.
+
+After that:
+
+### MH-002 — Theorem Dependency Audit
+
+For T1–T10, create a dependency matrix:
+
+```text
+Theorem
+Required claims
+Interpretive assumptions
+Minimal-theory candidate?
+Strong-theory only?
+Potential countermodel?
+```
+
+Only then initialize Lean.
+
+---
+
+# 23. First Lean milestone
+
+The first actual Lean milestone should be deliberately tiny.
+
+Create:
+
+```text
+MagnificaHumanitas/Source/Reference.lean
+MagnificaHumanitas/AI/System.lean
+MagnificaHumanitas/Theory/Minimal.lean
+MagnificaHumanitas/Theorems/HumanResponsibility.lean
+```
+
+Goal:
+
+one source-linked theory structure and one nontrivial theorem.
+
+Not 30 files.
+
+The milestone is GREEN only when:
+
+- build passes;
+- assumptions are explicit;
+- theorem does not succeed merely by definition;
+- source mapping is documented;
+- no `sorry`.
+
+---
+
+# 24. Decision gate after first theorem
+
+After the first real theorem and first countermodel, stop and evaluate.
+
+Ask:
+
+1. Did Lean expose a non-obvious dependency?
+2. Did the source-to-formal mapping remain intellectually defensible?
+3. Did formalization clarify an ambiguity?
+4. Did the countermodel reveal something worth explaining publicly?
+5. Does this look like a reusable method rather than a one-off encoding?
+
+If fewer than two answers are YES, seriously consider stopping the project at prototype stage.
+
+If at least two are YES, proceed to the full V1 contract.
+
+---
+
+# 25. Current status at handoff
+
+Completed:
+
+- project concept;
+- exact document verified;
+- V1 source boundary chosen;
+- research question defined;
+- epistemic boundary defined;
+- fixed size/completion limits defined;
+- tentative ontology defined;
+- fixed theorem target family defined;
+- fixed countermodel program defined;
+- three case studies defined;
+- repository architecture sketched;
+- execution phases defined;
+- research-integrity rules defined;
+- V1 Research Contract drafted.
+
+Not yet completed:
+
+- paragraph-by-paragraph claim extraction;
+- literature review deep enough for priority claims;
+- final choice of 25–35 source principles;
+- theorem dependency matrix;
+- Lean repository initialization;
+- first formal definition;
+- first theorem;
+- first countermodel.
+
+Therefore the NEXT CHAT should begin with:
+
+> “Use this handoff as the frozen V1 research contract. Begin MH-001: source-claim extraction from *Magnifica Humanitas* §§97–111. Do not expand the source scope, do not write Lean yet, and classify every candidate claim by epistemic type, ambiguity, formalizability, and theorem relevance. The goal is to select the 25–35 principles that will constitute the V1 theory.”
+
+That is the correct next research move.

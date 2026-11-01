@@ -1,0 +1,69 @@
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.2
+
+An appeal is not the<br/>same as a remedy
+
+What our first computer-checked example shows<br/>Progress report | November 1, 2026
+
+The finding
+
+A person may receive an explanation, have a named responsible officer, and be allowed to appeal an AI-assisted decision - yet the review office may still lack the power to correct it. Our first Lean example checks that these arrangements can coexist under a limited set of written rules.
+
+A simple employment example
+
+Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.
+
+This is a hypothetical case. We have not investigated a real employer or measured harm to actual applicants.
+
+Safeguard in our example | First version | Changed version
+
+Named responsible officer | Yes | Yes
+
+Explanation and human review | Yes | Yes
+
+Accessible appeal | Yes | Yes
+
+Power to correct | No | Yes
+
+Meets responsibility-and-appeal checklist | Yes | Yes
+
+Meets checklist also requiring correction capacity | No | Yes
+
+Why this matters
+
+When assessing an AI appeal process, ask two separate questions: Can the person get a review? Can someone correct the decision if that review finds an error? A positive answer to the first question does not supply the second.
+
+WHAT WE CHECKED - AND WHAT WE HAVE NOT
+
+Keeping the promises separate
+
+What the computer checked
+
+Lean checked our proofs about the two versions of the example. The first meets our responsibility-and-appeal checklist but fails the checklist that also requires correction capacity. The second meets both. We also supplied a case that meets the stronger checklist while still having an affected person and a harmful, high-impact decision. The requirements can therefore be met together in this small model.
+
+A further check keeps a duty separate from its fulfillment. A rule can require correction capacity even when the organization does not provide it. The missing safeguard is then a violation of that rule; writing the rule did not make the safeguard appear.
+
+The assumptions behind the result
+
+<b>-</b> The example has one applicant, one decision, one officer, and one appeal desk.
+
+<b>-</b> We stipulate that the decision is consequential, excludes the applicant, and causes harm.
+
+<b>-</b> An accessible desk with review power counts as an appeal channel.
+
+<b>-</b> An accessible desk with correction power counts as correction capacity. This does not promise that every loss can be undone.
+
+<b>-</b> The two checklists are our explicit working interpretations. They represent only a small part of the source document.
+
+How this relates to the encyclical
+
+The source discussion of appeal and responsibility motivates the questions we test. Our choice to represent remedy through correction capacity is an interpretation that must remain open to scrutiny. Lean checks the consequences of our written rules; it cannot decide that our reading is the only correct reading.
+
+The honest limit of this first result
+
+This is a simple example, not yet a major new finding about AI governance. It shows that the method works and that we can expose a missing safeguard without quietly assuming it exists. We have not established that a real AI system is safe, fair, legally compliant, or ethically justified. We have not formalized the whole encyclical.
+
+What comes next
+
+We will test responsibility, appeal, and correction in the three agreed cases: employment, public benefits, and high-stakes autonomous decisions. We will compare reasonable readings of the source and keep useful examples where a proposed guarantee fails. The final project must include a separate plain-language report explaining its findings, assumptions, and practical limits. Completing the code alone will not complete the project.
+
+Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.

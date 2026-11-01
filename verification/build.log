@@ -1,0 +1,9 @@
+$ /workspace/scratch/db02200f8fea/toolchains/lean-4.35.0-linux/bin/lake build
+✔ [2/7] Built MagnificaHumanitas.Source (2.3s)
+✔ [3/7] Built MagnificaHumanitas.Model (1.2s)
+✔ [4/7] Built MagnificaHumanitas.Theory (350ms)
+✔ [5/7] Built MagnificaHumanitas.Examples (430ms)
+✔ [6/7] Built MagnificaHumanitas (320ms)
+Build completed successfully (7 jobs).
+
+Exit code: 0

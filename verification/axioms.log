@@ -1,0 +1,32 @@
+$ /workspace/scratch/db02200f8fea/toolchains/lean-4.35.0-linux/bin/lake env lean Audit.lean
+theorem MagnificaHumanitas.stronger_compliance_iff : ∀ {P A D : Type} (g : MagnificaHumanitas.Governance P A D) (d : D),
+  MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.harmRemedyPolicy g) d ↔
+    MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.responsibilityAppealPolicy g) d ∧
+      ∀ (p : P), g.harmed p d → g.remedyCapacity p d :=
+fun {P A D} g d =>
+  {
+    mp := fun h =>
+      ⟨MagnificaHumanitas.stronger_implies_fragment g d h, fun p hp =>
+        h (MagnificaHumanitas.Safeguard.remedyCapacity p) hp⟩,
+    mpr := fun h r hr =>
+      MagnificaHumanitas.Safeguard.casesOn (motive := fun t => r = t → MagnificaHumanitas.Provided g d r) r
+        (fun h_1 =>
+          Eq.ndrec (motive := fun r =>
+            (MagnificaHumanitas.harmRemedyPolicy g).required d r → MagnificaHumanitas.Provided g d r)
+            (fun hr => h.left MagnificaHumanitas.Safeguard.identifiableResponsibility hr) (Eq.symm h_1) hr)
+        (fun p h_1 =>
+          Eq.ndrec (motive := fun r =>
+            (MagnificaHumanitas.harmRemedyPolicy g).required d r → MagnificaHumanitas.Provided g d r)
+            (fun hr => h.left (MagnificaHumanitas.Safeguard.appeal p) hr) (Eq.symm h_1) hr)
+        (fun p h_1 =>
+          Eq.ndrec (motive := fun r =>
+            (MagnificaHumanitas.harmRemedyPolicy g).required d r → MagnificaHumanitas.Provided g d r)
+            (fun hr => h.right p hr) (Eq.symm h_1) hr)
+        (Eq.refl r) }
+'MagnificaHumanitas.stronger_compliance_iff' does not depend on any axioms
+'MagnificaHumanitas.Prototype.responsibility_appeal_not_remedy' does not depend on any axioms
+'MagnificaHumanitas.Prototype.obligation_without_provision' does not depend on any axioms
+'MagnificaHumanitas.Prototype.correction_changes_only_procedure_power' does not depend on any axioms
+'MagnificaHumanitas.Prototype.prototype_satisfiable_nonvacuously' does not depend on any axioms
+
+Exit code: 0

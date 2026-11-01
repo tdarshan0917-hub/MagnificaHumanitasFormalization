@@ -1,0 +1,6 @@
+name = "MagnificaHumanitasFormalization"
+version = "0.1.0"
+defaultTargets = ["MagnificaHumanitas"]
+
+[[lean_lib]]
+name = "MagnificaHumanitas"

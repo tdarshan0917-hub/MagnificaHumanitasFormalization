@@ -1,0 +1,26 @@
+# Interpretation ledger
+
+All entries are modeling proposals, not Lean-certified results. Source pointers identify the motivation for a choice, not textual proof of our exact formula.
+
+| ID | Choice | Conservative prototype | Stronger or alternative reading | Consequence to test |
+|---|---|---|---|---|
+| I01 | Responsibility bearer, §§103,105 | Identifiable person or institution | Natural person required for each decision, with an explicit institutional-to-human allocation rule | T1/T2 may depend on the allocation rule |
+| I02 | Impact trigger, §102 | Decision-specific evidence of a rights/opportunity/freedom impact | Classify all decisions in selected domains as high-impact | Employment domain membership alone is insufficient in the conservative model |
+| I03 | Appeal scope, §104 | Exclusion affecting a person triggers an appeal requirement | Every high-impact decision triggers person-specific challenge and review | Universal T3 is stronger than the exclusion rule |
+| I04 | Remedy scope, §105 | Actual harm creates a remedy duty; separately model prospective remedy capacity | Every affected person always has a complete remedy procedure | No inference from capability to successful restoration; no inference from affectedness to actual harm |
+| I05 | Accountability, §105 | Define answerability, identifiability, monitoring, challenge, and remedy as separate components | Composite accountability package bundles these components under specified triggers | C1/C3 must state which notion is used |
+| I06 | Oversight level, §§106,108 | Regime-level independent oversight; deployment-specific effective oversight | Each high-impact decision has a specific independent reviewer | T6 needs a bridge between governance levels |
+| I07 | Participation, §§107–109 | Meaningful contribution and opportunity to correct | Veto, ownership, or final decision authority | C6 tests why the stronger powers need extra premises |
+| I08 | Transparency, §§105,111 | Disclosure of responsibility, process, and pertinent decision information | Full technical interpretability or publication of all model parameters | Neither reading automatically supplies appeal or a remedy |
+| I09 | Developer responsibility, §111 | Duty concerning design choices and affected communities | Sole liability or responsibility for every downstream outcome | No automatic downstream liability theorem |
+| I10 | Compliance scope | Compliance relative to an enumerated requirement set and evidence context | Label an entire organization compliant from one decision | No global compliance conclusion from a local witness |
+| I11 | Obligation satisfaction | `Required c r` and `Provided c r` are distinct | Add an explicit scoped compliance premise when deriving provision | No unqualified `Required → Provided` rule |
+| I12 | Machine agency, §99 | Source-relative anthropological premise kept optional | Encode a universal metaphysical claim about every possible AI | Avoid excluding AI by type and calling that a discovery |
+| I13 | Authority, §110 | Lack of entailment from capability alone in a named theory fragment | All capable actors lack legitimate authority | Stronger reading rejected as unsupported by the intended non-entailment claim |
+| I14 | High-stakes autonomy | Compare prospective prevention with post-event repair in a hypothetical case | Infer a categorical weapons ban or perfect reparability | Extra source and semantic premises would be required |
+
+## Interpretation families
+
+Begin with two responsibility variants (individual allocation / institutional answerability), two recourse variants (exclusion / broader impact), and two oversight variants (regime / decision). Do not assume every Cartesian combination is admissible. Admit a combination only after checking source fidelity and constructing a satisfaction witness.
+
+Minimal-to-strong inheritance is an interface theorem. A substantive robustness result quantifies over the declared admissible family and identifies which conclusions survive the differences. Shared-premise projections do not count as discoveries.

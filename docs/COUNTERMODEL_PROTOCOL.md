@@ -23,3 +23,8 @@ Every proposed non-implication is quantified over a declared model class. A sing
 ## Prototype obligations
 
 First implement C3 with substantive operational definitions for assignment, appeal, and remedy capacity. Only then assess whether extension to C1/C2 adds distinct findings. Countermodels are not consistency proofs of every theory variant; each variant needs its own explicit witness or a verified construction from another witness.
+
+
+## Prototype 0.7 C6 disposition
+
+C6 is implemented in Participation.lean under I21. The named participation fragment has actual accepted and faithfully recorded recommendations, local record amendment, distinct input records and a pair of different final outcomes when no institutional override is used. The central rule can still select either final outcome for every local proposal. The paired binding rule retains the same input/record/amendment functions and supplies final control. Both have joint non-vacuous witnesses with the earlier person-facing and oversight fragments. This is not full subsidiarity, and it does not complete C5.

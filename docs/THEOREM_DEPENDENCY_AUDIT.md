@@ -21,6 +21,8 @@ Notation: `Required(c,r)` is an encoded duty; `Provided(c,r)` is a factual safeg
 
 Prototype 0.6 update: T6 now has a checked regime-to-decision countermodel, a covered-review/no-intervention countermodel, paired repairs and explicit sufficient bridges in Oversight.lean. This is a disposition under a documented operational capacity proxy, not a proof of full source effectiveness. See TECHNICAL_RESULTS.md and I06/I20.
 
+Prototype 0.7 update: the bounded T7/C6 comparison is checked in Participation.lean. Recorded contribution, own-record amendment and demonstrated outcome influence coexist with a central override rule and no final control. A binding-local comparison isolates an extra premise. Full subsidiarity and legitimate authority remain outside this protocol; the broader source ambiguity is explicit in I21 and TECHNICAL_RESULTS.md.
+
 ## Recommended first result package
 
 Use the appeal/remedy distinction to test an actual dependency:

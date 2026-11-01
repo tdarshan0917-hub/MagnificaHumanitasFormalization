@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.6. Earlier recourse, public-benefits, high-stakes and appeal-comparison results remain. The oversight comparison is added at the end.
+Current checkpoint: prototype 0.7. Earlier recourse, public-benefits, high-stakes, appeal and oversight results remain. The participation comparison is added at the end.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -117,3 +117,27 @@ The finite case reuses PublicBenefits.Decision: routineInquiry and benefitDenial
 The general regime-to-decision implication therefore needs extra premises. The conclusion survives the narrow/broad appeal choice in this paired family because the fixed governance satisfies even the broad fragment, as well as harm-remedy compliance. We do not infer full source compliance for any combination from that fact.
 
 Provenance: MH-025 (§106), MH-031 (§108), I06/I20, A07/A20/A21. The official source was rechecked on 2026-11-01. It motivates independent and effective oversight without specifying this exact reviewer architecture. Criteria, participation, independence safeguards, competence, resources, actual exercise, timeliness and successful correction are not all modeled. In particular, the source's effective-oversight claim is not equated with our capacity proxy. No theorem infers an oversight duty from opacity alone. The T6 disposition is the checked non-implication and explicit sufficient bridge under these named semantics, with the broader source ambiguity documented.
+
+
+## MH-006B2: recorded participation, local revision and final control
+
+T7/C6 asks whether contribution and local correction entail final control or a veto. Under our explicit small participation fragment, they do not. This is a bounded non-implication test and a source-ambiguity disposition, not a complete theory of subsidiarity.
+
+ConsultationProcess has four factual operations: accepts, record, revise and decide. The example has one local community, reuses the original public-benefit denial under review, and uses deny/grant recommendations and outcomes (Bool). An institutional override is absent, deny or grant (Option Bool). Both recommendations are accepted and faithfully recorded; the community can amend its own recorded recommendation to either value. That operation does not correct the institution's standards, establish the truth of the recommendation, or guarantee correction of the benefit outcome.
+
+The central rule is `override.getD recorded`: with no override, the recommendation determines the outcome; either explicit override replaces it. The binding-local rule always returns the recorded recommendation. An amendment from deny to grant changes the result when no override is used in both procedures. The contribution therefore has operational influence, not merely a participation label. Yet in the central procedure the institution can select either outcome for every local recommendation, so the community cannot block a grant absolutely or impose every desired outcome.
+
+Operational final control is displayed in full in the theorem statements: for each desired outcome, an accepted proposal makes the final rule return that outcome against every institutional override. It is decision control in this protocol, not legal authority or normative legitimacy. No unconstrained Authority field is introduced.
+
+| Finding | Declaration | Classification and scope |
+|---|---|---|
+| Both rules accept and record input, allow amendment and demonstrate outcome influence | `Participation.participation_fragment_satisfied` | Satisfaction of the displayed participation fragment for either rule, not the whole source |
+| Consultation plus own-record amendment can coexist with no final control and no blocking veto | `Participation.consultation_and_revision_without_final_control` | C6 finite countermodel; institution can select either outcome for every proposal |
+| Final control in this pair holds exactly with the binding-local rule | `Participation.final_control_iff_binding` | Exact finite-family characterization, not a universal weakest-premise claim |
+| Accepted outcome reachability and a binding record rule suffice for final control | `final_control_from_reachability_and_binding` | General sufficient interface bridge with explicit premises; not a flagship discovery |
+| The binding comparison preserves acceptance, recording and amendment while changing the final result under an override | `Participation.binding_comparison_preserves_participation` | Paired rules isolate the extra final-control premise; neither rule is endorsed |
+| Either participation rule is compatible with the previously satisfied safeguard fragments | `Participation.joint_case_satisfying_instance` | High-impact denial, affected person, broad appeal/harm-remedy compliance and actionable independent oversight remain present |
+
+The Governance record concerns the original denial and its safeguards, not the later computed review outcome. An amended recommendation may therefore lead to approval on review without contradicting the original exclusion fact. The prior person-facing and oversight facts are identical through the comparison; by refinement, the narrow appeal fragment is also satisfied. This demonstrates compatibility of these limited fragments, not the fidelity of every possible source-interpretation combination.
+
+Provenance: MH-029 (§107), MH-032 (§108), MH-036 (§109), I07/I21 and A22/A23/A24. Own-record amendment and optional binding authority are explicit operational choices. The source does not uniquely prescribe this small protocol, and our result must not be reported as proving that subsidiarity needs no stronger community powers. T7 records that interpretation limit; C6 receives the checked non-implication disposition. C5 (multiple controllers versus local agency) remains unfinished.

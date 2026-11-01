@@ -198,5 +198,112 @@ fun c p =>
 'MagnificaHumanitas.Oversight.coverage_without_intervention_is_insufficient' does not depend on any axioms
 'MagnificaHumanitas.Oversight.repaired_case_satisfies_both_levels' does not depend on any axioms
 'MagnificaHumanitas.Oversight.paired_repairs_preserve_other_provisions' does not depend on any axioms
+theorem MagnificaHumanitas.final_control_from_reachability_and_binding : ∀ {D : Type}
+  (p : MagnificaHumanitas.ConsultationProcess D) (d : D),
+  (∀ (outcome : Bool), ∃ proposal, p.accepts d proposal ∧ p.record d proposal = outcome) →
+    (∀ (proposal : Bool),
+        p.accepts d proposal →
+          ∀ (override : Option Bool), p.decide d (p.record d proposal) override = p.record d proposal) →
+      ∀ (outcome : Bool),
+        ∃ proposal,
+          p.accepts d proposal ∧ ∀ (override : Option Bool), p.decide d (p.record d proposal) override = outcome :=
+fun {D} p d hReachable hBinding outcome =>
+  Exists.casesOn (hReachable outcome) fun proposal h =>
+    And.casesOn h fun ha hr => Exists.intro proposal ⟨ha, fun override => Eq.trans (hBinding proposal ha override) hr⟩
+theorem MagnificaHumanitas.Participation.final_control_iff_binding : ∀ (bindingLocal : Bool)
+  (d : MagnificaHumanitas.PublicBenefits.Decision),
+  (∀ (outcome : Bool),
+      ∃ proposal,
+        (MagnificaHumanitas.Participation.process bindingLocal).accepts d proposal ∧
+          ∀ (override : Option Bool),
+            (MagnificaHumanitas.Participation.process bindingLocal).decide d
+                ((MagnificaHumanitas.Participation.process bindingLocal).record d proposal) override =
+              outcome) ↔
+    bindingLocal = true :=
+fun bindingLocal d =>
+  {
+    mp := fun h =>
+      Bool.casesOn (motive := fun t => bindingLocal = t → bindingLocal = true) bindingLocal
+        (fun h_1 =>
+          Eq.ndrec (motive := fun bindingLocal =>
+            (∀ (outcome : Bool),
+                ∃ proposal,
+                  (MagnificaHumanitas.Participation.process bindingLocal).accepts d proposal ∧
+                    ∀ (override : Option Bool),
+                      (MagnificaHumanitas.Participation.process bindingLocal).decide d
+                          ((MagnificaHumanitas.Participation.process bindingLocal).record d proposal) override =
+                        outcome) →
+              bindingLocal = true)
+            (fun h =>
+              Exists.casesOn (h false) fun w h =>
+                And.casesOn h fun left hFinal =>
+                  have hImpossible := hFinal (some true);
+                  Eq.casesOn (motive := fun a t => false = a → hImpossible ≍ t → false = true) hImpossible
+                    (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl false) (HEq.refl hImpossible))
+            (Eq.symm h_1) h)
+        (fun h_1 =>
+          Eq.ndrec (motive := fun bindingLocal =>
+            (∀ (outcome : Bool),
+                ∃ proposal,
+                  (MagnificaHumanitas.Participation.process bindingLocal).accepts d proposal ∧
+                    ∀ (override : Option Bool),
+                      (MagnificaHumanitas.Participation.process bindingLocal).decide d
+                          ((MagnificaHumanitas.Participation.process bindingLocal).record d proposal) override =
+                        outcome) →
+              bindingLocal = true)
+            (fun h => Eq.refl true) (Eq.symm h_1) h)
+        (Eq.refl bindingLocal),
+    mpr := fun h =>
+      Bool.casesOn (motive := fun t =>
+        bindingLocal = t →
+          ∀ (outcome : Bool),
+            ∃ proposal,
+              (MagnificaHumanitas.Participation.process bindingLocal).accepts d proposal ∧
+                ∀ (override : Option Bool),
+                  (MagnificaHumanitas.Participation.process bindingLocal).decide d
+                      ((MagnificaHumanitas.Participation.process bindingLocal).record d proposal) override =
+                    outcome)
+        bindingLocal
+        (fun h_1 =>
+          Eq.ndrec (motive := fun bindingLocal =>
+            bindingLocal = true →
+              ∀ (outcome : Bool),
+                ∃ proposal,
+                  (MagnificaHumanitas.Participation.process bindingLocal).accepts d proposal ∧
+                    ∀ (override : Option Bool),
+                      (MagnificaHumanitas.Participation.process bindingLocal).decide d
+                          ((MagnificaHumanitas.Participation.process bindingLocal).record d proposal) override =
+                        outcome)
+            (fun h =>
+              Eq.casesOn (motive := fun a t =>
+                true = a →
+                  h ≍ t →
+                    ∀ (outcome : Bool),
+                      ∃ proposal,
+                        (MagnificaHumanitas.Participation.process false).accepts d proposal ∧
+                          ∀ (override : Option Bool),
+                            (MagnificaHumanitas.Participation.process false).decide d
+                                ((MagnificaHumanitas.Participation.process false).record d proposal) override =
+                              outcome)
+                h (fun h_2 => False.elim (noConfusion_of_Nat Bool.ctorIdx h_2)) (Eq.refl true) (HEq.refl h))
+            (Eq.symm h_1) h)
+        (fun h_1 =>
+          Eq.ndrec (motive := fun bindingLocal =>
+            bindingLocal = true →
+              ∀ (outcome : Bool),
+                ∃ proposal,
+                  (MagnificaHumanitas.Participation.process bindingLocal).accepts d proposal ∧
+                    ∀ (override : Option Bool),
+                      (MagnificaHumanitas.Participation.process bindingLocal).decide d
+                          ((MagnificaHumanitas.Participation.process bindingLocal).record d proposal) override =
+                        outcome)
+            (fun h outcome => Exists.intro outcome ⟨True.intro, fun x => rfl⟩) (Eq.symm h_1) h)
+        (Eq.refl bindingLocal) }
+'MagnificaHumanitas.final_control_from_reachability_and_binding' does not depend on any axioms
+'MagnificaHumanitas.Participation.participation_fragment_satisfied' does not depend on any axioms
+'MagnificaHumanitas.Participation.final_control_iff_binding' does not depend on any axioms
+'MagnificaHumanitas.Participation.consultation_and_revision_without_final_control' does not depend on any axioms
+'MagnificaHumanitas.Participation.binding_comparison_preserves_participation' does not depend on any axioms
+'MagnificaHumanitas.Participation.joint_case_satisfying_instance' does not depend on any axioms
 
 Exit code: 0

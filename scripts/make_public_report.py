@@ -50,11 +50,11 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.6", "SmallMH")
-p("An appeal is not the<br/>same as a remedy", "TitleMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.7", "SmallMH")
+p("Who can challenge,<br/>correct and decide?", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
-p("Our computer-checked examples separate promises that are often grouped together: a named officer, an appeal, correction power, timely control, and independent oversight. These safeguards need separate evidence. Even an independent board can miss a decision outside its remit. The cases below show the missing links under explicit, limited rules.")
+p("Our computer-checked examples separate a named officer, an appeal, correction power, timely control, independent oversight and community participation. These safeguards need separate evidence. A board can miss decisions outside its remit, and community input can matter without giving the community final control. Each example states its rules and limits.")
 
 p("A simple employment example", "H2MH")
 p("Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.")
@@ -86,33 +86,49 @@ plain.extend(" | ".join(row) for row in cells)
 p("Why this matters", "H2MH")
 p("When assessing an AI appeal process, ask two separate questions: Can the person get a review? Can someone correct the decision if that review finds an error? A positive answer to the first question does not supply the second.")
 
+p("These are hypothetical, small models. Lean checks consequences of our rules, not whether our source interpretation is uniquely correct or an actual institution complies. A written duty does not establish that its safeguard is provided.", "SmallMH")
+p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions: docs/TECHNICAL_RESULTS.md and project verification logs.', "SmallMH")
+
 story.append(PageBreak())
-p("WHAT WE CHECKED - AND WHAT WE HAVE NOT", "SmallMH")
-p("Keeping the promises separate", "TitleMH")
-p("What the computer checked", "H2MH")
-p("Lean checked our proofs about the two versions of the example. The first meets our responsibility-and-appeal checklist but fails the checklist that also requires correction capacity. The second meets both. We also supplied a case that meets the stronger checklist while still having an affected person and a harmful, high-impact decision. The requirements can therefore be met together in this small model.")
-p("A further check keeps a duty separate from its fulfillment. A rule can require correction capacity even when the organization does not provide it. The missing safeguard is then a violation of that rule; writing the rule did not make the safeguard appear.")
+p("NEW RESULT / COMMUNITY PARTICIPATION", "SmallMH")
+p("Having a voice<br/>and having the last word", "TitleMH")
+p("A community can contribute, amend its recommendation and influence an outcome while the institution keeps final control.", "DeckMH")
 
-p("The assumptions behind the result", "H2MH")
-for text in [
-    "The example has one applicant, one decision, one officer, and one appeal desk.",
-    "We stipulate that the decision is consequential, excludes the applicant, and causes harm.",
-    "An accessible desk with review power counts as an appeal channel.",
-    "An accessible desk with correction power counts as correction capacity. This does not promise that every loss can be undone.",
-    "The two checklists are our explicit working interpretations. They represent only a small part of the source document.",
-]:
-    p("<b>-</b> " + text)
+p("The example", "H2MH")
+p("A community contributes to review of our hypothetical benefit denial. Its recommendation is accepted and recorded. It can amend that record from 'deny' to 'grant.' When the institution does not override, that amendment changes the result. If it does override, the institution can choose either result regardless of the recommendation.")
 
-p("How this relates to the encyclical", "H2MH")
-p("The source discussion of appeal and responsibility motivates the questions we test. Our choice to represent remedy through correction capacity is an interpretation that must remain open to scrutiny. Lean checks the consequences of our written rules; it cannot decide that our reading is the only correct reading.")
+participation_rows = [
+    ["Check in the review procedure", "Central rule", "Binding local rule"],
+    ["Input accepted, recorded and amendable?", "Yes", "Yes"],
+    ["Input can change result without an override?", "Yes", "Yes"],
+    ["Institution can override the recommendation?", "Yes", "No"],
+    ["Community can impose either final outcome?", "No", "Yes"],
+]
+participation_table = Table([
+    [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
+     for v in row] for i, row in enumerate(participation_rows)],
+    colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
+participation_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), navy),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+    ("LEFTPADDING", (0,0), (-1,-1), 7),
+    ("RIGHTPADDING", (0,0), (-1,-1), 7),
+    ("TOPPADDING", (0,0), (-1,-1), 7),
+    ("BOTTOMPADDING", (0,0), (-1,-1), 7),
+]))
+story.append(participation_table)
+plain.extend(" | ".join(row) for row in participation_rows)
+p("Both versions retain the original denial's named responsibility, appeal, correction capacity and the previously tested oversight condition. They change only the final rule of this review procedure.", "SmallMH")
 
-p("The honest limit of this first result", "H2MH")
-p("This is a simple example, not yet a major new finding about AI governance. It shows that the method works and that we can expose a missing safeguard without quietly assuming it exists. We have not established that a real AI system is safe, fair, legally compliant, or ethically justified. We have not formalized the whole encyclical.")
+p("What Lean checked", "H2MH")
+p("The central version has real input and a demonstrated influence on the outcome, yet no local final control or absolute veto over a grant. In the comparison, the recorded recommendation becomes binding. Acceptance, recording and amendment stay the same. The extra final-rule commitment supplies control; consultation alone does not.")
 
-p("What comes next", "H2MH")
-p("The following pages cover public-benefits responsibility, high-stakes timing, appeal duties and independent oversight. Participation, developer responsibility, governing authority and other fixed targets remain unfinished. The final project must include an understandable report and a technical paper. Completing the code alone will not complete the project.")
+p("The practical question", "H2MH")
+p("When told 'communities participate,' ask what they can change and when the institution can overrule them. Correcting a community's own recorded recommendation is different from correcting the final decision or changing the institution's standards.")
 
-p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; modeled references include 97 and 103-108. Rechecked November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.', "SmallMH")
+p("Assumptions and limits", "H2MH")
+p("Recording and amendment are stipulated, not audited real-world facts. The example does not establish full subsidiarity, fairness or legitimate authority. Its interpretation of paragraphs 107-109 leaves broader powers open. Neither final rule is endorsed. Developer responsibility and governing authority are next.")
 
 story.append(PageBreak())
 p("NEW RESULT / PUBLIC BENEFITS", "SmallMH")
@@ -296,7 +312,7 @@ def footer(canvas, doc):
 doc = SimpleDocTemplate(str(target), pagesize=(612,792),
     rightMargin=0.7*inch,leftMargin=0.7*inch,
     topMargin=0.6*inch,bottomMargin=0.75*inch,
-    title="An appeal is not the same as a remedy",
+    title="Who can challenge, correct and decide?",
     author="Magnifica Humanitas Formalization research project")
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
 (out / "report_text.txt").write_text("\n\n".join(plain)+"\n")

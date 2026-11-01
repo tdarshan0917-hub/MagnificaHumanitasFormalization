@@ -7,3 +7,4 @@ import MagnificaHumanitas.PublicBenefits
 import MagnificaHumanitas.HighStakes
 import MagnificaHumanitas.AppealReview
 import MagnificaHumanitas.Oversight
+import MagnificaHumanitas.Participation

@@ -1,4 +1,4 @@
-# Result coverage after prototype 0.6
+# Result coverage after prototype 0.7
 
 This inventory prevents helper-lemma counts from being confused with completion of the research contract. All findings are about declared models. Textual fidelity and external significance remain separate assessments.
 
@@ -12,20 +12,20 @@ This inventory prevents helper-lemma counts from being confused with completion 
 | T4 Unappealable exclusion | Proved for the two explicit appeal policies; baseline shared-rule consequence, not a novel moral theorem |
 | T5 Responsibility and identifiability | Case-level separation and sufficient conditions implemented; no universal implication without an identification premise |
 | T6 Independent oversight | Disposed for the fixed question: regime-level provision does not ensure decision coverage; covered review does not ensure intervention capacity. Paired countermodels, sufficient bridges and a joint satisfying witness are checked. Full effectiveness and a unique source reading are not established |
-| T7 Participation/subsidiarity | Not implemented |
+| T7 Participation/subsidiarity | Bounded non-implication/source-ambiguity disposition: recorded and amendable community input with demonstrated outcome influence does not imply final control or veto; a binding decision rule changes that conclusion. Full subsidiarity and stronger standards-setting powers are not established |
 | T8 Developer duties | Not implemented |
 | T9 Technical power and authority | Not implemented |
 | T10 Ethics-only insufficiency | Not implemented |
 
 ## Countermodels and cases
 
-Fixed countermodel C3 (responsibility does not supply remedy capacity) is implemented in the recourse fragment. C2 is implemented for the declared human-review interpretation: an excluded witness violates both appeal policies, while a non-excluded, affected high-impact witness satisfies the narrow policy and lacks appeal. C1/C4/C5/C6 remain unfinished. Public-benefits and high-stakes witnesses remain additional bounded case results, not replacements for those targets.
+Fixed countermodel C3 (responsibility does not supply remedy capacity) is implemented in the recourse fragment. C2 is implemented for the declared human-review interpretation: an excluded witness violates both appeal policies, while a non-excluded, affected high-impact witness satisfies the narrow policy and lacks appeal. C6 is implemented under I21 with operational contribution, own-record amendment, actual conditional outcome influence and an explicit central override rule; no arbitrary Authority flag is used. C1/C4/C5 remain unfinished. Public-benefits and high-stakes witnesses remain additional bounded case results, not replacements for those targets.
 
 All three agreed case domains now have initial formal examples: employment-style recourse, public-benefits responsibility, and high-stakes autonomy. They remain bounded slices, not complete compliance assessments.
 
 ## Principal-domain definition ceiling
 
-There are 29 principal definitions at this checkpoint, counting structures, inductives, and named domain/policy predicates or operations. Source bookkeeping and concrete example constructors are excluded transparently:
+There are 30 principal definitions at this checkpoint, counting structures, inductives, and named domain/policy predicates or operations. Source bookkeeping and concrete example constructors are excluded transparently:
 
 - Model.lean: 8 (Governance, Safeguard, Policy, Provided, CompliantAt, ProcedureSystem, HasAppeal, HasRemedyCapacity).
 - Theory.lean: 2 (the two policy interpretations).
@@ -34,9 +34,10 @@ There are 29 principal definitions at this checkpoint, counting structures, indu
 - HighStakes.lean: 5 (State, Event, step, run, RestorationPossible).
 - AppealReview.lean: 1 (broadAppealPolicy).
 - Oversight.lean: 2 (OversightSystem and ActionableIndependentOversight).
+- Participation.lean: 1 (ConsultationProcess).
 
-Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, AppealReview and Oversight. The exclusion does not authorize new unused ontology. One principal slot remains before the V1 ceiling; SCOPE_AUDIT_0_6.md records the pre-extension audit. Any further principal abstraction needs a fresh scope audit.
+Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, AppealReview, Oversight and Participation. The exclusion does not authorize new unused ontology. The 30-definition ceiling is reached; SCOPE_AUDIT_0_7.md records the extension audit. Any further principal abstraction requires an explicit contract revision; predicates must not be relabeled bookkeeping to avoid the ceiling.
 
 ## Next research move
 
-MH-006A completed appeal and review. MH-006B1 has now disposed of the fixed oversight implication question with a bounded capacity interpretation. Next come participation, developer responsibility and authority, with delegation and full recourse still tracked. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.
+MH-006A completed appeal and review. MH-006B1 has now disposed of the fixed oversight implication question with a bounded capacity interpretation. MH-006B2 now tests participation versus final control under a deliberately limited record-amendment interpretation, completing C6 and documenting the broader T7 ambiguity. Next come developer responsibility and authority, with delegation, full recourse, C1/C4/C5 and ethics-only insufficiency still tracked. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.

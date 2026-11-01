@@ -28,5 +28,34 @@ fun {P A D} g d =>
 'MagnificaHumanitas.Prototype.obligation_without_provision' does not depend on any axioms
 'MagnificaHumanitas.Prototype.correction_changes_only_procedure_power' does not depend on any axioms
 'MagnificaHumanitas.Prototype.prototype_satisfiable_nonvacuously' does not depend on any axioms
+theorem MagnificaHumanitas.institution_to_human_with_allocation_and_identification : ∀ {I H D : Type}
+  (r : MagnificaHumanitas.ResponsibilityAllocation I H D),
+  MagnificaHumanitas.HasDecisionAllocation r →
+    MagnificaHumanitas.AssignedAreIdentifiable r →
+      ∀ (d : D),
+        r.highImpact d →
+          MagnificaHumanitas.InstitutionalAnswerability r d → MagnificaHumanitas.HumanAnswerability r d :=
+fun {I H D} r hAllocation hIdentification d hImpact hInstitution =>
+  Exists.casesOn hInstitution fun i h =>
+    And.casesOn h fun hi right =>
+      Exists.casesOn (hAllocation i d hi hImpact) fun h h_1 =>
+        And.casesOn h_1 fun hm ha => Exists.intro i (Exists.intro h ⟨hi, ⟨hm, ⟨ha, hIdentification h d ha⟩⟩⟩)
+theorem MagnificaHumanitas.human_to_actionable_with_power : ∀ {I H D : Type}
+  (r : MagnificaHumanitas.ResponsibilityAllocation I H D) (d : D),
+  MagnificaHumanitas.HumanAnswerability r d →
+    (∀ (h : H), r.assigned h d → r.canCorrect h d) → MagnificaHumanitas.ActionableResponsibility r d :=
+fun {I H D} r d hHuman hPower =>
+  Exists.casesOn hHuman fun i h =>
+    Exists.casesOn h fun h h_1 =>
+      And.casesOn h_1 fun hi right =>
+        And.casesOn right fun hm right =>
+          And.casesOn right fun ha hn => Exists.intro i (Exists.intro h ⟨hi, ⟨hm, ⟨ha, ⟨hn, hPower h ha⟩⟩⟩⟩)
+'MagnificaHumanitas.institution_to_human_with_allocation_and_identification' does not depend on any axioms
+'MagnificaHumanitas.institutional_reading_extends_with_bridges' does not depend on any axioms
+'MagnificaHumanitas.human_to_actionable_with_power' does not depend on any axioms
+'MagnificaHumanitas.PublicBenefits.staffing_and_allocation_do_not_identify_the_assignee' does not depend on any axioms
+'MagnificaHumanitas.PublicBenefits.named_responsibility_does_not_supply_power' does not depend on any axioms
+'MagnificaHumanitas.PublicBenefits.public_benefits_satisfying_instance' does not depend on any axioms
+'MagnificaHumanitas.PublicBenefits.comparison_preserves_institution_and_assignments' does not depend on any axioms
 
 Exit code: 0

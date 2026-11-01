@@ -1,6 +1,6 @@
 # Assumption ledger
 
-These entries are proposed assumptions and boundaries; none is currently a Lean axiom or a proved fact.
+These entries record modeling assumptions and boundaries, not global Lean axioms. Some are now explicit hypotheses or definitions in the prototype; their conditional consequences are separate from the truth or textual authority of the assumptions.
 
 | ID | Kind | Proposed commitment | Status / dependency |
 |---|---|---|---|
@@ -16,6 +16,9 @@ These entries are proposed assumptions and boundaries; none is currently a Lean 
 | A10 | Case fact | Selected employment/public-benefit decisions exclude an affected person and affect opportunity | To be stipulated case by case; not an empirical finding about an actual organization |
 | A11 | Case fact | A harmful irreversible action has no complete post-event restoration | Hypothetical stress test; specify restoration semantics before use |
 | A12 | Modeling | Technical capability and legitimate authority have independent interpretations absent a linking premise | For power-only fragment; I13; check compatibility with any full theory used |
+| A13 | Interpretation | People assigned to decisions are individually identifiable | Optional factual bridge, I15; separate from general staffing and case allocation |
+| A14 | Interpretation | People assigned to the decision have correction authority for that decision | Optional sufficient power-coverage bridge, I16; not inferred from responsibility |
+| A15 | Case fact | A public contact handles a routine inquiry while another officer handles a benefit denial | Hypothetical paired case; no actual agency investigated |
 
 ## Avoiding circular results
 
@@ -23,4 +26,4 @@ If `Compliant` includes `Provided appeal`, then extracting appeal is a projectio
 
 Every formal theorem must report its explicit theory parameters and named premises. Lean's axiom report alone does not reveal all substantive hypotheses hidden inside structure fields. Both logical-axiom and premise-dependency audits are required.
 
-No model witness exists yet. No consistency result, independence theorem, or universal compliance guarantee is claimed by this ledger.
+Explicit finite witnesses now exist for the limited prototype policies and the responsibility-only public-benefits interpretations. They establish satisfaction and separations for those named fragments. No full-theory consistency proof, real-world compliance guarantee, or unique interpretation of the source is claimed.

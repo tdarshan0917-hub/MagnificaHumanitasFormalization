@@ -50,9 +50,9 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.2", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.3", "SmallMH")
 p("An appeal is not the<br/>same as a remedy", "TitleMH")
-p("What our first computer-checked example shows<br/>Progress report | November 1, 2026", "DeckMH")
+p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
 p("A person may receive an explanation, have a named responsible officer, and be allowed to appeal an AI-assisted decision - yet the review office may still lack the power to correct it. Our first Lean example checks that these arrangements can coexist under a limited set of written rules.")
 
@@ -110,9 +110,51 @@ p("The honest limit of this first result", "H2MH")
 p("This is a simple example, not yet a major new finding about AI governance. It shows that the method works and that we can expose a missing safeguard without quietly assuming it exists. We have not established that a real AI system is safe, fair, legally compliant, or ethically justified. We have not formalized the whole encyclical.")
 
 p("What comes next", "H2MH")
-p("We will test responsibility, appeal, and correction in the three agreed cases: employment, public benefits, and high-stakes autonomous decisions. We will compare reasonable readings of the source and keep useful examples where a proposed guarantee fails. The final project must include a separate plain-language report explaining its findings, assumptions, and practical limits. Completing the code alone will not complete the project.")
+p("The next page adds our public-benefits responsibility example. The high-stakes autonomy case and broader interpretation comparisons remain ahead. The final project must include a separate plain-language report explaining its findings, assumptions, and practical limits. Completing the code alone will not complete the project.")
 
 p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.', "SmallMH")
+
+story.append(PageBreak())
+p("NEW RESULT / PUBLIC BENEFITS", "SmallMH")
+p("Who owns this decision?", "TitleMH")
+p("A named agency and a public contact do not necessarily identify the person assigned to your case.", "DeckMH")
+p("The example", "H2MH")
+p("Imagine an AI-assisted public-benefit denial. The agency accepts responsibility, publishes a contact's name, and assigns every important decision internally. But the contact handles routine inquiries; another employee handles the denial. In the first version, that case officer is not identifiable. Known staffing and internal assignment therefore do not supply an identifiable case owner.")
+p("These are stipulated facts in a hypothetical office. We have not audited an actual public-benefits agency.", "SmallMH")
+
+comparison = [
+    ["Question about the denial", "Unnamed", "Named only", "Name + power"],
+    ["Agency and public contact identified?", "Yes", "Yes", "Yes"],
+    ["An officer assigned to the denial?", "Yes", "Yes", "Yes"],
+    ["That officer identifiable?", "No", "Yes", "Yes"],
+    ["That officer has correction power?", "Yes", "No", "Yes"],
+    ["Identifiable case owner with power?", "No", "No", "Yes"],
+]
+comparison_table = Table([
+    [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
+     for v in row] for i, row in enumerate(comparison)],
+    colWidths=[2.7*inch, .95*inch, .95*inch, 1.0*inch])
+comparison_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), navy),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+    ("LEFTPADDING", (0,0), (-1,-1), 7),
+    ("RIGHTPADDING", (0,0), (-1,-1), 7),
+    ("TOPPADDING", (0,0), (-1,-1), 7),
+    ("BOTTOMPADDING", (0,0), (-1,-1), 7),
+]))
+story.append(comparison_table)
+plain.extend(" | ".join(row) for row in comparison)
+
+p("What Lean checked", "H2MH")
+p("The first version has known staff and internal allocation, yet no identifiable assignee for the denial. The second names that assignee but supplies no correction power. The third provides both. The agency, membership, and assignments stay fixed.")
+p("We also checked a sufficient rule: assign the decision to a person and ensure that this person is identifiable. Correction capacity through that person needs a separate authority condition for the same decision.")
+
+p("The practical lesson", "H2MH")
+p("Ask who is assigned to this decision, whether that person is identifiable, and whether they can correct it. These are separate questions. A general contact list does not answer all three.")
+
+p("What this still does not establish", "H2MH")
+p("Authority does not prove that the officer will act, that the applicant can reach them, or that every loss can be undone. We have not established legal liability, a uniquely correct reading of the source, or major research novelty.")
 
 def footer(canvas, doc):
     canvas.saveState()

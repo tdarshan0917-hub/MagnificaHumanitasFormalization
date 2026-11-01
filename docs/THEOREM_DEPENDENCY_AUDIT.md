@@ -2,6 +2,8 @@
 
 Status: paper-level candidate analysis, not machine-checked proof. IDs preserve the supplied handoff's target numbering; revisions prevent accidental strengthening or duplicate results.
 
+Prototype 0.3 update: selected T1/T5-related responsibility distinctions are now implemented in Responsibility.lean and PublicBenefits.lean. The table remains a planning audit; it must not be read as claiming all ten targets proved. Generic staffing plus internal allocation is insufficient; explicit case allocation together with identifiability of assignees gives a sufficient bridge. No weakest-premise result is claimed.
+
 Notation: `Required(c,r)` is an encoded duty; `Provided(c,r)` is a factual safeguard. `Satisfies(m,T)` means model m satisfies theory T. These are specification sketches, not compilable Lean declarations.
 
 | Target | Revised research question | Source candidates | Additional commitments | Conservative status | Countermodel or check |

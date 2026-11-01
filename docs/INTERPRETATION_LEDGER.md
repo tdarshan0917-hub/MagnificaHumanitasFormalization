@@ -1,6 +1,6 @@
 # Interpretation ledger
 
-All entries are modeling proposals, not Lean-certified results. Source pointers identify the motivation for a choice, not textual proof of our exact formula.
+All entries are modeling choices. Selected consequences of the responsibility and recourse choices have now been checked in Lean; textual fidelity remains a separate editorial judgment. Source pointers identify the motivation for a choice, not textual proof of our exact formula.
 
 | ID | Choice | Conservative prototype | Stronger or alternative reading | Consequence to test |
 |---|---|---|---|---|
@@ -18,9 +18,15 @@ All entries are modeling proposals, not Lean-certified results. Source pointers 
 | I12 | Machine agency, §99 | Source-relative anthropological premise kept optional | Encode a universal metaphysical claim about every possible AI | Avoid excluding AI by type and calling that a discovery |
 | I13 | Authority, §110 | Lack of entailment from capability alone in a named theory fragment | All capable actors lack legitimate authority | Stronger reading rejected as unsupported by the intended non-entailment claim |
 | I14 | High-stakes autonomy | Compare prospective prevention with post-event repair in a hypothetical case | Infer a categorical weapons ban or perfect reparability | Extra source and semantic premises would be required |
+| I15 | Decision-specific identification | Known staffing and internal case allocation remain separate facts | Every assigned case officer is identifiable | The staff contact and the case assignee can be different witnesses; formalized in public-benefits example |
+| I16 | Responsibility and correction authority | Named assignment alone does not confer power | Assigned officer has authority for this decision | Model-level action capacity, not legal liability or successful repair; separate power premise |
 
 ## Interpretation families
 
 Begin with two responsibility variants (individual allocation / institutional answerability), two recourse variants (exclusion / broader impact), and two oversight variants (regime / decision). Do not assume every Cartesian combination is admissible. Admit a combination only after checking source fidelity and constructing a satisfaction witness.
 
 Minimal-to-strong inheritance is an interface theorem. A substantive robustness result quantifies over the declared admissible family and identifies which conclusions survive the differences. Shared-premise projections do not count as discoveries.
+
+## Prototype 0.3 evidence
+
+The responsibility-only interpretations are explicit in Responsibility.lean. A known agency, known staff, and internal allocation do not imply an identifiable case-specific assignee: PublicBenefits.lean supplies a finite witness. Assignment coverage plus identifiability of assigned people is sufficient for individual answerability. This bridge is not claimed to be the weakest possible premise. A further, separate authority premise is sufficient for action capacity. No declaration establishes that the source uniquely chooses either interpretation.

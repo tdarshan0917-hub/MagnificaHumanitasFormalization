@@ -1,4 +1,4 @@
 $ python3 scripts/audit_sources.py
-Integrity checks passed: 40 claims and 6 Lean files.
+Integrity checks passed: 40 claims and 8 Lean files.
 
 Exit code: 0

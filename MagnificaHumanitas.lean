@@ -2,3 +2,5 @@ import MagnificaHumanitas.Source
 import MagnificaHumanitas.Model
 import MagnificaHumanitas.Theory
 import MagnificaHumanitas.Examples
+import MagnificaHumanitas.Responsibility
+import MagnificaHumanitas.PublicBenefits

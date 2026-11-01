@@ -1,4 +1,4 @@
-# Build verification — prototype 0.2
+# Build verification — prototype 0.3
 
 Date: 2026-11-01.
 
@@ -6,9 +6,9 @@ Official binary distribution: [Lean 4.35.0](https://github.com/leanprover/lean4/
 
 ## Checks performed
 
-Source was copied to a clean directory without build artifacts. `lake build` succeeded (7 jobs), `lake env lean Audit.lean` succeeded, and `python3 scripts/audit_sources.py` succeeded. Full outputs are under verification/.
+Source was copied to a clean directory without build artifacts. `lake build` succeeded (9 jobs), `lake env lean Audit.lean` succeeded, and `python3 scripts/audit_sources.py` succeeded (40 source candidates, 8 Lean files). Full outputs are under verification/.
 
-Audit.lean prints the structural theorem statement and axiom dependencies of five principal declarations. Each printed dependency report says the declaration does not depend on any axioms. This is not a claim that policy interpretations or case assumptions are assumption-free. Their substantive choices are visible in the model and theory definitions.
+Audit.lean prints selected theorem statements and axiom dependencies of twelve principal declarations, including the new sufficient bridges and public-benefits witnesses. Each printed dependency report says the declaration does not depend on any axioms. This is not a claim that policy interpretations or case assumptions are assumption-free. Their substantive choices are visible in the model and theory definitions.
 
 ## Container compatibility
 

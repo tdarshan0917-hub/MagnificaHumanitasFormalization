@@ -1,6 +1,6 @@
 # Magnifica Humanitas Formalization
 
-Research prototype 0.2 — 2026-11-01. A small Lean model and example suite; see the verification logs for actual build status. No remote GitHub repository is claimed.
+Research prototype 0.3 — 2026-11-01. Lean models for appeal/remedy and public-benefits responsibility; see the verification logs for actual build status. No remote GitHub repository is claimed.
 
 Question: what governance conclusions follow from explicit formal interpretations, and what additional assumptions do other conclusions need?
 
@@ -37,4 +37,4 @@ lake env lean Audit.lean
 python3 scripts/audit_sources.py
 ```
 
-An official Lean binary distribution also works when its `bin` directory is on PATH. The first prototype separates appeal from correction capacity and supplies a non-vacuous satisfying example. See the public PDF and technical result map for the scope of those claims.
+An official Lean binary distribution also works when its `bin` directory is on PATH. The recourse example separates appeal from correction capacity. The public-benefits example distinguishes an agency's general staffing from an identifiable case-specific assignee, and separates that assignment from correction power. Explicit satisfying models accompany the separation examples. See the public PDF and technical result map for the scope of those claims.

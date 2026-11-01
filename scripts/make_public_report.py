@@ -50,7 +50,7 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.3", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.4", "SmallMH")
 p("An appeal is not the<br/>same as a remedy", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
@@ -110,9 +110,9 @@ p("The honest limit of this first result", "H2MH")
 p("This is a simple example, not yet a major new finding about AI governance. It shows that the method works and that we can expose a missing safeguard without quietly assuming it exists. We have not established that a real AI system is safe, fair, legally compliant, or ethically justified. We have not formalized the whole encyclical.")
 
 p("What comes next", "H2MH")
-p("The next page adds our public-benefits responsibility example. The high-stakes autonomy case and broader interpretation comparisons remain ahead. The final project must include a separate plain-language report explaining its findings, assumptions, and practical limits. Completing the code alone will not complete the project.")
+p("The next two pages add public-benefits responsibility and high-stakes timing examples. Broader interpretation comparisons and the original target suite remain unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.")
 
-p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.', "SmallMH")
+p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 97 and 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.', "SmallMH")
 
 story.append(PageBreak())
 p("NEW RESULT / PUBLIC BENEFITS", "SmallMH")
@@ -155,6 +155,48 @@ p("Ask who is assigned to this decision, whether that person is identifiable, an
 
 p("What this still does not establish", "H2MH")
 p("Authority does not prove that the officer will act, that the applicant can reach them, or that every loss can be undone. We have not established legal liability, a uniquely correct reading of the source, or major research novelty.")
+
+story.append(PageBreak())
+p("NEW RESULT / HIGH-STAKES AUTONOMY", "SmallMH")
+p("A stop that arrives too late", "TitleMH")
+p("The same final checklist can hide a crucial difference: whether control reached the system before the harm occurred.", "DeckMH")
+p("The example", "H2MH")
+p("We model a hazardous autonomous action. A stop request is sent, delivered, and followed by a corrected decision record. One run delivers the stop before execution; the other delivers it afterward. Both finish with the stop recorded as delivered and the administrative record corrected. Only the timely run avoids physical loss.")
+p("This is a hypothetical case with explicit rules. We assume a delivered stop is obeyed and that none of the five available actions can reverse the physical loss. Those assumptions are not discoveries about real systems.", "SmallMH")
+
+timing_rows = [
+    ["Check", "Timely run", "Late run"],
+    ["Stop requested?", "Yes", "Yes"],
+    ["Stop delivered?", "Before execution", "After execution"],
+    ["Record corrected afterward?", "Yes", "Yes"],
+    ["Record-correction officer identifiable?", "Yes", "Yes"],
+    ["Physical loss in the model?", "No", "Yes"],
+]
+timing_table = Table([
+    [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
+     for v in row] for i, row in enumerate(timing_rows)],
+    colWidths=[2.8*inch, 1.4*inch, 1.4*inch])
+timing_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), navy),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+    ("LEFTPADDING", (0,0), (-1,-1), 7),
+    ("RIGHTPADDING", (0,0), (-1,-1), 7),
+    ("TOPPADDING", (0,0), (-1,-1), 7),
+    ("BOTTOMPADDING", (0,0), (-1,-1), 7),
+]))
+story.append(timing_table)
+plain.extend(" | ".join(row) for row in timing_rows)
+
+p("What Lean checked", "H2MH")
+p("The two runs contain the same four events; only the delivery and execution order changes. Lean checked the different outcomes. It also checked that once physical loss occurs, no finite sequence of the available actions removes it. Correcting the record remains possible, but it does not restore the physical outcome.")
+p("There is a positive result too: if the stop has already arrived while the state is loss-free, every continuation allowed by these rules stays loss-free. That is a conditional guarantee inside our model, not a proof that real operators always detect danger or respond in time.")
+
+p("The practical lesson", "H2MH")
+p("Ask when control became effective, not just whether a human was involved. Also ask what a promised correction can change: the record, the decision, or the physical harm. Those protections are different.")
+
+p("Where the limits matter", "H2MH")
+p("The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.")
 
 def footer(canvas, doc):
     canvas.saveState()

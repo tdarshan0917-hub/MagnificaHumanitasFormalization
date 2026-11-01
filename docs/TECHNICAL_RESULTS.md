@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.3. The original recourse results below remain unchanged; the public-benefits responsibility results are added at the end.
+Current checkpoint: prototype 0.4. The original recourse and public-benefits responsibility results remain; the high-stakes temporal case is added at the end.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -58,3 +58,23 @@ This illustrates a mismatch between existential witnesses: the identifiable staf
 Source motivation remains MH-020/021 (the selected responsibility and identifiability candidates). Additional interpretations: I01, I15, I16. Optional bridges: A03, A13, A14. Case facts: A15. Correction authority is an operational modeling choice; no legal entitlement or actual correction is established. The public-benefits case is a bounded responsibility study, not a complete source-compliance assessment.
 
 The existence of these understandable examples does not establish priority or publishable novelty. They support the method and expose explicit missing links for further testing.
+
+## MH-005: timing, record correction, and irreversible physical loss
+
+The state records four distinct facts: physical loss, stop requested, stop delivered, and record corrected. Five available events request a stop, deliver it, execute the hazardous action, correct the administrative record, or review. Every unblocked execution in this hypothetical hazardous instance produces loss. A delivered stop prevents that execution from introducing loss. No available event reverses loss. These are explicit case dynamics, not source theorems or engineering measurements.
+
+Two runs use the same events. Timely run: request, deliver, execute, correct. Late run: request, execute, deliver, correct. Final request, delivery, and record-correction flags are identical; loss occurs only in the late run.
+
+| Finding | Declaration | Scope |
+|---|---|---|
+| A requested stop is not yet an effective stop | `HighStakes.requested_stop_without_delivery_does_not_prevent_loss` | Explicit finite trace |
+| Identical final administrative flags can accompany different physical outcomes | `HighStakes.same_final_control_flags_different_outcomes` | Paired traces differing in delivery/execution order |
+| Late control and record correction leave the modeled physical loss unrestored | `HighStakes.late_control_corrects_record_without_restoring` | Trace plus invariant over every finite available continuation |
+| Named record-correction authority does not provide physical restoration | `HighStakes.responsibility_and_record_correction_do_not_restore` | Uses the existing responsibility schema with correction scope explicitly restricted to records |
+| Loss persists through all modeled finite action sequences | `HighStakes.loss_persists_run` and `HighStakes.loss_not_restorable` | Inductive consequence of A18, not a discovery that real-world harm is always irreversible |
+| A loss-free state with an already-delivered stop remains loss-free | `HighStakes.timely_stop_protects_all_continuations` | Conditional on A16/A17 and the bounded event alphabet |
+| The preventive configuration and the accountability facts can hold together | `HighStakes.timely_case_satisfying_instance` | Non-vacuous finite witness; does not certify the full source theory |
+
+The central analytical distinction is temporal: observing that a stop eventually arrived does not establish that it arrived before the irreversible action. This is not captured by a static checklist of final flags. No theorem says human intervention is the only possible preventive mechanism, that an actual controller will react promptly, or that all harm is irreversible.
+
+Source motivation: MH-001 (human guidance) and MH-023 (remedy), together with the existing responsibility candidates. Interpretations I14/I17/I18/I19 and assumptions A11/A16/A17/A18/A19 carry the additional operational commitments. The new finite cases do not silently extend the source scope or establish a categorical weapons prohibition.

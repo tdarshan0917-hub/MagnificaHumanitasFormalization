@@ -1,6 +1,6 @@
 # Magnifica Humanitas Formalization
 
-Research prototype 0.3 — 2026-11-01. Lean models for appeal/remedy and public-benefits responsibility; see the verification logs for actual build status. No remote GitHub repository is claimed.
+Research prototype 0.4 — 2026-11-01. Lean models for appeal/remedy, public-benefits responsibility, and timing in a high-stakes irreversible-loss case. The private GitHub repository contains version 0.3, as confirmed by the user's successful push. Version 0.4 is a local checked checkpoint until its update is imported and pushed.
 
 Question: what governance conclusions follow from explicit formal interpretations, and what additional assumptions do other conclusions need?
 
@@ -18,6 +18,8 @@ Question: what governance conclusions follow from explicit formal interpretation
 10. [Prototype result explanations](docs/TECHNICAL_RESULTS.md)
 11. [Plain-language progress report](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf)
 12. [Build evidence and environment notes](docs/BUILD_VERIFICATION.md)
+13. [Target coverage and definition ceiling](docs/RESULT_COVERAGE.md)
+14. [Update the existing Mac/GitHub repository](docs/UPDATE_EXISTING_REPOSITORY.md)
 
 The machine-readable claim ledger is [claims.csv](data/claims.csv), with the same records in [JSON](data/claims.json).
 
@@ -37,4 +39,4 @@ lake env lean Audit.lean
 python3 scripts/audit_sources.py
 ```
 
-An official Lean binary distribution also works when its `bin` directory is on PATH. The recourse example separates appeal from correction capacity. The public-benefits example distinguishes an agency's general staffing from an identifiable case-specific assignee, and separates that assignment from correction power. Explicit satisfying models accompany the separation examples. See the public PDF and technical result map for the scope of those claims.
+An official Lean binary distribution also works when its `bin` directory is on PATH. The recourse example separates appeal from correction capacity. The public-benefits example distinguishes general staffing, identifiable assignment, and correction power. The high-stakes example compares the same events in different orders and proves conditional invariants over all finite modeled continuations. Explicit satisfying cases accompany the separation examples. See the public PDF and technical result map for the scope of those claims.

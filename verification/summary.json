@@ -1,0 +1,8 @@
+{
+  "checkpoint": "0.4",
+  "audited_declarations": 20,
+  "no_logical_axioms": 15,
+  "propext_only": 5,
+  "custom_axioms": false,
+  "remote_ci_observed": false
+}

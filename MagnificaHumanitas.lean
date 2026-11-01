@@ -4,3 +4,4 @@ import MagnificaHumanitas.Theory
 import MagnificaHumanitas.Examples
 import MagnificaHumanitas.Responsibility
 import MagnificaHumanitas.PublicBenefits
+import MagnificaHumanitas.HighStakes

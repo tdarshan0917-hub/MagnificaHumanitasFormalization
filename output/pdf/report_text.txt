@@ -1,4 +1,4 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.3
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.4
 
 An appeal is not the<br/>same as a remedy
 
@@ -64,9 +64,9 @@ This is a simple example, not yet a major new finding about AI governance. It sh
 
 What comes next
 
-The next page adds our public-benefits responsibility example. The high-stakes autonomy case and broader interpretation comparisons remain ahead. The final project must include a separate plain-language report explaining its findings, assumptions, and practical limits. Completing the code alone will not complete the project.
+The next two pages add public-benefits responsibility and high-stakes timing examples. Broader interpretation comparisons and the original target suite remain unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.
 
-Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.
+Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 97 and 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.
 
 NEW RESULT / PUBLIC BENEFITS
 
@@ -105,3 +105,41 @@ Ask who is assigned to this decision, whether that person is identifiable, and w
 What this still does not establish
 
 Authority does not prove that the officer will act, that the applicant can reach them, or that every loss can be undone. We have not established legal liability, a uniquely correct reading of the source, or major research novelty.
+
+NEW RESULT / HIGH-STAKES AUTONOMY
+
+A stop that arrives too late
+
+The same final checklist can hide a crucial difference: whether control reached the system before the harm occurred.
+
+The example
+
+We model a hazardous autonomous action. A stop request is sent, delivered, and followed by a corrected decision record. One run delivers the stop before execution; the other delivers it afterward. Both finish with the stop recorded as delivered and the administrative record corrected. Only the timely run avoids physical loss.
+
+This is a hypothetical case with explicit rules. We assume a delivered stop is obeyed and that none of the five available actions can reverse the physical loss. Those assumptions are not discoveries about real systems.
+
+Check | Timely run | Late run
+
+Stop requested? | Yes | Yes
+
+Stop delivered? | Before execution | After execution
+
+Record corrected afterward? | Yes | Yes
+
+Record-correction officer identifiable? | Yes | Yes
+
+Physical loss in the model? | No | Yes
+
+What Lean checked
+
+The two runs contain the same four events; only the delivery and execution order changes. Lean checked the different outcomes. It also checked that once physical loss occurs, no finite sequence of the available actions removes it. Correcting the record remains possible, but it does not restore the physical outcome.
+
+There is a positive result too: if the stop has already arrived while the state is loss-free, every continuation allowed by these rules stays loss-free. That is a conditional guarantee inside our model, not a proof that real operators always detect danger or respond in time.
+
+The practical lesson
+
+Ask when control became effective, not just whether a human was involved. Also ask what a promised correction can change: the record, the decision, or the physical harm. Those protections are different.
+
+Where the limits matter
+
+The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.

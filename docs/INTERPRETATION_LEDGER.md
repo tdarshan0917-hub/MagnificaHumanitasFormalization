@@ -20,6 +20,9 @@ All entries are modeling choices. Selected consequences of the responsibility an
 | I14 | High-stakes autonomy | Compare prospective prevention with post-event repair in a hypothetical case | Infer a categorical weapons ban or perfect reparability | Extra source and semantic premises would be required |
 | I15 | Decision-specific identification | Known staffing and internal case allocation remain separate facts | Every assigned case officer is identifiable | The staff contact and the case assignee can be different witnesses; formalized in public-benefits example |
 | I16 | Responsibility and correction authority | Named assignment alone does not confer power | Assigned officer has authority for this decision | Model-level action capacity, not legal liability or successful repair; separate power premise |
+| I17 | Correction versus restoration | In the high-stakes case, canCorrect concerns the decision record | Full physical restoration is a separate reachability property | No redefinition of record authority as complete remedy; the scope is explicit in recordCorrectionAllocation |
+| I18 | Requested versus delivered control | Stop request and delivery are different events | Effective prevention needs delivery before the hazardous execution | Protocol assumption motivated by human control questions, not a textual claim that the source specifies this protocol |
+| I19 | Irreversible-loss dynamics | Available modeled actions preserve physical loss once it occurs | A delivered stop blocks the modeled hazardous execution if loss has not already occurred | Both are explicit case assumptions; no universal physical, safety, or weapons theorem |
 
 ## Interpretation families
 
@@ -30,3 +33,7 @@ Minimal-to-strong inheritance is an interface theorem. A substantive robustness 
 ## Prototype 0.3 evidence
 
 The responsibility-only interpretations are explicit in Responsibility.lean. A known agency, known staff, and internal allocation do not imply an identifiable case-specific assignee: PublicBenefits.lean supplies a finite witness. Assignment coverage plus identifiability of assigned people is sufficient for individual answerability. This bridge is not claimed to be the weakest possible premise. A further, separate authority premise is sufficient for action capacity. No declaration establishes that the source uniquely chooses either interpretation.
+
+## Prototype 0.4 evidence
+
+HighStakes.lean compares two runs containing the same request, delivery, execution, and record-correction events in different orders. Final administrative flags agree; physical outcomes differ. Induction establishes loss persistence and the conditional guarantee for a loss-free state with an already-delivered stop, over all finite continuations allowed by this model. The protocol dynamics are assumptions of the hypothetical case, not imported obligations or empirical findings.

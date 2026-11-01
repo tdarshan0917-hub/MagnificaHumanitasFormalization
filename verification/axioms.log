@@ -57,5 +57,31 @@ fun {I H D} r d hHuman hPower =>
 'MagnificaHumanitas.PublicBenefits.named_responsibility_does_not_supply_power' does not depend on any axioms
 'MagnificaHumanitas.PublicBenefits.public_benefits_satisfying_instance' does not depend on any axioms
 'MagnificaHumanitas.PublicBenefits.comparison_preserves_institution_and_assignments' does not depend on any axioms
+theorem MagnificaHumanitas.HighStakes.timely_stop_protects_all_continuations : ∀
+  (s : MagnificaHumanitas.HighStakes.State) (events : List MagnificaHumanitas.HighStakes.Event),
+  s.loss = false →
+    s.stopDelivered = true →
+      (MagnificaHumanitas.HighStakes.run s events).loss = false ∧
+        (MagnificaHumanitas.HighStakes.run s events).stopDelivered = true :=
+fun s events hLoss hStop =>
+  List.rec (motive := fun events =>
+    ∀ (s : MagnificaHumanitas.HighStakes.State),
+      s.loss = false →
+        s.stopDelivered = true →
+          (MagnificaHumanitas.HighStakes.run s events).loss = false ∧
+            (MagnificaHumanitas.HighStakes.run s events).stopDelivered = true)
+    (fun s hLoss hStop => ⟨hLoss, hStop⟩)
+    (fun e es ih s hLoss hStop =>
+      have hp := MagnificaHumanitas.HighStakes.protected_step s e hLoss hStop;
+      ih (MagnificaHumanitas.HighStakes.step s e) hp.left hp.right)
+    events s hLoss hStop
+'MagnificaHumanitas.HighStakes.loss_persists_run' depends on axioms: [propext]
+'MagnificaHumanitas.HighStakes.loss_not_restorable' depends on axioms: [propext]
+'MagnificaHumanitas.HighStakes.timely_stop_protects_all_continuations' depends on axioms: [propext]
+'MagnificaHumanitas.HighStakes.requested_stop_without_delivery_does_not_prevent_loss' does not depend on any axioms
+'MagnificaHumanitas.HighStakes.late_control_corrects_record_without_restoring' depends on axioms: [propext]
+'MagnificaHumanitas.HighStakes.same_final_control_flags_different_outcomes' does not depend on any axioms
+'MagnificaHumanitas.HighStakes.responsibility_and_record_correction_do_not_restore' depends on axioms: [propext]
+'MagnificaHumanitas.HighStakes.timely_case_satisfying_instance' does not depend on any axioms
 
 Exit code: 0

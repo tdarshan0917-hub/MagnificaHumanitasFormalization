@@ -1,17 +1,14 @@
-# Update the existing Mac repository to prototype 0.4
+# Update the existing Mac repository from GitHub
 
-The project has already been cloned and version 0.3 pushed. Do not clone it again.
+The project has already been cloned and connected to GitHub. Repository access from this app is now working. Changes can be saved directly, and the Mac copy can receive them by pulling.
 
-Download `MagnificaHumanitas_Prototype_0_4.bundle` to Downloads. This single update file carries the existing history plus the new checked commit. Then paste this complete block into Terminal:
+To update the existing Mac copy, paste:
 
 ```bash
 cd "$HOME/MagnificaHumanitasFormalization" &&
-git fetch "$HOME/Downloads/MagnificaHumanitas_Prototype_0_4.bundle" main --tags &&
-git merge --ff-only FETCH_HEAD &&
-git push origin main &&
-git push origin prototype-v0.4
+git pull --ff-only origin main
 ```
 
-The fetch imports local history. The fast-forward merge preserves existing commits and refuses a divergent history. No force push or reset is used. If any command fails, the remaining commands do not run; retain the message for diagnosis. These instructions assume the downloaded filename is unchanged.
+The fast-forward pull preserves existing commits and refuses a divergent history. No force push or reset is used. If it fails, retain the message for diagnosis. Local modifications may need to be reconciled; never discard them automatically.
 
-The assistant's GitHub connection could not read the private repository, so this file does not claim the remote upload or CI succeeded. The user must run the update block, or grant the connection access before a direct remote update can be attempted.
+The original bundle-import instructions are retained in Git history if needed. A new clone or download bundle is not needed for ordinary updates. This app's Lean execution remains separate from the Mac; local verification is optional while the app and GitHub run the checks.

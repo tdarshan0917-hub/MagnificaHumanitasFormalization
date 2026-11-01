@@ -7,7 +7,7 @@ These entries record modeling assumptions and boundaries, not global Lean axioms
 | A01 | Modeling | Required and provided safeguards are different relations | Adopt for prototype; I11 |
 | A02 | Modeling | Compliance is indexed by a finite declared requirement set and context | Adopt for prototype; I10 |
 | A03 | Interpretation | Every responsible institution has an identifiable natural person assigned for this decision | Optional strengthening only; I01; do not infer from ontology |
-| A04 | Interpretation | High-impact implies an obligation of individual appeal | Optional strengthening; I02/I03 |
+| A04 | Interpretation | A high-impact decision creates an appeal duty for each affected person even without exclusion | Optional strengthening; I02/I03; implemented explicitly by broadAppealPolicy, preserving the original exclusion rule |
 | A05 | Interpretation | An affected person has actual harm | Rejected as a general rule; harm is separate evidence |
 | A06 | Interpretation | Every harmed person can be fully restored | Rejected; distinguish remedy capacity, remedy attempt, and restoration |
 | A07 | Interpretation | Regime oversight covers every particular decision | Optional coverage bridge; I06 |
@@ -33,3 +33,5 @@ Every formal theorem must report its explicit theory parameters and named premis
 Explicit finite witnesses now exist for the limited prototype policies and the responsibility-only public-benefits interpretations. They establish satisfaction and separations for those named fragments. No full-theory consistency proof, real-world compliance guarantee, or unique interpretation of the source is claimed.
 
 The high-stakes case adds explicit transition-system witnesses and conditional invariants. Its irreversibility is represented in the transition rules and then proved invariant; it is not derived from the encyclical. Record correction remains possible after loss. No conclusion requires pretending that a possible remedy has already been delivered.
+
+In prototype 0.5 the narrow/broad comparison changes only the appeal trigger. Both policies keep the same identifiable-responsibility trigger and neither adds a remedy-capacity obligation. Actual harm is false in the new employment-style witnesses; high impact and affectedness remain true. Appeal is an accessible review channel, and internal review availability does not establish that the affected person may submit a challenge. These are hypothetical case facts, not findings about a real employer.

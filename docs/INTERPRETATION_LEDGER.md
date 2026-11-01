@@ -6,7 +6,7 @@ All entries are modeling choices. Selected consequences of the responsibility an
 |---|---|---|---|---|
 | I01 | Responsibility bearer, §§103,105 | Identifiable person or institution | Natural person required for each decision, with an explicit institutional-to-human allocation rule | T1/T2 may depend on the allocation rule |
 | I02 | Impact trigger, §102 | Decision-specific evidence of a rights/opportunity/freedom impact | Classify all decisions in selected domains as high-impact | Employment domain membership alone is insufficient in the conservative model |
-| I03 | Appeal scope, §104 | Exclusion affecting a person triggers an appeal requirement | Every high-impact decision triggers person-specific challenge and review | Universal T3 is stronger than the exclusion rule |
+| I03 | Appeal scope, §§104–105 | Exclusion triggers the person-specific appeal duty | Retain exclusion duties and additionally require appeal for each affected person in a high-impact decision | The broader trigger is explicit A04; appeal alone is not full remedy or universal meaningful recourse |
 | I04 | Remedy scope, §105 | Actual harm creates a remedy duty; separately model prospective remedy capacity | Every affected person always has a complete remedy procedure | No inference from capability to successful restoration; no inference from affectedness to actual harm |
 | I05 | Accountability, §105 | Define answerability, identifiability, monitoring, challenge, and remedy as separate components | Composite accountability package bundles these components under specified triggers | C1/C3 must state which notion is used |
 | I06 | Oversight level, §§106,108 | Regime-level independent oversight; deployment-specific effective oversight | Each high-impact decision has a specific independent reviewer | T6 needs a bridge between governance levels |
@@ -37,3 +37,11 @@ The responsibility-only interpretations are explicit in Responsibility.lean. A k
 ## Prototype 0.4 evidence
 
 HighStakes.lean compares two runs containing the same request, delivery, execution, and record-correction events in different orders. Final administrative flags agree; physical outcomes differ. Induction establishes loss persistence and the conditional guarantee for a loss-free state with an already-delivered stop, over all finite continuations allowed by this model. The protocol dynamics are assumptions of the hypothetical case, not imported obligations or empirical findings.
+
+## Prototype 0.5: the two appeal readings
+
+AppealReview.lean names a narrow policy (the existing responsibilityAppealPolicy) and a broader policy. The latter requires appeal for exclusion OR for high impact plus affectedness. This union preserves every original exclusion duty, including cases not separately classified as high-impact. No hidden implication from exclusion to impact is needed for refinement.
+
+Both reject exclusion without an accessible appeal. This is a baseline rule consequence, not a new ethical discovery. A non-excluded but affected high-impact person with no appeal supplies a separating witness: the narrow appeal fragment is satisfied and the broad fragment is not. The exact added provision is characterized. Opening affected-person access repairs appeal compliance in both policies while internal review, assignment, and exclusion facts remain fixed.
+
+The claimed shared conclusions concern these two named policies only. Broader source interpretation robustness, independent oversight, and full remedy obligations remain separate work.

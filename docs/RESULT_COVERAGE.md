@@ -1,4 +1,4 @@
-# Result coverage after prototype 0.4
+# Result coverage after prototype 0.5
 
 This inventory prevents helper-lemma counts from being confused with completion of the research contract. All findings are about declared models. Textual fidelity and external significance remain separate assessments.
 
@@ -8,8 +8,8 @@ This inventory prevents helper-lemma counts from being confused with completion 
 |---|---|
 | T1 Human responsibility | Partial: explicit institutional-to-individual sufficient bridge and a witness showing why general staffing is insufficient |
 | T2 Delegation does not terminate responsibility | Not implemented: production/delegation semantics still needed; do not count T1 twice |
-| T3 High-impact recourse | Partial: appeal/remedy policy extension is characterized; universal high-impact person-specific recourse remains an interpretive strengthening |
-| T4 Unappealable exclusion | Planned; no dedicated general theorem yet |
+| T3 High-impact recourse | Partial: two appeal-trigger readings are compared with an exact policy-extension characterization and separating witness; full meaningful recourse and remedy remain distinct |
+| T4 Unappealable exclusion | Proved for the two explicit appeal policies; baseline shared-rule consequence, not a novel moral theorem |
 | T5 Responsibility and identifiability | Case-level separation and sufficient conditions implemented; no universal implication without an identification premise |
 | T6 Independent oversight | Not implemented; human review is not identified with independent oversight |
 | T7 Participation/subsidiarity | Not implemented |
@@ -19,22 +19,23 @@ This inventory prevents helper-lemma counts from being confused with completion 
 
 ## Countermodels and cases
 
-Fixed countermodel C3 (responsibility does not supply remedy capacity) is implemented in the recourse fragment. C1/C2/C4/C5/C6 are not yet established by their intended semantics. Public-benefits and high-stakes separation witnesses are additional bounded case results; do not silently relabel them as completion of those targets.
+Fixed countermodel C3 (responsibility does not supply remedy capacity) is implemented in the recourse fragment. C2 is implemented for the declared human-review interpretation: an excluded witness violates both appeal policies, while a non-excluded, affected high-impact witness satisfies the narrow policy and lacks appeal. C1/C4/C5/C6 remain unfinished. Public-benefits and high-stakes witnesses remain additional bounded case results, not replacements for those targets.
 
 All three agreed case domains now have initial formal examples: employment-style recourse, public-benefits responsibility, and high-stakes autonomy. They remain bounded slices, not complete compliance assessments.
 
 ## Principal-domain definition ceiling
 
-There are 26 principal definitions at this checkpoint, counting structures, inductives, and named domain/policy predicates or operations. Source bookkeeping and concrete example constructors are excluded transparently:
+There are 27 principal definitions at this checkpoint, counting structures, inductives, and named domain/policy predicates or operations. Source bookkeeping and concrete example constructors are excluded transparently:
 
 - Model.lean: 8 (Governance, Safeguard, Policy, Provided, CompliantAt, ProcedureSystem, HasAppeal, HasRemedyCapacity).
 - Theory.lean: 2 (the two policy interpretations).
 - Responsibility.lean: 9 (allocation structure and its eight named conditions).
 - PublicBenefits.lean: 2 (Officer and Decision).
 - HighStakes.lean: 5 (State, Event, step, run, RestorationPossible).
+- AppealReview.lean: 1 (broadAppealPolicy).
 
-Excluded: source-reference structure/list and the concrete witness constructors in Examples, PublicBenefits, and HighStakes. The exclusion does not authorize new unused ontology. Four principal slots remain before the V1 ceiling; a scope audit is required before introducing additional abstractions.
+Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, and AppealReview. The exclusion does not authorize new unused ontology. Three principal slots remain before the V1 ceiling; a scope audit is required before introducing additional abstractions.
 
 ## Next research move
 
-MH-006 should close and audit the agreed target suite using the existing ontology wherever possible, beginning with a common context connecting the three cases and a careful source-to-code map. It must also identify which planned claims need new justified semantics and which should remain unresolved. The final public report and technical companion paper are still required; passing builds alone do not complete V1.
+MH-006A has completed the currently agreed appeal-and-review slice. Subsequent work remains the fixed questions about oversight, participation, developer responsibility, and authority, with delegation and full recourse still tracked. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.

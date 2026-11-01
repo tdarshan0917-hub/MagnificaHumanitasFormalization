@@ -1,8 +1,9 @@
 {
-  "checkpoint": "0.4",
-  "audited_declarations": 20,
-  "no_logical_axioms": 15,
+  "checkpoint": "0.5",
+  "audited_declarations": 26,
+  "no_logical_axioms": 21,
   "propext_only": 5,
   "custom_axioms": false,
-  "remote_ci_observed": false
+  "verified_parent_ci_run": 41352259485,
+  "current_ci_status": "See GitHub Actions for the published commit"
 }

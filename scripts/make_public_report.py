@@ -50,7 +50,7 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.4", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.5", "SmallMH")
 p("An appeal is not the<br/>same as a remedy", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
@@ -110,7 +110,7 @@ p("The honest limit of this first result", "H2MH")
 p("This is a simple example, not yet a major new finding about AI governance. It shows that the method works and that we can expose a missing safeguard without quietly assuming it exists. We have not established that a real AI system is safe, fair, legally compliant, or ethically justified. We have not formalized the whole encyclical.")
 
 p("What comes next", "H2MH")
-p("The next two pages add public-benefits responsibility and high-stakes timing examples. Broader interpretation comparisons and the original target suite remain unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.")
+p("The following pages add public-benefits responsibility, high-stakes timing, and a comparison of narrow and broad appeal duties. The remaining agreed target suite is unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.")
 
 p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 97 and 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.', "SmallMH")
 
@@ -197,6 +197,49 @@ p("Ask when control became effective, not just whether a human was involved. Als
 
 p("Where the limits matter", "H2MH")
 p("The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.")
+
+story.append(PageBreak())
+p("NEW RESULT / APPEAL AND REVIEW", "SmallMH")
+p("Who gets to appeal?", "TitleMH")
+p("An internal review does not itself give the affected person an appeal. The duty's starting point matters.", "DeckMH")
+
+p("Two explicit readings", "H2MH")
+p("The narrow reading requires appeal after exclusion. The broader reading keeps that rule and adds appeal for an affected person in a consequential decision, even before exclusion. These are two working interpretations; we do not claim they exhaust the source's possible readings.")
+
+appeal_rows = [
+    ["Hypothetical situation", "Narrow checklist", "Broad checklist"],
+    ["Person excluded; no accessible appeal", "Fails", "Fails"],
+    ["Consequential decision affects person; no exclusion yet; no appeal", "Passes", "Fails"],
+    ["Person excluded; accessible appeal provided", "Passes", "Passes"],
+]
+appeal_table = Table([
+    [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
+     for v in row] for i, row in enumerate(appeal_rows)],
+    colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
+appeal_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), navy),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+    ("LEFTPADDING", (0,0), (-1,-1), 7),
+    ("RIGHTPADDING", (0,0), (-1,-1), 7),
+    ("TOPPADDING", (0,0), (-1,-1), 8),
+    ("BOTTOMPADDING", (0,0), (-1,-1), 8),
+]))
+story.append(appeal_table)
+plain.extend(" | ".join(row) for row in appeal_rows)
+p("Named responsibility and internal review stay fixed. 'Passes' means only this limited checklist; neither policy includes a remedy-capacity duty.", "SmallMH")
+
+p("What survives both readings", "H2MH")
+p("Both reject exclusion without an accessible appeal. This is a checked consequence of the shared rule, not a new moral discovery. Staff review may occur internally while the person has no channel to challenge. After exclusion, that arrangement fails both checklists.")
+
+p("Where the readings differ", "H2MH")
+p("An AI-assisted ranking can affect opportunities before exclusion. Without appeal, the narrow checklist can pass and the broader one fails. Its extra guarantee comes from the added duty. Opening person access satisfies both appeal checklists while review and assignment stay fixed.")
+
+p("The practical question", "H2MH")
+p("When an organization says 'a human reviews our AI decisions,' ask whether the affected person can challenge, and when that opportunity begins. Review, person access, and the duty's trigger are separate issues.")
+
+p("Assumptions and limits", "H2MH")
+p("These are hypothetical employment-style cases. High impact and affectedness are stipulated; actual harm is not assumed. The broader duty is explicit. Appeal alone does not establish remedy capacity, restoration, or full source compliance. The remaining agreed research questions are still unfinished.")
 
 def footer(canvas, doc):
     canvas.saveState()

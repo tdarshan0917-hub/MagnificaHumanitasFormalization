@@ -1,4 +1,4 @@
-# Execution status — prototype 0.4, 2026-11-01
+# Execution status — prototype 0.5, 2026-11-01
 
 ## Completed
 
@@ -11,33 +11,35 @@
 - Checked counterexamples to staffing-plus-allocation implying an identified assignee, and to named responsibility implying correction power. Explicit sufficient bridge theorems and a satisfying case accompany them.
 - MH-005: high-stakes transition model separating stop requests, delivered control, administrative correction, and physical loss.
 - Paired runs contain the same events in different orders; final administrative flags agree while physical outcomes differ. Loss persistence and conditional preventive protection are proved over all finite modeled continuations.
-- Successful clean-copy build: ten Lake jobs. The nine checked Lean files include the separate Audit.lean file.
-- Twenty principal theorem declarations audited: fifteen use no logical axioms and five use only standard propext. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
+- MH-006A: T4 baseline consequence for both explicit appeal policies, C2 under the human-review interpretation, a narrow/broad separating witness, exact policy-extension characterization, and repaired satisfying instances.
+- The user's four-step current build guide is recorded in CURRENT_BUILD_GUIDELINES.md; no case domain was added.
+- Successful clean-copy build: eleven Lake jobs. The ten checked Lean files include the separate Audit.lean file.
+- Twenty-six principal theorem declarations audited: twenty-one use no logical axioms and five use only standard propext. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
 - Source integrity checks passed. No proof placeholders or custom axiom declarations in the delivered Lean files.
-- Four-page plain-language progress report covering all three initial examples, created and visually checked.
+- Five-page plain-language progress report, including the new narrow/broad appeal comparison, created and visually checked.
 - Plain-language final report made a mandatory completion deliverable alongside the technical paper.
-- GitHub Actions workflow supplied. The user's successful version 0.3 push is confirmed from Terminal output; remote workflow status remains unobserved because the connection cannot read the private repository.
+- GitHub access is connected. The version 0.4 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
 
 ## Scope and limitations
 
 Only small responsibility/appeal/remedy fragments and bounded examples in the three agreed case domains are implemented. The 28 selected claims are not all encoded. The examples do not establish publishable novelty. A model meeting these small checklists is not thereby compliant with the entire encyclical, any statute, or an actual institution's rules.
 
-The source mapping remains an explicit interpretation. The cases separate appeal from remedy capacity, general staffing from identifiable assignment, assignment from correction authority, and eventual control from timely prevention. Irreversible loss and perfect obedience to a delivered stop are explicit assumptions of the third model.
+The source mapping remains an explicit interpretation. The cases separate appeal from remedy capacity, general staffing from identifiable assignment, assignment from correction authority, and eventual control from timely prevention. The current appeal build also isolates the extra duty needed before exclusion: appeal for affected high-impact persons. Irreversible loss and perfect obedience to a delivered stop remain explicit assumptions of the third model.
 
 ## Prototype gate
 
-The prototype supports proceeding narrowly. The public-benefits case exposes a mismatch between staffing and assignment witnesses. The high-stakes case shows that final-state checklist flags can hide a decisive ordering difference. These are useful model-level clarifications; significance and source fidelity still require external scholarly assessment. RESULT_COVERAGE.md records the original targets still unfinished and the current 26-definition principal-domain count.
+The prototype supports proceeding narrowly. The current appeal comparison shows where a guaranteed appeal depends on a stronger interpretation. The shared exclusion consequence is labeled a baseline rule consequence. Significance and source fidelity still require external scholarly assessment. RESULT_COVERAGE.md records unfinished targets and the current 27-definition principal-domain count.
 
-## Next action: MH-006 — coverage, common context, and remaining target suite
+## Next action: MH-006B — remaining fixed target suite
 
-1. Reconcile source claims and the existing case schemas in a common context without changing their proven meanings.
-2. Close the remaining fixed targets where the current ontology suffices; otherwise record the exact missing semantics or interpretation.
+1. Address the agreed oversight, participation, developer-responsibility, and governing-authority questions using existing structures where possible.
+2. Keep delegation and full meaningful recourse explicitly tracked; an appeal guarantee alone does not close them.
 3. Preserve failures and ambiguities rather than adding premises to manufacture the planned theorem count.
-4. Complete the original countermodel program and compare admissible interpretations.
-5. Develop the final research paper and public report from actual results; the current four-page report remains a progress report.
+4. Complete the remaining countermodel program and compare admissible interpretations.
+5. Develop the final research paper and consolidate the public report from actual results; the current five-page report remains a progress report.
 
 No additional source chapter, modal-logic framework, or theorem-count expansion is authorized by this step.
 
 ## Repository and release
 
-Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.3 was uploaded by the user. Version 0.4 is a checked local successor commit with its own tag and an update bundle, so the existing Mac repository can fast-forward without recloning. It has not been uploaded by the assistant. V1.0, the full theorem suite, complete treatment of all three cases, the final public report, and the companion research paper remain unfinished.
+Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.4 and its tag are present; repository read/write access is now connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The full theorem suite, complete treatment of all three cases, final public report, and technical paper remain unfinished.

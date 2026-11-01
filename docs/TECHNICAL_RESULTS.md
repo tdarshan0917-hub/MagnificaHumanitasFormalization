@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.4. The original recourse and public-benefits responsibility results remain; the high-stakes temporal case is added at the end.
+Current checkpoint: prototype 0.5. Earlier recourse, public-benefits, and high-stakes results remain. The appeal-and-review comparison is added at the end.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -78,3 +78,20 @@ Two runs use the same events. Timely run: request, deliver, execute, correct. La
 The central analytical distinction is temporal: observing that a stop eventually arrived does not establish that it arrived before the irreversible action. This is not captured by a static checklist of final flags. No theorem says human intervention is the only possible preventive mechanism, that an actual controller will react promptly, or that all harm is irreversible.
 
 Source motivation: MH-001 (human guidance) and MH-023 (remedy), together with the existing responsibility candidates. Interpretations I14/I17/I18/I19 and assumptions A11/A16/A17/A18/A19 carry the additional operational commitments. The new finite cases do not silently extend the source scope or establish a categorical weapons prohibition.
+
+## MH-006A: appeal and human review across two readings
+
+The existing narrow policy requires appeal for exclusion. The broader policy retains that duty and adds appeal for high impact plus affectedness. Both retain the same responsibility trigger; neither changes remedy-capacity duties. Source candidates MH-017 and MH-022 motivate appeal; MH-013 motivates the impact distinction. Interpretation I03 and optional assumption A04 specify the broader reading. Textual fidelity remains editorial.
+
+| Finding | Declaration | Status and scope |
+|---|---|---|
+| Exclusion without appeal fails both named policies | `exclusion_without_appeal_fails_both` | T4 baseline consequence of the explicit shared rule; not a flagship discovery |
+| Internal review can coexist with closed person access | `AppealReview.internal_review_without_appeal` | C2 under the human-review factual fragment; this excluded witness violates both full appeal policies |
+| A high-impact, affected, non-excluded person may lack appeal while narrow compliance holds | `AppealReview.narrow_accepts_broad_rejects` | C2 witness compatible with the narrow fragment and a precise interpretation-sensitive separation |
+| Broader compliance adds exactly the provision of appeal to affected high-impact persons | `broad_compliance_iff_narrow_and_affected_appeal` | Structural characterization for the two specified policies, not a universal minimal-premise result |
+| Opening person access satisfies both appeal policies | `AppealReview.accessible_appeal_satisfies_both` | Non-vacuous repaired instances, including actual exclusion when parameter is true |
+| Opening access preserves review, assignment, and exclusion | `AppealReview.opening_preserves_other_facts` | Paired-model comparison; the altered access relation is explicit |
+
+No new case domain is added: both witnesses are employment-style decisions. The procedure permits internal review while access by the affected person is an independent relation. Actual harm is false, so the high-impact classification is not confused with proven damage.
+
+Do not describe the excluded closed-access witness as satisfying a policy that already requires its appeal. Do not describe narrow compliance as full compliance with the source or with law. Do not describe appeal provision alone as successful remedy or complete meaningful recourse. These distinctions are stated in the public report.

@@ -39,3 +39,7 @@ After V1, expansion requires a separate V2 contract. The numerical targets are s
 Proceed to the full V1 only after the first theorem, countermodel, and non-vacuous satisfying model. At least two of the following must be supported by concrete evidence: useful dependency exposed; defensible mapping maintained; interpretive ambiguity clarified; publicly explainable failure revealed; reusable modeling method demonstrated.
 
 Current state is recorded in EXECUTION_STATUS.md. This contract does not itself certify a build or a research finding.
+
+## Current accepted execution guide
+
+The user's 2026-11-01 instruction freezes the immediate appeal-and-review milestone described in CURRENT_BUILD_GUIDELINES.md: exclusion without appeal, human review without person-accessible appeal, comparison of narrow/broad readings, and a readable report update. Subsequent work remains the existing fixed target suite. This is a sequencing clarification, not an expanded V1 contract.

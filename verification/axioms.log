@@ -83,5 +83,50 @@ fun s events hLoss hStop =>
 'MagnificaHumanitas.HighStakes.same_final_control_flags_different_outcomes' does not depend on any axioms
 'MagnificaHumanitas.HighStakes.responsibility_and_record_correction_do_not_restore' depends on axioms: [propext]
 'MagnificaHumanitas.HighStakes.timely_case_satisfying_instance' does not depend on any axioms
+theorem MagnificaHumanitas.exclusion_without_appeal_fails_both : ∀ {P A D : Type}
+  (g : MagnificaHumanitas.Governance P A D) (d : D) (p : P),
+  g.excluded p d →
+    ¬g.appeal p d →
+      ¬MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.responsibilityAppealPolicy g) d ∧
+        ¬MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.broadAppealPolicy g) d :=
+fun {P A D} g d p hExcluded hNoAppeal =>
+  ⟨fun h => hNoAppeal (h (MagnificaHumanitas.Safeguard.appeal p) hExcluded), fun h =>
+    hNoAppeal (h (MagnificaHumanitas.Safeguard.appeal p) (Or.inl hExcluded))⟩
+theorem MagnificaHumanitas.broad_compliance_iff_narrow_and_affected_appeal : ∀ {P A D : Type}
+  (g : MagnificaHumanitas.Governance P A D) (d : D),
+  MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.broadAppealPolicy g) d ↔
+    MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.responsibilityAppealPolicy g) d ∧
+      ∀ (p : P), g.highImpact d → g.affected p d → g.appeal p d :=
+fun {P A D} g d =>
+  {
+    mp := fun h =>
+      ⟨MagnificaHumanitas.broad_appeal_implies_narrow g d h, fun p hi ha =>
+        h (MagnificaHumanitas.Safeguard.appeal p) (Or.inr ⟨hi, ha⟩)⟩,
+    mpr := fun h r hr =>
+      MagnificaHumanitas.Safeguard.casesOn (motive := fun t => r = t → MagnificaHumanitas.Provided g d r) r
+        (fun h_1 =>
+          Eq.ndrec (motive := fun r =>
+            (MagnificaHumanitas.broadAppealPolicy g).required d r → MagnificaHumanitas.Provided g d r)
+            (fun hr => h.left MagnificaHumanitas.Safeguard.identifiableResponsibility hr) (Eq.symm h_1) hr)
+        (fun p h_1 =>
+          Eq.ndrec (motive := fun r =>
+            (MagnificaHumanitas.broadAppealPolicy g).required d r → MagnificaHumanitas.Provided g d r)
+            (fun hr =>
+              Or.casesOn (motive := fun t =>
+                hr = t → MagnificaHumanitas.Provided g d (MagnificaHumanitas.Safeguard.appeal p)) hr
+                (fun he h_2 => h.left (MagnificaHumanitas.Safeguard.appeal p) he)
+                (fun hi h_2 => h.right p hi.left hi.right) (Eq.refl hr))
+            (Eq.symm h_1) hr)
+        (fun p h =>
+          Eq.ndrec (motive := fun r =>
+            (MagnificaHumanitas.broadAppealPolicy g).required d r → MagnificaHumanitas.Provided g d r)
+            (fun hr => False.elim hr) (Eq.symm h) hr)
+        (Eq.refl r) }
+'MagnificaHumanitas.exclusion_without_appeal_fails_both' does not depend on any axioms
+'MagnificaHumanitas.broad_compliance_iff_narrow_and_affected_appeal' does not depend on any axioms
+'MagnificaHumanitas.AppealReview.internal_review_without_appeal' does not depend on any axioms
+'MagnificaHumanitas.AppealReview.narrow_accepts_broad_rejects' does not depend on any axioms
+'MagnificaHumanitas.AppealReview.accessible_appeal_satisfies_both' does not depend on any axioms
+'MagnificaHumanitas.AppealReview.opening_preserves_other_facts' does not depend on any axioms
 
 Exit code: 0

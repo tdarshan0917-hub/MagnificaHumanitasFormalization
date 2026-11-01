@@ -1,6 +1,6 @@
 # Magnifica Humanitas Formalization
 
-Research prototype 0.4 — 2026-11-01. Lean models for appeal/remedy, public-benefits responsibility, and timing in a high-stakes irreversible-loss case. The private GitHub repository contains version 0.3, as confirmed by the user's successful push. Version 0.4 is a local checked checkpoint until its update is imported and pushed.
+Research prototype 0.5 — 2026-11-01. Lean models for appeal/remedy, public-benefits responsibility, high-stakes timing, and appeal obligations under narrow/broad readings. Repository access is connected; the version 0.4 GitHub build was independently verified. Current checks are visible in GitHub Actions.
 
 Question: what governance conclusions follow from explicit formal interpretations, and what additional assumptions do other conclusions need?
 
@@ -20,6 +20,7 @@ Question: what governance conclusions follow from explicit formal interpretation
 12. [Build evidence and environment notes](docs/BUILD_VERIFICATION.md)
 13. [Target coverage and definition ceiling](docs/RESULT_COVERAGE.md)
 14. [Update the existing Mac/GitHub repository](docs/UPDATE_EXISTING_REPOSITORY.md)
+15. [Current user-approved build guidelines](docs/CURRENT_BUILD_GUIDELINES.md)
 
 The machine-readable claim ledger is [claims.csv](data/claims.csv), with the same records in [JSON](data/claims.json).
 
@@ -27,7 +28,7 @@ The machine-readable claim ledger is [claims.csv](data/claims.csv), with the sam
 
 Selection is an editorial decision for this prototype, not acceptance of a claim as universally true. Formal candidates are our modeling proposals. Only the small responsibility/appeal/remedy fragment is implemented. Source fidelity, satisfiability, formal consequences, and empirical validation are separate questions.
 
-Local build evidence is recorded in verification/. A workflow is supplied; remote CI success, release 1.0, novelty priority, and operational compliance certification are not claimed.
+Local build evidence is recorded in verification/. Remote CI for version 0.4 was verified at [the successful main-branch run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41352259485). Check the current run for later changes. Release 1.0, novelty priority, and operational compliance certification are not claimed.
 
 ## Build and reproduce
 

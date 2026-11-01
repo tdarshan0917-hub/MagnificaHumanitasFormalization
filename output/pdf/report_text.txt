@@ -1,4 +1,4 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.4
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.5
 
 An appeal is not the<br/>same as a remedy
 
@@ -64,7 +64,7 @@ This is a simple example, not yet a major new finding about AI governance. It sh
 
 What comes next
 
-The next two pages add public-benefits responsibility and high-stakes timing examples. Broader interpretation comparisons and the original target suite remain unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.
+The following pages add public-benefits responsibility, high-stakes timing, and a comparison of narrow and broad appeal duties. The remaining agreed target suite is unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.
 
 Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 97 and 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.
 
@@ -143,3 +143,39 @@ Ask when control became effective, not just whether a human was involved. Also a
 Where the limits matter
 
 The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.
+
+NEW RESULT / APPEAL AND REVIEW
+
+Who gets to appeal?
+
+An internal review does not itself give the affected person an appeal. The duty's starting point matters.
+
+Two explicit readings
+
+The narrow reading requires appeal after exclusion. The broader reading keeps that rule and adds appeal for an affected person in a consequential decision, even before exclusion. These are two working interpretations; we do not claim they exhaust the source's possible readings.
+
+Hypothetical situation | Narrow checklist | Broad checklist
+
+Person excluded; no accessible appeal | Fails | Fails
+
+Consequential decision affects person; no exclusion yet; no appeal | Passes | Fails
+
+Person excluded; accessible appeal provided | Passes | Passes
+
+Named responsibility and internal review stay fixed. 'Passes' means only this limited checklist; neither policy includes a remedy-capacity duty.
+
+What survives both readings
+
+Both reject exclusion without an accessible appeal. This is a checked consequence of the shared rule, not a new moral discovery. Staff review may occur internally while the person has no channel to challenge. After exclusion, that arrangement fails both checklists.
+
+Where the readings differ
+
+An AI-assisted ranking can affect opportunities before exclusion. Without appeal, the narrow checklist can pass and the broader one fails. Its extra guarantee comes from the added duty. Opening person access satisfies both appeal checklists while review and assignment stay fixed.
+
+The practical question
+
+When an organization says 'a human reviews our AI decisions,' ask whether the affected person can challenge, and when that opportunity begins. Review, person access, and the duty's trigger are separate issues.
+
+Assumptions and limits
+
+These are hypothetical employment-style cases. High impact and affectedness are stipulated; actual harm is not assumed. The broader duty is explicit. Appeal alone does not establish remedy capacity, restoration, or full source compliance. The remaining agreed research questions are still unfinished.

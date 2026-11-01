@@ -5,3 +5,4 @@ import MagnificaHumanitas.Examples
 import MagnificaHumanitas.Responsibility
 import MagnificaHumanitas.PublicBenefits
 import MagnificaHumanitas.HighStakes
+import MagnificaHumanitas.AppealReview

@@ -25,6 +25,8 @@ def prototypeSources : List SourceRef := [
   ⟨"MH-036", 109, "I21"⟩,
   ⟨"MH-020", 105, "I22"⟩,
   ⟨"MH-040", 111, "I22"⟩,
-  ⟨"MH-039", 110, "I23"⟩]
+  ⟨"MH-039", 110, "I23"⟩,
+  ⟨"MH-015", 103, "I24"⟩,
+  ⟨"MH-020", 105, "I24"⟩]
 
 end MagnificaHumanitas

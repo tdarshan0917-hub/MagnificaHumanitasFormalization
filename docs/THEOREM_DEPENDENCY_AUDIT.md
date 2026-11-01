@@ -25,7 +25,9 @@ Prototype 0.7 update: the bounded T7/C6 comparison is checked in Participation.l
 
 Prototype 0.8 update: the T8 stage-allocation slice is checked in DeveloperResponsibility.lean using existing Governance/policies. Design compliance does not fill a missing downstream assignee; developer/deployer split and additional shared downstream assignment both satisfy the same fragments. The wider ethical-design bundle needs justified semantics and is not claimed proved. Production/delegation remains a separate T2 gap. See I22 and TECHNICAL_RESULTS.md.
 
-Prototype 0.9 update: T9 has a bounded technical-control/recognition comparison in Authority.lean; full legitimacy is not encoded. V1_COMPLETION_MATRIX.md records the completed fixed-target disposition audit, including the unestablished targets and missing semantics. Final writing and release are next.
+Prototype 0.9 update: T9 has a bounded technical-control/recognition comparison in Authority.lean; full legitimacy is not encoded. The later decision to freeze unfinished work was premature and is withdrawn at 0.10. V1_COMPLETION_MATRIX.md is now an active tracker.
+
+Prototype 0.10 update: T2 now has explicit direct-producer information, a producer-only invariance check and a retained/removed-assignee comparison in Delegation.lean. The original remaining targets are active in EXECUTION_PLAN.md before final writing/release.
 
 ## Recommended first result package
 

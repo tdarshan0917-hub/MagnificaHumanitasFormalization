@@ -14,6 +14,8 @@ structure Governance (Person Actor Decision : Type) where
   remedyCapacity : Person → Decision → Prop
   explained : Decision → Prop
   humanReviewed : Decision → Prop
+  -- Direct production is separate from merely using AI assistance.
+  producedByAI : Decision → Prop := fun _ => False
 
 inductive Safeguard (Person : Type) where
   | identifiableResponsibility

@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.9. Earlier recourse, public-benefits, high-stakes, appeal, oversight, participation and developer-scope results remain. The authority-proxy comparison and completion audit are added at the end.
+Current checkpoint: prototype 0.10. Earlier checked results remain. The premature 0.9 freeze is withdrawn; the planned delegation comparison is now implemented. EXECUTION_PLAN.md restores the active suite.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -181,8 +181,23 @@ Authority.lean reuses OversightSystem and the existing binding Participation.pro
 
 The gap is intentionally between technical behavior and independent institutional evidence. Recognition is stipulated, not justified from a moral theory. This elementary specification-independence check is not a flagship discovery, does not prove the truth of the source, and does not solve legitimate government. Its value is keeping the normative question from disappearing into a technical-control flag.
 
-## Completion and significance boundary
+## Correction of the premature checkpoint-0.9 closeout
 
-V1_COMPLETION_MATRIX.md records a disposition and evidence boundary for all ten T questions and six C questions. C2/C3/C6 are implemented; C1/C4/C5 remain unestablished. T2 and the broader T10 ethics-declaration target lack their required semantics. Wider recourse, design, subsidiarity and legitimacy claims retain explicit limits. These shortfalls will be reported in V1 rather than filled by unsupported predicates. The original numerical result aspirations are not met; interface and baseline results must not be counted to conceal that fact.
+The assistant's decision to stop formal work and finalize missing models as V1 limitations was premature. The user directed adherence to the original plan. That freeze is withdrawn. The remaining targets are active in EXECUTION_PLAN.md; V1_COMPLETION_MATRIX.md is a working tracker. Technical limitations and novelty cautions remain, but an unattempted target is not thereby a demonstrated ambiguity or failed theorem.
 
-The fixed disposition audit is complete under the current semantics. Next are the required technical paper and final readable report, followed by reproducible release. SCOPE_AUDIT_0_9.md records why the existing richer dependency checks support a limited methods/case-study claim, while scholarly novelty, source fidelity and empirical usefulness remain unestablished. There is no further rolling series of model applications before writing.
+## MH-007: delegation, preserved duties and removed assignment
+
+The existing Governance structure now has a factual producedByAI field. A producer-only handoff is the displayed update `{ g with producedByAI := usesAI }`. No new principal definition or application domain is introduced. For any fixed policy, compliance is unchanged by that update because its safeguard provisions are unchanged. The three existing policy constructors also retain exactly their prior requirement relations when reevaluated after the update. This is conditional producer-independence, not a claim about all possible policies or real handoff processes.
+
+| Plain question | Actual Lean declaration | Checked result |
+|---|---|---|
+| Does a producer-only update change fixed-checklist compliance? | `producer_change_preserves_fixed_policy` | No; structural interface check for the exact displayed update |
+| Do the three current interpretations remove duties after that update? | `producer_change_preserves_existing_requirements` | No; all three requirement relations are unchanged |
+| Can an AI-produced decision retain its human officer and meet the rules? | `Delegation.ai_handoff_retains_human_responsibility` | Yes; direct production changes, while a high-impact, excluded and harmed applicant and named human assignee remain; all three policies are satisfied |
+| What if the institution additionally removes the officer's assignment? | `Delegation.removing_officer_after_handoff_violates_all_three` | The duty remains, identifiable responsibility is absent and all three policies fail, despite appeal and correction capacity |
+| What else differs in that paired comparison? | `Delegation.officer_removal_preserves_other_safeguards` | AI production, impact, exclusion, harm, human review, appeal and correction capacity remain fixed |
+| Is there an explicit satisfying case? | `Delegation.retained_assignment_satisfies_all_three` | The AI handoff with the retained officer satisfies all three named checklists |
+
+The applicant/officer/decision/desk come from the existing employment case. The producer fact is direct production, separate from possible AI assistance. The bad comparison changes assignment in addition to production; the proof does not conceal that extra action. The example therefore checks the planned T2 distinction without assuming that a real institution always preserves assignment. No moral-agency exclusion premise is used.
+
+Provenance: MH-015 (§103), MH-020 (§105), I24 and A29/A30, alongside the existing I01/I03/I04 policy interpretations. Structural lemmas are not additional discoveries. The original remaining suite and 2,000–5,000-line target remain active; no completed-project claim is made.

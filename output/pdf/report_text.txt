@@ -1,4 +1,4 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.9
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.10
 
 Who can challenge,<br/>correct and decide?
 
@@ -32,7 +32,7 @@ Why this matters
 
 When assessing an AI appeal process, ask two separate questions: Can the person get a review? Can someone correct the decision if that review finds an error? A positive answer to the first question does not supply the second.
 
-These hypothetical models check consequences of stated rules. They do not establish a uniquely correct source reading, real-institution compliance or major research novelty. Several original targets remain unproved and will be reported explicitly. A written duty does not provide its safeguard.
+These hypothetical models check consequences of stated rules. They do not establish a uniquely correct source reading, real-institution compliance or major research novelty. Several original targets remain active; the Lean research programme is unfinished. A written duty does not provide its safeguard.
 
 Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions: docs/TECHNICAL_RESULTS.md and project verification logs.
 
@@ -66,43 +66,47 @@ The practical question
 
 Ask what people can change, who can overrule them, who recognizes the decision-maker and what justifies that authority. Having a voice, having technical control and having a justified right to decide require different evidence.
 
-Limits and the stopping point
+Limits and unfinished work
 
-These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. Unproved targets are recorded. Final writing and reproducible V1 release are next, with no new case-building campaign.
+These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. This is a progress report. The remaining original Lean targets are active; final writing and release follow that work.
 
-PUBLIC BENEFITS / DEVELOPER AND DEPLOYER
+NEW LEAN RESULT / DELEGATION AND RESPONSIBILITY
 
-Who answers at<br/>each stage?
+Who answers after<br/>an AI handoff?
 
-Naming a developer for design does not identify the person assigned to a later benefit denial.
+Changing who produces a decision is separate from removing the person responsible for it.
 
-The earlier finding
+What was already checked
 
-Our hypothetical office has a public contact for routine inquiries and a different officer for a denial. Known staffing and internal allocation do not identify that case officer. Naming the officer still does not give correction power. Lean checked both gaps and a case with the named, empowered assignee.
+Earlier public-benefits proofs separate the public contact, the actual assignee and correction power. Naming a developer at design does not cover an unassigned later use; split and shared stage assignments are both possible.
 
-New: design and use
+The new test in Lean
 
-We add a consequential design-review context to the same case. The developer is named for design. With nobody assigned to the later denial, the design checklist passes but the denial violates its own responsibility requirement. Assigning a named deployer fills that gap while the developer remains assigned to design.
+In the employment example, a rejected person is harmed. We switch direct production to AI, keeping the named officer, appeal and correction capacity. All three checklists pass. The comparison additionally removes the officer's assignment while keeping the written requirements.
 
-These are stipulated, hypothetical arrangements. No real agency or developer has been audited.
+These are explicit hypothetical transitions. They do not describe an audited employer or agency.
 
-Responsibility check | Design only | Both stages
+Check after the handoff | Officer kept | Officer removed
 
-Developer assigned to design? | Yes | Yes
+AI produces the decision? | Yes | Yes
 
-Named assignee for the denial? | No | Yes: deployer
+Named human officer assigned? | Yes | No
 
-Both stages meet the responsibility checklist? | No | Yes
+Appeal and correction capacity available? | Yes | Yes
 
-Appeal and correction channels remain available in both versions. Their presence does not fill a missing responsibility assignment.
+Responsibility requirement still applies? | Yes | Yes
 
-Shared assignment is also possible
+Meets the three current checklists? | Yes | No
 
-Another checked version assigns both developer and deployer to the denial and meets the same limited rules. Those rules leave that additional assignment open. The design assignment and the written duties stay fixed throughout the comparison.
+What the proof establishes
+
+For the specified producer-only change, the existing duties and compliance are preserved. Removing the officer is an additional act and violates the unchanged responsibility duty. Appeal and correction channels do not supply the missing assignee.
 
 The practical question and the limit
 
-Ask who answers for design and who answers for this particular use. This model does not determine legal liability or prove developers have no downstream duties. The wider source duties of design scrutiny, justice assessment and responsibility toward communities still need a justified specification. Our stage-allocation reading is motivated by paragraphs 105 and 111; it is not the full developer-ethics package.
+Ask which human assignment remains after the AI handoff. The proof depends on the stated transition; it does not guarantee real-world accountability, determine liability or settle AI moral responsibility. Paragraphs 103 and 105 motivate the question.
+
+Proof file: Delegation.lean. Remaining targets are active before final writing and release.
 
 NEW RESULT / HIGH-STAKES AUTONOMY
 

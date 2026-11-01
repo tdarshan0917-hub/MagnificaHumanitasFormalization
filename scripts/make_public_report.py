@@ -50,7 +50,7 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.9", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.10", "SmallMH")
 p("Who can challenge,<br/>correct and decide?", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
@@ -86,7 +86,7 @@ plain.extend(" | ".join(row) for row in cells)
 p("Why this matters", "H2MH")
 p("When assessing an AI appeal process, ask two separate questions: Can the person get a review? Can someone correct the decision if that review finds an error? A positive answer to the first question does not supply the second.")
 
-p("These hypothetical models check consequences of stated rules. They do not establish a uniquely correct source reading, real-institution compliance or major research novelty. Several original targets remain unproved and will be reported explicitly. A written duty does not provide its safeguard.", "SmallMH")
+p("These hypothetical models check consequences of stated rules. They do not establish a uniquely correct source reading, real-institution compliance or major research novelty. Several original targets remain active; the Lean research programme is unfinished. A written duty does not provide its safeguard.", "SmallMH")
 p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions: docs/TECHNICAL_RESULTS.md and project verification logs.', "SmallMH")
 
 story.append(PageBreak())
@@ -128,32 +128,34 @@ p("Technical control does not supply institutional recognition here. A capable, 
 p("The practical question", "H2MH")
 p("Ask what people can change, who can overrule them, who recognizes the decision-maker and what justifies that authority. Having a voice, having technical control and having a justified right to decide require different evidence.")
 
-p("Limits and the stopping point", "H2MH")
-p("These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. Unproved targets are recorded. Final writing and reproducible V1 release are next, with no new case-building campaign.")
+p("Limits and unfinished work", "H2MH")
+p("These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. This is a progress report. The remaining original Lean targets are active; final writing and release follow that work.")
 
 story.append(PageBreak())
-p("PUBLIC BENEFITS / DEVELOPER AND DEPLOYER", "SmallMH")
-p("Who answers at<br/>each stage?", "TitleMH")
-p("Naming a developer for design does not identify the person assigned to a later benefit denial.", "DeckMH")
+p("NEW LEAN RESULT / DELEGATION AND RESPONSIBILITY", "SmallMH")
+p("Who answers after<br/>an AI handoff?", "TitleMH")
+p("Changing who produces a decision is separate from removing the person responsible for it.", "DeckMH")
 
-p("The earlier finding", "H2MH")
-p("Our hypothetical office has a public contact for routine inquiries and a different officer for a denial. Known staffing and internal allocation do not identify that case officer. Naming the officer still does not give correction power. Lean checked both gaps and a case with the named, empowered assignee.")
+p("What was already checked", "H2MH")
+p("Earlier public-benefits proofs separate the public contact, the actual assignee and correction power. Naming a developer at design does not cover an unassigned later use; split and shared stage assignments are both possible.")
 
-p("New: design and use", "H2MH")
-p("We add a consequential design-review context to the same case. The developer is named for design. With nobody assigned to the later denial, the design checklist passes but the denial violates its own responsibility requirement. Assigning a named deployer fills that gap while the developer remains assigned to design.")
-p("These are stipulated, hypothetical arrangements. No real agency or developer has been audited.", "SmallMH")
+p("The new test in Lean", "H2MH")
+p("In the employment example, a rejected person is harmed. We switch direct production to AI, keeping the named officer, appeal and correction capacity. All three checklists pass. The comparison additionally removes the officer's assignment while keeping the written requirements.")
+p("These are explicit hypothetical transitions. They do not describe an audited employer or agency.", "SmallMH")
 
-comparison = [
-    ["Responsibility check", "Design only", "Both stages"],
-    ["Developer assigned to design?", "Yes", "Yes"],
-    ["Named assignee for the denial?", "No", "Yes: deployer"],
-    ["Both stages meet the responsibility checklist?", "No", "Yes"],
+delegation_rows = [
+    ["Check after the handoff", "Officer kept", "Officer removed"],
+    ["AI produces the decision?", "Yes", "Yes"],
+    ["Named human officer assigned?", "Yes", "No"],
+    ["Appeal and correction capacity available?", "Yes", "Yes"],
+    ["Responsibility requirement still applies?", "Yes", "Yes"],
+    ["Meets the three current checklists?", "Yes", "No"],
 ]
-comparison_table = Table([
+delegation_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-     for v in row] for i, row in enumerate(comparison)],
+     for v in row] for i, row in enumerate(delegation_rows)],
     colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
-comparison_table.setStyle(TableStyle([
+delegation_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
@@ -162,15 +164,15 @@ comparison_table.setStyle(TableStyle([
     ("TOPPADDING", (0,0), (-1,-1), 7),
     ("BOTTOMPADDING", (0,0), (-1,-1), 7),
 ]))
-story.append(comparison_table)
-plain.extend(" | ".join(row) for row in comparison)
-p("Appeal and correction channels remain available in both versions. Their presence does not fill a missing responsibility assignment.", "SmallMH")
+story.append(delegation_table)
+plain.extend(" | ".join(row) for row in delegation_rows)
 
-p("Shared assignment is also possible", "H2MH")
-p("Another checked version assigns both developer and deployer to the denial and meets the same limited rules. Those rules leave that additional assignment open. The design assignment and the written duties stay fixed throughout the comparison.")
+p("What the proof establishes", "H2MH")
+p("For the specified producer-only change, the existing duties and compliance are preserved. Removing the officer is an additional act and violates the unchanged responsibility duty. Appeal and correction channels do not supply the missing assignee.")
 
 p("The practical question and the limit", "H2MH")
-p("Ask who answers for design and who answers for this particular use. This model does not determine legal liability or prove developers have no downstream duties. The wider source duties of design scrutiny, justice assessment and responsibility toward communities still need a justified specification. Our stage-allocation reading is motivated by paragraphs 105 and 111; it is not the full developer-ethics package.")
+p("Ask which human assignment remains after the AI handoff. The proof depends on the stated transition; it does not guarantee real-world accountability, determine liability or settle AI moral responsibility. Paragraphs 103 and 105 motivate the question.")
+p("Proof file: Delegation.lean. Remaining targets are active before final writing and release.", "SmallMH")
 
 story.append(PageBreak())
 p("NEW RESULT / HIGH-STAKES AUTONOMY", "SmallMH")

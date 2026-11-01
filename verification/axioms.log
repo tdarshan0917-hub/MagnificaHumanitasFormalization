@@ -425,5 +425,43 @@ fun recognized =>
 'MagnificaHumanitas.Authority.granted_mandate_is_compatible' does not depend on any axioms
 'MagnificaHumanitas.Authority.operator_mandate_iff_granted' does not depend on any axioms
 'MagnificaHumanitas.Authority.granting_preserves_technical_facts' does not depend on any axioms
+theorem MagnificaHumanitas.producer_change_preserves_fixed_policy : ∀ {P A D : Type}
+  (g : MagnificaHumanitas.Governance P A D) (policy : MagnificaHumanitas.Policy P D) (usesAI : D → Prop) (d : D),
+  MagnificaHumanitas.CompliantAt
+      { affected := g.affected, excluded := g.excluded, harmed := g.harmed, highImpact := g.highImpact,
+        assigned := g.assigned, identifiable := g.identifiable, appeal := g.appeal, remedyCapacity := g.remedyCapacity,
+        explained := g.explained, humanReviewed := g.humanReviewed, producedByAI := usesAI }
+      policy d ↔
+    MagnificaHumanitas.CompliantAt g policy d :=
+fun {P A D} g policy usesAI d => Iff.rfl
+theorem MagnificaHumanitas.Delegation.removing_officer_after_handoff_violates_all_three : MagnificaHumanitas.Delegation.orphanedDecision.producedByAI
+    () ∧
+  (MagnificaHumanitas.responsibilityAppealPolicy MagnificaHumanitas.Delegation.orphanedDecision).required ()
+      MagnificaHumanitas.Safeguard.identifiableResponsibility ∧
+    MagnificaHumanitas.Delegation.orphanedDecision.appeal () () ∧
+      MagnificaHumanitas.Delegation.orphanedDecision.remedyCapacity () () ∧
+        ¬MagnificaHumanitas.Provided MagnificaHumanitas.Delegation.orphanedDecision ()
+              MagnificaHumanitas.Safeguard.identifiableResponsibility ∧
+          ¬MagnificaHumanitas.CompliantAt MagnificaHumanitas.Delegation.orphanedDecision
+                (MagnificaHumanitas.responsibilityAppealPolicy MagnificaHumanitas.Delegation.orphanedDecision) () ∧
+            ¬MagnificaHumanitas.CompliantAt MagnificaHumanitas.Delegation.orphanedDecision
+                  (MagnificaHumanitas.broadAppealPolicy MagnificaHumanitas.Delegation.orphanedDecision) () ∧
+              ¬MagnificaHumanitas.CompliantAt MagnificaHumanitas.Delegation.orphanedDecision
+                  (MagnificaHumanitas.harmRemedyPolicy MagnificaHumanitas.Delegation.orphanedDecision) () :=
+have hMissing := fun h => Exists.casesOn h fun w h => And.casesOn h fun ha right => ha;
+⟨True.intro,
+  ⟨True.intro,
+    ⟨Exists.intro () ⟨True.intro, True.intro⟩,
+      ⟨Exists.intro () ⟨True.intro, rfl⟩,
+        ⟨hMissing,
+          ⟨fun h => hMissing (h MagnificaHumanitas.Safeguard.identifiableResponsibility True.intro),
+            ⟨fun h => hMissing (h MagnificaHumanitas.Safeguard.identifiableResponsibility True.intro), fun h =>
+              hMissing (h MagnificaHumanitas.Safeguard.identifiableResponsibility True.intro)⟩⟩⟩⟩⟩⟩⟩
+'MagnificaHumanitas.producer_change_preserves_fixed_policy' does not depend on any axioms
+'MagnificaHumanitas.producer_change_preserves_existing_requirements' does not depend on any axioms
+'MagnificaHumanitas.Delegation.retained_assignment_satisfies_all_three' does not depend on any axioms
+'MagnificaHumanitas.Delegation.ai_handoff_retains_human_responsibility' does not depend on any axioms
+'MagnificaHumanitas.Delegation.removing_officer_after_handoff_violates_all_three' does not depend on any axioms
+'MagnificaHumanitas.Delegation.officer_removal_preserves_other_safeguards' does not depend on any axioms
 
 Exit code: 0

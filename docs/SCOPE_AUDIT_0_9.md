@@ -1,6 +1,6 @@
 # Authority and significance audit
 
-Date: 2026-11-01. This is a scope-control and evidence assessment, not independent peer review.
+Date: 2026-11-01. Historical checkpoint: its premature freeze/closeout decision is withdrawn at 0.10 following the user correction. The technical limitations and novelty cautions remain valid; they do not justify skipping unfinished targets.
 
 ## Scope decision
 
@@ -18,6 +18,6 @@ The work demonstrates a limited method and a set of transparent case analyses. I
 
 The original aspiration of 10–15 substantive positive results and 5–8 fixed countermodels has not been met. Only C2, C3 and C6 of the six fixed countermodel questions currently have completed formal witnesses under their stated interpretations. Additional case separations do not replace C1/C4/C5. The publication claim must remain a limited interpretation-and-dependency study unless further evidence warrants a stronger claim; no theorem or definition padding is authorized.
 
-## Move toward completion
+## Correction at checkpoint 0.10
 
-V1_COMPLETION_MATRIX.md records a disposition and evidence boundary for every fixed target. The fixed-target audit now records the outstanding unestablished targets and their missing semantics as V1 limitations. The next step is writing the required technical paper and consolidated final report, followed by the reproducible V1 release. No further rolling example campaign is planned. The final artifact must distinguish every failed or ambiguous target from a proved theorem. Further applications or a new ontology belong to a separate V2 decision.
+The prior instruction to stop formal work and proceed directly to final writing was premature. EXECUTION_PLAN.md restores the original unfinished targets. V1_COMPLETION_MATRIX.md is now an active work tracker. Unestablished is a current evidence status, not a final disposition earned by an actual failed attempt. Any eventual scope limitation must be justified from the specific examined claim and the original contract, with the user instruction preserved.

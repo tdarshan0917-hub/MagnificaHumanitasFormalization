@@ -1,17 +1,18 @@
 $ lake build
-✔ [2/15] Built MagnificaHumanitas.Source (404ms)
-✔ [3/15] Built MagnificaHumanitas.Model (1.7s)
-✔ [4/15] Built MagnificaHumanitas.Theory (2.1s)
-✔ [5/15] Built MagnificaHumanitas.Responsibility (2.1s)
-✔ [6/15] Built MagnificaHumanitas.AppealReview (579ms)
-✔ [7/15] Built MagnificaHumanitas.Examples (660ms)
-✔ [8/15] Built MagnificaHumanitas.PublicBenefits (838ms)
-✔ [9/15] Built MagnificaHumanitas.HighStakes (868ms)
-✔ [10/15] Built MagnificaHumanitas.DeveloperResponsibility (484ms)
-✔ [11/15] Built MagnificaHumanitas.Oversight (954ms)
-✔ [12/15] Built MagnificaHumanitas.Participation (3.0s)
-✔ [13/15] Built MagnificaHumanitas.Authority (1.4s)
-✔ [14/15] Built MagnificaHumanitas (5.0s)
-Build completed successfully (15 jobs).
+✔ [2/16] Built MagnificaHumanitas.Source (558ms)
+✔ [3/16] Built MagnificaHumanitas.Model (597ms)
+✔ [4/16] Built MagnificaHumanitas.Theory (1.2s)
+✔ [5/16] Built MagnificaHumanitas.Responsibility (1.3s)
+✔ [6/16] Built MagnificaHumanitas.Examples (792ms)
+✔ [7/16] Built MagnificaHumanitas.HighStakes (711ms)
+✔ [8/16] Built MagnificaHumanitas.AppealReview (824ms)
+✔ [9/16] Built MagnificaHumanitas.PublicBenefits (1.0s)
+✔ [10/16] Built MagnificaHumanitas.Delegation (476ms)
+✔ [11/16] Built MagnificaHumanitas.Oversight (509ms)
+✔ [12/16] Built MagnificaHumanitas.DeveloperResponsibility (537ms)
+✔ [13/16] Built MagnificaHumanitas.Participation (480ms)
+✔ [14/16] Built MagnificaHumanitas.Authority (362ms)
+✔ [15/16] Built MagnificaHumanitas (327ms)
+Build completed successfully (16 jobs).
 
 Exit code: 0

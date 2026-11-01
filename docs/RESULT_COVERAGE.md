@@ -1,4 +1,4 @@
-# Result coverage after prototype 0.9
+# Result coverage after prototype 0.10
 
 This inventory prevents helper-lemma counts from being confused with completion of the research contract. All findings are about declared models. Textual fidelity and external significance remain separate assessments.
 
@@ -7,7 +7,7 @@ This inventory prevents helper-lemma counts from being confused with completion 
 | Target | Current disposition |
 |---|---|
 | T1 Human responsibility | Partial: explicit institutional-to-individual sufficient bridge and a witness showing why general staffing is insufficient |
-| T2 Delegation does not terminate responsibility | Not implemented: production/delegation semantics still needed; do not count T1 twice |
+| T2 Delegation does not terminate responsibility | Producer-only handoff invariance checked for a fixed policy and all three existing interpretations; non-vacuous AI handoff retains the human officer; additionally deleting the assignment violates all three checklists. Transition assumptions are explicit |
 | T3 High-impact recourse | Partial: two appeal-trigger readings are compared with an exact policy-extension characterization and separating witness; full meaningful recourse and remedy remain distinct |
 | T4 Unappealable exclusion | Proved for the two explicit appeal policies; baseline shared-rule consequence, not a novel moral theorem |
 | T5 Responsibility and identifiability | Case-level separation and sufficient conditions implemented; no universal implication without an identification premise |
@@ -36,8 +36,8 @@ There are 30 principal definitions at this checkpoint, counting structures, indu
 - Oversight.lean: 2 (OversightSystem and ActionableIndependentOversight).
 - Participation.lean: 1 (ConsultationProcess).
 
-Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, AppealReview, Oversight, Participation, DeveloperResponsibility and Authority. The exclusion does not authorize new unused ontology. The 30-definition ceiling is reached; SCOPE_AUDIT_0_7.md records the last principal-definition extension; SCOPE_AUDIT_0_8.md and SCOPE_AUDIT_0_9.md record the subsequent reuse/significance audits. Any further principal abstraction requires an explicit contract revision; predicates must not be relabeled bookkeeping to avoid the ceiling.
+Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, AppealReview, Oversight, Participation, DeveloperResponsibility, Authority and Delegation. The exclusion does not authorize new unused ontology. The 30-definition ceiling is reached; SCOPE_AUDIT_0_7.md records the last principal-definition extension; SCOPE_AUDIT_0_8.md through SCOPE_AUDIT_0_10.md record the later reuse audits and the correction of the premature freeze. Any further principal abstraction requires an explicit contract revision; predicates must not be relabeled bookkeeping to avoid the ceiling.
 
 ## Next research move
 
-MH-006A completed appeal and review. MH-006B1 has now disposed of the fixed oversight implication question with a bounded capacity interpretation. MH-006B2 now tests participation versus final control under a deliberately limited record-amendment interpretation, completing C6 and documenting the broader T7 ambiguity. MH-006B3 checks developer/deployer responsibility by stage and records the missing semantics for the wider design-duty bundle. MH-006B4 checks operational control versus scoped institutional recognition and records the broader legitimacy gap. V1_COMPLETION_MATRIX.md completes the fixed-target disposition audit: delegation, ethics declarations and C1/C4/C5 remain unestablished with their missing semantics documented. The numerical positive-result and fixed-countermodel aspirations are not met. Final writing and reproducible release are next; no further rolling example campaign is planned. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.
+The checkpoint-0.9 freeze was premature and is withdrawn following the user's correction. EXECUTION_PLAN.md restores the original unfinished suite. T2 now has the explicit handoff comparison in Delegation.lean. Next are T10/C1, then C4/C5 and the incomplete positive-target questions. LEAN_WORK_MAP.md links each actual result to its file and theorem. Missing semantics identify active work; they are not final failures merely because the model is absent. The original 2,000–5,000-line target, 30-definition ceiling, three case domains and final deliverables remain. V1 is unfinished.

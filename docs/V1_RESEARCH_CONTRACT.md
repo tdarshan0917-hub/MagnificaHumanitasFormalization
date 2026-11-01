@@ -45,6 +45,6 @@ Current state is recorded in EXECUTION_STATUS.md. This contract does not itself 
 The user's 2026-11-01 instruction freezes the immediate appeal-and-review milestone described in CURRENT_BUILD_GUIDELINES.md: exclusion without appeal, human review without person-accessible appeal, comparison of narrow/broad readings, and a readable report update. Subsequent work remains the existing fixed target suite. This is a sequencing clarification, not an expanded V1 contract.
 
 
-## Completion-control checkpoint 0.9
+## User correction and restored execution, checkpoint 0.10
 
-The user's instruction to remain within the original objectives is applied in V1_COMPLETION_MATRIX.md and SCOPE_AUDIT_0_9.md. The fixed-target disposition audit now records the unmet formal targets and numerical shortfalls under the current semantics. The publication claim stays limited. Final writing and reproducible release remain required; neither new applications nor theorem-count padding are part of the closeout. This records execution of the existing completion rules and does not expand the contract.
+The assistant's checkpoint-0.9 freeze of unfinished formal work was premature and is withdrawn. The user explicitly directed adherence to this original plan. EXECUTION_PLAN.md restores the unfinished targets before final writing and release. An unattempted target is pending work, not a demonstrated source ambiguity or completed result. All original scope, numerical targets, reporting requirements and release criteria above remain in force.

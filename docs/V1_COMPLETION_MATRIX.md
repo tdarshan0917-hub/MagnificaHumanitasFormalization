@@ -1,13 +1,13 @@
-# V1 completion matrix and finite closeout plan
+# V1 active target tracker
 
-Checkpoint: 0.9, 2026-11-01. The fixed-target disposition audit is complete under the frozen V1 semantics. This does not declare the V1 release complete or remove a required deliverable. A documented missing-premise/ambiguity disposition is permitted by the original contract; it is not a completed formal countermodel. The unmet formal targets below will be reported as V1 limitations, not filled by an open-ended series of additional models.
+Checkpoint: 0.10, 2026-11-01. The user correction restores the original execution plan. The prior freeze and premature final dispositions are withdrawn. This is a working status table, not a completed-suite claim. Missing semantics identify work to perform, not permission to skip a target. EXECUTION_PLAN.md governs the sequence.
 
 ## Fixed positive-question suite
 
 | Target | Current disposition | Evidence and remaining boundary |
 |---|---|---|
 | T1 Human responsibility | Extra premises needed; conditional bridge checked | Decision allocation plus identifiability of the actual assignee suffices. A general natural-person duty is not derived from an institution's existence or from actor types |
-| T2 Delegation | Extra semantics/preservation premise needed; not established | No production/delegation transition is represented. Developer/deployer stage comparisons do not close this target. This is a final documented V1 shortfall, not a delegation theorem |
+| T2 Delegation | Producer-only invariance and an assignment-removal violation checked at 0.10 | Direct production is now explicit. The handoff holds other facts fixed; deleting the assignee is a separate change that violates the existing requirement. This is not a universal real-deployment theorem |
 | T3 Recourse | Interpretation-dependent and incomplete as full recourse | Narrow/broad appeal triggers, remedy-capacity extension and irreversible-loss limits are checked. Appeal alone is not full meaningful recourse or guaranteed restoration |
 | T4 Unappealable exclusion | Proved for two named appeal policies | Baseline shared-rule consequence; no claim of a new moral theorem |
 | T5 Identifiability | Countermodel and sufficient bridge checked | Generic staffing/internal assignment may identify different people; actual-assignee identification needs a connection |
@@ -30,15 +30,10 @@ Checkpoint: 0.9, 2026-11-01. The fixed-target disposition audit is complete unde
 
 ## Honest result count and claim
 
-There are eight bounded comparison packages: appeal/remedy capacity; staff versus case assignee; timing/restoration; appeal triggers and human review; oversight levels/powers; participation/final control; developer/deployer stages; technical control/recognition. This is not a claim of eight novel discoveries or of achieving 10–15 substantive positive theorems. Interface lemmas, baseline projections and repeated witnesses are not independent research results. Three of the six fixed C questions are formally complete. Record this shortfall and keep the publication claim limited, as the contract requires.
+There are nine bounded comparison packages, including the new delegation check: appeal/remedy capacity; staff versus case assignee; timing/restoration; appeal triggers and human review; oversight levels/powers; participation/final control; developer/deployer stages; technical control/recognition; producer handoff and assignment preservation. This is not a claim of nine novel discoveries or of achieving 10–15 substantive positive theorems. Interface lemmas, baseline projections and repeated witnesses are not independent research results. Three of the six fixed C questions are formally complete. Record this shortfall and keep the publication claim limited, as the contract requires.
 
-The potential public value is an inspectable chain from selected passage, through stated interpretation and assumptions, to a checked consequence or counterexample and a readable explanation. Scholarly novelty, textual fidelity and usefulness to an actual institution need separate assessment. The existing richer checks justify finishing a carefully bounded methods/case-study paper; they do not justify a comprehensive source-formalization claim.
+The potential public value is an inspectable chain from selected passage, through stated interpretation and assumptions, to a checked consequence or counterexample and a readable explanation. Scholarly novelty, textual fidelity and usefulness to an actual institution need separate assessment. These limitations must guide the ongoing research and eventual paper; they do not replace unfinished planned work with a completed-suite claim.
 
-## Remaining authorized work: two release gates
+## Remaining agreed work
 
-The audit records T2/T10 and C1/C4/C5 as unestablished under the chosen semantics, with the missing interpretation or premise stated. T3/T7/T8/T9 retain their explicitly limited scope. These are final V1 evidence boundaries, not pending claims of success. No further example-building campaign is planned before writing. Correctness fixes remain allowed; expansion of these semantics belongs to a separate scope decision.
-
-1. **Final writing and traceability.** Produce the required 12–20-page technical paper and consolidate the public report to roughly 4–6 pages. Include the three cases, actual result map, failed/ambiguous targets, assumptions, source-interpretation limits, preliminary literature comparison and the limited publication claim. Record the source version/provenance and available checksum evidence accurately; an original-byte source snapshot is not currently certified. Check that every public finding has corresponding evidence. The current PDF is still a progress report.
-2. **Reproducible release.** Run a clean pinned-toolchain build, theorem-dependency and source-integrity checks; verify the remote CI on the release commit; package reproducibility instructions and final artifacts; create the tagged V1 release. V1 completion requires the paper, final public report and all fixed dispositions, not just a green build. Any later expansion requires V2.
-
-The definition ceiling stays 30, source scope stays §§97–111 and exactly three case domains remain. Numerical line/theorem targets are scope controls, not reasons to pad the work. No V1 release is claimed by this checkpoint.
+Follow EXECUTION_PLAN.md: T10/C1, then C4, C5 and the incomplete portions of the positive suite; keep the plain report synchronized. Only after that work should the completion audit, 12–20-page technical paper, 4–6-page final public report and reproducible V1 release be finalized. The original 2,000–5,000-line target and 30-definition ceiling remain. No V1 release or completed formal suite is claimed here.

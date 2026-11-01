@@ -27,9 +27,13 @@ The user's instruction to continue authorizes the next agreed participation comp
 
 The user authorized proceeding and asked that developments be committed. Verify the prior main-branch commits and build the bounded developer-responsibility comparison using the existing Governance and policy definitions. Distinguish design-context responsibility from later-use assignment, construct a downstream gap and repaired assignments, and keep any wider ethical-design or liability interpretation explicitly unresolved where the semantics are absent. Use the same public-benefits domain and retain the 30-definition ceiling. Consolidate the report within six pages, commit the verified result on GitHub, and check CI. Governing authority is next; the fixed endpoint is unchanged.
 
-### Current execution: MH-006B4, authority and completion audit
+### Previous execution: MH-006B4, authority and premature completion audit
 
-The user reaffirmed the fixed objectives and asked that the work remain meaningful. Test technical control against an explicitly limited institutional-mandate proxy in the existing case, allow both capable/unrecognized and capable/recognized roles, and do not identify recognition with moral legitimacy. Reuse the existing structures and review rule, add no case domain or principal abstraction, and update the readable report. Record an honest target-by-target completion matrix, the numerical shortfall and the remaining final deliverables. New proof work must close an already named gap with justified semantics; do not start a fresh sequence of applications. V1_COMPLETION_MATRIX.md records the completed disposition audit and the remaining writing/release gates. The original V1 endpoint remains unchanged.
+The authority comparison is checked under its stated proxy. The assistant's subsequent decision to freeze unfinished work was not authorized by the user's request to stay on plan and is withdrawn. The valid technical results and significance cautions remain; the early closeout does not.
+
+### Current execution: MH-007, restore the plan and implement delegation
+
+The user's correction takes priority: adhere to the agreed plan and make the actual Lean work clear. EXECUTION_PLAN.md is the active sequence, and LEAN_WORK_MAP.md links plain questions to exact declarations. Implement T2 with an explicit producer change and responsibility-preservation/violation comparisons in the existing case. Maintain source provenance, proof audits and the plain-language report. T10/C1/C4/C5 and incomplete positive-target questions remain active before final writing and release. Do not close those targets just because a model is missing.
 
 ## Endpoint
 

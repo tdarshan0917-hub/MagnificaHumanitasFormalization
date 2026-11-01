@@ -1,4 +1,4 @@
-$ /workspace/scratch/db02200f8fea/toolchains/lean-4.35.0-linux/bin/lake env lean Audit.lean
+$ lake env lean Audit.lean
 theorem MagnificaHumanitas.stronger_compliance_iff : ∀ {P A D : Type} (g : MagnificaHumanitas.Governance P A D) (d : D),
   MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.harmRemedyPolicy g) d ↔
     MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.responsibilityAppealPolicy g) d ∧
@@ -128,5 +128,75 @@ fun {P A D} g d =>
 'MagnificaHumanitas.AppealReview.narrow_accepts_broad_rejects' does not depend on any axioms
 'MagnificaHumanitas.AppealReview.accessible_appeal_satisfies_both' does not depend on any axioms
 'MagnificaHumanitas.AppealReview.opening_preserves_other_facts' does not depend on any axioms
+theorem MagnificaHumanitas.regime_to_decision_with_bridges : ∀ {R D : Type} (o : MagnificaHumanitas.OversightSystem R D)
+  (d : D),
+  (∃ r, o.recognized r ∧ o.independent r ∧ o.canReview r) →
+    (∀ (r : R), o.recognized r → o.independent r → o.canReview r → o.covers r d) →
+      (∀ (r : R), o.recognized r → o.independent r → o.covers r d → o.canReview r → o.canIntervene r d) →
+        MagnificaHumanitas.ActionableIndependentOversight o d :=
+fun {R D} o d hRegime hCoverage hIntervention =>
+  Exists.casesOn hRegime fun r h =>
+    And.casesOn h fun hr right =>
+      And.casesOn right fun hi hv =>
+        have hc := hCoverage r hr hi hv;
+        Exists.intro r ⟨hr, ⟨hi, ⟨hc, ⟨hv, hIntervention r hr hi hc hv⟩⟩⟩⟩
+theorem MagnificaHumanitas.Oversight.denial_oversight_iff : ∀ (c p : Bool),
+  MagnificaHumanitas.ActionableIndependentOversight (MagnificaHumanitas.Oversight.office c p)
+      MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ↔
+    c = true ∧ p = true :=
+fun c p =>
+  {
+    mp := fun h =>
+      Exists.casesOn h fun r h =>
+        And.casesOn h fun left right =>
+          And.casesOn right fun hi right =>
+            And.casesOn right fun hc right =>
+              And.casesOn right fun left_1 hp =>
+                id
+                  (fun hi =>
+                    Eq.ndrec (motive := fun r =>
+                      (MagnificaHumanitas.Oversight.office c p).recognized r →
+                        (MagnificaHumanitas.Oversight.office c p).covers r
+                            MagnificaHumanitas.PublicBenefits.Decision.benefitDenial →
+                          (MagnificaHumanitas.Oversight.office c p).canReview r →
+                            (MagnificaHumanitas.Oversight.office c p).canIntervene r
+                                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial →
+                              c = true ∧ p = true)
+                      (fun left hc left_2 hp =>
+                        ⟨Or.casesOn (motive := fun t => hc = t → c = true) hc
+                            (fun h h_1 =>
+                              Eq.casesOn (motive := fun a t => false = a → h ≍ t → c = true) h
+                                (fun h_2 => False.elim (noConfusion_of_Nat Bool.ctorIdx h_2)) (Eq.refl false)
+                                (HEq.refl h))
+                            (fun h h_1 =>
+                              Or.casesOn (motive := fun t => h = t → c = true) h
+                                (fun h_2 h =>
+                                  Eq.casesOn (motive := fun a t =>
+                                    MagnificaHumanitas.PublicBenefits.Decision.routineInquiry = a → h_2 ≍ t → c = true)
+                                    h_2
+                                    (fun h =>
+                                      False.elim
+                                        (noConfusion_of_Nat MagnificaHumanitas.PublicBenefits.Decision.ctorIdx h))
+                                    (Eq.refl MagnificaHumanitas.PublicBenefits.Decision.routineInquiry) (HEq.refl h_2))
+                                (fun h_2 h => h_2) (Eq.refl h))
+                            (Eq.refl hc),
+                          Or.casesOn (motive := fun t => hp = t → p = true) hp
+                            (fun h h_1 =>
+                              Eq.casesOn (motive := fun a t =>
+                                MagnificaHumanitas.PublicBenefits.Decision.routineInquiry = a → h ≍ t → p = true) h
+                                (fun h_2 =>
+                                  False.elim
+                                    (noConfusion_of_Nat MagnificaHumanitas.PublicBenefits.Decision.ctorIdx h_2))
+                                (Eq.refl MagnificaHumanitas.PublicBenefits.Decision.routineInquiry) (HEq.refl h))
+                            (fun h h_1 => h) (Eq.refl hp)⟩)
+                      (Eq.symm hi) left hc left_1 hp)
+                  hi,
+    mpr := fun h => Exists.intro true ⟨True.intro, ⟨rfl, ⟨Or.inr (Or.inr h.left), ⟨True.intro, Or.inr h.right⟩⟩⟩⟩ }
+'MagnificaHumanitas.regime_to_decision_with_bridges' does not depend on any axioms
+'MagnificaHumanitas.Oversight.denial_oversight_iff' does not depend on any axioms
+'MagnificaHumanitas.Oversight.regime_and_internal_review_do_not_cover_denial' does not depend on any axioms
+'MagnificaHumanitas.Oversight.coverage_without_intervention_is_insufficient' does not depend on any axioms
+'MagnificaHumanitas.Oversight.repaired_case_satisfies_both_levels' does not depend on any axioms
+'MagnificaHumanitas.Oversight.paired_repairs_preserve_other_provisions' does not depend on any axioms
 
 Exit code: 0

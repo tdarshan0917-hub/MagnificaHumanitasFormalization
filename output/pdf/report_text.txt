@@ -1,4 +1,4 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.5
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.6
 
 An appeal is not the<br/>same as a remedy
 
@@ -6,7 +6,7 @@ What our computer-checked examples show<br/>Progress report | November 1, 2026
 
 The finding
 
-A person may receive an explanation, have a named responsible officer, and be allowed to appeal an AI-assisted decision - yet the review office may still lack the power to correct it. Our first Lean example checks that these arrangements can coexist under a limited set of written rules.
+Our computer-checked examples separate promises that are often grouped together: a named officer, an appeal, correction power, timely control, and independent oversight. These safeguards need separate evidence. Even an independent board can miss a decision outside its remit. The cases below show the missing links under explicit, limited rules.
 
 A simple employment example
 
@@ -64,9 +64,9 @@ This is a simple example, not yet a major new finding about AI governance. It sh
 
 What comes next
 
-The following pages add public-benefits responsibility, high-stakes timing, and a comparison of narrow and broad appeal duties. The remaining agreed target suite is unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.
+The following pages cover public-benefits responsibility, high-stakes timing, appeal duties and independent oversight. Participation, developer responsibility, governing authority and other fixed targets remain unfinished. The final project must include an understandable report and a technical paper. Completing the code alone will not complete the project.
 
-Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 97 and 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.
+Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; modeled references include 97 and 103-108. Rechecked November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.
 
 NEW RESULT / PUBLIC BENEFITS
 
@@ -179,3 +179,37 @@ When an organization says 'a human reviews our AI decisions,' ask whether the af
 Assumptions and limits
 
 These are hypothetical employment-style cases. High impact and affectedness are stipulated; actual harm is not assumed. The broader duty is explicit. Appeal alone does not establish remedy capacity, restoration, or full source compliance. The remaining agreed research questions are still unfinished.
+
+NEW RESULT / INDEPENDENT OVERSIGHT
+
+Does the board cover<br/>your decision?
+
+An independent board can exist without being able to oversee a particular benefit denial.
+
+The example
+
+Return to our hypothetical public-benefits office. Internal staff review a denial. An independent board can review routine inquiries, but the denial falls outside its remit. The person still has a named officer, an appeal and correction capacity. Those safeguards do not give the board jurisdiction over the denial.
+
+Check for the benefit denial | Outside remit | Review only | Remit + power
+
+Independent board exists and can review? | Yes | Yes | Yes
+
+Denial within the board's remit? | No | Yes | Yes
+
+Board has intervention power for denial? | Yes | No | Yes
+
+Meets our actionable-oversight test? | No | No | Yes
+
+In the first version, intervention power alone cannot overcome the missing remit. Internal review and the person's appeal and correction access stay fixed across all three versions.
+
+What Lean checked
+
+The first version has a real oversight role for routine inquiries but no independent coverage of the denial. The second covers the denial but lacks intervention power. The third supplies both. Each missing provision can be repaired while the other safeguards stay fixed. Both narrow and broad appeal checklists pass throughout; the oversight gap remains separate.
+
+The practical question
+
+When told 'we have independent oversight,' ask which decisions it covers and what the reviewer can do about them. The existence of a board, the right to review and the power to intervene are separate checks.
+
+Assumptions and limits
+
+Independence and powers are stipulated in this hypothetical example. Our test checks capacity, not actual action, speed or successful correction. The source's call for effective oversight is broader: criteria and community participation also matter. This example does not settle those requirements or prove full source compliance. The exact board arrangement is our interpretation of paragraphs 106 and 108.

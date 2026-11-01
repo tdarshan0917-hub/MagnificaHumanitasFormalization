@@ -23,6 +23,7 @@ All entries are modeling choices. Selected consequences of the responsibility an
 | I17 | Correction versus restoration | In the high-stakes case, canCorrect concerns the decision record | Full physical restoration is a separate reachability property | No redefinition of record authority as complete remedy; the scope is explicit in recordCorrectionAllocation |
 | I18 | Requested versus delivered control | Stop request and delivery are different events | Effective prevention needs delivery before the hazardous execution | Protocol assumption motivated by human control questions, not a textual claim that the source specifies this protocol |
 | I19 | Irreversible-loss dynamics | Available modeled actions preserve physical loss once it occurs | A delivered stop blocks the modeled hazardous execution if loss has not already occurred | Both are explicit case assumptions; no universal physical, safety, or weapons theorem |
+| I20 | Operational oversight capacity, §§106,108 | Recognized independent body with review capability and stated remit | Decision-level actionable oversight additionally requires intervention capacity for that same body and decision | A bounded proxy for one part of effectiveness; not actual exercise, timeliness, competence, participation or successful correction |
 
 ## Interpretation families
 
@@ -45,3 +46,11 @@ AppealReview.lean names a narrow policy (the existing responsibilityAppealPolicy
 Both reject exclusion without an accessible appeal. This is a baseline rule consequence, not a new ethical discovery. A non-excluded but affected high-impact person with no appeal supplies a separating witness: the narrow appeal fragment is satisfied and the broad fragment is not. The exact added provision is characterized. Opening affected-person access repairs appeal compliance in both policies while internal review, assignment, and exclusion facts remain fixed.
 
 The claimed shared conclusions concern these two named policies only. Broader source interpretation robustness, independent oversight, and full remedy obligations remain separate work.
+
+## Prototype 0.6: oversight levels and powers
+
+The official English text was rechecked on 2026-11-01: §106 calls for independent oversight; §108 calls for clear criteria and effective oversight in connection with public goods and fundamental rights, grounded in participation and subsidiarity. The exact per-decision reviewer arrangement is our interpretation, not a mechanism specified by those passages. No opacity-to-duty rule is inferred.
+
+Oversight.lean separates recognition, independence, remit, review capability and intervention capacity. Its regime fragment is the explicit formula `∃ r, recognized r ∧ independent r ∧ canReview r`. The decision-level predicate ActionableIndependentOversight adds decision remit and intervention capacity for the same reviewer. The predicate is an operational capacity proxy, not a complete translation of source effectiveness. The source's criteria and participation conditions are not encoded by this slice.
+
+The board exists and covers routine inquiries even when it cannot cover the denial; internal review of the denial does not close the independent-coverage gap. Extending the board's remit without intervention power still fails the actionable extension. The paired repairs isolate the two provisions. General sufficient bridges are explicit and are not claimed to be weakest possible premises. The cases retain the same high-impact denial, affected person, named assignment, appeal and remedy capacity, satisfying both the broad appeal and harm-remedy fragments throughout. This rules out an appeal-reading change as the cause of the oversight separation; it is not a robustness theorem for all combinations of source interpretations.

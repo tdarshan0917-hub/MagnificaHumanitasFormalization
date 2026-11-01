@@ -50,11 +50,11 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.5", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.6", "SmallMH")
 p("An appeal is not the<br/>same as a remedy", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
-p("A person may receive an explanation, have a named responsible officer, and be allowed to appeal an AI-assisted decision - yet the review office may still lack the power to correct it. Our first Lean example checks that these arrangements can coexist under a limited set of written rules.")
+p("Our computer-checked examples separate promises that are often grouped together: a named officer, an appeal, correction power, timely control, and independent oversight. These safeguards need separate evidence. Even an independent board can miss a decision outside its remit. The cases below show the missing links under explicit, limited rules.")
 
 p("A simple employment example", "H2MH")
 p("Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.")
@@ -110,9 +110,9 @@ p("The honest limit of this first result", "H2MH")
 p("This is a simple example, not yet a major new finding about AI governance. It shows that the method works and that we can expose a missing safeguard without quietly assuming it exists. We have not established that a real AI system is safe, fair, legally compliant, or ethically justified. We have not formalized the whole encyclical.")
 
 p("What comes next", "H2MH")
-p("The following pages add public-benefits responsibility, high-stakes timing, and a comparison of narrow and broad appeal duties. The remaining agreed target suite is unfinished. The final project must include an understandable report of its findings, assumptions, and limits. Completing the code alone will not complete the project.")
+p("The following pages cover public-benefits responsibility, high-stakes timing, appeal duties and independent oversight. Participation, developer responsibility, governing authority and other fixed targets remain unfinished. The final project must include an understandable report and a technical paper. Completing the code alone will not complete the project.")
 
-p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; prototype references 97 and 103-105. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.', "SmallMH")
+p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111; modeled references include 97 and 103-108. Rechecked November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Technical evidence: project verification logs and docs/TECHNICAL_RESULTS.md.', "SmallMH")
 
 story.append(PageBreak())
 p("NEW RESULT / PUBLIC BENEFITS", "SmallMH")
@@ -240,6 +240,47 @@ p("When an organization says 'a human reviews our AI decisions,' ask whether the
 
 p("Assumptions and limits", "H2MH")
 p("These are hypothetical employment-style cases. High impact and affectedness are stipulated; actual harm is not assumed. The broader duty is explicit. Appeal alone does not establish remedy capacity, restoration, or full source compliance. The remaining agreed research questions are still unfinished.")
+
+story.append(PageBreak())
+p("NEW RESULT / INDEPENDENT OVERSIGHT", "SmallMH")
+p("Does the board cover<br/>your decision?", "TitleMH")
+p("An independent board can exist without being able to oversee a particular benefit denial.", "DeckMH")
+
+p("The example", "H2MH")
+p("Return to our hypothetical public-benefits office. Internal staff review a denial. An independent board can review routine inquiries, but the denial falls outside its remit. The person still has a named officer, an appeal and correction capacity. Those safeguards do not give the board jurisdiction over the denial.")
+
+oversight_rows = [
+    ["Check for the benefit denial", "Outside remit", "Review only", "Remit + power"],
+    ["Independent board exists and can review?", "Yes", "Yes", "Yes"],
+    ["Denial within the board's remit?", "No", "Yes", "Yes"],
+    ["Board has intervention power for denial?", "Yes", "No", "Yes"],
+    ["Meets our actionable-oversight test?", "No", "No", "Yes"],
+]
+oversight_table = Table([
+    [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
+     for v in row] for i, row in enumerate(oversight_rows)],
+    colWidths=[2.75*inch, .95*inch, .95*inch, .95*inch])
+oversight_table.setStyle(TableStyle([
+    ("BACKGROUND", (0,0), (-1,0), navy),
+    ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
+    ("VALIGN", (0,0), (-1,-1), "TOP"),
+    ("LEFTPADDING", (0,0), (-1,-1), 7),
+    ("RIGHTPADDING", (0,0), (-1,-1), 7),
+    ("TOPPADDING", (0,0), (-1,-1), 7),
+    ("BOTTOMPADDING", (0,0), (-1,-1), 7),
+]))
+story.append(oversight_table)
+plain.extend(" | ".join(row) for row in oversight_rows)
+p("In the first version, intervention power alone cannot overcome the missing remit. Internal review and the person's appeal and correction access stay fixed across all three versions.", "SmallMH")
+
+p("What Lean checked", "H2MH")
+p("The first version has a real oversight role for routine inquiries but no independent coverage of the denial. The second covers the denial but lacks intervention power. The third supplies both. Each missing provision can be repaired while the other safeguards stay fixed. Both narrow and broad appeal checklists pass throughout; the oversight gap remains separate.")
+
+p("The practical question", "H2MH")
+p("When told 'we have independent oversight,' ask which decisions it covers and what the reviewer can do about them. The existence of a board, the right to review and the power to intervene are separate checks.")
+
+p("Assumptions and limits", "H2MH")
+p("Independence and powers are stipulated in this hypothetical example. Our test checks capacity, not actual action, speed or successful correction. The source's call for effective oversight is broader: criteria and community participation also matter. This example does not settle those requirements or prove full source compliance. The exact board arrangement is our interpretation of paragraphs 106 and 108.")
 
 def footer(canvas, doc):
     canvas.saveState()

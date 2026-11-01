@@ -19,6 +19,8 @@ Notation: `Required(c,r)` is an encoded duty; `Provided(c,r)` is a factual safeg
 | T9 | Does technical capability entail governing authority in a power-only fragment? | MH-039 | I13/A12; model quantification, not object-level `P → ¬(P → Q)` | Non-entailment candidate | Witness m,x with `Satisfies(m,Tpower) ∧ Power(m,x) ∧ ¬Authority(m,x)`; also permit a legitimate capable actor |
 | T10 | Which concrete requirements remain unmet by abstract ethics declarations alone? | MH-024,025,026,027 | I10/I11; ethics declaration is independent of provided safeguards | Non-sufficiency candidate, not automatically a theorem about every ethics-labeled system | Same declaration, distinct actual safeguards; name absent requirements explicitly |
 
+Prototype 0.6 update: T6 now has a checked regime-to-decision countermodel, a covered-review/no-intervention countermodel, paired repairs and explicit sufficient bridges in Oversight.lean. This is a disposition under a documented operational capacity proxy, not a proof of full source effectiveness. See TECHNICAL_RESULTS.md and I06/I20.
+
 ## Recommended first result package
 
 Use the appeal/remedy distinction to test an actual dependency:

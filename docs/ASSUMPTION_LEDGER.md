@@ -10,7 +10,7 @@ These entries record modeling assumptions and boundaries, not global Lean axioms
 | A04 | Interpretation | A high-impact decision creates an appeal duty for each affected person even without exclusion | Optional strengthening; I02/I03; implemented explicitly by broadAppealPolicy, preserving the original exclusion rule |
 | A05 | Interpretation | An affected person has actual harm | Rejected as a general rule; harm is separate evidence |
 | A06 | Interpretation | Every harmed person can be fully restored | Rejected; distinguish remedy capacity, remedy attempt, and restoration |
-| A07 | Interpretation | Regime oversight covers every particular decision | Optional coverage bridge; I06 |
+| A07 | Interpretation | A recognized independent review body covers the decision under examination | Optional sufficient coverage bridge; I06; explicit in regime_to_decision_with_bridges, not inferred from a body's existence |
 | A08 | Interpretation | Consultation entails final authority or veto | Rejected as a general rule; I07 |
 | A09 | Source-relative | AI is not the bearer of moral responsibility in the selected reading | Optional source premise; MH-007; not a theorem obtained by disjoint types |
 | A10 | Case fact | Selected employment/public-benefit decisions exclude an affected person and affect opportunity | To be stipulated case by case; not an empirical finding about an actual organization |
@@ -23,6 +23,8 @@ These entries record modeling assumptions and boundaries, not global Lean axioms
 | A17 | Case dynamics | The execution guard honors delivered stops, and stop delivery remains effective | Explicit perfect-guard assumption; no real-world reliability claim |
 | A18 | Case dynamics | None of the five available actions reverses the physical loss | Models an irreversible component; proofs quantify only over these actions, not unknown recovery technologies |
 | A19 | Interpretation | The named officer's correction authority in the high-stakes instance is authority over the decision record | I17; the correctRecord transition implements this limited operation |
+| A20 | Interpretation | The covered independent reviewer can intervene in this same decision | Optional sufficient intervention bridge; I20; capacity, not completed action or guaranteed redress |
+| A21 | Case fact | The public-benefits office has internal staff and an independent board; the board reviews routine inquiries, with denial coverage and intervention power varied separately | Hypothetical finite case; independence is stipulated evidence, not inferred from the role name or human review |
 
 ## Avoiding circular results
 
@@ -35,3 +37,5 @@ Explicit finite witnesses now exist for the limited prototype policies and the r
 The high-stakes case adds explicit transition-system witnesses and conditional invariants. Its irreversibility is represented in the transition rules and then proved invariant; it is not derived from the encyclical. Record correction remains possible after loss. No conclusion requires pretending that a possible remedy has already been delivered.
 
 In prototype 0.5 the narrow/broad comparison changes only the appeal trigger. Both policies keep the same identifiable-responsibility trigger and neither adds a remedy-capacity obligation. Actual harm is false in the new employment-style witnesses; high impact and affectedness remain true. Appeal is an accessible review channel, and internal review availability does not establish that the affected person may submit a challenge. These are hypothetical case facts, not findings about a real employer.
+
+Prototype 0.6 adds factual oversight provision, not a new unconditional duty-to-fact rule. The regime fragment requires an actual recognized independent body capable of review, with a nonempty remit in the concrete witness. The decision-level extension additionally requires remit and intervention capacity for the same body and decision. The gap cases satisfy the broad appeal and harm-remedy fragments, hence also the narrow appeal fragment, while failing the stronger oversight condition. They are not full-source compliance witnesses. The repaired case satisfies the joint, explicitly limited fragments. Independence, successful intervention, promptness, expertise and resourcing are not established by a role label; only the stipulated independence and action-capacity facts are modeled here.

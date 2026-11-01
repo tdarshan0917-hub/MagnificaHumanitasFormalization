@@ -1,13 +1,14 @@
-$ /workspace/scratch/db02200f8fea/toolchains/lean-4.35.0-linux/bin/lake build
-✔ [2/11] Built MagnificaHumanitas.Source (409ms)
-✔ [3/11] Built MagnificaHumanitas.Model (430ms)
-✔ [4/11] Built MagnificaHumanitas.Theory (512ms)
-✔ [5/11] Built MagnificaHumanitas.Responsibility (459ms)
-✔ [6/11] Built MagnificaHumanitas.Examples (403ms)
-✔ [7/11] Built MagnificaHumanitas.PublicBenefits (484ms)
-✔ [8/11] Built MagnificaHumanitas.AppealReview (844ms)
-✔ [9/11] Built MagnificaHumanitas.HighStakes (1.0s)
-✔ [10/11] Built MagnificaHumanitas (596ms)
-Build completed successfully (11 jobs).
+$ lake build
+✔ [2/12] Built MagnificaHumanitas.Source (396ms)
+✔ [3/12] Built MagnificaHumanitas.Model (375ms)
+✔ [4/12] Built MagnificaHumanitas.Theory (474ms)
+✔ [5/12] Built MagnificaHumanitas.Responsibility (438ms)
+✔ [6/12] Built MagnificaHumanitas.AppealReview (603ms)
+✔ [7/12] Built MagnificaHumanitas.PublicBenefits (891ms)
+✔ [8/12] Built MagnificaHumanitas.Examples (921ms)
+✔ [9/12] Built MagnificaHumanitas.HighStakes (1.0s)
+✔ [10/12] Built MagnificaHumanitas.Oversight (507ms)
+✔ [11/12] Built MagnificaHumanitas (375ms)
+Build completed successfully (12 jobs).
 
 Exit code: 0

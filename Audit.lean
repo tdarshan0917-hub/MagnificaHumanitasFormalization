@@ -36,3 +36,12 @@ import MagnificaHumanitas
 #print axioms MagnificaHumanitas.AppealReview.narrow_accepts_broad_rejects
 #print axioms MagnificaHumanitas.AppealReview.accessible_appeal_satisfies_both
 #print axioms MagnificaHumanitas.AppealReview.opening_preserves_other_facts
+
+#print MagnificaHumanitas.regime_to_decision_with_bridges
+#print MagnificaHumanitas.Oversight.denial_oversight_iff
+#print axioms MagnificaHumanitas.regime_to_decision_with_bridges
+#print axioms MagnificaHumanitas.Oversight.denial_oversight_iff
+#print axioms MagnificaHumanitas.Oversight.regime_and_internal_review_do_not_cover_denial
+#print axioms MagnificaHumanitas.Oversight.coverage_without_intervention_is_insufficient
+#print axioms MagnificaHumanitas.Oversight.repaired_case_satisfies_both_levels
+#print axioms MagnificaHumanitas.Oversight.paired_repairs_preserve_other_provisions

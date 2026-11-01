@@ -1,6 +1,6 @@
 # Magnifica Humanitas Formalization
 
-Research prototype 0.5 — 2026-11-01. Lean models for appeal/remedy, public-benefits responsibility, high-stakes timing, and appeal obligations under narrow/broad readings. Repository access is connected; the version 0.4 GitHub build was independently verified. Current checks are visible in GitHub Actions.
+Research prototype 0.6 — 2026-11-01. Lean models for appeal/remedy, public-benefits responsibility, high-stakes timing, and appeal obligations under narrow/broad readings, and oversight coverage/power. Repository access is connected; the version 0.5 GitHub build was independently verified. Current checks are visible in GitHub Actions.
 
 Question: what governance conclusions follow from explicit formal interpretations, and what additional assumptions do other conclusions need?
 
@@ -26,9 +26,9 @@ The machine-readable claim ledger is [claims.csv](data/claims.csv), with the sam
 
 ## Evidence boundary
 
-Selection is an editorial decision for this prototype, not acceptance of a claim as universally true. Formal candidates are our modeling proposals. Only the small responsibility/appeal/remedy fragment is implemented. Source fidelity, satisfiability, formal consequences, and empirical validation are separate questions.
+Selection is an editorial decision for this prototype, not acceptance of a claim as universally true. Formal candidates are our modeling proposals. Only small responsibility/appeal/remedy fragments and bounded case models are implemented; oversight adds an explicitly limited capacity interpretation. Source fidelity, satisfiability, formal consequences, and empirical validation are separate questions.
 
-Local build evidence is recorded in verification/. Remote CI for version 0.4 was verified at [the successful main-branch run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41352259485). Check the current run for later changes. Release 1.0, novelty priority, and operational compliance certification are not claimed.
+Local build evidence is recorded in verification/. Remote CI for version 0.5 was verified at [the successful main-branch run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41355979764). Check the current run for later changes. Release 1.0, novelty priority, and operational compliance certification are not claimed.
 
 ## Build and reproduce
 
@@ -40,4 +40,4 @@ lake env lean Audit.lean
 python3 scripts/audit_sources.py
 ```
 
-An official Lean binary distribution also works when its `bin` directory is on PATH. The recourse example separates appeal from correction capacity. The public-benefits example distinguishes general staffing, identifiable assignment, and correction power. The high-stakes example compares the same events in different orders and proves conditional invariants over all finite modeled continuations. Explicit satisfying cases accompany the separation examples. See the public PDF and technical result map for the scope of those claims.
+An official Lean binary distribution also works when its `bin` directory is on PATH. The recourse example separates appeal from correction capacity. The public-benefits example distinguishes general staffing, identifiable assignment, and correction power. The high-stakes example compares the same events in different orders and proves conditional invariants over all finite modeled continuations. The oversight example separates the existence of an independent board from its remit and intervention capacity for a specific denial. Explicit satisfying cases accompany the separation examples. See the public PDF and technical result map for the scope of those claims.

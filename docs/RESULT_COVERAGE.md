@@ -1,4 +1,4 @@
-# Result coverage after prototype 0.5
+# Result coverage after prototype 0.6
 
 This inventory prevents helper-lemma counts from being confused with completion of the research contract. All findings are about declared models. Textual fidelity and external significance remain separate assessments.
 
@@ -11,7 +11,7 @@ This inventory prevents helper-lemma counts from being confused with completion 
 | T3 High-impact recourse | Partial: two appeal-trigger readings are compared with an exact policy-extension characterization and separating witness; full meaningful recourse and remedy remain distinct |
 | T4 Unappealable exclusion | Proved for the two explicit appeal policies; baseline shared-rule consequence, not a novel moral theorem |
 | T5 Responsibility and identifiability | Case-level separation and sufficient conditions implemented; no universal implication without an identification premise |
-| T6 Independent oversight | Not implemented; human review is not identified with independent oversight |
+| T6 Independent oversight | Disposed for the fixed question: regime-level provision does not ensure decision coverage; covered review does not ensure intervention capacity. Paired countermodels, sufficient bridges and a joint satisfying witness are checked. Full effectiveness and a unique source reading are not established |
 | T7 Participation/subsidiarity | Not implemented |
 | T8 Developer duties | Not implemented |
 | T9 Technical power and authority | Not implemented |
@@ -25,7 +25,7 @@ All three agreed case domains now have initial formal examples: employment-style
 
 ## Principal-domain definition ceiling
 
-There are 27 principal definitions at this checkpoint, counting structures, inductives, and named domain/policy predicates or operations. Source bookkeeping and concrete example constructors are excluded transparently:
+There are 29 principal definitions at this checkpoint, counting structures, inductives, and named domain/policy predicates or operations. Source bookkeeping and concrete example constructors are excluded transparently:
 
 - Model.lean: 8 (Governance, Safeguard, Policy, Provided, CompliantAt, ProcedureSystem, HasAppeal, HasRemedyCapacity).
 - Theory.lean: 2 (the two policy interpretations).
@@ -33,9 +33,10 @@ There are 27 principal definitions at this checkpoint, counting structures, indu
 - PublicBenefits.lean: 2 (Officer and Decision).
 - HighStakes.lean: 5 (State, Event, step, run, RestorationPossible).
 - AppealReview.lean: 1 (broadAppealPolicy).
+- Oversight.lean: 2 (OversightSystem and ActionableIndependentOversight).
 
-Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, and AppealReview. The exclusion does not authorize new unused ontology. Three principal slots remain before the V1 ceiling; a scope audit is required before introducing additional abstractions.
+Excluded: source-reference structure/list and concrete witness constructors in Examples, PublicBenefits, HighStakes, AppealReview and Oversight. The exclusion does not authorize new unused ontology. One principal slot remains before the V1 ceiling; SCOPE_AUDIT_0_6.md records the pre-extension audit. Any further principal abstraction needs a fresh scope audit.
 
 ## Next research move
 
-MH-006A has completed the currently agreed appeal-and-review slice. Subsequent work remains the fixed questions about oversight, participation, developer responsibility, and authority, with delegation and full recourse still tracked. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.
+MH-006A completed appeal and review. MH-006B1 has now disposed of the fixed oversight implication question with a bounded capacity interpretation. Next come participation, developer responsibility and authority, with delegation and full recourse still tracked. Use the existing ontology wherever possible and identify justified missing semantics before adding definitions. The final public report and technical companion paper remain required; passing builds alone do not complete V1. CURRENT_BUILD_GUIDELINES.md records the user's accepted sequencing and endpoint.

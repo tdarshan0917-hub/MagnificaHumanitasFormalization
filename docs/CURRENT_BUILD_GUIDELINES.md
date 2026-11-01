@@ -15,6 +15,10 @@ Use the existing model and case domains. Name each interpretation, distinguish a
 
 Address the remaining fixed questions about oversight, participation, developer responsibility, and governing authority. Keep the remaining delegation and recourse questions in the coverage ledger. Work through existing targets before adding abstractions. Any needed interpretation or premise is made explicit; unsupported targets can finish with documented non-implication or ambiguity.
 
+### Current execution: MH-006B1, oversight
+
+The user's instruction to proceed after MH-006A authorizes the next fixed target, T6. Use the existing public-benefits decisions to compare regime-level independent review, decision coverage and intervention capacity. Preserve the person-facing safeguards, name the fragments each witness satisfies, and document the limits of the operational effectiveness proxy. Record the definition-budget audit and update the public report. Participation is the next fixed question after this bounded slice; no new domain or expansion of the V1 endpoint is introduced.
+
 ## Endpoint
 
 V1 ends with a disposition for the fixed target suite, documented countermodels/failures/ambiguities, exactly three case domains, final plain-language report, technical companion paper, reproducible proof audit, green CI, and a V1 release. Full numerical details and the definition/line ceilings remain in V1_RESEARCH_CONTRACT.md.

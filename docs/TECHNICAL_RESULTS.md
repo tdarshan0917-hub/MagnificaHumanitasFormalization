@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.5. Earlier recourse, public-benefits, and high-stakes results remain. The appeal-and-review comparison is added at the end.
+Current checkpoint: prototype 0.6. Earlier recourse, public-benefits, high-stakes and appeal-comparison results remain. The oversight comparison is added at the end.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -95,3 +95,25 @@ The existing narrow policy requires appeal for exclusion. The broader policy ret
 No new case domain is added: both witnesses are employment-style decisions. The procedure permits internal review while access by the affected person is an independent relation. Actual harm is false, so the high-impact classification is not confused with proven damage.
 
 Do not describe the excluded closed-access witness as satisfying a policy that already requires its appeal. Do not describe narrow compliance as full compliance with the source or with law. Do not describe appeal provision alone as successful remedy or complete meaningful recourse. These distinctions are stated in the public report.
+
+
+## MH-006B1: regime oversight, decision coverage and intervention capacity
+
+T6 asks whether regime-level independent oversight suffices for actionable independent oversight of an important decision. The answer is no in the declared factual fragment. A second separation shows that independent review coverage alone does not provide intervention capacity. These are jointly one bounded oversight dependency package, not a new domain or a substitute for the remaining fixed countermodels.
+
+New data: OversightSystem stores recognized reviewers, independence, decision remit, review capability and decision-specific intervention capacity. ActionableIndependentOversight requires all five facts for the same reviewer and decision. It is a capacity proxy, not a complete definition of effective oversight. The regime fragment is exactly `∃ r, recognized r ∧ independent r ∧ canReview r`; no requirement is inferred to be fulfilled without actual evidence.
+
+The finite case reuses PublicBenefits.Decision: routineInquiry and benefitDenial. Bool denotes internal staff (false) and an independent board (true). Both can review; the board always covers routine inquiries, and internal staff cover the denial. Board coverage of the denial and its intervention power vary separately. A single fixed Governance record supplies an affected, harmed, excluded person, a high-impact denial, a named assignee, explanation, human review, accessible appeal and accessible correction capacity.
+
+| Finding | Declaration | Named fragment and scope |
+|---|---|---|
+| The board exists, has nonempty remit and can review, while the denial has internal review but no independent coverage | `Oversight.regime_and_internal_review_do_not_cover_denial` | Regime provision plus both broad-appeal and harm-remedy compliance; also narrow-appeal compliance by refinement. Not full oversight compliance |
+| Independent review coverage of every modeled decision can coexist with no intervention power for the denial | `Oversight.coverage_without_intervention_is_insufficient` | Decision-coverage fragment; fails the stronger actionable condition. The same person-facing governance remains fixed |
+| Actionable oversight of the denial holds exactly when coverage and intervention power are both supplied | `Oversight.denial_oversight_iff` | Exact characterization of this two-parameter finite family, not universal weakest-premise or policy-necessity claim |
+| An actual regime body plus decision-coverage and same-reviewer intervention bridges suffices | `regime_to_decision_with_bridges` | Structural sufficient bridge, not a flagship result; its universal coverage hypotheses are not claimed minimal |
+| Both oversight levels and the person-facing fragments can be satisfied together | `Oversight.repaired_case_satisfies_both_levels` | Explicit high-impact, affected-person witness; actionable independent oversight for both decisions |
+| Each repair preserves the other oversight provisions | `Oversight.paired_repairs_preserve_other_provisions` | Coverage repair preserves independence/review/power; power repair preserves remit/independence/review; the governance record is identical |
+
+The general regime-to-decision implication therefore needs extra premises. The conclusion survives the narrow/broad appeal choice in this paired family because the fixed governance satisfies even the broad fragment, as well as harm-remedy compliance. We do not infer full source compliance for any combination from that fact.
+
+Provenance: MH-025 (§106), MH-031 (§108), I06/I20, A07/A20/A21. The official source was rechecked on 2026-11-01. It motivates independent and effective oversight without specifying this exact reviewer architecture. Criteria, participation, independence safeguards, competence, resources, actual exercise, timeliness and successful correction are not all modeled. In particular, the source's effective-oversight claim is not equated with our capacity proxy. No theorem infers an oversight duty from opacity alone. The T6 disposition is the checked non-implication and explicit sufficient bridge under these named semantics, with the broader source ambiguity documented.

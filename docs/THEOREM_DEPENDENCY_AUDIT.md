@@ -51,3 +51,6 @@ Reserve T11–T15 remain empty. Data, sustainability, education, and labor must 
 
 
 Prototype 0.12 update: C4 is checked under I27/A34/A35 in Fairness.lean. Truthful arithmetic disclosure and existing person-facing safeguards do not imply the independently adopted channel-invariance/base-score tests. Removing the disclosed penalty supplies both. The source motivates design scrutiny; no universal justice definition or completion of T8 is claimed. Generic equal-score/cutoff reasoning is an interface helper. C5 is the next fixed countermodel, before incomplete positive-target review and final writing.
+
+
+Prototype 0.13 update: C5 now has actual two-controller composition in DistributedControl.lean. Each external hold can cause a pause, while the initially ignored local record cannot. Enabling the local pause supplies a concrete action capacity without eliminating either external role. The exact protocol/agency proxy is I28/A36/A37; the result is not full subsidiarity or final award control. All six C questions have bounded checked witnesses, but the step-5 review/attempts of incomplete T1/T3/T6/T7/T8/T9 remain before final writing.

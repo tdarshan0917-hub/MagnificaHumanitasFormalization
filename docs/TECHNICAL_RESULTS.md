@@ -245,3 +245,20 @@ The adopted case policy independently declares intake channel irrelevant. Two te
 | Relevant scores, cutoff, affectedness and safeguard channels are unchanged | `Fairness.repair_preserves_inputs_and_safeguard_channels` | Assignment and identification persist; award-dependent exclusion/harm may change |
 
 The practical issue is feature selection: an exact explanation can reveal a rule that violates the independently adopted entitlement policy. This is one bounded separation/repair package, not seven substantive findings. The case does not measure real unfairness, establish all social justice, infer successful correction from a channel, or refute an explanation standard already requiring normative justification. C5 and incomplete positive-target questions remain active in EXECUTION_PLAN.md.
+
+
+## MH-010: distributed external control and local pause capacity (C5)
+
+DistributedControl.lean constructs a finite pause protocol for the existing public-benefits denial using ConsultationProcess and OversightSystem. A Bool role denotes operator (false) or independent board (true). The operator's hold and the board's optional hold are separate inputs to one evaluator. True output means execution paused, not benefit granted. Original case Governance stays fixed. Both external roles have explicit recognized/review/remit evidence; the board's independence is stipulated, and canIntervene is computed from that role changing the output with the other controller released.
+
+| Checked content | Actual declaration | Dependency and boundary |
+|---|---|---|
+| Local requests are accepted, faithfully recorded, distinct and amendable | `DistributedControl.requests_are_received_and_amendable` | Request-handling fragment, not the stronger C6 influence fragment |
+| Two distinct role inputs can each independently pause; neither clears the other's hold; joint release can resume without a local request | `DistributedControl.two_distinct_controllers_have_effective_holds` | Actual composed evaluator; holds are honored perfectly in the hypothetical protocol |
+| Local request changes have no pause effect before repair under any external setting | `DistributedControl.local_request_is_ineffective_for_every_external_setting` | Stronger than a single failed request; does not quantify over unmodeled actions |
+| Accepted local request guarantees the pause exactly when the local input is enabled | `DistributedControl.local_pause_capacity_iff_enabled` | Exact paired-family capacity test; not a universal definition of agency |
+| Distributed effective controls and named safeguards coexist without local pause capacity | `DistributedControl.distributed_external_control_without_local_pause_capacity` | C5; affected/high-impact denial, actual independent-board pause capacity and limited policy compliance are witnessed |
+| Local pause coexists with retained distributed controls and the same safeguards | `DistributedControl.enabled_local_pause_coexists_with_distributed_control` | Non-vacuous repaired case; not always paused because no requests/holds allow resumption |
+| Request operations, recognition/independence/remit/review, and no-local-request external behavior are preserved | `DistributedControl.repair_preserves_requests_and_external_hold_behavior` | Original Governance and recourse channels are the same shared record |
+
+I28/A36/A37 record the exact proxy and case assumptions. MH-032/036 (§§108–109) motivate community action but do not uniquely entail this formula. The result is one bounded separation/repair package. It does not prove that all distributed governance denies local agency, that a pause awards benefits, that requests are delivered or acted upon, or that local pause alone fulfills subsidiarity. Both external roles retain actual intervention power after repair. Completion of the six fixed C questions under their stated interpretations does not finish the original positive suite, line target, technical paper or V1 release.

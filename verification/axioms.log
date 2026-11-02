@@ -574,3 +574,226 @@ fun {P} score result cutoff hRule hScores p q =>
 'MagnificaHumanitas.Fairness.explanation_and_safeguards_do_not_ensure_adopted_fairness' depends on axioms: [propext]
 'MagnificaHumanitas.Fairness.penalty_removal_satisfies_both_tests' depends on axioms: [propext]
 'MagnificaHumanitas.Fairness.repair_preserves_inputs_and_safeguard_channels' does not depend on any axioms
+theorem MagnificaHumanitas.DistributedControl.distributed_external_control_without_local_pause_capacity : MagnificaHumanitas.Oversight.governance.highImpact
+    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+  MagnificaHumanitas.Oversight.governance.affected () MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+    MagnificaHumanitas.CompliantAt MagnificaHumanitas.Oversight.governance
+        (MagnificaHumanitas.broadAppealPolicy MagnificaHumanitas.Oversight.governance)
+        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+      MagnificaHumanitas.CompliantAt MagnificaHumanitas.Oversight.governance
+          (MagnificaHumanitas.harmRemedyPolicy MagnificaHumanitas.Oversight.governance)
+          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+        false ≠ true ∧
+          (MagnificaHumanitas.DistributedControl.controllers false).canIntervene false
+              MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+            (MagnificaHumanitas.DistributedControl.controllers false).canIntervene true
+                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+              MagnificaHumanitas.ActionableIndependentOversight
+                  (MagnificaHumanitas.DistributedControl.controllers false)
+                  MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+                (∀ (request : Bool),
+                    (MagnificaHumanitas.DistributedControl.process false false).accepts
+                        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+                      (MagnificaHumanitas.DistributedControl.process false false).record
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request =
+                        request) ∧
+                  (∀ (old amendment : Bool),
+                      (MagnificaHumanitas.DistributedControl.process false false).revise
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial old amendment =
+                        amendment) ∧
+                    ¬∃ request,
+                        (MagnificaHumanitas.DistributedControl.process false false).accepts
+                            MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+                          ∀ (hold : Bool) (board : Option Bool),
+                            (MagnificaHumanitas.DistributedControl.process false hold).decide
+                                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                                ((MagnificaHumanitas.DistributedControl.process false hold).record
+                                  MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+                                board =
+                              true :=
+have h := MagnificaHumanitas.DistributedControl.two_distinct_controllers_have_effective_holds false;
+⟨rfl,
+  ⟨rfl,
+    ⟨MagnificaHumanitas.Oversight.person_facing_fragments_satisfied.left,
+      ⟨MagnificaHumanitas.Oversight.person_facing_fragments_satisfied.right,
+        ⟨h.left,
+          ⟨h.right.left,
+            ⟨h.right.right.left,
+              ⟨Exists.intro true ⟨True.intro, ⟨rfl, ⟨rfl, ⟨True.intro, h.right.right.left⟩⟩⟩⟩,
+                ⟨(MagnificaHumanitas.DistributedControl.requests_are_received_and_amendable false false).left,
+                  ⟨(MagnificaHumanitas.DistributedControl.requests_are_received_and_amendable false false).right.left,
+                    fun hLocal =>
+                    Eq.casesOn (motive := fun a t =>
+                      true = a →
+                        (MagnificaHumanitas.DistributedControl.local_pause_capacity_iff_enabled false).mp hLocal ≍ t →
+                          False)
+                      ((MagnificaHumanitas.DistributedControl.local_pause_capacity_iff_enabled false).mp hLocal)
+                      (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl true)
+                      (HEq.refl
+                        ((MagnificaHumanitas.DistributedControl.local_pause_capacity_iff_enabled false).mp
+                          hLocal))⟩⟩⟩⟩⟩⟩⟩⟩⟩⟩
+theorem MagnificaHumanitas.DistributedControl.local_pause_capacity_iff_enabled : ∀ (enabled : Bool),
+  (∃ request,
+      (MagnificaHumanitas.DistributedControl.process enabled false).accepts
+          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+        ∀ (hold : Bool) (board : Option Bool),
+          (MagnificaHumanitas.DistributedControl.process enabled hold).decide
+              MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+              ((MagnificaHumanitas.DistributedControl.process enabled hold).record
+                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+              board =
+            true) ↔
+    enabled = true :=
+fun enabled =>
+  {
+    mp := fun h =>
+      Bool.casesOn (motive := fun t => enabled = t → enabled = true) enabled
+        (fun h_1 =>
+          Eq.ndrec (motive := fun enabled =>
+            (∃ request,
+                (MagnificaHumanitas.DistributedControl.process enabled false).accepts
+                    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+                  ∀ (hold : Bool) (board : Option Bool),
+                    (MagnificaHumanitas.DistributedControl.process enabled hold).decide
+                        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                        ((MagnificaHumanitas.DistributedControl.process enabled hold).record
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+                        board =
+                      true) →
+              enabled = true)
+            (fun h =>
+              Exists.casesOn h fun request h =>
+                And.casesOn h fun left hpause =>
+                  have impossible := hpause false none;
+                  Eq.casesOn (motive := fun a t => true = a → impossible ≍ t → false = true) impossible
+                    (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl true) (HEq.refl impossible))
+            (Eq.symm h_1) h)
+        (fun h_1 =>
+          Eq.ndrec (motive := fun enabled =>
+            (∃ request,
+                (MagnificaHumanitas.DistributedControl.process enabled false).accepts
+                    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+                  ∀ (hold : Bool) (board : Option Bool),
+                    (MagnificaHumanitas.DistributedControl.process enabled hold).decide
+                        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                        ((MagnificaHumanitas.DistributedControl.process enabled hold).record
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+                        board =
+                      true) →
+              enabled = true)
+            (fun h => Eq.refl true) (Eq.symm h_1) h)
+        (Eq.refl enabled),
+    mpr := fun h =>
+      Bool.casesOn (motive := fun t =>
+        enabled = t →
+          ∃ request,
+            (MagnificaHumanitas.DistributedControl.process enabled false).accepts
+                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+              ∀ (hold : Bool) (board : Option Bool),
+                (MagnificaHumanitas.DistributedControl.process enabled hold).decide
+                    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                    ((MagnificaHumanitas.DistributedControl.process enabled hold).record
+                      MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+                    board =
+                  true)
+        enabled
+        (fun h_1 =>
+          Eq.ndrec (motive := fun enabled =>
+            enabled = true →
+              ∃ request,
+                (MagnificaHumanitas.DistributedControl.process enabled false).accepts
+                    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+                  ∀ (hold : Bool) (board : Option Bool),
+                    (MagnificaHumanitas.DistributedControl.process enabled hold).decide
+                        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                        ((MagnificaHumanitas.DistributedControl.process enabled hold).record
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+                        board =
+                      true)
+            (fun h =>
+              Eq.casesOn (motive := fun a t =>
+                true = a →
+                  h ≍ t →
+                    ∃ request,
+                      (MagnificaHumanitas.DistributedControl.process false false).accepts
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+                        ∀ (hold : Bool) (board : Option Bool),
+                          (MagnificaHumanitas.DistributedControl.process false hold).decide
+                              MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                              ((MagnificaHumanitas.DistributedControl.process false hold).record
+                                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+                              board =
+                            true)
+                h (fun h_2 => False.elim (noConfusion_of_Nat Bool.ctorIdx h_2)) (Eq.refl true) (HEq.refl h))
+            (Eq.symm h_1) h)
+        (fun h_1 =>
+          Eq.ndrec (motive := fun enabled =>
+            enabled = true →
+              ∃ request,
+                (MagnificaHumanitas.DistributedControl.process enabled false).accepts
+                    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request ∧
+                  ∀ (hold : Bool) (board : Option Bool),
+                    (MagnificaHumanitas.DistributedControl.process enabled hold).decide
+                        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                        ((MagnificaHumanitas.DistributedControl.process enabled hold).record
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial request)
+                        board =
+                      true)
+            (fun h =>
+              Exists.intro true
+                ⟨rfl, fun hold board =>
+                  of_eq_true
+                    (Eq.trans
+                      (congrFun'
+                        (congrArg Eq
+                          (Eq.trans
+                            (congrFun'
+                              (congr
+                                (congrFun'
+                                  (congrArg MagnificaHumanitas.ConsultationProcess.decide
+                                    (congrArg
+                                      (MagnificaHumanitas.ConsultationProcess.mk
+                                        (fun d x => d = MagnificaHumanitas.PublicBenefits.Decision.benefitDenial)
+                                        (fun x request => request) fun x x_1 amendment => amendment)
+                                      (funext fun d =>
+                                        funext fun recorded =>
+                                          funext fun boardHold =>
+                                            congrArg
+                                              (MagnificaHumanitas.DistributedControl.process.match_1 (fun d => Bool) d
+                                                fun _ => false)
+                                              (funext fun _ =>
+                                                congrArg (hold || boardHold.getD false).or (Bool.true_and recorded)))))
+                                  MagnificaHumanitas.PublicBenefits.Decision.benefitDenial)
+                                (congrFun'
+                                  (congrFun'
+                                    (congrArg MagnificaHumanitas.ConsultationProcess.record
+                                      (congrArg
+                                        (MagnificaHumanitas.ConsultationProcess.mk
+                                          (fun d x => d = MagnificaHumanitas.PublicBenefits.Decision.benefitDenial)
+                                          (fun x request => request) fun x x_1 amendment => amendment)
+                                        (funext fun d =>
+                                          funext fun recorded =>
+                                            funext fun boardHold =>
+                                              congrArg
+                                                (MagnificaHumanitas.DistributedControl.process.match_1 (fun d => Bool) d
+                                                  fun _ => false)
+                                                (funext fun _ =>
+                                                  congrArg (hold || boardHold.getD false).or
+                                                    (Bool.true_and recorded)))))
+                                    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial)
+                                  true))
+                              board)
+                            (Bool.or_true (hold || board.getD false))))
+                        true)
+                      (eq_self true))⟩)
+            (Eq.symm h_1) h)
+        (Eq.refl enabled) }
+'MagnificaHumanitas.DistributedControl.requests_are_received_and_amendable' does not depend on any axioms
+'MagnificaHumanitas.DistributedControl.two_distinct_controllers_have_effective_holds' does not depend on any axioms
+'MagnificaHumanitas.DistributedControl.local_request_is_ineffective_for_every_external_setting' does not depend on any axioms
+'MagnificaHumanitas.DistributedControl.local_pause_capacity_iff_enabled' depends on axioms: [propext, Quot.sound]
+'MagnificaHumanitas.DistributedControl.distributed_external_control_without_local_pause_capacity' depends on axioms: [propext,
+ Quot.sound]
+'MagnificaHumanitas.DistributedControl.enabled_local_pause_coexists_with_distributed_control' depends on axioms: [propext,
+ Quot.sound]
+'MagnificaHumanitas.DistributedControl.repair_preserves_requests_and_external_hold_behavior' does not depend on any axioms

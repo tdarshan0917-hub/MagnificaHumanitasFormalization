@@ -40,9 +40,13 @@ The user's correction takes priority: adhere to the agreed plan and make the act
 
 Execute the next fixed T10/C1 step in EXECUTION_PLAN.md. Use a retrievable notice with concrete commitments, a computed explanation and genuine identified contacts. Test actual case-owner answerability rather than using a bare explained flag. Name the disclosure fragment, preserve the existing public-benefits domain and 30-definition ceiling, supply a repaired comparison/satisfying case, and update the actual-proof map and readable report. C4/C5 and incomplete positive-target questions remain next; no early closeout is authorized.
 
-### Current execution: MH-009, explanation and adopted fairness
+### Completed bounded execution: MH-009, explanation and adopted fairness
 
 Execute fixed C4 in the existing benefits domain. Specify the actual arithmetic notices and an independently adopted criterion: equally eligible online/assisted applicants must receive the same award under the same base-score cutoff. Test a disclosed channel penalty, preserve the person-facing safeguard channels, and compare removing the penalty. Do not equate this criterion with all justice or mathematical explanation with moral justification. Record the source/interpretation/case assumptions, update the proof map and consolidate the report within six pages. C5 and incomplete positive-target questions remain next; no early closeout or new case domain is authorized.
+
+### Current execution: MH-010, distributed control and local pause
+
+Execute fixed C5 with actual composition of at least two controller inputs. Reuse the benefits denial and existing ConsultationProcess/OversightSystem structures. Prove separate external intervention effects, specify an operational community action (temporary pause), and compare an initially ineffective local request with an enabled local pause. Retain both external controllers after repair and retain the same original case safeguards. Do not equate a pause with benefit award, completed correction, complete subsidiarity or guaranteed real-world delivery. Update the report within six pages and save the checked build. Then proceed to step 5 of EXECUTION_PLAN.md, reviewing and attempting missing positive-target comparisons; completion of the six C questions does not authorize early final writing or V1 release.
 
 ## Endpoint
 

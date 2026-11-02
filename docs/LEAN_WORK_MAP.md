@@ -1,6 +1,6 @@
 # What the Lean code actually checks
 
-Checkpoint 0.12. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
+Checkpoint 0.13. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
 
 ## One complete example
 
@@ -21,6 +21,7 @@ In Examples.lean, an applicant is rejected and harmed. A named officer is assign
 | Does an oversight board cover this denial? | Oversight.lean: `regime_and_internal_review_do_not_cover_denial` | A recognized board can exist with the denial outside its remit |
 | Does meaningful input give final control? | Participation.lean: `consultation_and_revision_without_final_control` | Recorded, amendable input can affect an outcome while an institutional override retains control |
 | Does naming a developer cover later use? | DeveloperResponsibility.lean: `design_compliance_leaves_downstream_gap` | The later denial still violates its assignment duty if nobody is assigned to it |
+| Do two external controllers give the community a power of its own? | DistributedControl.lean: `distributed_external_control_without_local_pause_capacity` | An operator and independent board can each pause the denial, while accepted/amendable community requests cannot; enabling the local pause preserves both external powers |
 | Does technical control supply institutional recognition? | Authority.lean: `technical_control_without_mandate` | No in the stated proxy; this does not settle moral legitimacy |
 | Does using AI remove an already established responsibility requirement? | Delegation.lean: `ai_handoff_retains_human_responsibility` and `removing_officer_after_handoff_violates_all_three` | A producer-only handoff preserves the officer and compliance; additionally deleting the officer's assignment violates the unchanged duty |
 | Can a truthful explanation coexist with unequal treatment of equally eligible applicants? | Fairness.lean: `explanation_and_safeguards_do_not_ensure_adopted_fairness` | Yes under the stated case policy: assisted intake loses 15 points; removing that deduction repairs both fairness tests while preserving safeguard channels |
@@ -37,7 +38,7 @@ The concrete employment comparison then changes production to AI and checks two 
 
 ## Still active
 
-T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4 now has a checked, explicitly limited comparison in Fairness.lean. C5 and incomplete portions of the original positive targets remain work to do. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
+T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4 now has a checked, explicitly limited comparison in Fairness.lean. C5 now has a checked composed pause comparison in DistributedControl.lean. The incomplete portions of the original positive targets remain work to do under step 5 of EXECUTION_PLAN.md. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
 
 
 ## What was added for ethics commitments and disclosure
@@ -48,3 +49,8 @@ The new Disclosure.lean notice is a concrete public artifact, not an Ethical=Tru
 ## What was added for explanation and fairness
 
 Fairness.lean has two equally eligible public-benefit applications, indexed by their online/assisted intake channels. Each retrievable record contains verified score 60, a channel deduction, cutoff 50 and the computed award. The initial assisted-intake deduction is 15, yielding 45 and a denial; online intake yields 60 and a grant. The adopted policy treats intake channel as irrelevant. The two displayed tests require equal awards across those channels and application of the cutoff to the verified base score. Lean checks that correct explanation and the existing person-facing safeguards coexist with failure of both tests. Removing the penalty supplies both tests. Assignment, identification, appeal and correction channels remain fixed; exclusions and modeled harm may change with the award. This is a case-level policy check, not a definition of justice or an audit of an actual benefits agency.
+
+
+## What was added for distributed control and local action
+
+DistributedControl.lean composes an operator hold and an independent board hold for the same contested benefits denial. The output is paused/unpaused, not a benefit award. The two controls are independent inputs; changing either from released to held can actually pause execution. Neither can clear the other's hold. Community requests are accepted, faithfully recorded and amendable in both versions. Initially the recorded request never affects the pause, for any external setting. The repair makes a local pause request effective against every external release/hold setting while retaining both external controllers' actual powers. Joint external release with no local request still permits resumption. The same original denial, person-facing policies and named assignment/recourse facts accompany both versions. I28/A36/A37 state the protocol assumptions and distinguish this specific capacity from complete subsidiarity, request delivery, permanent veto and final award authority.

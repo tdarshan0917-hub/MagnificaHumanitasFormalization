@@ -1,4 +1,4 @@
-# Execution status — prototype 0.12, 2026-11-01
+# Execution status — prototype 0.13, 2026-11-01
 
 ## Completed
 
@@ -21,13 +21,13 @@
 - MH-007: direct AI production is explicit; a producer-only handoff preserves existing requirements and provisions. Retaining the officer satisfies all three checklists; additionally deleting assignment violates all three while appeal/correction remain.
 - MH-008: the public notice has concrete commitments, a computed numerical denial and genuinely identified contacts; the actual assignee can still be unidentified. The paired repair names that assignee with commitments, calculation, assignment and channels preserved.
 - T10 is checked for the enumerated declaration/provision question and C1 for the declared minimal-disclosure interpretation; the earlier checkpoint supplied four fixed C witnesses; C4 below adds the fifth.
-- The reuse audit keeps 30 principal definitions and three case domains. The current library plus source/audit files totals 1,873 Lean lines; the original 2,000–5,000-line target remains active.
-- Successful clean-copy build: eighteen Lake jobs. The seventeen checked Lean files include the separate Audit.lean file.
-- 70 selected theorem declarations audited: 56 use no logical axioms, 11 use standard propext and 3 use standard propext plus Quot.sound. The exact breakdown is recorded in verification/summary.json. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
+- The reuse audit keeps 30 principal definitions and three case domains. The current library plus source/audit files totals 2,077 Lean lines; the original 2,000–5,000-line target remains active.
+- Successful clean-copy build: nineteen Lake jobs. The eighteen checked Lean files include the separate Audit.lean file.
+- 77 selected theorem declarations audited: 60 use no logical axioms, 11 use standard propext and 6 use standard propext plus Quot.sound. The exact breakdown is recorded in verification/summary.json. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
 - Source integrity checks passed. No proof placeholders or custom axiom declarations in the delivered Lean files.
-- Six-page plain-language progress report, updated with the disclosure and adopted-fairness comparisons and concrete proof references, created and visually checked.
+- Six-page plain-language progress report, updated with the composed-control, disclosure and adopted-fairness comparisons and concrete proof references, created and visually checked.
 - Plain-language final report made a mandatory completion deliverable alongside the technical paper.
-- GitHub access is connected. The version 0.11 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
+- GitHub access is connected. The version 0.12 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
 
 ## Scope and limitations
 
@@ -51,12 +51,16 @@ The prototype supports proceeding narrowly. The current appeal comparison shows 
 
 Checkpoint 0.12 checks C4 using two equally eligible benefits applications and a disclosed assisted-intake penalty. Both explanations are truthful and existing safeguard checklists hold, while the independently adopted channel-invariance and base-score tests fail. Removing the penalty repairs both tests with responsibility and recourse channels preserved. I27/A34/A35 and SCOPE_AUDIT_0_12.md document the source relationship, assumptions and limits.
 
+## MH-010: distributed controls and local pause
+
+Checkpoint 0.13 checks C5 with a composed operator/independent-board pause protocol. Both role inputs have actual independent effects, while initially a recorded local request has no effect for any external setting. The repaired input gives the community a temporary pause while preserving both external powers and the same original case safeguards. I28/A36/A37 and SCOPE_AUDIT_0_13.md document the proxy and assumptions. All six fixed C questions now have witnesses under their limited interpretations; the positive suite and final deliverables remain incomplete.
+
 ## Next action: continue the original formal suite
 
-The assistant's premature freeze is withdrawn. The formal research phase is unfinished. Follow EXECUTION_PLAN.md: C5 and the incomplete positive-target questions remain active; the bounded T10/C1 notice comparison and C4 case-policy comparison are now checked. A missing model is not a completed result or an earned ambiguity disposition. The original numerical targets and scope controls remain in force.
+The assistant's premature freeze is withdrawn. The formal research phase is unfinished. Follow step 5 of EXECUTION_PLAN.md: review incomplete T1/T3/T6/T7/T8/T9 and attempt their missing agreed comparisons where justified interpretations are available. C5 now has the bounded distributed-pause comparison. Completion of the six C questions does not complete the positive suite or authorize early final writing. A missing model is not a completed result or an earned ambiguity disposition. The original numerical targets and scope controls remain in force.
 
 The technical paper, final plain-language report and reproducible V1 release follow the required formal work and honest completion audit. No new application domain is introduced by this resumption.
 
 ## Repository and release
 
-Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.11 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The formal suite, final paper, final public report and release remain unfinished. Remaining targets are active in EXECUTION_PLAN.md; no early closeout or V1 release is claimed.
+Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.12 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The formal suite, final paper, final public report and release remain unfinished. Remaining targets are active in EXECUTION_PLAN.md; no early closeout or V1 release is claimed.

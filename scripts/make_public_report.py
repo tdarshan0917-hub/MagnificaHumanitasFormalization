@@ -50,7 +50,7 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.12", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.13", "SmallMH")
 p("Who can challenge,<br/>correct and decide?", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
@@ -90,27 +90,25 @@ p("These hypothetical models check consequences of stated rules. They do not est
 p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions: docs/TECHNICAL_RESULTS.md and project verification logs.', "SmallMH")
 
 story.append(PageBreak())
-p("PARTICIPATION, TECHNICAL CONTROL AND RECOGNITION", "SmallMH")
-p("Who has the<br/>last word?", "TitleMH")
-p("Influence, technical control and recognition are different.", "DeckMH")
-
-p("The participation finding", "H2MH")
-p("A community's recommendation about the hypothetical denial is recorded and amendable. Without an override, changing it changes the result. An institutional override can still select either result, so influence does not supply final control or a veto. Making the recommendation binding supplies control while acceptance, recording and amendment stay fixed.")
-
-p("Now: control and a recognized mandate", "H2MH")
-p("An operator can use the bounded review rule to produce either result. In one version, the institution does not recognize that operator for the denial. In the other, it does. The operator's technical powers stay the same. An independent, recognized board remains available in both versions, alongside the person's appeal and correction safeguards.")
-
-authority_rows = [
-    ["Check for the operator", "Unrecognized", "Recognized"],
-    ["Can produce either review outcome?", "Yes", "Yes"],
-    ["Institution recognizes operator for this denial?", "No", "Yes"],
-    ["Independent board remains available?", "Yes", "Yes"],
+p("PARTICIPATION, DISTRIBUTED CONTROL AND LOCAL ACTION", "SmallMH")
+p("Who can actually<br/>act?", "TitleMH")
+p("Sharing control between institutions need not give a community an effective action of its own.", "DeckMH")
+p("Earlier: influence and authority", "H2MH")
+p("Our earlier community recommendation is recorded, amendable and sometimes changes the review outcome, yet an institutional override can still decide. A binding rule supplies final control. Separately, a technically capable operator may lack institutional recognition. Neither influence nor recognition alone establishes a justified right to govern.")
+p("Now: two controllers and a local pause", "H2MH")
+p("An operator and an independent review board each have a separate hold input that can pause execution of the disputed benefits denial. Neither can cancel the other's hold. The community can submit and amend a pause request, but the first evaluator ignores it. The repair makes that local request effective alongside both external holds.")
+control_rows = [
+    ["Power in this pause protocol", "Initial rule", "Local input enabled"],
+    ["Operator can cause a pause?", "Yes", "Yes"],
+    ["Board can cause a pause?", "Yes", "Yes"],
+    ["Community can cause a pause?", "No", "Yes"],
+    ["No holds or local request: can resume?", "Yes", "Yes"],
 ]
-authority_table = Table([
+control_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-     for v in row] for i, row in enumerate(authority_rows)],
-    colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
-authority_table.setStyle(TableStyle([
+     for v in row] for i, row in enumerate(control_rows)],
+    colWidths=[2.8*inch, 1.4*inch, 1.4*inch])
+control_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
@@ -119,17 +117,13 @@ authority_table.setStyle(TableStyle([
     ("TOPPADDING", (0,0), (-1,-1), 7),
     ("BOTTOMPADDING", (0,0), (-1,-1), 7),
 ]))
-story.append(authority_table)
-plain.extend(" | ".join(row) for row in authority_rows)
-
-p("What follows - and what does not", "H2MH")
-p("Technical control does not supply institutional recognition here. A capable, recognized operator is also possible. Recognition remains a separate fact, not proof of moral or legal legitimacy. The wider authority question is unresolved.")
-
-p("The practical question", "H2MH")
-p("Ask what people can change, who can overrule them, who recognizes the decision-maker and what justifies that authority. Having a voice, having technical control and having a justified right to decide require different evidence.")
-
-p("Limits and unfinished work", "H2MH")
-p("These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. This is a progress report. The remaining original Lean targets are active; final writing and release follow that work.")
+story.append(control_table)
+plain.extend(" | ".join(row) for row in control_rows)
+p("What Lean checked", "H2MH")
+p("Initially, changing the local request has no pause effect under any external setting. Enabling it gives the community a pause even when both external controllers release their holds. Both external powers remain effective. The original named assignment, appeal and correction-capacity safeguards stay fixed; a pause itself does not award the benefit or correct the record.")
+p("Assumptions and practical use", "H2MH")
+p("This hypothetical protocol assumes requests reach the evaluator and every asserted hold is honored. Independence is stipulated. Paragraphs 108-109 motivate community action but do not specify this rule. The test concerns temporary suspension, not final award authority or complete subsidiarity. Ask which action the community can actually cause, alongside how many institutions share control.", "SmallMH")
+p("Proof file: DistributedControl.lean. Remaining positive-target questions are active before final writing and release.", "SmallMH")
 
 story.append(PageBreak())
 p("PUBLIC BENEFITS / DISCLOSURE AND FAIRNESS", "SmallMH")

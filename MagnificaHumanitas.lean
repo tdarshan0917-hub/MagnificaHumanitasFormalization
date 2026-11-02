@@ -14,3 +14,4 @@ import MagnificaHumanitas.Delegation
 import MagnificaHumanitas.Disclosure
 import MagnificaHumanitas.Fairness
 import MagnificaHumanitas.DistributedControl
+import MagnificaHumanitas.InterpretationRobustness

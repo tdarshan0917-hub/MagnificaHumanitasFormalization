@@ -1,6 +1,6 @@
 # What the Lean code actually checks
 
-Checkpoint 0.13. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
+Checkpoint 0.14. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
 
 ## One complete example
 
@@ -36,9 +36,13 @@ Governance now records `producedByAI` separately from assignment. The producer-o
 
 The concrete employment comparison then changes production to AI and checks two outcomes: keeping the named officer satisfies the rules; deleting that assignment violates the rules while appeal and correction capacity remain. This is a conditional model of the specified handoff, not a theorem that every real deployment preserves accountability.
 
+## Interpretation consolidation
+
+InterpretationRobustness.lean reuses the existing cases. `uniform_safeguards_iff` states the exact common provisions for N/B/H. `appeal_and_remedy_extensions_are_incomparable` checks failure of implication in both directions. `joint_repaired_case_all_eight_combinations` links the same assignment/identity data and checks all eight chosen responsibility/appeal/oversight combinations, with remedy capacity retained. Additional statements check missing-assignee/oversight robustness, stage coverage, the design-rule assessment consequence and a conditional authority family. The actual proof-backed tables are in INTERPRETATION_ROBUSTNESS_MATRIX.md.
+
 ## Still active
 
-T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4 now has a checked, explicitly limited comparison in Fairness.lean. C5 now has a checked composed pause comparison in DistributedControl.lean. The incomplete portions of the original positive targets remain work to do under step 5 of EXECUTION_PLAN.md. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
+T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4 now has a checked, explicitly limited comparison in Fairness.lean. C5 now has a checked composed pause comparison in DistributedControl.lean. Checkpoint 0.14 reviews the original positive targets in POSITIVE_TARGET_CONSOLIDATION.md. The next specific work is T7/T8 governing-criteria assessment/correction, followed by T3/T6 review-to-correction action under step 5 of EXECUTION_PLAN.md. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
 
 
 ## What was added for ethics commitments and disclosure

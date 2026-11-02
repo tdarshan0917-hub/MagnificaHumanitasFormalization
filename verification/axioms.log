@@ -797,3 +797,150 @@ fun enabled =>
 'MagnificaHumanitas.DistributedControl.enabled_local_pause_coexists_with_distributed_control' depends on axioms: [propext,
  Quot.sound]
 'MagnificaHumanitas.DistributedControl.repair_preserves_requests_and_external_hold_behavior' does not depend on any axioms
+theorem MagnificaHumanitas.InterpretationRobustness.uniform_safeguards_iff : ∀ {P A D : Type}
+  (g : MagnificaHumanitas.Governance P A D) (d : D),
+  MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.responsibilityAppealPolicy g) d ∧
+      MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.broadAppealPolicy g) d ∧
+        MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.harmRemedyPolicy g) d ↔
+    (g.highImpact d → MagnificaHumanitas.Provided g d MagnificaHumanitas.Safeguard.identifiableResponsibility) ∧
+      (∀ (p : P), g.excluded p d → g.appeal p d) ∧
+        (∀ (p : P), g.highImpact d → g.affected p d → g.appeal p d) ∧ ∀ (p : P), g.harmed p d → g.remedyCapacity p d :=
+fun {P A D} g d =>
+  {
+    mp := fun h =>
+      ⟨fun hi => h.left MagnificaHumanitas.Safeguard.identifiableResponsibility hi,
+        ⟨fun p he => h.left (MagnificaHumanitas.Safeguard.appeal p) he,
+          ⟨fun p hi ha => h.right.left (MagnificaHumanitas.Safeguard.appeal p) (Or.inr ⟨hi, ha⟩), fun p hh =>
+            h.right.right (MagnificaHumanitas.Safeguard.remedyCapacity p) hh⟩⟩⟩,
+    mpr := fun h =>
+      have hn := fun s hs =>
+        MagnificaHumanitas.Safeguard.casesOn (motive := fun t => s = t → MagnificaHumanitas.Provided g d s) s
+          (fun h_1 =>
+            Eq.ndrec (motive := fun s =>
+              (MagnificaHumanitas.responsibilityAppealPolicy g).required d s → MagnificaHumanitas.Provided g d s)
+              (fun hs => h.left hs) (Eq.symm h_1) hs)
+          (fun p h_1 =>
+            Eq.ndrec (motive := fun s =>
+              (MagnificaHumanitas.responsibilityAppealPolicy g).required d s → MagnificaHumanitas.Provided g d s)
+              (fun hs => h.right.left p hs) (Eq.symm h_1) hs)
+          (fun p h =>
+            Eq.ndrec (motive := fun s =>
+              (MagnificaHumanitas.responsibilityAppealPolicy g).required d s → MagnificaHumanitas.Provided g d s)
+              (fun hs => False.elim hs) (Eq.symm h) hs)
+          (Eq.refl s);
+      ⟨hn,
+        ⟨(MagnificaHumanitas.broad_compliance_iff_narrow_and_affected_appeal g d).mpr ⟨hn, h.right.right.left⟩,
+          (MagnificaHumanitas.stronger_compliance_iff g d).mpr ⟨hn, h.right.right.right⟩⟩⟩ }
+theorem MagnificaHumanitas.InterpretationRobustness.joint_repaired_case_all_eight_combinations : ∀
+  (individual broad decisionLevel : Bool),
+  (MagnificaHumanitas.Disclosure.office true).assigned =
+      (MagnificaHumanitas.PublicBenefits.allocation true true).assigned ∧
+    (MagnificaHumanitas.Disclosure.office true).identifiable =
+        (MagnificaHumanitas.PublicBenefits.allocation true true).humanIdentifiable ∧
+      (MagnificaHumanitas.Disclosure.office true).highImpact MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+        (MagnificaHumanitas.Disclosure.office true).affected ()
+            MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+          (MagnificaHumanitas.Disclosure.office true).excluded ()
+              MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+            (MagnificaHumanitas.Disclosure.office true).harmed ()
+                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+              (if individual = true then
+                  MagnificaHumanitas.IndividualReading (MagnificaHumanitas.PublicBenefits.allocation true true)
+                else MagnificaHumanitas.InstitutionalReading (MagnificaHumanitas.PublicBenefits.allocation true true)) ∧
+                (if broad = true then
+                    MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Disclosure.office true)
+                      (MagnificaHumanitas.broadAppealPolicy (MagnificaHumanitas.Disclosure.office true))
+                      MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                  else
+                    MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Disclosure.office true)
+                      (MagnificaHumanitas.responsibilityAppealPolicy (MagnificaHumanitas.Disclosure.office true))
+                      MagnificaHumanitas.PublicBenefits.Decision.benefitDenial) ∧
+                  MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Disclosure.office true)
+                      (MagnificaHumanitas.harmRemedyPolicy (MagnificaHumanitas.Disclosure.office true))
+                      MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+                    if decisionLevel = true then
+                      MagnificaHumanitas.ActionableIndependentOversight (MagnificaHumanitas.Oversight.office true true)
+                        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                    else
+                      ∃ r,
+                        (MagnificaHumanitas.Oversight.office true true).recognized r ∧
+                          (MagnificaHumanitas.Oversight.office true true).independent r ∧
+                            (MagnificaHumanitas.Oversight.office true true).canReview r :=
+fun individual broad decisionLevel =>
+  have hs := MagnificaHumanitas.Disclosure.named_office_satisfies_three.right.right.right;
+  ⟨rfl,
+    ⟨rfl,
+      ⟨rfl,
+        ⟨rfl,
+          ⟨rfl,
+            ⟨rfl,
+              ⟨Bool.casesOn (motive := fun t =>
+                  individual = t →
+                    if individual = true then
+                      MagnificaHumanitas.IndividualReading (MagnificaHumanitas.PublicBenefits.allocation true true)
+                    else
+                      MagnificaHumanitas.InstitutionalReading (MagnificaHumanitas.PublicBenefits.allocation true true))
+                  individual
+                  (fun h => Eq.symm h ▸ MagnificaHumanitas.PublicBenefits.institution_reading_holds true true)
+                  (fun h =>
+                    Eq.symm h ▸
+                      MagnificaHumanitas.institutional_reading_extends_with_bridges
+                        (MagnificaHumanitas.PublicBenefits.allocation true true)
+                        (MagnificaHumanitas.PublicBenefits.institution_reading_holds true true)
+                        (MagnificaHumanitas.PublicBenefits.every_impactful_decision_is_allocated true true)
+                        (MagnificaHumanitas.PublicBenefits.named_officers_identifiable true))
+                  (Eq.refl individual),
+                ⟨Bool.casesOn (motive := fun t =>
+                    broad = t →
+                      if broad = true then
+                        MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Disclosure.office true)
+                          (MagnificaHumanitas.broadAppealPolicy (MagnificaHumanitas.Disclosure.office true))
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                      else
+                        MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Disclosure.office true)
+                          (MagnificaHumanitas.responsibilityAppealPolicy (MagnificaHumanitas.Disclosure.office true))
+                          MagnificaHumanitas.PublicBenefits.Decision.benefitDenial)
+                    broad (fun h => Eq.symm h ▸ hs.left) (fun h => Eq.symm h ▸ hs.right.left) (Eq.refl broad),
+                  ⟨hs.right.right,
+                    Bool.casesOn (motive := fun t =>
+                      decisionLevel = t →
+                        if decisionLevel = true then
+                          MagnificaHumanitas.ActionableIndependentOversight
+                            (MagnificaHumanitas.Oversight.office true true)
+                            MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                        else
+                          ∃ r,
+                            (MagnificaHumanitas.Oversight.office true true).recognized r ∧
+                              (MagnificaHumanitas.Oversight.office true true).independent r ∧
+                                (MagnificaHumanitas.Oversight.office true true).canReview r)
+                      decisionLevel (fun h => Eq.symm h ▸ Exists.intro true ⟨True.intro, ⟨rfl, True.intro⟩⟩)
+                      (fun h =>
+                        Eq.symm h ▸ (MagnificaHumanitas.Oversight.denial_oversight_iff true true).mpr ⟨rfl, rfl⟩)
+                      (Eq.refl decisionLevel)⟩⟩⟩⟩⟩⟩⟩⟩⟩
+theorem MagnificaHumanitas.InterpretationRobustness.power_without_any_authority_requiring_scoped_mandate : ∀
+  (authority : Bool → MagnificaHumanitas.PublicBenefits.Decision → Prop),
+  (∀ (role : Bool) (d : MagnificaHumanitas.PublicBenefits.Decision),
+      authority role d →
+        (MagnificaHumanitas.Authority.office false).recognized role ∧
+          (MagnificaHumanitas.Authority.office false).covers role d) →
+    (MagnificaHumanitas.Authority.office false).canIntervene false
+        MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+      ¬authority false MagnificaHumanitas.PublicBenefits.Decision.benefitDenial :=
+fun authority hNecessary =>
+  ⟨MagnificaHumanitas.Authority.actual_control_available false false
+      MagnificaHumanitas.PublicBenefits.Decision.benefitDenial,
+    fun hAuthority =>
+    have impossible :=
+      (MagnificaHumanitas.Authority.operator_mandate_iff_granted false).mp
+        (hNecessary false MagnificaHumanitas.PublicBenefits.Decision.benefitDenial hAuthority);
+    Eq.casesOn (motive := fun a t => true = a → impossible ≍ t → False) impossible
+      (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl true) (HEq.refl impossible)⟩
+'MagnificaHumanitas.InterpretationRobustness.uniform_safeguards_iff' does not depend on any axioms
+'MagnificaHumanitas.InterpretationRobustness.appeal_and_remedy_extensions_are_incomparable' does not depend on any axioms
+'MagnificaHumanitas.InterpretationRobustness.joint_repaired_case_all_eight_combinations' depends on axioms: [propext]
+'MagnificaHumanitas.InterpretationRobustness.missing_assignee_fails_all_three_policies' does not depend on any axioms
+'MagnificaHumanitas.InterpretationRobustness.oversight_gap_survives_all_three_policies' depends on axioms: [propext]
+'MagnificaHumanitas.InterpretationRobustness.stage_allocation_survives_all_three_policies' does not depend on any axioms
+'MagnificaHumanitas.InterpretationRobustness.assessed_rule_protects_equal_eligibility' does not depend on any axioms
+'MagnificaHumanitas.InterpretationRobustness.power_without_any_authority_requiring_scoped_mandate' does not depend on any axioms
+'MagnificaHumanitas.InterpretationRobustness.scoped_authority_family_has_nonempty_witness' does not depend on any axioms

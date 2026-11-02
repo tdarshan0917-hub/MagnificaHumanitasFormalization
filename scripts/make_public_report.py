@@ -50,44 +50,41 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.13", "SmallMH")
-p("Who can challenge,<br/>correct and decide?", "TitleMH")
-p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
-p("The finding", "H2MH")
-p("Our examples distinguish responsibility, appeal, correction power, control, oversight, participation, disclosure and fairness. A published promise need not be fulfilled; a named contact need not be the case officer; a delivered stop can arrive too late. A truthful calculation can reveal an unfair rule under a stated policy. Each result depends on explicit assumptions.")
-
-p("A simple employment example", "H2MH")
-p("Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.")
-p("This is a hypothetical case. We have not investigated a real employer or measured harm to actual applicants.", "SmallMH")
-
-cells = [
-    ["Safeguard in our example", "First version", "Changed version"],
-    ["Named responsible officer", "Yes", "Yes"],
-    ["Explanation and human review", "Yes", "Yes"],
-    ["Accessible appeal", "Yes", "Yes"],
-    ["Power to correct", "No", "Yes"],
-    ["Meets responsibility-and-appeal checklist", "Yes", "Yes"],
-    ["Meets checklist also requiring correction capacity", "No", "Yes"],
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.14", "SmallMH")
+p("What must work<br/>together?", "TitleMH")
+p("Computer-checked requirements for accountable AI decisions<br/>Progress report | November 1, 2026", "DeckMH")
+p("The consolidated finding", "H2MH")
+p("Wider appeal access and correction capacity are separate requirements in our tested policies. A case can satisfy either while failing the other. Lean checked the exact evidence needed to satisfy all three current safeguards policies together.")
+summary_rows = [
+    ["Safeguard", "When our tested policies require it"],
+    ["Identifiable actual assignee", "High-impact decision: all three policies"],
+    ["Appeal for an excluded person", "All three policies"],
+    ["Appeal before exclusion", "Broader appeal policy, for an affected person in a high-impact decision"],
+    ["Correction capacity after harm", "Harm-remedy policy, after stipulated harm"],
 ]
-table = Table([[Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-    for v in row] for i, row in enumerate(cells)], colWidths=[3.35*inch, 1.0*inch, 1.25*inch])
-table.setStyle(TableStyle([
+summary_table = Table([
+    [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
+     for v in row] for i, row in enumerate(summary_rows)],
+    colWidths=[2.2*inch, 3.4*inch])
+summary_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
-    ("LEFTPADDING", (0,0), (-1,-1), 9),
-    ("RIGHTPADDING", (0,0), (-1,-1), 9),
+    ("LEFTPADDING", (0,0), (-1,-1), 7),
+    ("RIGHTPADDING", (0,0), (-1,-1), 7),
     ("TOPPADDING", (0,0), (-1,-1), 7),
     ("BOTTOMPADDING", (0,0), (-1,-1), 7),
-    ("LINEBELOW", (0,-1), (-1,-1), 0.6, colors.HexColor("#CDDADF")),
 ]))
-story.append(table)
-plain.extend(" | ".join(row) for row in cells)
-p("Why this matters", "H2MH")
-p("When assessing an AI appeal process, ask two separate questions: Can the person get a review? Can someone correct the decision if that review finds an error? A positive answer to the first question does not supply the second.")
-
-p("These hypothetical models check consequences of stated rules. They do not establish a uniquely correct source reading, real-institution compliance or major research novelty. Several original targets remain active; the Lean research programme is unfinished. A written duty does not provide its safeguard.", "SmallMH")
-p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions: docs/TECHNICAL_RESULTS.md and project verification logs.', "SmallMH")
+story.append(summary_table)
+plain.extend(" | ".join(row) for row in summary_rows)
+p("A concrete employment example", "H2MH")
+p("A rejected, harmed applicant has a named officer and can appeal, but the desk cannot correct the decision. Both appeal policies pass; the correction-capacity policy fails. Before exclusion, another affected applicant with no stipulated harm lacks appeal: the correction-capacity policy passes, but broader appeal fails.")
+p("Which findings survive changes of interpretation?", "H2MH")
+p("A repaired benefits case meets all eight tested responsibility, appeal and oversight combinations. Missing assignee identity fails all three safeguards policies; oversight gaps persist even when all three pass. Each matrix entry links to checked evidence.")
+p("What this is for", "H2MH")
+p("The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.")
+p("These are hypothetical models, not audits of actual organizations. The next agreed work connects community participation to governing criteria, and reviews how accessible review connects to usable correction. The final technical paper and V1 release follow the remaining checks.", "SmallMH")
+p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.', "SmallMH")
 
 story.append(PageBreak())
 p("PARTICIPATION, DISTRIBUTED CONTROL AND LOCAL ACTION", "SmallMH")

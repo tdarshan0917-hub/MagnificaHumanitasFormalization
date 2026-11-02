@@ -1,40 +1,38 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.13
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.14
 
-Who can challenge,<br/>correct and decide?
+What must work<br/>together?
 
-What our computer-checked examples show<br/>Progress report | November 1, 2026
+Computer-checked requirements for accountable AI decisions<br/>Progress report | November 1, 2026
 
-The finding
+The consolidated finding
 
-Our examples distinguish responsibility, appeal, correction power, control, oversight, participation, disclosure and fairness. A published promise need not be fulfilled; a named contact need not be the case officer; a delivered stop can arrive too late. A truthful calculation can reveal an unfair rule under a stated policy. Each result depends on explicit assumptions.
+Wider appeal access and correction capacity are separate requirements in our tested policies. A case can satisfy either while failing the other. Lean checked the exact evidence needed to satisfy all three current safeguards policies together.
 
-A simple employment example
+Safeguard | When our tested policies require it
 
-Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.
+Identifiable actual assignee | High-impact decision: all three policies
 
-This is a hypothetical case. We have not investigated a real employer or measured harm to actual applicants.
+Appeal for an excluded person | All three policies
 
-Safeguard in our example | First version | Changed version
+Appeal before exclusion | Broader appeal policy, for an affected person in a high-impact decision
 
-Named responsible officer | Yes | Yes
+Correction capacity after harm | Harm-remedy policy, after stipulated harm
 
-Explanation and human review | Yes | Yes
+A concrete employment example
 
-Accessible appeal | Yes | Yes
+A rejected, harmed applicant has a named officer and can appeal, but the desk cannot correct the decision. Both appeal policies pass; the correction-capacity policy fails. Before exclusion, another affected applicant with no stipulated harm lacks appeal: the correction-capacity policy passes, but broader appeal fails.
 
-Power to correct | No | Yes
+Which findings survive changes of interpretation?
 
-Meets responsibility-and-appeal checklist | Yes | Yes
+A repaired benefits case meets all eight tested responsibility, appeal and oversight combinations. Missing assignee identity fails all three safeguards policies; oversight gaps persist even when all three pass. Each matrix entry links to checked evidence.
 
-Meets checklist also requiring correction capacity | No | Yes
+What this is for
 
-Why this matters
+The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.
 
-When assessing an AI appeal process, ask two separate questions: Can the person get a review? Can someone correct the decision if that review finds an error? A positive answer to the first question does not supply the second.
+These are hypothetical models, not audits of actual organizations. The next agreed work connects community participation to governing criteria, and reviews how accessible review connects to usable correction. The final technical paper and V1 release follow the remaining checks.
 
-These hypothetical models check consequences of stated rules. They do not establish a uniquely correct source reading, real-institution compliance or major research novelty. Several original targets remain active; the Lean research programme is unfinished. A written duty does not provide its safeguard.
-
-Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions: docs/TECHNICAL_RESULTS.md and project verification logs.
+Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.
 
 PARTICIPATION, DISTRIBUTED CONTROL AND LOCAL ACTION
 

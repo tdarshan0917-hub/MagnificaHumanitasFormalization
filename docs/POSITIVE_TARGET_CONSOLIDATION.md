@@ -1,0 +1,42 @@
+# Positive target consolidation — checkpoint 0.14
+
+## Purpose and result
+
+This milestone consolidates the original ten questions and checks interpretation robustness using existing cases. No additional case domain or principal definition is added. It produces an evidence map, not a numerical research score.
+
+The source contains clear commitments concerning responsibility, appeal, accountability, independent oversight, community choices/corrections and responsible design. The work tests operational realizations of those commitments. A missing implementation in the library is recorded as our coverage gap; it is not evidence that the source principle is unclear. Source selection remains §§97–111 of the [official English text](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html).
+
+InterpretationRobustness.lean checks an exact evidence criterion for meeting all three existing safeguards policies. It also checks that broader appeal and harm-triggered correction capacity are incomparable extensions: either can hold while the other fails. A repaired benefits case supplies a shared, non-vacuous witness for all eight modeled responsibility/appeal/oversight combinations, with remedy capacity retained. This is mathematical joint satisfaction; it does not declare eight equally authoritative readings of the entire source.
+
+## Original target evidence map
+
+Names below omit the common MagnificaHumanitas prefix. Positive, conditional, baseline and non-implication results are distinguished; entries are not ten claimed discoveries.
+
+| Target | Clear source commitment / fixed research question | Checked evidence and exact dependency | Current disposition / remaining specific work |
+|---|---|---|---|
+| T1 Human responsibility | §§97,103,105: human guidance and allocated, identifiable responsibility | `institution_to_human_with_allocation_and_identification`; `InterpretationRobustness.missing_assignee_fails_all_three_policies`; joint witness | Conditional positive bridge checked. Institution-only answerability is a weak comparison fragment, not full fulfillment of §105. Moving from the institution to an individual needs actual case allocation and identification |
+| T2 Delegation | §§103,105: responsibility must accompany consequential decisions across stages | `producer_change_preserves_fixed_policy`; `Delegation.ai_handoff_retains_human_responsibility`; assignment-removal violation | Checked under an explicit producer-only handoff. Preserved assignments are an assumption about that transition, not a prediction about every deployment |
+| T3 Recourse | §§104–105: appeal against exclusion, challenge and remedy under stated conditions | `broad_compliance_iff_narrow_and_affected_appeal`; `stronger_compliance_iff`; `InterpretationRobustness.uniform_safeguards_iff` and incomparability witness | Exact trigger/provision dependencies checked. Broader pre-exclusion appeal and correction capacity must be supplied separately. An operational link from accessible review to an exercisable correction sequence remains to be checked; availability alone is not completed redress |
+| T4 Unappealable exclusion | §104: exclusion without appeal conflicts with the stated protection | `exclusion_without_appeal_fails_both`; uniform safeguards criterion includes the shared exclusion duty | Baseline rule consequence checked for the named appeal policies; not counted as a novel moral theorem |
+| T5 Identifiability | §105: identify who accounts for this decision | PublicBenefits assignee separation and identification bridge; missing-assignee failure across all three policies | Checked case separation and sufficient bridge. A named service contact need not identify the actual assignee |
+| T6 Independent oversight | §§106,108: independent and effective oversight | `regime_to_decision_with_bridges`; oversight gap/repair witnesses; `InterpretationRobustness.oversight_gap_survives_all_three_policies`; DistributedControl computes an actual board pause effect | Regime/decision gap and sufficient coverage/intervention conditions are checked, including across the incomparable safeguards policies. Intervention is a bounded capacity proxy. The accessible review/correction sequence review under T3 should also expose what action capacity adds |
+| T7 Participation/subsidiarity | §§107–109: community contribution and capacity for choices/corrections | `final_control_from_reachability_and_binding`; Participation influence/binding comparison; DistributedControl local-pause characterization | Positive powers and their limits are checked. The direct connection to community participation in setting/correcting the governing criteria remains active; own-record amendment and temporary pause do not encode that requirement |
+| T8 Developer duties | §§104,105,109,111: scrutiny of design choices, responsibility across stages, and affected communities | DeveloperResponsibility stage allocation; `InterpretationRobustness.stage_allocation_survives_all_three_policies`; `assessed_rule_protects_equal_eligibility` | Joint stage coverage and a positive consequence of passing the adopted rule assessment are checked. Community involvement in evaluating/correcting the design criterion is the next missing source-facing connection, shared with T7 |
+| T9 Governing authority | §110: technical power does not automatically confer a right to govern | Authority capable/unrecognized and capable/recognized witnesses; `InterpretationRobustness.power_without_any_authority_requiring_scoped_mandate` | Conditional non-entailment checked for every authority interpretation with the explicit scoped-mandate necessary condition. Recognition is not relabeled complete moral legitimacy. That normative necessary condition must remain visible |
+| T10 Ethics-only insufficiency | §106: abstract ethics is insufficient without institutional safeguards | Disclosure concrete commitments/fulfillment comparison; same promises with failed and repaired compliance | Checked for published responsibility/appeal/correction promises. A full legal framework and all informed-user duties have not been encoded |
+
+## What the consolidation adds
+
+1. A common evidence criterion for the existing policies: identified assignment for high-impact decisions; appeal after exclusion; the broader affected-person appeal where adopted; correction capacity after stipulated harm.
+2. A checked distinction between two incomparable extensions, not just inheritance from weak to strong.
+3. A joint witness for the eight responsibility/appeal/oversight choices using the same benefits allocation and identity fields.
+4. Checked robustness of missing-assignee failure and oversight gaps across all three safeguards policies.
+5. Positive consolidation of stage coverage, the adopted rule-assessment consequence, and a parameterized authority conclusion with its necessary condition explicit.
+
+The nine new audited declarations combine earlier results, structural characterizations and specific extensions. They are not nine new substantive research results and do not certify the original 10–15 positive-result quota. A final deduplicated count must evaluate result packages, not theorem declarations.
+
+## Next agreed work, with a concrete trigger
+
+The next source-facing build addresses the existing T7/T8 gap: community participation in assessing and correcting the decision criteria themselves. Reuse the existing benefits scoring-rule comparison, and distinguish amendment of a request record from actual change to the rule that determines awards. Specify whose accepted contribution reaches design assessment and what action can correct a criterion that fails the adopted policy. Preserve allocation and recourse safeguards and compare the allowed powers explicitly. This is within the fixed suite and existing case domain; it is not a new topic or a demand to formalize every meaning of justice.
+
+Then examine the remaining T3/T6 review-to-correction sequence against the source requirement, recording exactly which capacity/action bridge is needed. These implementation gaps remain active before the completion audit, technical paper, final public report and reproducible V1 release. This milestone does not freeze them or lower the original contract.

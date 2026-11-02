@@ -262,3 +262,22 @@ DistributedControl.lean constructs a finite pause protocol for the existing publ
 | Request operations, recognition/independence/remit/review, and no-local-request external behavior are preserved | `DistributedControl.repair_preserves_requests_and_external_hold_behavior` | Original Governance and recourse channels are the same shared record |
 
 I28/A36/A37 record the exact proxy and case assumptions. MH-032/036 (§§108–109) motivate community action but do not uniquely entail this formula. The result is one bounded separation/repair package. It does not prove that all distributed governance denies local agency, that a pause awards benefits, that requests are delivered or acted upon, or that local pause alone fulfills subsidiarity. Both external roles retain actual intervention power after repair. Completion of the six fixed C questions under their stated interpretations does not finish the original positive suite, line target, technical paper or V1 release.
+
+
+## MH-011: positive consolidation and interpretation robustness
+
+No new cases or definitions are added. InterpretationRobustness.lean contains nine audited synthesis/extension declarations. See POSITIVE_TARGET_CONSOLIDATION.md and INTERPRETATION_ROBUSTNESS_MATRIX.md for source/target mapping and exact case cells.
+
+| Checked statement | Declaration in `InterpretationRobustness` | Role |
+|---|---|---|
+| All three policies hold exactly when the four displayed safeguard provisions hold | `uniform_safeguards_iff` | Necessary/sufficient synthesis, not a new moral principle |
+| Broad appeal and harm-remedy extensions do not imply each other | `appeal_and_remedy_extensions_are_incomparable` | Reuses existing cases in both directions |
+| Shared aligned repaired benefits witness for all eight chosen responsibility/appeal/oversight combinations | `joint_repaired_case_all_eight_combinations` | Non-vacuous family satisfaction; H retained |
+| Missing actual-assignee identity fails all three policies despite institutional answerability | `missing_assignee_fails_all_three_policies` | Responsibility robustness across N/B/H |
+| Independent coverage/intervention gaps survive all three safeguard policies | `oversight_gap_survives_all_three_policies` | Robustness across the incomparable B/H choices |
+| Design/use stage coverage passes N/B/H with extra developer assignment on/off | `stage_allocation_survives_all_three_policies` | Consolidation of the finite stage result |
+| Passing the adopted base-score assessment supplies equal awards for the equally eligible applications | `assessed_rule_protects_equal_eligibility` | Positive, premise-explicit rule-assessment consequence |
+| Scoped-authority family has a nonempty board witness with a capable unrecognized operator | `scoped_authority_family_has_nonempty_witness` | Finite satisfaction helper, not moral legitimacy |
+| Capable unrecognized operator lacks any authority requiring the displayed scoped mandate | `power_without_any_authority_requiring_scoped_mandate` | Quantifies over authority predicates; necessary condition explicit |
+
+The matrix does not count the synthesis lemmas as nine new substantive findings, certify all source obligations, or erase pending implementation. In particular, community choices/corrections over governing criteria and the link from review availability to exercisable correction remain the specific next T7/T8 and T3/T6 work. Scope and definition budgets are unchanged; I29/A38 record the tested family.

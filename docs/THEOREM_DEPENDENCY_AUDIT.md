@@ -54,3 +54,6 @@ Prototype 0.12 update: C4 is checked under I27/A34/A35 in Fairness.lean. Truthfu
 
 
 Prototype 0.13 update: C5 now has actual two-controller composition in DistributedControl.lean. Each external hold can cause a pause, while the initially ignored local record cannot. Enabling the local pause supplies a concrete action capacity without eliminating either external role. The exact protocol/agency proxy is I28/A36/A37; the result is not full subsidiarity or final award control. All six C questions have bounded checked witnesses, but the step-5 review/attempts of incomplete T1/T3/T6/T7/T8/T9 remain before final writing.
+
+
+Prototype 0.14 update: POSITIVE_TARGET_CONSOLIDATION.md is the current ten-target evidence map and INTERPRETATION_ROBUSTNESS_MATRIX.md the checked-family matrix. InterpretationRobustness.lean adds the common evidence criterion, B/H incomparability, aligned eight-combination witness and selected robustness/conditional positive consequences, without new definitions or cases. Every new necessary-condition premise stays visible. This supersedes the historical table's unbuilt/candidate labels as a current status account, not its target numbering. T7/T8 criteria-setting and T3/T6 review-to-correction links remain active before final writing/release.

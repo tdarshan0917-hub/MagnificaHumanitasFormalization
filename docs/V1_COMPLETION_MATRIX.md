@@ -1,6 +1,6 @@
 # V1 active target tracker
 
-Checkpoint: 0.13, 2026-11-01. The user correction restores the original execution plan. The prior freeze and premature final dispositions are withdrawn. This is a working status table, not a completed-suite claim. Missing semantics identify work to perform, not permission to skip a target. EXECUTION_PLAN.md governs the sequence.
+Checkpoint: 0.14, 2026-11-01. The user correction restores the original execution plan. The prior freeze and premature final dispositions are withdrawn. This is a working status table, not a completed-suite claim. Missing semantics identify work to perform, not permission to skip a target. EXECUTION_PLAN.md governs the sequence.
 
 ## Fixed positive-question suite
 
@@ -13,8 +13,8 @@ Checkpoint: 0.13, 2026-11-01. The user correction restores the original executio
 | T5 Identifiability | Countermodel and sufficient bridge checked | Generic staffing/internal assignment may identify different people; actual-assignee identification needs a connection |
 | T6 Independent oversight | Bounded countermodels and bridges checked | Regime provision, decision remit and intervention capacity are separate. Competence, resources, actual action and full effectiveness are outside the proxy |
 | T7 Participation | Bounded countermodel plus source ambiguity | Recorded/amendable input with outcome influence does not supply final control. C5 adds an effective local-pause comparison with two external controllers. Own-record amendment/pause are not full subsidiarity or standards-setting power |
-| T8 Developer duties | Stage-allocation checks; wider interpretation needed | Design compliance can leave use uncovered. Split/shared assignments satisfy the existing fragments. Design scrutiny, justice and community-responsible design still need a justified specification; no liability theorem |
-| T9 Governing authority | Bounded proxy countermodel; legitimacy interpretation needed | Operational control does not supply institutional recognition/remit; a capable recognized case is also possible. Recognition is not proved legitimate authority |
+| T8 Developer duties | Stage-allocation and rule-assessment consequences checked; community-design connection active | Design compliance can leave use uncovered. Split/shared assignments satisfy the existing fragments. The adopted base-score assessment now has an explicit positive equal-eligibility consequence. Community involvement in evaluating/correcting the governing criterion is next; no liability theorem |
+| T9 Governing authority | Proxy comparison and parameterized conditional non-entailment checked | Operational control does not supply institutional recognition/remit; a capable recognized case is also possible. The extended theorem covers every authority predicate requiring the displayed scoped mandate; that necessary condition is explicit normative input. Recognition is not proved complete legitimacy |
 | T10 Ethics-only sufficiency | Concrete declaration/provision separation checked | A retrievable notice lists the exact required safeguards and explains the numerical denial, yet the actual assignee is unidentified. The same promises/numbers occur with repaired compliance. This is a bounded claim, not a result about every ethics statement or all §106 institutions |
 
 ## Fixed countermodel suite
@@ -36,4 +36,4 @@ The potential public value is an inspectable chain from selected passage, throug
 
 ## Remaining agreed work
 
-Follow step 5 of EXECUTION_PLAN.md: review T1/T3/T6/T7/T8/T9 and attempt the missing agreed positive comparisons where precise interpretations can be justified; keep the plain report synchronized. Only after that work should the completion audit, 12–20-page technical paper, 4–6-page final public report and reproducible V1 release be finalized. The original 2,000–5,000-line target and 30-definition ceiling remain. No V1 release or completed formal suite is claimed here.
+The 0.14 target review and checked robustness evidence are in POSITIVE_TARGET_CONSOLIDATION.md and INTERPRETATION_ROBUSTNESS_MATRIX.md. Continue step 5 of EXECUTION_PLAN.md with T7/T8 governing-criteria assessment/correction and then the T3/T6 review-to-correction sequence review; keep the plain report synchronized. Only after that work should the completion audit, 12–20-page technical paper, 4–6-page final public report and reproducible V1 release be finalized. The original 2,000–5,000-line target and 30-definition ceiling remain. No V1 release or completed formal suite is claimed here.

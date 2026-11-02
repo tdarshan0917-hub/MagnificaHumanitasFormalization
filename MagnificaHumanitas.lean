@@ -15,3 +15,4 @@ import MagnificaHumanitas.Disclosure
 import MagnificaHumanitas.Fairness
 import MagnificaHumanitas.DistributedControl
 import MagnificaHumanitas.InterpretationRobustness
+import MagnificaHumanitas.RuleCorrection

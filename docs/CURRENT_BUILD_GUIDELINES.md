@@ -48,9 +48,13 @@ Execute fixed C4 in the existing benefits domain. Specify the actual arithmetic 
 
 Execute fixed C5 with actual composition of at least two controller inputs. Reuse the benefits denial and existing ConsultationProcess/OversightSystem structures. Prove separate external intervention effects, specify an operational community action (temporary pause), and compare an initially ineffective local request with an enabled local pause. Retain both external controllers after repair and retain the same original case safeguards. Do not equate a pause with benefit award, completed correction, complete subsidiarity or guaranteed real-world delivery. Update the report within six pages and save the checked build. Then proceed to step 5 of EXECUTION_PLAN.md, reviewing and attempting missing positive-target comparisons; completion of the six C questions does not authorize early final writing or V1 release.
 
-### Current execution: MH-011, positive consolidation and interpretation robustness
+### Completed bounded execution: MH-011, positive consolidation and interpretation robustness
 
 Execute checkpoint 0.14 using existing cases. Map all original targets to exact evidence, distinguish clear source commitments from implementation choices, compare the actual N/B/H policies including their incomparability, and construct a shared witness for the modeled responsibility/appeal/oversight combinations. Every matrix cell needs proof evidence; no extra example or helper-count inflation is authorized. Consolidate the public explanation within six pages, commit the checked evidence and verify CI. Keep the specific T7/T8 governing-criteria connection and T3/T6 review/correction action connection active under step 5 of EXECUTION_PLAN.md before final writing/release.
+
+### Current execution: MH-012, operative rule correction
+
+Execute the agreed 0.15 rule-correction build in the existing benefits case. A recorded objection can leave the 15-point penalty operative; an assigned and criteria-empowered actor can apply a valid proposal through a computed assessment, and the actual scorer must consume the corrected selector. Separate criteria authority from assignment to an individual denial. Preserve relevant eligibility, cutoff, responsibility and recourse channels, check the guard against invalid revisions, update the six-page report and save/verify the build. This concerns actors inside the hypothetical model; no public approval of this research is required. The next step is T3/T6 appeal/review/correction action before the fixed completion audit and writing/release.
 
 ## Endpoint
 

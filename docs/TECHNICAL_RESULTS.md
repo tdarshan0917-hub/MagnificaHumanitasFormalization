@@ -281,3 +281,22 @@ No new cases or definitions are added. InterpretationRobustness.lean contains ni
 | Capable unrecognized operator lacks any authority requiring the displayed scoped mandate | `power_without_any_authority_requiring_scoped_mandate` | Quantifies over authority predicates; necessary condition explicit |
 
 The matrix does not count the synthesis lemmas as nine new substantive findings, certify all source obligations, or erase pending implementation. In particular, community choices/corrections over governing criteria and the link from review availability to exercisable correction remain the specific next T7/T8 and T3/T6 work. Scope and definition budgets are unchanged; I29/A38 record the tested family.
+
+
+## MH-012: from an objection to the operative rule (T7/T8)
+
+RuleCorrection.lean reuses the existing benefits scoring-rule family and design/use role allocation. False/true rule selectors retain/remove the 15-point assisted-intake penalty. Requests are recorded and amendable. The active actor must be assigned and empowered for the criteria context, and both candidate application results must pass the adopted base-score assessment. Only then does the process return the candidate selector; the notice constructor computes applications from that returned selector.
+
+| Checked content | Actual declaration in `RuleCorrection` | Meaning |
+|---|---|---|
+| Requests are accepted, recorded, distinct and amendable | `requests_are_recorded_and_amendable` | Actual record operations |
+| Human design assignment holds independently of criteria-changing power; deployment assignment has another scope | `criteria_authority_is_scoped` | Same-actor/same-context authority evidence |
+| A recorded objection leaves the penalty operative without revision power | `recorded_objection_leaves_penalty_operative` | Actual old-rule notices remain grant/deny |
+| A denial assignee cannot edit criteria merely through that assignment | `denial_assignment_does_not_authorize_criteria_revision` | Deployment role is rejected for design revision |
+| The valid correction of the initial rule occurs exactly with revision power and the assigned design actor | `operative_correction_iff_scoped_authority` | Finite-family operational characterization |
+| The amended/recorded valid proposal changes the operative rule and recomputed awards; N/B/H pass afterward | `authorized_correction_changes_rule_and_awards` | Positive T7/T8 connection, not just a changed log |
+| The corrected rule rejects modeled attempts to restore the bad penalty | `valid_rule_is_preserved` | Computed audit guard supplies the invariant step |
+| Every finite sequence of modeled revision attempts preserves the corrected rule | `valid_rule_survives_all_finite_revision_attempts` | Induction over actual record/check/update attempts |
+| Recording, assignment, identity, base score, cutoff and person-facing channels are preserved | `correction_preserves_records_allocation_and_channels` | Isolates criteria power and operative-rule changes |
+
+The validity criterion is the existing adopted fairness policy, not a complete justice theory. Criteria-revision authority is explicitly scoped; it is not inferred from ordinary case correction powers. The evaluator enforces the guard, and actor/request evidence is supplied as a hypothetical fact. The corrected selector governs recomputation; this does not automatically reopen an already-issued denial or deliver redress. I30/A39/A40 record the assumptions. T3/T6's appeal/review/correction action path remains the next original-target obligation. These nine declarations are one bounded package, not nine quota-filling findings.

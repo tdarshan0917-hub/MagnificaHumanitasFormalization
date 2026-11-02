@@ -42,3 +42,17 @@ The two oversight-gap rows reuse the same benefits Governance/allocation as the 
 This is a declared, checked family. It is not an enumeration of every source interpretation, a proof that the full philosophical concepts are interchangeable with these formulas, or a score for real institutions. Mathematical joint satisfaction and textual justification are separately documented. Clear source commitments remain requirements; the distinctions concern implementations, trigger choices and provided evidence.
 
 I29/A38 record the family and alignment rules. `POSITIVE_TARGET_CONSOLIDATION.md` maps every original target to source passages, exact evidence and concrete remaining obligations. T7/T8 criteria-setting and T3/T6 review/correction action connections remain active before final writing/release.
+
+
+## Checkpoint 0.15: operative criteria comparison in the same scoring case
+
+The original N/B/H and eight-combination matrix remains as checked at 0.14. RuleCorrection.lean adds this explicit implementation-path comparison. The design actor is the existing developer/design reviewer; a separate deployment actor handles the denial. A candidate assessment compares actual computed awards with the adopted base-score cutoff.
+
+| Rule-revision setting | Objection recorded? | Actor empowered for criteria? | Candidate passes adopted assessment? | Operative result / assisted calculation | Evidence |
+|---|---|---|---|---|---|
+| Initial penalty rule; assigned design actor lacks criteria power | Yes | No | Yes | Penalty remains; 45/deny | `RuleCorrection.recorded_objection_leaves_penalty_operative` |
+| Initial penalty rule; deployment actor acts | Yes | No for this context | Yes | Penalty remains; 45/deny | `RuleCorrection.denial_assignment_does_not_authorize_criteria_revision` |
+| Initial penalty rule; assigned design actor has criteria power | Yes | Yes | Yes | Corrected rule becomes operative; 60/grant | `RuleCorrection.authorized_correction_changes_rule_and_awards` |
+| Corrected rule; criteria-empowered actor proposes restoring the penalty | Yes | Yes | No | Corrected rule retained; 60/grant | `RuleCorrection.valid_rule_is_preserved` |
+
+The corrected rule survives every finite sequence of these modeled revision attempts (`RuleCorrection.valid_rule_survives_all_finite_revision_attempts`). Existing assignment, identity and appeal/correction channels remain fixed across the successful comparison. This is the declared two-rule family, not a robustness claim for every possible rule change, and recomputation does not reopen old case records automatically. T3/T6's contested-decision appeal/review/correction action path is next.

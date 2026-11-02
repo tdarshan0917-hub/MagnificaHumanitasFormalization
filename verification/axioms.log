@@ -944,3 +944,118 @@ fun authority hNecessary =>
 'MagnificaHumanitas.InterpretationRobustness.assessed_rule_protects_equal_eligibility' does not depend on any axioms
 'MagnificaHumanitas.InterpretationRobustness.power_without_any_authority_requiring_scoped_mandate' does not depend on any axioms
 'MagnificaHumanitas.InterpretationRobustness.scoped_authority_family_has_nonempty_witness' does not depend on any axioms
+theorem MagnificaHumanitas.RuleCorrection.operative_correction_iff_scoped_authority : ∀ (power : Bool)
+  (actor : Option Bool),
+  (MagnificaHumanitas.RuleCorrection.process power).decide false true actor = true ↔
+    power = true ∧ actor = some false :=
+fun power actor =>
+  Bool.casesOn (motive := fun t =>
+    power = t →
+      ((MagnificaHumanitas.RuleCorrection.process power).decide false true actor = true ↔
+        power = true ∧ actor = some false))
+    power
+    (fun h =>
+      Eq.symm h ▸
+        Option.casesOn (motive := fun t =>
+          actor = t →
+            ((MagnificaHumanitas.RuleCorrection.process false).decide false true actor = true ↔
+              false = true ∧ actor = some false))
+          actor (fun h => Eq.symm h ▸ of_decide_eq_true (id (Eq.refl true)))
+          (fun role h =>
+            Eq.symm h ▸
+              Bool.casesOn (motive := fun t =>
+                role = t →
+                  ((MagnificaHumanitas.RuleCorrection.process false).decide false true (some role) = true ↔
+                    false = true ∧ some role = some false))
+                role (fun h => Eq.symm h ▸ of_decide_eq_true (id (Eq.refl true)))
+                (fun h => Eq.symm h ▸ of_decide_eq_true (id (Eq.refl true))) (Eq.refl role))
+          (Eq.refl actor))
+    (fun h =>
+      Eq.symm h ▸
+        Option.casesOn (motive := fun t =>
+          actor = t →
+            ((MagnificaHumanitas.RuleCorrection.process true).decide false true actor = true ↔
+              true = true ∧ actor = some false))
+          actor (fun h => Eq.symm h ▸ of_decide_eq_true (id (Eq.refl true)))
+          (fun role h =>
+            Eq.symm h ▸
+              Bool.casesOn (motive := fun t =>
+                role = t →
+                  ((MagnificaHumanitas.RuleCorrection.process true).decide false true (some role) = true ↔
+                    true = true ∧ some role = some false))
+                role (fun h => Eq.symm h ▸ of_decide_eq_true (id (Eq.refl true)))
+                (fun h => Eq.symm h ▸ of_decide_eq_true (id (Eq.refl true))) (Eq.refl role))
+          (Eq.refl actor))
+    (Eq.refl power)
+theorem MagnificaHumanitas.RuleCorrection.authorized_correction_changes_rule_and_awards : (MagnificaHumanitas.RuleCorrection.process
+          true).revise
+      false false true =
+    true ∧
+  MagnificaHumanitas.ActionableResponsibility (MagnificaHumanitas.RuleCorrection.allocation true) (Sum.inl ()) ∧
+    (MagnificaHumanitas.RuleCorrection.process true).decide false
+          ((MagnificaHumanitas.RuleCorrection.process true).record false
+            ((MagnificaHumanitas.RuleCorrection.process true).revise false false true))
+          (some false) =
+        true ∧
+      MagnificaHumanitas.RuleCorrection.notice true false true (some false) false = (60, 0, 50, true) ∧
+        MagnificaHumanitas.RuleCorrection.notice true false true (some false) true = (60, 0, 50, true) ∧
+          ∀ (channel : Bool),
+            (MagnificaHumanitas.Fairness.office
+                    ((MagnificaHumanitas.RuleCorrection.process true).decide false
+                      ((MagnificaHumanitas.RuleCorrection.process true).record false true) (some false))).explained
+                channel ∧
+              MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Fairness.office true)
+                  (MagnificaHumanitas.responsibilityAppealPolicy (MagnificaHumanitas.Fairness.office true)) channel ∧
+                MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Fairness.office true)
+                    (MagnificaHumanitas.broadAppealPolicy (MagnificaHumanitas.Fairness.office true)) channel ∧
+                  MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Fairness.office true)
+                    (MagnificaHumanitas.harmRemedyPolicy (MagnificaHumanitas.Fairness.office true)) channel :=
+⟨rfl,
+  ⟨(MagnificaHumanitas.RuleCorrection.criteria_authority_is_scoped true).right.left.mpr rfl,
+    ⟨rfl,
+      ⟨rfl,
+        ⟨rfl, fun channel =>
+          have h := MagnificaHumanitas.Fairness.existing_safeguards_satisfied true channel;
+          ⟨MagnificaHumanitas.Fairness.truthful_rule_explanations true channel,
+            ⟨h.right.right.right.right.left,
+              ⟨h.right.right.right.right.right.left, h.right.right.right.right.right.right⟩⟩⟩⟩⟩⟩⟩⟩
+theorem MagnificaHumanitas.RuleCorrection.valid_rule_survives_all_finite_revision_attempts : ∀ (power : Bool)
+  (attempts : List (Bool × Option Bool)),
+  List.foldl
+      (fun current attempt =>
+        (MagnificaHumanitas.RuleCorrection.process power).decide current
+          ((MagnificaHumanitas.RuleCorrection.process power).record current attempt.fst) attempt.snd)
+      true attempts =
+    true :=
+fun power attempts =>
+  List.rec
+    (Eq.refl
+      (List.foldl
+        (fun current attempt =>
+          (MagnificaHumanitas.RuleCorrection.process power).decide current
+            ((MagnificaHumanitas.RuleCorrection.process power).record current attempt.fst) attempt.snd)
+        true []))
+    (fun attempt rest ih =>
+      id
+        (Eq.mpr
+          (id
+            (congrArg
+              (fun _a =>
+                List.foldl
+                    (fun current next =>
+                      (MagnificaHumanitas.RuleCorrection.process power).decide current
+                        ((MagnificaHumanitas.RuleCorrection.process power).record current next.fst) next.snd)
+                    _a rest =
+                  true)
+              (MagnificaHumanitas.RuleCorrection.valid_rule_is_preserved power attempt.fst attempt.snd)))
+          ih))
+    attempts
+'MagnificaHumanitas.RuleCorrection.requests_are_recorded_and_amendable' does not depend on any axioms
+'MagnificaHumanitas.RuleCorrection.criteria_authority_is_scoped' does not depend on any axioms
+'MagnificaHumanitas.RuleCorrection.recorded_objection_leaves_penalty_operative' does not depend on any axioms
+'MagnificaHumanitas.RuleCorrection.denial_assignment_does_not_authorize_criteria_revision' does not depend on any axioms
+'MagnificaHumanitas.RuleCorrection.operative_correction_iff_scoped_authority' does not depend on any axioms
+'MagnificaHumanitas.RuleCorrection.authorized_correction_changes_rule_and_awards' depends on axioms: [propext]
+'MagnificaHumanitas.RuleCorrection.valid_rule_is_preserved' does not depend on any axioms
+'MagnificaHumanitas.RuleCorrection.valid_rule_survives_all_finite_revision_attempts' does not depend on any axioms
+'MagnificaHumanitas.RuleCorrection.correction_preserves_records_allocation_and_channels' does not depend on any axioms

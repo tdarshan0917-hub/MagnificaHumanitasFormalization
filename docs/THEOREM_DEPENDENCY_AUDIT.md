@@ -57,3 +57,6 @@ Prototype 0.13 update: C5 now has actual two-controller composition in Distribut
 
 
 Prototype 0.14 update: POSITIVE_TARGET_CONSOLIDATION.md is the current ten-target evidence map and INTERPRETATION_ROBUSTNESS_MATRIX.md the checked-family matrix. InterpretationRobustness.lean adds the common evidence criterion, B/H incomparability, aligned eight-combination witness and selected robustness/conditional positive consequences, without new definitions or cases. Every new necessary-condition premise stays visible. This supersedes the historical table's unbuilt/candidate labels as a current status account, not its target numbering. T7/T8 criteria-setting and T3/T6 review-to-correction links remain active before final writing/release.
+
+
+Prototype 0.15 update: RuleCorrection.lean supplies the agreed T7/T8 governing-criteria connection. Request records feed an assigned/criteria-empowered actor's validated update, whose returned selector is used for actual notice calculations. Log-only and wrong-scope cases preserve the penalty; the valid authorized correction changes the operative rule. A finite-sequence invariant preserves the corrected rule under the modeled guard. Scope and enforcement assumptions are explicit in I30/A39/A40. T3/T6's appeal/review/correction action link is next before completion audit/writing/release.

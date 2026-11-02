@@ -1,6 +1,6 @@
 # What the Lean code actually checks
 
-Checkpoint 0.14. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
+Checkpoint 0.15. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
 
 ## One complete example
 
@@ -40,9 +40,13 @@ The concrete employment comparison then changes production to AI and checks two 
 
 InterpretationRobustness.lean reuses the existing cases. `uniform_safeguards_iff` states the exact common provisions for N/B/H. `appeal_and_remedy_extensions_are_incomparable` checks failure of implication in both directions. `joint_repaired_case_all_eight_combinations` links the same assignment/identity data and checks all eight chosen responsibility/appeal/oversight combinations, with remedy capacity retained. Additional statements check missing-assignee/oversight robustness, stage coverage, the design-rule assessment consequence and a conditional authority family. The actual proof-backed tables are in INTERPRETATION_ROBUSTNESS_MATRIX.md.
 
+## What was added for operative rule correction
+
+RuleCorrection.lean connects the recorded proposal to the selector actually used by Fairness.notice. `recorded_objection_leaves_penalty_operative` checks the unchanged 45/deny computation without criteria power. `denial_assignment_does_not_authorize_criteria_revision` checks the wrong-scope actor. `authorized_correction_changes_rule_and_awards` proves that the valid proposal applied by the assigned, empowered design reviewer changes the operative selector and computes 60/grant for both equally eligible applications. `valid_rule_survives_all_finite_revision_attempts` checks the validation guard over every finite list of modeled attempts. Request records, assignments, identities, base scores, cutoff and recourse channels stay fixed. Criteria revision does not automatically reopen an old denial.
+
 ## Still active
 
-T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4 now has a checked, explicitly limited comparison in Fairness.lean. C5 now has a checked composed pause comparison in DistributedControl.lean. Checkpoint 0.14 reviews the original positive targets in POSITIVE_TARGET_CONSOLIDATION.md. The next specific work is T7/T8 governing-criteria assessment/correction, followed by T3/T6 review-to-correction action under step 5 of EXECUTION_PLAN.md. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
+T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4 now has a checked, explicitly limited comparison in Fairness.lean. C5 now has a checked composed pause comparison in DistributedControl.lean. Checkpoint 0.14 reviews the original positive targets in POSITIVE_TARGET_CONSOLIDATION.md. The T7/T8 operative criteria connection is checked at 0.15. The next specific work is the T3/T6 contested-decision appeal/review/correction action path under step 5 of EXECUTION_PLAN.md. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
 
 
 ## What was added for ethics commitments and disclosure

@@ -50,7 +50,7 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.14", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.15", "SmallMH")
 p("What must work<br/>together?", "TitleMH")
 p("Computer-checked requirements for accountable AI decisions<br/>Progress report | November 1, 2026", "DeckMH")
 p("The consolidated finding", "H2MH")
@@ -83,7 +83,7 @@ p("Which findings survive changes of interpretation?", "H2MH")
 p("A repaired benefits case meets all eight tested responsibility, appeal and oversight combinations. Missing assignee identity fails all three safeguards policies; oversight gaps persist even when all three pass. Each matrix entry links to checked evidence.")
 p("What this is for", "H2MH")
 p("The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.")
-p("These are hypothetical models, not audits of actual organizations. The next agreed work connects community participation to governing criteria, and reviews how accessible review connects to usable correction. The final technical paper and V1 release follow the remaining checks.", "SmallMH")
+p("These are hypothetical models, not audits of actual organizations. The operative rule-correction connection is now checked. The next agreed work connects accessible appeal and review to correction of a contested decision. The final technical paper and V1 release follow the remaining checks.", "SmallMH")
 p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.', "SmallMH")
 
 story.append(PageBreak())
@@ -123,25 +123,24 @@ p("This hypothetical protocol assumes requests reach the evaluator and every ass
 p("Proof file: DistributedControl.lean. Remaining positive-target questions are active before final writing and release.", "SmallMH")
 
 story.append(PageBreak())
-p("PUBLIC BENEFITS / DISCLOSURE AND FAIRNESS", "SmallMH")
-p("Explained,<br/>but fair?", "TitleMH")
-p("A correct calculation can reveal a rule that violates an independently adopted fairness standard.", "DeckMH")
-p("The earlier disclosure finding", "H2MH")
-p("Our earlier notice reports score 47, cutoff 50 and a computed denial. It promises responsibility, appeal and correction capacity, yet names a service contact rather than the actual case officer. Identifying that already-assigned officer repairs the responsibility gap without changing the promises, numbers or channels. A stricter disclosure rule could demand that identity from the outset.")
-p("The new fairness test", "H2MH")
-p("Now consider two fully verified applications, each with eligibility score 60 and cutoff 50. One arrives online; the other uses an assisted service desk. Our adopted case policy says intake channel must not change entitlement. The first scoring rule nevertheless deducts 15 points for assisted intake. Both notices disclose the deduction and correctly explain their results.")
-fairness_rows = [
-    ["Application", "Initial rule", "Penalty removed"],
-    ["Online: verified score 60", "60 - 0: grant", "60 - 0: grant"],
-    ["Assisted: verified score 60", "60 - 15: deny", "60 - 0: grant"],
-    ["Both calculations explained?", "Yes", "Yes"],
-    ["Both adopted fairness tests pass?", "No", "Yes"],
+p("PUBLIC BENEFITS / OBJECTIONS AND RULE CORRECTION", "SmallMH")
+p("Does an objection<br/>change the rule?", "TitleMH")
+p("A recorded objection becomes effective only when it reaches the rule actually used to calculate awards.", "DeckMH")
+p("The existing case", "H2MH")
+p("Two applications each have verified eligibility score 60 and cutoff 50. The first rule deducts 15 points for assisted intake, producing a denial, while online intake receives a grant. Our adopted policy says that channel difference must not affect entitlement. Both calculations are truthfully explained.")
+p("Three responses to the objection", "H2MH")
+p("A request to remove the penalty is recorded. We compare the assigned design reviewer without rule-changing power, the deployment actor who handles individual denials, and the assigned design reviewer with explicit criteria-revision power. A computed check also tests the proposed awards against the adopted eligibility rule.")
+rule_rows = [
+    ["Who acts on the recorded request?", "Rule changes?", "Assisted application"],
+    ["Design reviewer without criteria power", "No", "45: deny"],
+    ["Denial handler without design assignment", "No", "45: deny"],
+    ["Assigned, empowered design reviewer; valid proposal", "Yes", "60: grant"],
 ]
-fairness_table = Table([
+rule_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-     for v in row] for i, row in enumerate(fairness_rows)],
-    colWidths=[2.8*inch, 1.4*inch, 1.4*inch])
-fairness_table.setStyle(TableStyle([
+     for v in row] for i, row in enumerate(rule_rows)],
+    colWidths=[2.8*inch, 1.2*inch, 1.6*inch])
+rule_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
@@ -150,13 +149,13 @@ fairness_table.setStyle(TableStyle([
     ("TOPPADDING", (0,0), (-1,-1), 7),
     ("BOTTOMPADDING", (0,0), (-1,-1), 7),
 ]))
-story.append(fairness_table)
-plain.extend(" | ".join(row) for row in fairness_rows)
+story.append(rule_table)
+plain.extend(" | ".join(row) for row in rule_rows)
 p("What Lean checked", "H2MH")
-p("The first rule fails equal treatment across these channels and fails to apply the cutoff to the verified base score. Removing the penalty supplies both tests. Identified assignment, appeal and correction-capacity checklists pass in both versions; the channels stay fixed. Their availability does not establish that a correction occurred.")
-p("Assumptions and practical use", "H2MH")
-p("Equal eligibility and channel irrelevance are explicit hypothetical policy assumptions. Paragraphs 104 and 109 motivate scrutiny of design choices; they do not prescribe our scoring formula. This tests a local fairness rule, not all justice. Ask whether the explained features are justified, alongside whether the arithmetic is correct. Remaining agreed targets stay active.", "SmallMH")
-p("Proof files: Disclosure.lean and Fairness.lean. No actual agency was audited.", "SmallMH")
+p("The corrected selector actually feeds the scorer. Both applications then compute as grants. Scores, cutoff, assignment, appeal and correction channels remain fixed. The check rejects proposals that would restore the penalty; the corrected rule survives every finite sequence of the modeled revision attempts.")
+p("The practical question and assumptions", "H2MH")
+p("Ask who can change the operative criteria, alongside whether an objection was logged. This hypothetical process assumes supplied role evidence and perfect enforcement of the checks, and considers only our two candidate rules. Recomputing an award does not automatically reopen an old denial or deliver payment. The separate appeal-to-correction process is next.", "SmallMH")
+p("Earlier disclosure result: a notice with score 47, cutoff 50 and published safeguards can still name a service contact rather than the actual assignee. Publishing that assignee repairs that separate responsibility gap. Proof files: Disclosure.lean, Fairness.lean and RuleCorrection.lean. Source motivation: paragraphs 104-105, 109 and 111.", "SmallMH")
 
 story.append(PageBreak())
 p("NEW RESULT / HIGH-STAKES AUTONOMY", "SmallMH")

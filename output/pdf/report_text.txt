@@ -1,4 +1,4 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.14
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.15
 
 What must work<br/>together?
 
@@ -30,7 +30,7 @@ What this is for
 
 The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.
 
-These are hypothetical models, not audits of actual organizations. The next agreed work connects community participation to governing criteria, and reviews how accessible review connects to usable correction. The final technical paper and V1 release follow the remaining checks.
+These are hypothetical models, not audits of actual organizations. The operative rule-correction connection is now checked. The next agreed work connects accessible appeal and review to correction of a contested decision. The final technical paper and V1 release follow the remaining checks.
 
 Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.
 
@@ -68,39 +68,37 @@ This hypothetical protocol assumes requests reach the evaluator and every assert
 
 Proof file: DistributedControl.lean. Remaining positive-target questions are active before final writing and release.
 
-PUBLIC BENEFITS / DISCLOSURE AND FAIRNESS
+PUBLIC BENEFITS / OBJECTIONS AND RULE CORRECTION
 
-Explained,<br/>but fair?
+Does an objection<br/>change the rule?
 
-A correct calculation can reveal a rule that violates an independently adopted fairness standard.
+A recorded objection becomes effective only when it reaches the rule actually used to calculate awards.
 
-The earlier disclosure finding
+The existing case
 
-Our earlier notice reports score 47, cutoff 50 and a computed denial. It promises responsibility, appeal and correction capacity, yet names a service contact rather than the actual case officer. Identifying that already-assigned officer repairs the responsibility gap without changing the promises, numbers or channels. A stricter disclosure rule could demand that identity from the outset.
+Two applications each have verified eligibility score 60 and cutoff 50. The first rule deducts 15 points for assisted intake, producing a denial, while online intake receives a grant. Our adopted policy says that channel difference must not affect entitlement. Both calculations are truthfully explained.
 
-The new fairness test
+Three responses to the objection
 
-Now consider two fully verified applications, each with eligibility score 60 and cutoff 50. One arrives online; the other uses an assisted service desk. Our adopted case policy says intake channel must not change entitlement. The first scoring rule nevertheless deducts 15 points for assisted intake. Both notices disclose the deduction and correctly explain their results.
+A request to remove the penalty is recorded. We compare the assigned design reviewer without rule-changing power, the deployment actor who handles individual denials, and the assigned design reviewer with explicit criteria-revision power. A computed check also tests the proposed awards against the adopted eligibility rule.
 
-Application | Initial rule | Penalty removed
+Who acts on the recorded request? | Rule changes? | Assisted application
 
-Online: verified score 60 | 60 - 0: grant | 60 - 0: grant
+Design reviewer without criteria power | No | 45: deny
 
-Assisted: verified score 60 | 60 - 15: deny | 60 - 0: grant
+Denial handler without design assignment | No | 45: deny
 
-Both calculations explained? | Yes | Yes
-
-Both adopted fairness tests pass? | No | Yes
+Assigned, empowered design reviewer; valid proposal | Yes | 60: grant
 
 What Lean checked
 
-The first rule fails equal treatment across these channels and fails to apply the cutoff to the verified base score. Removing the penalty supplies both tests. Identified assignment, appeal and correction-capacity checklists pass in both versions; the channels stay fixed. Their availability does not establish that a correction occurred.
+The corrected selector actually feeds the scorer. Both applications then compute as grants. Scores, cutoff, assignment, appeal and correction channels remain fixed. The check rejects proposals that would restore the penalty; the corrected rule survives every finite sequence of the modeled revision attempts.
 
-Assumptions and practical use
+The practical question and assumptions
 
-Equal eligibility and channel irrelevance are explicit hypothetical policy assumptions. Paragraphs 104 and 109 motivate scrutiny of design choices; they do not prescribe our scoring formula. This tests a local fairness rule, not all justice. Ask whether the explained features are justified, alongside whether the arithmetic is correct. Remaining agreed targets stay active.
+Ask who can change the operative criteria, alongside whether an objection was logged. This hypothetical process assumes supplied role evidence and perfect enforcement of the checks, and considers only our two candidate rules. Recomputing an award does not automatically reopen an old denial or deliver payment. The separate appeal-to-correction process is next.
 
-Proof files: Disclosure.lean and Fairness.lean. No actual agency was audited.
+Earlier disclosure result: a notice with score 47, cutoff 50 and published safeguards can still name a service contact rather than the actual assignee. Publishing that assignee repairs that separate responsibility gap. Proof files: Disclosure.lean, Fairness.lean and RuleCorrection.lean. Source motivation: paragraphs 104-105, 109 and 111.
 
 NEW RESULT / HIGH-STAKES AUTONOMY
 

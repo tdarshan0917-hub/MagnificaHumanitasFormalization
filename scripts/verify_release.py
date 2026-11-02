@@ -32,4 +32,4 @@ for f in documents['documents']:
  r=PdfReader(p); assert len(r.pages)==f['pages'],f['path']
  assert all(len(page.extract_text().split())>100 for page in r.pages),'Empty or overflow-only page'
  assert all('\ufffd' not in page.extract_text() for page in r.pages),'Unmapped glyph'
-print(f"Release checks passed: 21 unchanged Lean files, {len(references)} named paper references, 16-page technical paper, 6-page public report.")
+print(f"Release checks passed: 21 unchanged Lean files, {len(references)} named paper references, 16-page technical paper, {documents['documents'][1]['pages']}-page public report.")

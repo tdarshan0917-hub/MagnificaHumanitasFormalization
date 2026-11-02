@@ -8,8 +8,9 @@ The formal suite covers the three agreed domains—employment, public benefits/s
 
 ## Read the findings
 
-- [Final public report, six pages](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf): **Who can challenge, correct and decide?** The filename retains the earlier report path for existing links; the document is the final Version 1.0 report.
+- [Public report 1.1, five pages](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf): **Who can challenge, correct and decide?** The filename retains the earlier report path for existing links; the current document is the source-led five-page revision 1.1, following the approved 22-paragraph outline. The original V1 package retains its historical six-page report.
 - [Technical paper, sixteen pages](output/pdf/MagnificaHumanitas_Technical_Paper.pdf): **From Principles to Working Safeguards**.
+- [Editable public report](docs/PUBLIC_REPORT.md) and [public manuscript](paper/public_report.json).
 - [Editable technical text](docs/TECHNICAL_PAPER.md) and [structured manuscript](paper/manuscript.json).
 - [V1 release notes](docs/RELEASE_NOTES_V1.md), [reproduction instructions](docs/REPRODUCE_V1.md) and [completion audit](docs/V1_COMPLETION_AUDIT.md).
 

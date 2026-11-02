@@ -1,205 +1,53 @@
-MAGNIFICA HUMANITAS / PUBLIC REPORT / VERSION 1.0
+The encyclical and this study
 
-Who can challenge,<br/>correct and decide?
+The document. Magnifica Humanitas is Pope Leo XIV's encyclical of 15 May 2026. An encyclical is a papal teaching letter addressed to a broad audience; this one addresses Catholics, other Christians and people of goodwill (§16). The official English PDF has 91 pages, including notes, and 245 numbered paragraphs. This report examines selected governance commitments within that document. It asks how an institution could demonstrate that its decision procedures supply the protections it promises. Paragraph numbers and page references below identify the official English edition, allowing readers to examine the source alongside our analysis.
 
-What makes an AI safeguard work?<br/>Travis Darshan | November 2, 2026
+The central concern. The encyclical places technological change within a Christian account of human dignity and the common good (§§1-16). Its opening contrasts Babel's self-aggrandizement with Nehemiah's cooperative rebuilding (§§7-10). For this study, that framework makes institutional arrangements a serious object of investigation: a person's ability to question a consequential decision depends on how responsibilities, channels and powers are connected. A protection can sound persuasive while leaving the affected person unable to reach anyone who can act. We therefore read the governance passages with a practical question in view: what would an institution have to show for its stated protection to operate? This approach develops implementation questions from the ethical commitments we select.
 
-The finding
+The wider argument. The five chapters move from the development of social doctrine and its foundations to technology and dominance, truth/work/freedom, and power/peace. The conclusion returns to Christian life and hope. This architecture matters to our reading. A small set of procedures cannot stand in for the encyclical's whole vision, yet a broad vision still invites precise examination of particular arrangements made in its name. We treat that relationship as the reason for a bounded study: select a connected group of commitments, explain our reading, and ask what their implementation entails. The resulting account should let a reader move between the ethical concern, the procedure proposed to address it, and the evidence that the procedure functions.
 
-A promise of human oversight does not tell us who can change an AI-assisted decision. We tested small, explicit examples in employment, public benefits and high-stakes autonomous action. Four questions repeatedly separate a working protection from a protection that exists only on paper.
+Why these passages. Our investigation selects §§97-111, on pages 33-38, within Chapter Three. This cluster provides the source locations for the responsibility, recourse, oversight, participation and design questions developed below. We chose it because these questions can be examined together within one decision process: who is assigned, who can challenge, who reviews, who can change a rule, and who implements a correction? The next page explains our reading before introducing the proof method. The later examples stay within three agreed domains: employment, public benefits and bounded high-stakes autonomy. The purpose is an inspectable connection between selected principles and working safeguards, with each additional procedural assumption stated.
 
-Safeguard | Question to ask
+A close reading of the selected passages
 
-Someone answers | Can the person assigned to this decision be identified?
+From context to consequential decisions. Paragraphs 97-103, on pages 33-36, supply context about human direction, AI use and consequential decisions. Our selection treats the move toward decisions as the analytical hinge. Employment and public services give a decision an identifiable subject and consequence: someone receives an outcome and needs a route to question it. That makes it possible to examine responsibility at the level of a particular case. We use the surrounding observations to understand the setting, rather than treating every empirical description of AI as a permanent rule. This distinction keeps our inquiry focused on governance arrangements that can be specified and compared, while preserving the reason those arrangements matter to an affected person.
 
-People can challenge | Can the affected person actually submit an appeal?
+Appeal and accountable responsibility. On page 36, §104 addresses exclusion “without the possibility of appeal”; §105 requires that “responsibility must be clearly defined at every stage”. We read these commitments together as an invitation to examine a connected chain of responsibility. An appeal needs an accessible entry point; accountability needs an identifiable assignee; a correction needs relevant power. Whether a proposed arrangement actually joins those elements is our investigative question. The distinction is consequential: a case can pass through several named departments while responsibility for the disputed outcome remains difficult to locate. Our reading therefore directs attention to the same case, the assigned person and the scope of that person's power, rather than assuming that separate institutional provisions automatically connect.
 
-Someone can correct | Does the responsible role have the relevant power?
+Institutions and participation. Paragraphs 106-109, on pages 36-37, extend the discussion to institutional safeguards, participation and correction. Our analysis asks what evidence a claimed institutional protection would require. A reviewer needs a defined remit over the disputed decision; an intervention needs a route to an implementing action. Likewise, receiving a community recommendation, allowing it to influence an outcome and giving it a binding effect are different procedural arrangements. We examine those differences without treating any one mechanism as a complete definition of participation or subsidiarity. The selected requirements also leave wider questions outside our models, including the distribution of data and resources. Stating that boundary helps readers see precisely which institutional connections the study investigates.
 
-The route reaches the decision | Does the finding change the rule or stored decision?
+Authority, development and our interpretation. On page 37, §110 challenges the assumption that “technical power automatically confers the right to govern”; §111, continuing onto page 38, addresses developers. These passages motivate two further questions for our study: what establishes an actor's mandate, and how is responsibility allocated across stages? We examine the evidence for each separately. Taken together, our reading of the selected cluster yields a research agenda about assignment, access, remit, authority, correction and implementation. Those are our explicit analytical categories. A proposed board, appeal desk or rule-revision process is a particular realization to be assessed, rather than wording supplied by the encyclical itself. This separation makes the forthcoming formal comparisons answerable to the source.
 
-An employment example
+Responsibility and recourse
 
-A rejected applicant has a named officer and an appeal, but the desk cannot correct the decision. Appeal access exists; correction capacity does not. Before exclusion, another affected applicant can lack appeal even when a rule requiring correction after harm is satisfied. Wider appeal and correction capacity are separate protections.
+How the checking works. Lean is a program that checks logical proofs. We first distinguish a required safeguard from its actual provision, then describe hypothetical arrangements precisely. A failure example shows that specified provisions can coexist with a missing protection; a repaired example checks what additional evidence supplies it. The source commitment, our interpretation and the case assumptions remain separate. These examples are tools for examining proposed arrangements, not observations about actual agencies. The questions below come from the preceding close reading; the numerical scores, roles and procedures are explicit modeling choices.
 
-What the computer checked
+Find the actual assignee. For §105 (p. 36), we test whether an identifiable institution and known staff establish answerability for the decision at issue. In the benefits example, a public contact handles inquiries while another officer is assigned to the denial. The contact can be identifiable while the actual assignee remains unidentified. A separate notice comparison publishes commitments and a correct score-47, cutoff-50 explanation; those facts still leave that gap. Naming the actual assignee repairs identification while the assignment and channels stay fixed. Lean also checks the sufficient connection from responsible institution through allocated decision to identifiable assignee. Correction power for that same assignee remains separate evidence. The practical requirement is case-specific: identify the person assigned to this decision and establish the relevant power.
 
-Lean, a proof-checking program, verified that the stated conclusions follow from the written rules. It also checked repaired examples where the missing protections work together. The same repaired benefits case meets eight tested combinations of responsibility, appeal and oversight requirements.
+Follow responsibility across stages. For §§103, 105 and 111 (pp. 35-38), our delegation comparison changes direct production to AI while retaining the officer's assignment and the existing safeguards. Lean checks that compliance with the tested policies is preserved under that specified change. Separately removing the assignment makes all three policies fail, even with appeal and correction capacity retained. The stage comparison distinguishes assignment for design from assignment for a later denial: design coverage alone leaves a downstream gap, while split developer/deployer assignments can cover both. Shared assignment is also compatible. These results make the handoff conditions visible; they establish neither automatic disappearance of duties after delegation nor sole liability for a particular actor.
 
-The following pages show how local control, rule correction, timely stopping, applied appeals and independent oversight work in these examples. They give concrete questions for institutions to answer.
+Separate the available protections. For §§104-105 (p. 36), we examine person-accessible appeal separately from internal human review and correction capacity. Lean checks a case with human review but no accessible appeal. Both tested appeal readings reject exclusion without appeal. A broader reading additionally protects affected people before exclusion in high-impact cases. The employment comparisons show why wider appeal and harm-triggered correction capacity cannot substitute for each other: one applicant can appeal but has no correcting channel; another lacks pre-exclusion appeal while no harm triggers a correction duty. The different triggers are explicit. An institution applying our tests would therefore need evidence of access and correction capacity under the relevant conditions, rather than one undifferentiated claim of human review.
 
-These are hypothetical cases, not measurements of actual organizations. The source supplies principles; the particular procedures and assumptions are ours. The technical paper identifies the exact rules and proofs.
+Apply the reviewed correction. For §§105-106 and 108 (pp. 36-37), the next comparison connects an appeal to an already-issued benefits denial. A corrected scoring rule yields a grant on reassessment, but the denial remains stored until an update is applied. The checked successful path requires open admission, an actual request, completed review, a working handoff, correction power and an update addressed to the implementing office. Missing the handoff, leaving the update unperformed or attempting it before review leaves the denial unchanged. The proof assumes the modeled order and checks are enforced. It changes the stored decision, not payment. The institutional question is therefore concrete: where does the reviewed finding go, and which performed action changes the record?
 
-Source: Leo XIV, <i>Magnifica Humanitas</i>, official English text, selected paragraphs 97-111. Accessed November 2, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions accompany this report in the research repository.
+Institutions, participation and design
 
-PARTICIPATION, DISTRIBUTED CONTROL AND LOCAL ACTION
+Give oversight a decision-level remit. For §§106 and 108 (pp. 36-37), our oversight test asks whether the same independent reviewer covers the denial and has relevant intervention capacity. One board covers routine inquiries but not the disputed denial. A second arrangement adds denial coverage but lacks intervention power. A third supplies both; the other person-facing safeguards stay fixed. Lean checks these gaps and repairs. Independence is a stipulated case fact. The comparison tests capacity, while the previous page separately checks performed correction. In that composed workflow, the board has a usable intervention path precisely when appeal access, correction power and the handoff exist. A proposed oversight arrangement can thus be examined through remit, power and connection to implementation.
 
-Who can actually<br/>act?
+Specify what participation can cause. For §§108-109 (pp. 36-37), the participation model accepts, records and amends recommendations, and they influence outcomes when no institutional override is used. An override still permits either final outcome; a paired binding rule supplies operational final control. The distributed-pause comparison adds two separate external holds, belonging to an operator and an independent board. Initially, a recorded local request has no effect under any external setting. Enabling its input gives the community a pause while preserving both external powers. Requests and holds are assumed to reach and be honored by the evaluator. This establishes a specific local action, not award authority. It gives an affected group a precise question: what can its input actually cause?
 
-Sharing control between institutions need not give the affected community an effective action of its own.
+Assess the rule being explained. For §§104 and 109 (pp. 36-37), we adopt a specific case policy: intake channel should not change entitlement for equally eligible applicants. Both applicants have verified score 60 and cutoff 50. The initial rule deducts 15 points for assisted intake, producing a denial, while online intake receives a grant. Both explanations truthfully describe the calculation. Lean checks failure of the adopted channel-equality and common-cutoff tests even though the existing responsibility and recourse checklists pass. Removing the penalty supplies both tests. The criterion is our stated case-policy assumption, not a complete account of justice. The result distinguishes correctly describing a calculation from justifying its chosen criterion.
 
-Influence and authority
+Make the objection change the scorer. For §§104-105, 109 and 111 (pp. 36-38), we then connect a recorded objection to that same scoring family. A design reviewer without criteria-changing power leaves the penalty operative; a denial handler's case assignment also fails to authorize design revision. An assigned, empowered design reviewer can implement a proposal that passes the computed eligibility check. The returned rule actually feeds the scorer, so both applications then receive computed grants. Lean also proves that the corrected rule survives every finite modeled revision sequence, with fixed permissions and enforced validation over the two candidate rules. This supplies a working connection from objection to criteria change. It does not automatically reopen earlier denials; that requires the separate applied-appeal path.
 
-A community recommendation in the model is recorded, amendable and sometimes changes the review outcome, yet an institutional override can still decide. A binding rule supplies final control. Separately, a technically capable operator may lack institutional recognition. Neither influence nor recognition alone establishes a justified right to govern.
+Distinguish capability and mandate. For §110 (p. 37), we separate an operator's demonstrated outcome control from institutional recognition and decision remit. A capable operator can lack that scoped mandate; granting it preserves the technical capability. The more general result explicitly assumes that the authority interpretation requires a scoped mandate. Within that family, capability alone does not establish authority. The mandate remains institutional evidence, not a definition of complete moral legitimacy. A proposed governance arrangement must therefore identify both what an actor can do and the basis on which it is authorized to do it.
 
-Two controllers and a local pause
+Timing, interpretation and practical use
 
-An operator and an independent review board each have a separate hold input that can pause execution of the disputed benefits denial. Neither can cancel the other's hold. The affected community can submit and amend a pause request, but the first evaluator ignores it. The repair makes that local request effective alongside both external holds.
+Ask when control becomes effective. For the preventive-control question motivated by §§97, 105-106 (pp. 33-36), the high-stakes case is a hypothetical application, not a source-specified mechanism. Two runs contain the same four events: stop request, delivery, execution and record correction. Delivery precedes execution in one and follows it in the other. Their final administrative flags agree, but only the timely run avoids physical loss. Lean proves that loss persists through every finite sequence of the available events. It also proves that a loss-free state with an already-delivered stop remains protected through every such continuation. These guarantees assume that delivered stopping is obeyed and the modeled events cannot reverse loss. The useful distinction is between a request, effective intervention and restoration of a physical outcome.
 
-Power in this pause protocol | Initial rule | Local input enabled
+Show which conclusions remain stable. Across the tested requirements motivated by §§104-108 (pp. 36-37), we distinguish stable findings from additional policy choices. Missing actual-assignee identification fails all three safeguards policies. The oversight gaps persist even when all three pass. Broader pre-exclusion appeal and harm-triggered correction capacity are independent additions: either can be supplied while the other fails. A shared repaired benefits case meets eight tested combinations of responsibility, appeal and oversight fragments, with correction capacity retained and real triggering conditions present. That witness establishes compatibility; it does not make every conclusion invariant across eight complete readings of the encyclical. This comparison tells readers which extra requirement a conclusion needs and which displayed gaps survive the chosen policy changes.
 
-Operator can cause a pause? | Yes | Yes
+Use the findings as a connected examination. The study's practical contribution is a sequence of evidence questions for any proposed arrangement applying the selected commitments. Identify the actual assignee and the decision covered by that assignment. Establish the affected person's route to challenge it, the reviewer's remit and the relevant correction power. Follow the finding through the handoff to the action that changes the stored decision. Where the objection concerns a governing criterion, identify the role authorized to revise the operative rule and the assessment applied to the revision. Where a dangerous action is pending, establish when intervention becomes effective. These questions connect the report's examples into one method of examination. They let an institution demonstrate a protection through its working relationships, while giving affected people concrete grounds for questioning a missing connection.
 
-Board can cause a pause? | Yes | Yes
-
-Community can cause a pause? | No | Yes
-
-No holds or local request: can resume? | Yes | Yes
-
-What Lean checked
-
-Initially, changing the local request has no pause effect under any external setting. Enabling it gives the community a pause even when both external controllers release their holds. Both external powers remain effective. The original named assignment, appeal and correction-capacity safeguards stay fixed; a pause itself does not award the benefit or correct the record.
-
-Assumptions and practical use
-
-This hypothetical protocol assumes requests reach the evaluator and every asserted hold is honored. Independence is stipulated. Paragraphs 108-109 motivate community action but do not specify this rule. The test concerns temporary suspension, not final award authority or complete subsidiarity. Ask which action the community can actually cause, alongside how many institutions share control.
-
-Here, community means an affected group inside the example. Proof file: DistributedControl.lean. Source motivation: paragraphs 108-109.
-
-PUBLIC BENEFITS / OBJECTIONS AND RULE CORRECTION
-
-Does an objection<br/>change the rule?
-
-A recorded objection becomes effective only when it reaches the rule actually used to calculate awards.
-
-The existing case
-
-Two applications each have verified eligibility score 60 and cutoff 50. The first rule deducts 15 points for assisted intake, producing a denial, while online intake receives a grant. Our adopted policy says that channel difference must not affect entitlement. Both calculations are truthfully explained.
-
-Three responses to the objection
-
-A request to remove the penalty is recorded. We compare the assigned design reviewer without rule-changing power, the deployment actor who handles individual denials, and the assigned design reviewer with explicit criteria-revision power. A computed check also tests the proposed awards against the adopted eligibility rule.
-
-Who acts on the recorded request? | Rule changes? | Assisted application
-
-Design reviewer without criteria power | No | 45: deny
-
-Denial handler without design assignment | No | 45: deny
-
-Assigned, empowered design reviewer; valid proposal | Yes | 60: grant
-
-What Lean checked
-
-The corrected selector actually feeds the scorer. Both applications then compute as grants. Scores, cutoff, assignment, appeal and correction channels remain fixed. The check rejects proposals that would restore the penalty; the corrected rule survives every finite sequence of the modeled revision attempts.
-
-The practical question and assumptions
-
-Ask who can change the operative criteria, alongside whether an objection was logged. This hypothetical process assumes supplied role evidence and perfect enforcement of the checks, and considers only our two candidate rules. Recomputing an award does not automatically reopen an old denial or deliver payment. The separate appeal-to-record-correction path is shown on page 5.
-
-Earlier disclosure result: a notice with score 47, cutoff 50 and published safeguards can still name a service contact rather than the actual assignee. Publishing that assignee repairs that separate responsibility gap. Proof files: Disclosure.lean, Fairness.lean and RuleCorrection.lean. Source motivation: paragraphs 104-105, 109 and 111.
-
-HIGH-STAKES AUTONOMY
-
-A stop that arrives too late
-
-The same final checklist can hide a crucial difference: whether control reached the system before the harm occurred.
-
-The example
-
-We model a hazardous autonomous action. A stop request is sent, delivered, and followed by a corrected decision record. One run delivers the stop before execution; the other delivers it afterward. Both finish with the stop recorded as delivered and the administrative record corrected. Only the timely run avoids physical loss.
-
-This is a hypothetical case with explicit rules. We assume a delivered stop is obeyed and that none of the five available actions can reverse the physical loss. Those assumptions are not discoveries about real systems.
-
-Check | Timely run | Late run
-
-Stop requested? | Yes | Yes
-
-Stop delivered? | Before execution | After execution
-
-Record corrected afterward? | Yes | Yes
-
-Record-correction officer identifiable? | Yes | Yes
-
-Physical loss in the model? | No | Yes
-
-What Lean checked
-
-The two runs contain the same four events; only the delivery and execution order changes. Lean checked the different outcomes. It also checked that once physical loss occurs, no finite sequence of the available actions removes it. Correcting the record remains possible, but it does not restore the physical outcome.
-
-There is a positive result too: if the stop has already arrived while the state is loss-free, every continuation allowed by these rules stays loss-free. That is a conditional guarantee inside our model, not a proof that real operators always detect danger or respond in time.
-
-The practical lesson
-
-Ask when control became effective, not just whether a human was involved. Also ask what a promised correction can change: the record, the decision, or the physical harm. Those protections are different.
-
-Where the limits matter
-
-The guarantee depends on our irreversibility and stopping rules. It does not establish that every real loss is permanent or that the source requires this exact mechanism. Real use needs evidence that delivery and stopping work.
-
-APPEAL, REVIEW AND IMPLEMENTED CORRECTION
-
-When does an appeal<br/>change the decision?
-
-An available channel, a review finding and an applied update are different steps.
-
-The already-issued denial
-
-The assisted-intake denial is already stored. The scoring rule has now been corrected, so reassessment yields a grant. An independent board can review an admitted appeal; a separate case office has power to amend the record. We check what happens between those capacities and the actual update.
-
-What happens in the modeled path? | Stored decision
-
-Appeal reviewed, but no handoff to the correction office | Denial remains
-
-Review completed, but no update applied | Denial remains
-
-Update attempted before completed review | Denial remains
-
-Appeal admitted, reviewed, handed off and update applied | Reassessed grant
-
-What Lean checked
-
-The complete path needs open admission, an actual request, completed review, a working handoff, correction power and an update addressed to the correction office. Having the powers available does not perform those actions. The board has a usable intervention path exactly when access, power and the handoff exist. Adding the handoff preserves submission and review behavior.
-
-How this fits the earlier appeal finding
-
-Both tested appeal readings reject exclusion without accessible appeal. The broader reading also requires appeal for affected people in high-impact decisions before exclusion; the narrower one can accept that earlier stage without appeal. Internal human review alone does not give the person access. The new path examines what happens after an appeal is actually admitted.
-
-Assumptions and practical use
-
-The reassessment uses the corrected rule shown on page 3. The hypothetical workflow enforces the shown order and uses authentic findings from that composed path. The result changes the stored award, not payment or full restoration of every harm. Ask where a reviewed finding goes and which action actually changes the record.
-
-Proof file: AppealCorrection.lean. Source motivation: paragraphs 105-106 and 108. Reproduction instructions and the full evidence map accompany the technical paper.
-
-INDEPENDENT OVERSIGHT
-
-Does the board cover<br/>your decision?
-
-An independent board can exist without being able to oversee a particular benefit denial.
-
-The example
-
-Return to our hypothetical public-benefits office. Internal staff review a denial. An independent board can review routine inquiries, but the denial falls outside its remit. The person still has a named officer, an appeal and correction capacity. Those safeguards do not give the board jurisdiction over the denial.
-
-Check for the benefit denial | Outside remit | Review only | Remit + power
-
-Independent board exists and can review? | Yes | Yes | Yes
-
-Denial within the board's remit? | No | Yes | Yes
-
-Board has intervention power for denial? | Yes | No | Yes
-
-Meets our actionable-oversight test? | No | No | Yes
-
-In the first version, intervention power alone cannot overcome the missing remit. Internal review and the person's appeal and correction access stay fixed across all three versions.
-
-What Lean checked
-
-The first version has a real oversight role for routine inquiries but no independent coverage of the denial. The second covers the denial but lacks intervention power. The third supplies both. Each missing provision can be repaired while the other safeguards stay fixed. Both narrow and broad appeal checklists pass throughout; the oversight gap remains separate.
-
-The practical question
-
-When told 'we have independent oversight,' ask which decisions it covers and what the reviewer can do about them. The existence of a board, the right to review and the power to intervene are separate checks.
-
-Assumptions and limits
-
-Independence and powers are stipulated in this hypothetical example. This comparison checks capacity. Page 5 separately checks an actual modeled review-to-update path; neither measures real-world speed or delivery. The source's call for effective oversight is broader: criteria and community participation also matter. This example does not settle those requirements or prove full source compliance. The exact board arrangement is our interpretation of paragraphs 106 and 108.
+The earned outcome and evidence. The fixed study gives examined outcomes for ten target questions and six countermodel questions across the three agreed domains. Its contribution combines explicit dependencies, checked failures, repaired arrangements and conditional guarantees. We do not equate the theorem inventory with independent discoveries or claim that the original 10-15 independent-positive-result aspiration was met. The companion technical paper maps the results to declarations, assumptions and source records; the reproducible Lean files permit checking. The resulting artifact makes selected governance commitments precise enough to inspect while preserving the source, interpretation and implementation as distinguishable parts of the argument.

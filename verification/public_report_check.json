@@ -1,0 +1,54 @@
+{
+  "report_version": "1.1",
+  "pages": 5,
+  "body_paragraphs": 22,
+  "body_words": 2400,
+  "paragraphs_by_page": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    [
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    [
+      19,
+      20,
+      21,
+      22
+    ]
+  ],
+  "source_first_pages": [
+    1,
+    2
+  ],
+  "lean_method_first_paragraph": 9,
+  "source_quotes_checked": [
+    "without the possibility of appeal",
+    "responsibility must be clearly defined at every stage",
+    "technical power automatically confers the right to govern"
+  ],
+  "source_page_reference_edition": "Official English Vatican PDF, 91 pages",
+  "formal_sources_unchanged": true,
+  "technical_paper_unchanged": true,
+  "pdf_sha256": "f5ec5c220bbef1068afcbbc1f54254b0f97ba4dd33c11b1ece2e361e5875d108"
+}

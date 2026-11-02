@@ -4,7 +4,7 @@
 
 N = responsibility plus appeal after exclusion (`responsibilityAppealPolicy`). B = retain N and additionally require appeal for an affected person in a high-impact decision (`broadAppealPolicy`). H = retain N and additionally require remedy capacity after stipulated harm (`harmRemedyPolicy`). B does not add H's remedy duty, and H does not add B's pre-exclusion appeal duty. B and H are incomparable: the checked existing examples below separate them in both directions.
 
-The institutional/individual responsibility and regime/decision oversight comparisons use different, explicitly linked structures. They are not silently inserted into a Governance record. In the joint benefits witness, its assigned and identifiable fields are proved equal to the fields of the same ResponsibilityAllocation. Institution-only answerability and regime-only provision are weaker comparison fragments; neither is presented as all source compliance.
+The institutional/individual responsibility and regime/decision oversight comparisons use different, explicitly linked structures. They are not silently inserted into a Governance record. In the joint benefits witness, its assigned and identifiable fields are proved equal to the fields of the same ResponsibilityAllocation. Institutional and individual answerability require different identification facts: HumanAnswerability does not require institutionIdentifiable, while InstitutionalAnswerability does not identify an actual human assignee. Neither condition alone implies the other. The responsibility bridge explicitly adds allocation and assigned-person identification. Regime-level provision reaches actionable decision oversight with the coverage and intervention premises. None of these fragments certifies all source compliance.
 
 “Yes” and “No” concern the stated model/specification only. A dash means that row does not instantiate the corresponding structure; it is not evidence of absence. There are no probabilities or empirical compliance scores.
 
@@ -41,7 +41,7 @@ The two oversight-gap rows reuse the same benefits Governance/allocation as the 
 
 This is a declared, checked family. It is not an enumeration of every source interpretation, a proof that the full philosophical concepts are interchangeable with these formulas, or a score for real institutions. Mathematical joint satisfaction and textual justification are separately documented. Clear source commitments remain requirements; the distinctions concern implementations, trigger choices and provided evidence.
 
-I29/A38 record the family and alignment rules. `POSITIVE_TARGET_CONSOLIDATION.md` maps every original target to source passages, exact evidence and concrete remaining obligations. T7/T8 criteria-setting and T3/T6 review/correction action connections remain active before final writing/release.
+I29/A38 record the family and alignment rules. `POSITIVE_TARGET_CONSOLIDATION.md` maps every original target to source passages, exact evidence and concrete remaining obligations. The later 0.15 and 0.16 sections below give the final criteria-setting and review/correction connections; the V1 completion audit records their dispositions.
 
 
 ## Checkpoint 0.15: operative criteria comparison in the same scoring case
@@ -55,7 +55,7 @@ The original N/B/H and eight-combination matrix remains as checked at 0.14. Rule
 | Initial penalty rule; assigned design actor has criteria power | Yes | Yes | Yes | Corrected rule becomes operative; 60/grant | `RuleCorrection.authorized_correction_changes_rule_and_awards` |
 | Corrected rule; criteria-empowered actor proposes restoring the penalty | Yes | Yes | No | Corrected rule retained; 60/grant | `RuleCorrection.valid_rule_is_preserved` |
 
-The corrected rule survives every finite sequence of these modeled revision attempts (`RuleCorrection.valid_rule_survives_all_finite_revision_attempts`). Existing assignment, identity and appeal/correction channels remain fixed across the successful comparison. This is the declared two-rule family, not a robustness claim for every possible rule change, and recomputation does not reopen old case records automatically. T3/T6's contested-decision appeal/review/correction action path is next.
+The corrected rule survives every finite sequence of these modeled revision attempts (`RuleCorrection.valid_rule_survives_all_finite_revision_attempts`). Existing assignment, identity and appeal/correction channels remain fixed across the successful comparison. This is the declared two-rule family, not a robustness claim for every possible rule change, and recomputation does not reopen old case records automatically. The checkpoint 0.16 section below records the separate contested-decision appeal/review/correction path.
 
 
 ## Checkpoint 0.16: capacity, connected review and applied correction
@@ -70,4 +70,4 @@ AppealCorrection.lean gives the following ordered-path comparison for the existi
 | Complete admitted/reviewed/handed-off/applied path | Both available | Yes | Yes | Reassessed grant | `AppealCorrection.ordered_path_corrects_existing_denial` |
 | Available powers left unexercised | Both available | No | No | Deny | `AppealCorrection.available_powers_without_exercise_keep_denial` |
 
-`AppealCorrection.completed_path_iff` checks every access/power/handoff/request/review/target combination. N/B/H hold in the same original snapshot even with the missing handoff; these capacity-based policies do not themselves assert completed action. `actionable_board_iff_path_available` derives the board's intervention capacity from the usable ordered correction path, rather than an independent capability flag. This remains administrative correction with explicit dataflow/enforcement assumptions. The original completion audit and writing/release are next.
+`AppealCorrection.completed_path_iff` checks every access/power/handoff/request/review/target combination. N/B/H hold in the same original snapshot even with the missing handoff; these capacity-based policies do not themselves assert completed action. `actionable_board_iff_path_available` derives the board's intervention capacity from the usable ordered correction path, rather than an independent capability flag. This remains administrative correction with explicit dataflow/enforcement assumptions. The V1 completion audit and current report editions state the final dispositions; this matrix preserves the checkpoint sequence as evidence provenance.

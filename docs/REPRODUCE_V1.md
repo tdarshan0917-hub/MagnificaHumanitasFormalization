@@ -1,5 +1,7 @@
 # Reproduce the Version 1.0 artifact
 
+Current report editions: public 1.4 (six pages) and technical 1.1 (sixteen pages). The refreshed source package contains both current PDFs and editable manuscripts, with the unchanged 0.16 Lean sources. See [report revision record](REPORT_REVISION_2026-11-02.md).
+
 ## Two exact revisions
 
 The formal checkpoint is `0b938e373dbf538fe0853f6282e4d9502e67ea01` (0.16). All 21 delivered Lean sources match that revision byte for byte; `verification/lean_source_manifest.json` records SHA-256 and Git blob identities. The final documentation commit adds the papers, source-version evidence and release scripts. The downloadable ZIP records its exact packaging commit in `RELEASE_COMMIT.txt` and has a `MANIFEST.sha256` for its payload. No uncreated GitHub tag is needed to identify either revision.

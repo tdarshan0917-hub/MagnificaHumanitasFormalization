@@ -64,7 +64,7 @@ for i,page in enumerate(D['pages'],1):
   if b and b['after_paragraph']==p['id']:
    story.extend([blueprint(b),Spacer(1,9)])
    rows=[b['headers'],['---']*len(b['headers'])]+b['rows'];md.append('\n'.join(' | '.join(r) for r in rows));plain.extend(' | '.join(r) for r in [b['headers']]+b['rows'])
- story.extend([Spacer(1,3),para(escape(page['notes']),'notes')]);md.append('*'+page['notes']+'*');md.append('[Official English source PDF]('+D['source_url']+')');plain.append(page['notes'])
+ story.extend([Spacer(1,3),para(('<a name="evidence"/>' if i==TOTAL else '')+escape(page['notes']),'notes')]);md.append('*'+page['notes']+'*');md.append('[Official English source PDF]('+D['source_url']+')');plain.append(page['notes'])
  if i==TOTAL:
   a=D['acknowledgment'];story.append(para('<b>'+escape(a['heading'])+'.</b> '+escape(a['text']),'ack'));md.extend(['## '+a['heading'],a['text']]);plain.extend([a['heading'],a['text']])
 
@@ -72,7 +72,7 @@ def footer(c,doc):
  c.saveState();c.setStrokeColor(colors.HexColor('#D7E1E6'));c.line(45,41,550.276,41)
  c.setFillColor(MUTED);c.setFont('MH',7);c.drawString(45,27,f'MAGNIFICA HUMANITAS | Public report {D["version"]}')
  c.setFillColor(TEAL);c.drawString(350,27,'Source PDF');c.drawString(425,27,'Evidence')
- c.linkURL(D['source_url'],(350,24,395,36),relative=0);c.linkURL('https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization',(425,24,465,36),relative=0)
+ c.linkURL(D['source_url'],(350,24,395,36),relative=0);c.linkRect('Evidence and companion source package','evidence',(425,24,465,36),relative=0,thickness=0)
  c.setFillColor(MUTED);c.drawRightString(550.276,27,f'{doc.page} / {TOTAL}');c.restoreState()
 class DeterministicCanvas(pdfcanvas.Canvas):
  def __init__(self,*a,**k):k['invariant']=1;super().__init__(*a,**k)

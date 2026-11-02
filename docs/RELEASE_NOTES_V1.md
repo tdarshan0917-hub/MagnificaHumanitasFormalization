@@ -1,5 +1,7 @@
 # Version 1.0 — research artifact and final documents
 
+Current report editions: public 1.4 (six pages) and technical 1.1 (sixteen pages). The refreshed source package contains both current PDFs and editable manuscripts, with the unchanged 0.16 Lean sources. See [report revision record](REPORT_REVISION_2026-11-02.md).
+
 Date: November 2, 2026. Author: Travis Darshan.
 
 The final technical paper is **From Principles to Working Safeguards** (16 pages). The final public report is **Who can challenge, correct and decide?** (6 pages). Both derive their conclusions from formal checkpoint 0.16, with no new Lean definitions or theorem families added during final writing.

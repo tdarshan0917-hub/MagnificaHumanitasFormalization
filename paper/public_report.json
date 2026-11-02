@@ -3,7 +3,7 @@
   "subtitle": "A close reading of Magnifica Humanitas and its formal governance findings",
   "author": "Travis Darshan",
   "date": "November 2, 2026",
-  "version": "1.3",
+  "version": "1.4",
   "outline_contract": "Integrated six-page public report: seven key findings, source analysis, checked examples, recommendations/execution and acknowledgment; approved 2026-11-02.",
   "source_url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.pdf",
   "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
@@ -15,20 +15,20 @@
         {
           "id": 1,
           "label": "What we have done",
-          "text": "We have translated selected AI-governance commitments in Pope Leo XIV's Magnifica Humanitas into explicit requirements and checked examples using Lean, a computer program that verifies logical proofs. We built hypothetical arrangements where protections fail, then checked repairs that supply them. Our proposal is to use these comparisons to examine whether an institution's procedures deliver its stated protections. The findings above summarize the results; the following analysis connects each result to the source passage, our interpretation and the example examined."
+          "text": "This study turns selected commitments in Pope Leo XIV's Magnifica Humanitas into questions institutions can answer with evidence. Using Lean, a computer program that verifies logical proofs, we checked hypothetical arrangements where protections fail and repairs that supply them. The purpose is to establish whether a promised protection reaches the person it should protect. We connect each source passage to our interpretation, the example examined and the checked result, then propose an institutional execution blueprint."
         },
         {
           "id": 2,
           "label": "Why it matters",
-          "text": "Imagine receiving a benefits denial with a named agency, a help desk and an appeal form. Who is assigned to your decision, can anyone correct it, and does a successful review actually change the record? Our work makes these connections explicit. The encyclical places technological change within a Christian account of human dignity and the common good (§§1-16); its opening contrasts Babel's self-aggrandizement with Nehemiah's cooperative rebuilding (§§7-10). We examine how selected commitments can operate through actual assignments, powers and performed actions."
+          "text": "Imagine receiving a benefits denial with a named agency, a help desk and an appeal form, while support you depend on remains unavailable. Who handles your decision, who can correct it, and does a successful review change the record? These questions give practical form to the encyclical's concern for dignity and the common good. Paragraph 14 calls for principles to become practices; §47 encourages effective academic applications to the digital revolution. Our contribution examines selected connections between a commitment, the powers to fulfill it and the performed action."
         },
         {
           "id": 3,
           "label": "The encyclical’s wider argument",
-          "text": "Magnifica Humanitas is an encyclical, a papal teaching letter, dated 15 May 2026 and addressed to Catholics, other Christians and people of goodwill (§16). Its official English PDF has 91 pages, including notes, and 245 numbered paragraphs. Its five chapters move from social doctrine's development and foundations to technology and dominance, truth/work/freedom, and power/peace; the conclusion returns to Christian life and hope. That wider argument gives this study its setting. An appeal desk is one practical arrangement through which a commitment might operate; it cannot represent the whole ethical vision. Our selected passages and explicit interpretations define the investigation."
+          "text": "Magnifica Humanitas is a papal teaching letter dated 15 May 2026, addressed to Catholics, other Christians and people of goodwill (§16). Its official English PDF has 91 pages, including notes, and 245 numbered paragraphs. Its five chapters address social doctrine's development and foundations, technology and dominance, truth/work/freedom, and power/peace. Babel and Nehemiah frame a choice between self-aggrandizement and cooperative rebuilding (§§7-10). Human dignity extends beyond data and performance (§10), and the person retains freedom and possibilities of change (§128). These contextual passages explain the human purpose; the formal investigation remains limited to selected commitments in §§97-111."
         }
       ],
-      "notes": "Source: Leo XIV, Magnifica Humanitas, official English edition, 15 May 2026; introduction, chapter structure and selected §§97-111. Page numbers refer to this edition, accessed 2 November 2026. The full document is contextual background; the formal source boundary remains §§97-111."
+      "notes": "Source: Leo XIV, Magnifica Humanitas, official English edition, 15 May 2026, accessed 2 November 2026. §§7-16, 47 and 128 provide context; selected §§97-111 remain the formal source boundary. Numbered paragraphs are stable reference points; page references use the 91-page English PDF."
     },
     {
       "title": "A close reading of the selected passages",
@@ -42,7 +42,7 @@
         {
           "id": 5,
           "label": "From context to consequential decisions",
-          "text": "Paragraphs 97-103, on pages 33-36, supply context about human direction, AI use and consequential decisions. Consider an applicant told that a computer placed her below an eligibility threshold. She needs a route to question that particular outcome and someone assigned to answer for it. This is why we focus on decisions affecting identifiable people: the relationship between a protection and its intended recipient can be examined precisely. We use the surrounding observations to understand the setting, rather than treating every empirical description of AI as a permanent rule. Employment and public services supply concrete settings for asking how responsibility reaches the person affected."
+          "text": "Paragraphs 97-103 (pp. 33-36) place AI within human direction and consequential decisions. Paragraphs 102-103 connect exclusion to the loss of responsible judgment, compassion and recognition that people can change. Consider an applicant told that a computer placed her below an eligibility threshold. She needs someone able to hear her circumstances, examine the decision and answer for it. Our model examines specific access and responsibility conditions serving that purpose; it does not model compassion or a person's whole life. The hypothetical applicant illustrates why a protection must reach its intended recipient. Employment and public services provide concrete settings for that inquiry."
         },
         {
           "id": 6,
@@ -89,7 +89,7 @@
         {
           "id": 13,
           "label": "Make the reviewed appeal change the record",
-          "text": "For §§105-106 and 108 (pp. 36-37), consider an assisted-intake benefits denial already stored in the agency's records. Reassessment under the corrected scoring rule yields a grant. A board can complete review while the denial remains unchanged if its finding never reaches the correcting office. Lean checks that the completed path needs open admission, a submitted request, completed review, a working handoff, correction power and an update applied through the correct office. Missing the handoff or leaving the update unperformed preserves the denial; applying it before review also fails. With the modeled checks enforced, the ordered path changes the stored award to grant. Payment remains a separate action."
+          "text": "For §§105-106 and 108 (pp. 36-37), consider an assisted-intake denial stored in the agency's records. Reassessment under the corrected rule yields a grant, yet review alone can leave that denial operative. Lean checks that the completed path needs open admission, a submitted request, completed review, a working handoff, correction power and an update through the correct office. Missing the handoff or leaving the update unperformed preserves the denial; acting before review also fails. With the modeled checks enforced, the ordered path changes the stored award to grant. For someone awaiting support, this connection matters beyond the review letter. Payment is a separate action requiring its own evidence."
         }
       ],
       "notes": "Evidence: technical paper §§2-5 (method, appeal, assignee, disclosure), §8 (stages) and §11 (applied correction); declaration references and assumptions accompany those sections."
@@ -111,7 +111,7 @@
         {
           "id": 16,
           "label": "Examine the rule behind the explanation",
-          "text": "For §§104 and 109 (pp. 36-37), two benefits applicants each have verified eligibility score 60 and cutoff 50. One applies online; the other uses assisted intake. The initial rule deducts 15 points for assisted intake, so that applicant receives a denial while the online applicant receives a grant. Both letters accurately explain the arithmetic. Our adopted case policy says intake channel should not change entitlement. Lean checks that the penalty fails the adopted equal-treatment and common-cutoff tests despite the existing safeguards passing. Removing it supplies both tests. The lesson concerns this explicit criterion: an accurate explanation can reveal a rule that fails the standard chosen to assess it."
+          "text": "For §§104 and 109 (pp. 36-37), assume two hypothetical applicants each have assessed eligibility score 60 and cutoff 50. One applies online; the other uses assisted intake. Someone might need assistance because of disability, language or limited connectivity; these are illustrations, not modeled facts. Our adopted policy treats intake channel as irrelevant to entitlement. A 15-point assisted-intake penalty nevertheless causes a denial, accurately explained in the notice. Lean checks that the rule fails the adopted equal-treatment and common-cutoff tests despite the other safeguards passing. Removing the penalty supplies both tests. Equal eligibility is an assumption; Lean checks the rule's consequences, not actual eligibility."
         },
         {
           "id": 17,
@@ -138,20 +138,20 @@
         {
           "id": 20,
           "label": "Explain which protections work together",
-          "text": "For the tested requirements motivated by §§104-108 (pp. 36-37), consider the same unidentified denial officer under different appeal rules. Opening appeal earlier does not identify that officer. Lean checks that missing assignee identification fails all three safeguards policies; board-coverage and power gaps also persist when those policies pass. Conversely, giving an applicant appeal does not supply a correcting desk, and providing correction after harm need not supply appeal before exclusion. The additions require separate evidence. A repaired benefits case meets eight tested combinations of responsibility, appeal and oversight requirements, with correction capacity retained. This shows those protections can work together; it does not establish every conclusion under every possible reading of the encyclical."
+          "text": "For the requirements motivated by §§104-108 (pp. 36-37), some conclusions survive every safeguards-policy variation tested. Earlier appeal access does not identify an unnamed denial officer. A board can still lack coverage or power while the person's other safeguards pass. Other conclusions depend on the adopted requirement: appeal before exclusion and correction capacity after harm need separate evidence. Lean also checks a repaired benefits arrangement in which the selected responsibility, appeal and oversight requirements work together. This establishes compatibility within the declared family, rather than covering every possible reading of the encyclical. The technical paper gives the exact combinations and their evidence."
         },
         {
           "id": 21,
           "label": "Read the findings as one connected process",
-          "text": "The examples now join into a practical line of inquiry. Take one denial notice and trace it to the actual assignee, the accepted appeal, the authorized reviewer and the office that applies the correction. A finding that stops between departments exposes a specific connection to repair. An objection about the scoring rule raises a different question: who can revise that rule and how does the approved revision reach the calculator? These are the connections checked in our reference cases. The execution blueprint on the next page turns them into proposed institutional actions and evidence of completion, including a final check of the record actually changed."
+          "text": "Take one denial notice and trace it to the actual assignee, the accepted appeal, the authorized reviewer and the office applying the correction. A finding that stops between departments exposes a connection to repair. An objection about the scoring rule raises a separate question: who can revise that rule, and how does the revision reach the calculator? Ask also whether the person can use the channel in practice, including any assistance needed. Accessibility arrangements require institutional evidence beyond our modeled open channel. The next page turns the checked distinctions into proposed actions and records of completion."
         },
         {
           "id": 22,
           "label": "From checked findings to institutional action",
-          "text": "We have made selected commitments in the encyclical precise enough to examine through machine-checked failures, working repairs and conditional guarantees. The models show why an appeal form, a named office and a review board can coexist with an unchanged denial, and how a connected review-to-update path corrects the stored award. The contribution is the traceable relationship between the actual passages, our explicit interpretations and the checked consequences. The recommendations that follow apply those distinctions to a proposed workflow. The companion technical paper and reproducible Lean files let readers inspect the evidence and its assumptions."
+          "text": "Our contribution is a traceable chain from selected source passages, through explicit interpretations, to checked failures, working repairs and conditional guarantees. It helps an institution identify where an appeal form, named office or review board fails to change an operative denial, and what connection the reference model supplies. These are practical means of pursuing the encyclical's human purpose. Its wider concern for dignity, relationships and the common good guides why the protections matter. The following recommendations show how to examine an actual process; the technical paper and companion source package provide the formal evidence and assumptions."
         }
       ],
-      "notes": "Evidence: technical paper §12 (timing), §13 (interpretation comparisons), §14 (target dispositions, proof audit and positive-result shortfall), §15 (reproduction). Formal checkpoint: 0b938e373dbf538fe0853f6282e4d9502e67ea01, Lean 4.35.0. The machine/equipment story illustrates the existing abstract high-stakes model. The technical paper and Lean proofs are unchanged."
+      "notes": "Evidence: technical paper §12 (timing), §13 (interpretation comparisons), §14 (result classes, scope and proof audit), §15 (reproduction). Formal checkpoint: 0b938e373dbf538fe0853f6282e4d9502e67ea01, Lean 4.35.0. The machine/equipment story illustrates the existing abstract model. Technical paper 1.1 clarifies the interpretation; the Lean proofs are unchanged."
     },
     {
       "title": "From governance commitments to implemented decisions",
@@ -165,7 +165,7 @@
         {
           "id": 24,
           "label": "A worked example",
-          "text": "Two applicants each have eligibility score 60 and cutoff 50. A 15-point assisted-intake penalty produces one denial. The institution's adopted policy treats intake channel as irrelevant to entitlement. An authorized design reviewer removes the penalty after assessment, and the calculation now yields a grant. The applicant's earlier denial still remains in the records. An appeal must be admitted, reviewed and handed to an empowered case office, which applies the update. Completion requires checking that the stored denial changed to the reassessed grant. Correcting a general rule and implementing the correction for an affected person are connected tasks requiring separate actions."
+          "text": "Assume two applicants each have assessed eligibility score 60 and cutoff 50. A 15-point assisted-intake penalty produces one denial, contrary to the adopted channel-irrelevance policy. An authorized design reviewer removes the penalty after assessment, and the calculation yields a grant. The earlier denial still remains in the records. An appeal must be admitted, reviewed and handed to an empowered case office, which applies the update. Check that the stored denial changed to the reassessed grant, then separately verify delivery of any resulting support. Correcting a general rule and correcting an affected person's case require connected, distinct actions."
         },
         {
           "id": 25,
@@ -175,7 +175,7 @@
         {
           "id": 26,
           "label": "Make the protection demonstrable",
-          "text": "This blueprint is our implementation proposal, informed by the checked comparisons. The technical paper states the supporting results and assumptions; suggested execution records are practical evidence to examine in an actual procedure. Institutions applying these commitments should show who can act, on which decision, and how the action changes the outcome."
+          "text": "Trace one consequential decision and locate any missing assignment, access route, power or handoff. Require evidence of the repair and changed operative result. These recommendations aim to let a person challenge a decision, reach someone empowered to act and obtain an implemented correction when review warrants it. The promised protection must reach that person."
         }
       ],
       "table": {
@@ -316,7 +316,7 @@
           }
         ]
       },
-      "notes": "Source basis: selected §§104-111, official English PDF pp. 36-38. Evidence map: technical paper §§4-5 and 8 (assignment), §§9-10 (criteria/rule change), §§3 and 11 (appeal/applied update), §6 (oversight), §12 (timing). The workflow and suggested execution records are our recommendations, not additional Lean theorems."
+      "notes": "Source: §§104-111, pp. 36-38. Evidence: technical §§4-5, 8 (assignment), §§9-10 (criteria), §§3, 11 (appeal/update), §6 (oversight), §12 (timing). Circulate the companion MagnificaHumanitas_V1_Source_and_Reports.zip with these reports: it includes the Lean sources, evidence map and reproduction instructions without requiring repository access. The blueprint and suggested records are recommendations, not additional Lean theorems."
     }
   ],
   "ai_credit": "Research, formalization and drafting supported by ChatGPT (OpenAI).",

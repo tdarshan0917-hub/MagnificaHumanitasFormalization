@@ -2,13 +2,13 @@
 
 A Lean 4 analysis of selected AI-governance requirements in Magnifica Humanitas
 
-Travis Darshan · November 2, 2026 · Version 1.0
+Travis Darshan · November 2, 2026 · Version 1.1
 
 Formal source revision: `0b938e373dbf538fe0853f6282e4d9502e67ea01`
 
 A Lean 4 analysis of selected AI-governance requirements in Magnifica Humanitas
 
-Travis Darshan | Technical paper, version 1.0 | November 2, 2026
+Research, formalization and drafting supported by ChatGPT (OpenAI).
 
 ### Abstract
 
@@ -16,7 +16,7 @@ This paper presents a source-linked formal-governance study of selected requirem
 
 ### Principal results
 
-Appeal expansion and correction capacity require independent evidence. Identified assignment must concern the actual decision and assignee. Oversight requires both coverage and an effective connection to intervention. A recorded objection can be connected to the rule used by the scorer, and a completed appeal can be connected to an applied record update. Timing matters where the modeled outcome is irreversible.
+Appeal expansion and correction capacity require independent evidence. Identified assignment must concern the actual decision and assignee. Oversight requires both coverage and an effective connection to intervention. A recorded objection can be connected to the rule used by the scorer, and a completed appeal can be connected to an applied record update. Timing matters where the modeled outcome is irreversible. The operational question is whether a protection reaches the affected person through an assigned role, usable power and performed action.
 
 ### Artifact and reading guide
 
@@ -24,7 +24,7 @@ The formal basis is checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67
 
 ## 1. Corpus, method and contribution
 
-The project begins with a finite question suite and a fixed application boundary. It studies the selected governance passages of the official English source [1], using three hypothetical domains: employment, public benefits/services and bounded high-stakes autonomy. The claim ledger records 40 candidates, selects 28 for modeling, and defers 12. Selection does not mean that each sentence is translated into an independent axiom, nor that the whole encyclical has been formalized.
+This study examines selected governance passages [1] through three hypothetical domains: employment, public benefits/services and bounded high-stakes autonomy. The ledger records 40 candidate claims, 28 selected and 12 deferred. Selection does not make every sentence an independent axiom or formalize the entire encyclical. Contextually, §§14 and 47 invite practical and academic application; §§10 and 128 place human dignity beyond data, performance and fixed classification. These passages explain the purpose without adding premises to the formal scope, §§97-111.
 
 Source location | Topic selected for operational analysis
 --- | ---
@@ -34,7 +34,7 @@ Source location | Topic selected for operational analysis
 §§107-109 | Participation, choices, correction and design justice
 §§110-111 | Power, authority and developer responsibility
 
-These topic labels summarize the source motivation. The formulas below are our explicit operational proposals. The source ledger distinguishes normative commitments, institutional requirements, empirical claims and anthropological positions. Empirical observations are not silently converted into timeless axioms. No Chapter Two premise or categorical weapons prohibition is imported into the formal core.
+The topic labels summarize source motivation; the formulas are explicit operational proposals. The ledgers distinguish normative commitments, institutional requirements, empirical claims and anthropological positions. Empirical observations are not made timeless axioms. The model tests specific access, responsibility and action conditions; compassion, human freedom and the common good remain wider interpretive purposes, rather than properties certified by those conditions.
 
 ### A traceable reconstruction
 
@@ -101,7 +101,7 @@ Lean evidence: `InterpretationRobustness.appeal_and_remedy_extensions_are_incomp
 
 ## 4. Responsibility, the actual assignee and delegation
 
-ResponsibilityAllocation separates institutional responsibility, institutional identification, human membership, human identification, decision assignment and correction power. InstitutionalAnswerability requires an identifiable responsible institution. HumanAnswerability requires a responsible institution and a member actually assigned to the decision who is identifiable. ActionableResponsibility additionally requires that same person to have correction power for that decision.
+ResponsibilityAllocation separates institutional responsibility, institutional identification, human membership, human identification, decision assignment and correction power. InstitutionalAnswerability requires an identifiable responsible institution. HumanAnswerability requires a responsible institution and a member actually assigned to the decision who is identifiable. ActionableResponsibility additionally requires that same person to have correction power for that decision. HumanAnswerability does not itself require institutional identification; the two identification conditions must not be conflated.
 
 ```text
 HumanAnswerability(r,d) ⇔ ∃i,h, responsible(i,d) ∧ member(h,i)
@@ -199,7 +199,7 @@ The repair enables the local input while retaining both external powers. The loc
 
 Lean evidence: `DistributedControl.two_distinct_controllers_have_effective_holds; DistributedControl.local_pause_capacity_iff_enabled`
 
-These are comparisons of defined powers. They explain why consultation, influence, a pause and final decision control require different evidence. The affected community is an actor inside the hypothetical governance model; its role is not a publication-approval procedure for this research.
+These comparisons distinguish consultation, influence, a pause and final decision control by their defined effects. The community represents affected people whose input can be connected to action; the particular mechanisms and enforcement assumptions are explicit implementation choices.
 
 ## 8. Lifecycle allocation and the authority question
 
@@ -227,7 +227,7 @@ The necessary condition is substantive normative input. The theorem does not est
 
 ## 9. Explanation and an independently adopted fairness test
 
-Fairness.lean gives two fully verified benefits applications the same eligibility score, 60, and cutoff, 50. One uses online intake; the other assisted intake. The adopted case policy treats intake channel as irrelevant to entitlement. The initial rule deducts 15 points for assisted intake and truthfully discloses that deduction. Both the favorable and unfavorable notices correctly explain their arithmetic.
+Fairness.lean assumes two hypothetical benefits applications have the same assessed eligibility score, 60, and cutoff, 50. One uses online intake; the other assisted intake. The adopted case policy treats intake channel as irrelevant to entitlement. The initial rule deducts 15 points for assisted intake and truthfully discloses the deduction. Both notices correctly explain their arithmetic. The scores are stipulated inputs, not independently validated agency assessments.
 
 ```text
 award(b,c) = [50 ≤ 60 - deduction(b,c)]
@@ -236,12 +236,12 @@ deduction(b,c) = 15 if assisted(c) AND NOT repaired(b); otherwise 0
 
 Application | Initial computation | Penalty removed
 --- | --- | ---
-Online, verified score 60 | 60 - 0: grant | 60 - 0: grant
-Assisted, verified score 60 | 60 - 15: deny | 60 - 0: grant
+Online, assumed score 60 | 60 - 0: grant | 60 - 0: grant
+Assisted, assumed score 60 | 60 - 15: deny | 60 - 0: grant
 
-The fairness tests are specified independently of explanation: equal awards across the two irrelevant channels, and fidelity to the common cutoff applied to the verified base score. The initial rule violates both. Removing the penalty supplies both. Identified assignment, accessible appeal and remedy-capacity checklists pass in both versions. Those policies do not include the additional fairness criterion, so their satisfaction does not settle it.
+The fairness tests are specified independently of explanation: equal awards across the two irrelevant channels, and fidelity to the common cutoff applied to the assumed base score. The initial rule violates both. Removing the penalty supplies both. Identified assignment, accessible appeal and remedy-capacity checklists pass in both versions. Those policies do not include the additional fairness criterion, so their satisfaction does not settle it.
 
-**Positive assessment consequence.** If the actual award rule follows the adopted common-cutoff test on the verified scores, equal relevant scores receive equal awards. The rule-assessment premise is explicit. Correctly explaining a different transformation of those scores does not establish that premise.
+**Positive assessment consequence.** If the actual award rule follows the adopted common-cutoff test on the assumed scores, equal relevant scores receive equal awards. The rule-assessment premise is explicit. Correctly explaining a different transformation of those scores does not establish that premise.
 
 Lean evidence: `Fairness.explanation_and_safeguards_do_not_ensure_adopted_fairness; InterpretationRobustness.assessed_rule_protects_equal_eligibility`
 
@@ -336,7 +336,7 @@ The dynamics are hypothetical assumptions, including perfect obedience to a deli
 
 ## 13. Interpretation robustness and satisfaction
 
-The tested family includes the incomparable N/B/H safeguards policies and separate institutional/individual responsibility and regime/decision oversight fragments. Institution-only and regime-only conditions are weaker comparison fragments, not certificates of every source obligation. The family is declared explicitly rather than treated as the set of all possible interpretations.
+The tested family includes N/B/H safeguards policies, whose B and H extensions are incomparable, plus institutional/individual responsibility and regime/decision oversight fragments. Institutional and individual answerability require different identification facts; neither implies the other without connecting assumptions. The bridge in §4 adds decision allocation and identification of assigned people. Regime oversight extends to actionable decision oversight with coverage and intervention premises (§6). These are declared comparisons, not certificates of every source obligation or all possible interpretations.
 
 Existing scenario | N | B | H
 --- | --- | --- | ---
@@ -357,24 +357,18 @@ The witness does not prove that every conclusion is invariant across all eight c
 
 The technical matrix in docs/INTERPRETATION_ROBUSTNESS_MATRIX.md gives declaration-level evidence for each cell. A dash means that the corresponding structure is not instantiated in that row. Later tables distinguish criteria authority, candidate validation and operative updates, and distinguish prospective capacity from the performed appeal/review/correction path.
 
-## 14. Target dispositions, scope and proof audit
+## 14. Result classes, scope and proof audit
 
-All ten original questions received examined dispositions. They yielded conditional positives, exact dependency characterizations, countermodels and repaired models. This V1 does not claim that the original goal of 10-15 independently substantive positive results was met. The contract permits documenting that shortfall and reporting the actual contribution rather than manufacturing statements. Helper projections, refinements, satisfaction witnesses and overlapping repairs are not counted as separate discoveries.
+The evidence has four distinct roles, summarized below. Consequences of adopted definitions, finite countermodels, constructive repairs and conditional invariants are reported separately. The ten target questions and six countermodel questions have examined dispositions in docs/V1_COMPLETION_AUDIT.md and docs/POSITIVE_TARGET_CONSOLIDATION.md. Helper projections and overlapping repairs are not counted as independent contributions.
 
-Target | Disposition of the declared question
---- | ---
-T1 Responsibility | Allocation/identification bridge; institution-only gap
-T2 Delegation | Producer-only invariance; assignment-removal violation
-T3 Recourse | Trigger comparison and completed correction path
-T4 Unappealable exclusion | Baseline non-compliance consequence
-T5 Identifiability | Actual-assignee separation and sufficient bridge
-T6 Oversight | Coverage/power gaps and usable-path intervention
-T7 Participation | Influence/control/pause/criteria-power comparisons
-T8 Developer duties | Stage allocation, assessment and operative revision
-T9 Authority | Conditional capability-to-authority non-entailment
-T10 Ethics declarations | Concrete promise/fulfillment separation
+Result class | What is established | Representative evidence / limit
+--- | --- | ---
+Definition consequence | Exclusion without accessible appeal fails a policy that explicitly requires it. | AppealReview; this follows from the adopted requirement.
+Finite countermodel | Review can exist without appeal; truthful explanation can fail the adopted fairness test. | AppealReview; Fairness. Witnesses use declared hypothetical facts.
+Constructive repair | Authorized revision reaches the scorer; an ordered appeal path changes the stored denial. | RuleCorrection; AppealCorrection. Permissions, validation and handoff assumptions are explicit.
+Conditional guarantee | A corrected rule survives all finite permitted revision attempts; timely stopping protects all modeled continuations. | RuleCorrection; HighStakes. Guarantees range over the specified actions and dynamics.
 
-The fixed six countermodel questions have checked witnesses under their named fragments. The library stays within the three original case domains and the 2,000-5,000-line range. The scope ledger counts 30 principal domain definitions. Raw source also contains concrete witness constructors and provenance: eight structures, four inductive declarations and 50 def commands in total. The distinction is disclosed rather than calling every declaration a principal concept.
+The formal suite remains in the three original case domains. It contains 2,789 Lean lines in 21 files and 30 principal domain definitions. Raw source also includes witness constructors and provenance: eight structures, four inductive declarations and 50 def commands. The scope ledger records that distinction. The completion audit retains the original positive-target goal and its documented shortfall; this paper reports the actual mixed result suite.
 
 There are 132 theorem declarations, of which 106 selected declarations have explicit axiom reports in Audit.lean. In that selected audit, 78 use no logical axioms, 22 use only standard propext, and six use propext plus Quot.sound. The source scan finds no custom axiom declarations, proof placeholders or native_decide certificates. These counts concern proof coverage, not scientific originality. The pinned compiler checks the proof terms [3].
 
@@ -382,31 +376,30 @@ The trust boundary includes the source-to-formula judgments, the hypothetical ca
 
 ## 15. Reproduction, references and concluding use
 
-The formal results are fixed at checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01 in tdarshan0917-hub/MagnificaHumanitasFormalization [4]. The final document/package revision may add reports and source fingerprints; its Lean-source hashes are required to match that verified formal revision. The release manifest identifies the exact packaging commit and payload checksums.
+The formal results remain fixed at checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01 [4]. The companion MagnificaHumanitas_V1_Source_and_Reports.zip supplies the current reports, editable manuscripts, Lean sources, ledgers and scripts without requiring repository access. RELEASE_COMMIT.txt identifies its packaging revision, RELEASE_VERIFICATION.json records CI evidence, and MANIFEST.sha256 covers the payload. Extract the package and run the commands below inside its MagnificaHumanitas_V1 folder; authorized repository users may instead clone [4].
 
 ```
-git clone https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization.git
-cd MagnificaHumanitasFormalization
-# Select the revision recorded in the release manifest.
+# Inside the extracted MagnificaHumanitas_V1 folder:
 lake build
 lake env lean Audit.lean
 python3 scripts/audit_sources.py
+python3 scripts/verify_release.py
 ```
 
 Install the pinned leanprover/lean4:v4.35.0 toolchain. The project has no Mathlib or third-party Lean package. The repository contains plain-language and technical sources, generation scripts, ledgers, theorem references and verification logs. The optional Linux proc-self compatibility shim documented in BUILD_VERIFICATION.md concerns the original execution container; ordinary macOS/Linux and the GitHub workflow use the normal compiler. Document rendering has separate Python/font dependencies.
 
 ### References
 
-[1] Leo XIV. Magnifica Humanitas. Official English edition, 15 May 2026, selected paragraphs 97-111. Vatican website. Accessed 2 November 2026. URL and HTML/selected-scope fingerprints: data/source_version.json.
+[1] Leo XIV. Magnifica Humanitas. Official English edition, 15 May 2026. Formal scope: §§97-111; contextual discussion: §§10, 14, 47, 128. Accessed 2 November 2026. Official HTML/PDF URLs and source fingerprints: data/source_version.json.
 
 [2] Christoph Benzmüller, Xavier Parent and Leendert van der Torre. Designing normative theories for ethical and legal reasoning: LogiKEy framework, methodology, and tool support. Artificial Intelligence 287 (2020), 103348. doi:10.1016/j.artint.2020.103348. Author manuscript: arXiv:1903.10187v6.
 
 [3] Leonardo de Moura and Sebastian Ullrich. The Lean 4 Theorem Prover and Programming Language (System Description). 2021. Official project paper: https://lean-lang.org/papers/lean4.pdf.
 
-[4] Travis Darshan. MagnificaHumanitasFormalization, formal checkpoint 0.16 and accompanying V1 documents. Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization. Exact source and package revisions are distinguished in the release records.
+[4] Travis Darshan. MagnificaHumanitasFormalization, formal checkpoint 0.16, public report 1.4 and technical paper 1.1. Companion source archive as described above. Repository (access required while private): https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization.
 
 ### Use and conclusion
 
-The resulting artifact can be used to examine whether a proposed safeguard supplies its claimed function: an actual assignee, person-accessible review, correctly scoped powers, a working correction connection, justified operative criteria, or timely preventive control. Its contribution is the inspectable source/interpretation/proof chain and the constructive comparison models. It supports critical assessment of a proposed arrangement without treating a public promise as its own implementation.
+Use the artifact to trace one consequential decision: who is assigned, who can challenge it, which reviewer has scope, how a finding reaches the correcting office, and whether the operative record changes. The rule comparison separately examines criteria against a declared assessment standard. The contribution is the inspectable source/interpretation/proof chain and working comparison models. The practical aim is a protection that reaches the affected person; real accessibility, delivery of support and broader human circumstances require institutional evidence beyond the modeled record update.
 
-The project used AI assistance for development and drafting. The responsibility for interpretation and presentation remains with the author; the compiler supplies the stated proof check. No external endorsement, institutional adoption or first-ever priority is asserted.
+Research, formalization and drafting were supported by ChatGPT (OpenAI). The author takes responsibility for interpretation, assumptions and presentation; Lean supplies the stated proof check. These examples support examination of institutional procedures without asserting institutional adoption or endorsement.

@@ -27,17 +27,11 @@ The formal basis is checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67
 The project begins with a finite question suite and a fixed application boundary. It studies the selected governance passages of the official English source [1], using three hypothetical domains: employment, public benefits/services and bounded high-stakes autonomy. The claim ledger records 40 candidates, selects 28 for modeling, and defers 12. Selection does not mean that each sentence is translated into an independent axiom, nor that the whole encyclical has been formalized.
 
 Source location | Topic selected for operational analysis
-
 --- | ---
-
 §§97,103,105 | Human guidance; allocation and identification of responsibility
-
 §§104-105 | Design scrutiny; appeal, challenge and remedy
-
 §§106,108 | Institutional safeguards and independent oversight
-
 §§107-109 | Participation, choices, correction and design justice
-
 §§110-111 | Power, authority and developer responsibility
 
 These topic labels summarize the source motivation. The formulas below are our explicit operational proposals. The source ledger distinguishes normative commitments, institutional requirements, empirical claims and anthropological positions. Empirical observations are not silently converted into timeless axioms. No Chapter Two premise or categorical weapons prohibition is imported into the formal core.
@@ -84,15 +78,10 @@ The formal guarantees concern these definitions. Their value is that actors, tri
 Write N for responsibilityAppealPolicy, B for broadAppealPolicy and H for harmRemedyPolicy. All three require an identifiable assignee for high-impact decisions. N requires appeal after exclusion. B retains that duty and additionally requires appeal for an affected person in a high-impact decision. H retains N and separately requires remedy capacity after stipulated harm. B adds no remedy duty; H adds no pre-exclusion appeal duty.
 
 Requirement | N | B | H
-
 --- | --- | --- | ---
-
 High impact ⇒ identified actual assignee | Yes | Yes | Yes
-
 Excluded person ⇒ appeal | Yes | Yes | Yes
-
 High impact and affected ⇒ appeal | No | Yes | No
-
 Harmed person ⇒ remedy capacity | No | No | Yes
 
 **Uniform safeguards characterization.** For a fixed g and d, N ∧ B ∧ H compliance holds exactly when the following four provisions hold: high impact implies identifiable assignment; each excluded person has appeal; each affected person has appeal when the decision is high-impact; and each harmed person has remedy capacity.
@@ -102,11 +91,8 @@ Lean evidence: `InterpretationRobustness.uniform_safeguards_iff`
 The forward direction extracts the relevant requirement from a compliant policy. The reverse direction constructs N compliance, then supplies the exact additional appeal and remedy evidence. The structural characterization is useful as an interface and a synthesis of the chosen policies; it is not presented as a newly discovered moral law.
 
 Existing case | N | B | H
-
 --- | --- | --- | ---
-
 Excluded/harmed applicant; appeal, no correction capacity | Pass | Pass | Fail
-
 Affected high-impact applicant before exclusion; no harm or appeal | Pass | Fail | Pass
 
 These two existing cases prove that B and H are incomparable. One cannot stand in for the other. The no-harm fact in the second case matters: it leaves H's additional remedy trigger inactive. The broader affected-person appeal trigger is an explicitly adopted extension, not hidden in the definition of affectedness. Both appeal readings reject exclusion without accessible appeal.
@@ -142,17 +128,11 @@ Lean evidence: `producer_change_preserves_fixed_policy; Delegation.ai_handoff_re
 Disclosure.lean supplies a retrievable denial notice with actual content: a list promising identifiable responsibility, appeal and remedy capacity; score 47; cutoff 50; the computed denial; and identified contacts. This is a separate notice instance within the benefits domain, distinct from the 60-point scoring example used later.
 
 Notice or provision | Contact only | Assignee published
-
 --- | --- | ---
-
 Published safeguard commitments | Same list | Same list
-
 Score / cutoff / computed result | 47 / 50 / deny | 47 / 50 / deny
-
 Genuine identified service contact | Yes | Yes
-
 Actual denial assignee identified | No | Yes
-
 Harm-remedy checklist met | No | Yes
 
 The commitment list matches the existing harm-remedy policy's requirements for this denial. The arithmetic is correct, and the published contact is genuinely identifiable. Nevertheless, the contact handles inquiries rather than this denial. The actual assignee exists internally but is unidentified. The notice meets the declared minimal disclosure fragment and fails the separate identifiable-responsibility requirement.
@@ -175,13 +155,9 @@ Actionable oversight additionally requires covers(r,d) ∧ canIntervene(r,d).
 ```
 
 Board arrangement for the denial | Regime fragment | Actionable test
-
 --- | --- | ---
-
 Board covers routine inquiries, not the denial | Pass | Fail: remit
-
 Board covers denial, cannot intervene | Pass | Fail: power
-
 Board covers denial and can intervene | Pass | Pass
 
 The first board has a real, nonempty review remit: routine inquiries. Internal staff review the denial, but that does not create independent coverage of it. Extending the board's remit alone still leaves a second gap when intervention power is absent. The paired repairs change coverage or power while preserving their other provisions and the original person-facing safeguards.
@@ -213,15 +189,10 @@ pause = operatorHold OR boardHold OR (localEnabled AND recordedRequest)
 ```
 
 Operational power | Initial | Local input enabled
-
 --- | --- | ---
-
 Operator can cause a pause | Yes | Yes
-
 Board can cause a pause | Yes | Yes
-
 Community can cause a pause | No | Yes
-
 No holds/request permits resumption | Yes | Yes
 
 The repair enables the local input while retaining both external powers. The local pause capacity is characterized exactly by localEnabled in this family. It supplies one specific action, not final authority over the award. The repaired evaluator is not constantly paused: joint release and no local request still permit resumption. Both procedures preserve the same original denial and person-facing safeguards.
@@ -235,13 +206,9 @@ These are comparisons of defined powers. They explain why consultation, influenc
 DeveloperResponsibility.lean uses the existing design-review context Sum.inl () and operational decisions Sum.inr d. The developer is assigned at design. A deployer can be assigned to the later denial, and an optional additional developer assignment at deployment is varied separately. The design and deployment contexts are both classified as consequential; the affected person belongs to the denial.
 
 Assignment arrangement | Design covered | Denial covered
-
 --- | --- | ---
-
 Developer at design only | Yes | No
-
 Developer at design; deployer at denial | Yes | Yes
-
 Developer also assigned at denial | Yes | Yes
 
 A compliant design-stage assignment does not fill a missing downstream assignment. The gap is a violation of an existing rule, rather than the disappearance of a duty. Split assignments and shared downstream assignment both satisfy the current N/B/H fragments on the finite stage carrier. The policies require an assignee to exist; they do not express sole actor-specific liability.
@@ -268,11 +235,8 @@ deduction(b,c) = 15 if assisted(c) AND NOT repaired(b); otherwise 0
 ```
 
 Application | Initial computation | Penalty removed
-
 --- | --- | ---
-
 Online, verified score 60 | 60 - 0: grant | 60 - 0: grant
-
 Assisted, verified score 60 | 60 - 15: deny | 60 - 0: grant
 
 The fairness tests are specified independently of explanation: equal awards across the two irrelevant channels, and fidelity to the common cutoff applied to the verified base score. The initial rule violates both. Removing the penalty supplies both. Identified assignment, accessible appeal and remedy-capacity checklists pass in both versions. Those policies do not include the additional fairness criterion, so their satisfaction does not settle it.
@@ -292,13 +256,9 @@ RuleCorrection.lean composes an existing request/record/amendment process with t
 Criteria-revision power is distinct from ordinary assignment to a denial. The allocation reuses the design/use roles and assignments; correction authority is explicitly scoped to the design context. The denial handler is a genuine deployment assignee yet cannot revise design criteria by virtue of that case assignment alone.
 
 Recorded valid proposal acted on by | Operative rule | Assisted result
-
 --- | --- | ---
-
 Assigned reviewer without criteria power | Unchanged | 45 / deny
-
 Deployment actor without design assignment | Unchanged | 45 / deny
-
 Assigned, criteria-empowered reviewer | Corrected | 60 / grant
 
 **The proposal reaches the actual calculation.** For the initial penalty rule and a recorded request to remove it, the operative correction occurs exactly when criteria power is present and the acting role is the assigned design reviewer. The returned selector is consumed by the notice constructor. The update therefore changes the rule used by the scorer, not merely a log entry.
@@ -332,15 +292,10 @@ updatedAward = reassessedAward only if finding, handoff, power and correct targe
 Lean evidence: `AppealCorrection.completed_path_iff`
 
 Action-path setting | Stored decision
-
 --- | ---
-
 Admitted and reviewed, no handoff | Denial remains
-
 Reviewed, no update applied | Denial remains
-
 Update attempted before completed review | Denial remains
-
 Admitted, reviewed, handed off and applied | Reassessed grant
 
 The original denial snapshot satisfies N, B and H when prospective appeal and correction capacity exist. A missing handoff does not change those capacity fields, but prevents the composed update. Likewise, leaving powers unexercised does not change the record. The positive trace actually consumes the computed reassessment and returns the amended stored award.
@@ -362,17 +317,11 @@ correctRecord changes the administrative flag, not physical loss.
 ```
 
 Same four events, different order | Timely | Late
-
 --- | --- | ---
-
 Stop requested | Yes | Yes
-
 Stop delivered relative to execution | Before | After
-
 Final stop-delivered flag | True | True
-
 Final record-corrected flag | True | True
-
 Physical loss | False | True
 
 The timely trace is request, delivery, execution, record correction. The late trace is request, execution, delivery, record correction. Their event multisets agree and their final administrative/control flags agree, but the physical outcomes differ. A named officer's authority over the record does not imply capacity to undo that physical outcome.
@@ -390,19 +339,12 @@ The dynamics are hypothetical assumptions, including perfect obedience to a deli
 The tested family includes the incomparable N/B/H safeguards policies and separate institutional/individual responsibility and regime/decision oversight fragments. Institution-only and regime-only conditions are weaker comparison fragments, not certificates of every source obligation. The family is declared explicitly rather than treated as the set of all possible interpretations.
 
 Existing scenario | N | B | H
-
 --- | --- | --- | ---
-
 Repaired benefits notice | Yes | Yes | Yes
-
 Actual benefits assignee unidentified | No | No | No
-
 Pre-exclusion affected applicant, no appeal or harm | Yes | No | Yes
-
 Excluded/harmed applicant, appeal but no correction | Yes | Yes | No
-
 Repaired notice; board outside denial remit | Yes | Yes | Yes
-
 Repaired notice; covered board cannot intervene | Yes | Yes | Yes
 
 The two oversight-gap rows still fail actionable decision-level oversight. Missing actual-assignee identity fails all three person-facing policies despite institutional answerability. These conclusions survive the chosen safeguards-policy changes. By contrast, pre-exclusion appeal and harm-triggered remedy capacity depend on different extensions. The matrix therefore records both robustness and sensitivity.
@@ -420,27 +362,16 @@ The technical matrix in docs/INTERPRETATION_ROBUSTNESS_MATRIX.md gives declarati
 All ten original questions received examined dispositions. They yielded conditional positives, exact dependency characterizations, countermodels and repaired models. This V1 does not claim that the original goal of 10-15 independently substantive positive results was met. The contract permits documenting that shortfall and reporting the actual contribution rather than manufacturing statements. Helper projections, refinements, satisfaction witnesses and overlapping repairs are not counted as separate discoveries.
 
 Target | Disposition of the declared question
-
 --- | ---
-
 T1 Responsibility | Allocation/identification bridge; institution-only gap
-
 T2 Delegation | Producer-only invariance; assignment-removal violation
-
 T3 Recourse | Trigger comparison and completed correction path
-
 T4 Unappealable exclusion | Baseline non-compliance consequence
-
 T5 Identifiability | Actual-assignee separation and sufficient bridge
-
 T6 Oversight | Coverage/power gaps and usable-path intervention
-
 T7 Participation | Influence/control/pause/criteria-power comparisons
-
 T8 Developer duties | Stage allocation, assessment and operative revision
-
 T9 Authority | Conditional capability-to-authority non-entailment
-
 T10 Ethics declarations | Concrete promise/fulfillment separation
 
 The fixed six countermodel questions have checked witnesses under their named fragments. The library stays within the three original case domains and the 2,000-5,000-line range. The scope ledger counts 30 principal domain definitions. Raw source also contains concrete witness constructors and provenance: eight structures, four inductive declarations and 50 def commands in total. The distinction is disclosed rather than calling every declaration a principal concept.

@@ -70,7 +70,7 @@ for index,page in enumerate(PAPER['pages']):
             t=Table([[paragraph(cell,'head' if i==0 else 'cell') for cell in row] for i,row in enumerate(rows)],colWidths=[WIDTH*x/sum(ratios) for x in ratios],repeatRows=1,hAlign='LEFT')
             t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),NAVY),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.HexColor('#F0F5F6'),colors.white]),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),6),('BOTTOMPADDING',(0,0),(-1,-1),6)]))
             story.extend([t,Spacer(1,10)])
-            md.extend([' | '.join(rows[0]),' | '.join(['---']*len(rows[0]))]+[' | '.join(r) for r in rows[1:]])
+            md.append('\n'.join([' | '.join(rows[0]),' | '.join(['---']*len(rows[0]))]+[' | '.join(r) for r in rows[1:]]))
         else: raise ValueError(typ)
 
 def footer(c,doc):

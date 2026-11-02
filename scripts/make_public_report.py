@@ -53,7 +53,7 @@ for i,page in enumerate(D['pages'],1):
 def footer(c,doc):
  c.saveState();c.setStrokeColor(colors.HexColor('#D7E1E6'));c.line(45,41,550.276,41)
  c.setFillColor(MUTED);c.setFont('MH',7)
- c.drawString(45,27,'MAGNIFICA HUMANITAS | Public report 1.1')
+ c.drawString(45,27,f'MAGNIFICA HUMANITAS | Public report {D["version"]}')
  c.setFillColor(TEAL);c.drawString(350,27,'Source PDF');c.drawString(425,27,'Evidence')
  c.linkURL(D['source_url'],(350,24,395,36),relative=0)
  c.linkURL('https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization',(425,24,465,36),relative=0)

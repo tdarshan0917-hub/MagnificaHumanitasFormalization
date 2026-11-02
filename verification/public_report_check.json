@@ -1,8 +1,8 @@
 {
-  "report_version": "1.1",
+  "report_version": "1.2",
   "pages": 5,
   "body_paragraphs": 22,
-  "body_words": 2400,
+  "body_words": 2341,
   "paragraphs_by_page": [
     [
       1,
@@ -37,11 +37,12 @@
       22
     ]
   ],
-  "source_first_pages": [
+  "source_context_pages": [
     1,
     2
   ],
-  "lean_method_first_paragraph": 9,
+  "introductory_lean_summary_paragraph": 1,
+  "detailed_method_paragraph": 9,
   "source_quotes_checked": [
     "without the possibility of appeal",
     "responsibility must be clearly defined at every stage",
@@ -50,5 +51,11 @@
   "source_page_reference_edition": "Official English Vatican PDF, 91 pages",
   "formal_sources_unchanged": true,
   "technical_paper_unchanged": true,
-  "pdf_sha256": "f5ec5c220bbef1068afcbbc1f54254b0f97ba4dd33c11b1ece2e361e5875d108"
+  "abstract_phrases_replaced": [
+    "administrative flags",
+    "finite sequence",
+    "Delivery precedes execution"
+  ],
+  "hypothetical_equipment_example": "Illustration of existing high-stakes model; no new formal case",
+  "pdf_sha256": "143402922b0b356ea845f84d2db566d77c3a9ec17228510255483ab40e79a1fc"
 }

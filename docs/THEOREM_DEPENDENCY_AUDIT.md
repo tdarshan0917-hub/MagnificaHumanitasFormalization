@@ -48,3 +48,6 @@ Any bridge lemma that merely extracts an appeal field is labeled an interface le
 MH-002 has exposed distinct decisions about bearer type, obligation triggers, oversight coverage, and remedy semantics. At the historical MH-002 checkpoint the model remained unbuilt. Later sections and the completion matrix record the implemented evidence and remaining failures. The original gate alone does not establish V1 completion.
 
 Reserve T11–T15 remain empty. Data, sustainability, education, and labor must not expand the theorem suite without a specific analytical question and a corresponding scope decision.
+
+
+Prototype 0.12 update: C4 is checked under I27/A34/A35 in Fairness.lean. Truthful arithmetic disclosure and existing person-facing safeguards do not imply the independently adopted channel-invariance/base-score tests. Removing the disclosed penalty supplies both. The source motivates design scrutiny; no universal justice definition or completion of T8 is claimed. Generic equal-score/cutoff reasoning is an interface helper. C5 is the next fixed countermodel, before incomplete positive-target review and final writing.

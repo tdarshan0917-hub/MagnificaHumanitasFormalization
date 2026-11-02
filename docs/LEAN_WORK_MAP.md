@@ -1,6 +1,6 @@
 # What the Lean code actually checks
 
-Checkpoint 0.11. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
+Checkpoint 0.12. These are hypothetical models and proofs about explicit rules. They do not establish the truth of the source, legal compliance or facts about a real institution.
 
 ## One complete example
 
@@ -23,6 +23,7 @@ In Examples.lean, an applicant is rejected and harmed. A named officer is assign
 | Does naming a developer cover later use? | DeveloperResponsibility.lean: `design_compliance_leaves_downstream_gap` | The later denial still violates its assignment duty if nobody is assigned to it |
 | Does technical control supply institutional recognition? | Authority.lean: `technical_control_without_mandate` | No in the stated proxy; this does not settle moral legitimacy |
 | Does using AI remove an already established responsibility requirement? | Delegation.lean: `ai_handoff_retains_human_responsibility` and `removing_officer_after_handoff_violates_all_three` | A producer-only handoff preserves the officer and compliance; additionally deleting the officer's assignment violates the unchanged duty |
+| Can a truthful explanation coexist with unequal treatment of equally eligible applicants? | Fairness.lean: `explanation_and_safeguards_do_not_ensure_adopted_fairness` | Yes under the stated case policy: assisted intake loses 15 points; removing that deduction repairs both fairness tests while preserving safeguard channels |
 | Can a published policy and truthful explanation still leave the case owner unidentified? | Disclosure.lean: `published_ethics_and_explanation_without_answerability` | The notice computes denial from score 47 and cutoff 50, names a genuine service contact and promises the required safeguards, yet the different case assignee is unidentified |
 
 The theorem names inside each namespace are shown in full in TECHNICAL_RESULTS.md and Audit.lean. The main library imports each file, and the compiler checks their proof terms.
@@ -36,9 +37,14 @@ The concrete employment comparison then changes production to AI and checks two 
 
 ## Still active
 
-T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4, C5 and incomplete portions of the original positive targets remain work to do. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
+T10/C1 now have the concrete public-notice comparison under their stated interpretation. C4 now has a checked, explicitly limited comparison in Fairness.lean. C5 and incomplete portions of the original positive targets remain work to do. They were not proved impossible by checkpoint 0.9. EXECUTION_PLAN.md restores their place before final writing and release. V1 is not complete.
 
 
 ## What was added for ethics commitments and disclosure
 
 The new Disclosure.lean notice is a concrete public artifact, not an Ethical=True label. It lists identifiable responsibility, appeal and correction capacity as commitments; reports score 47 and cutoff 50; computes denial with that rule; and names a real service contact. Lean checks that the commitments match the existing requirements and that every published contact is identifiable. It then checks that the public contact is not the person assigned to the denial and that the actual assignee is unidentified. Thus the requirements are published but the responsibility requirement is not met. Publishing the actual case officer repairs the missing link while the promises and numerical decision information stay the same.
+
+
+## What was added for explanation and fairness
+
+Fairness.lean has two equally eligible public-benefit applications, indexed by their online/assisted intake channels. Each retrievable record contains verified score 60, a channel deduction, cutoff 50 and the computed award. The initial assisted-intake deduction is 15, yielding 45 and a denial; online intake yields 60 and a grant. The adopted policy treats intake channel as irrelevant. The two displayed tests require equal awards across those channels and application of the cutoff to the verified base score. Lean checks that correct explanation and the existing person-facing safeguards coexist with failure of both tests. Removing the penalty supplies both tests. Assignment, identification, appeal and correction channels remain fixed; exclusions and modeled harm may change with the award. This is a case-level policy check, not a definition of justice or an audit of an actual benefits agency.

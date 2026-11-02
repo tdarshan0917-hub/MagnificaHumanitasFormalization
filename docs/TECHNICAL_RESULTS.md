@@ -226,3 +226,22 @@ The remaining audit helper, `Disclosure.unnamed_office_lacks_identifiable_assign
 Provenance: MH-021 (§105) for identifiable answerability; the §106 context of MH-024 motivates the declaration-versus-effective-provision question. Interpretations I08/I25/I26 and assumptions A31/A32/A33 state the exact information/publication conventions. The legal-framework candidate MH-024 is not implemented as a full legal theory. The threshold calculation is a stipulated decision rule, not an adopted fairness criterion or proof of data quality. This does not complete C4.
 
 C1 does not refute a stronger definition of transparency that already requires publication of the actual assignee. Under that stronger requirement, the initial notice is inadequate. The bounded T10 result concerns the concrete enumerated promises; general user comprehension, complete institutional governance, all ethics declarations and full source compliance are not established. The countermodel intentionally violates the chosen responsibility requirement; it is not presented as fully compliant. C4/C5 and the remaining positive-target review remain active.
+
+
+## MH-009: explanation and adopted case-level fairness (C4)
+
+Fairness.lean reuses Governance and the existing policies with two finite Bool-indexed applications in the public-benefits domain. False denotes online intake and true assisted intake. Both records have verified eligibility score 60 and cutoff 50. The initial rule subtracts 15 for assisted intake and discloses that deduction; the repaired rule removes it. Arithmetic results are computed by the rule, not stipulated as fair/unfair labels.
+
+The adopted case policy independently declares intake channel irrelevant. Two tests are displayed directly in the theorem statements: all channel-indexed awards are equal, and each award follows the cutoff applied to the verified base score. This exact formula is our local interpretation (I27/A34/A35), motivated by MH-016/019 (§104) and MH-038 (§109), not quoted or uniquely entailed by those passages.
+
+| Checked content | Actual declaration | Dependency and boundary |
+|---|---|---|
+| A common cutoff on equal relevant scores gives equal results | `equal_scores_and_common_cutoff_give_equal_results` | Explicit rule and equal-score hypotheses; helper, not flagship |
+| Both notices reveal the base, deduction, cutoff and truthful result | `Fairness.truthful_rule_explanations` | Actual four-field numerical records, not an unconstrained explained=True flag |
+| Both versions meet the three existing safeguard checklists with actual triggers and assignee | `Fairness.existing_safeguards_satisfied` | Checklist does not include the separate fairness test; no full-source compliance claim |
+| Same verified score, unequal deductions, computed grant/denial and an excluded affected applicant | `Fairness.explained_channel_penalty_changes_award` | Concrete 60/15/50 example |
+| Truthful explanation and safeguard compliance coexist with failure of both adopted tests | `Fairness.explanation_and_safeguards_do_not_ensure_adopted_fairness` | C4 under the stated fragment; not failure of every possible fairness definition |
+| Removing the penalty supplies both tests, truthful explanation and existing checklists | `Fairness.penalty_removal_satisfies_both_tests` | Non-vacuous satisfying comparison, using the common-rule bridge |
+| Relevant scores, cutoff, affectedness and safeguard channels are unchanged | `Fairness.repair_preserves_inputs_and_safeguard_channels` | Assignment and identification persist; award-dependent exclusion/harm may change |
+
+The practical issue is feature selection: an exact explanation can reveal a rule that violates the independently adopted entitlement policy. This is one bounded separation/repair package, not seven substantive findings. The case does not measure real unfairness, establish all social justice, infer successful correction from a channel, or refute an explanation standard already requiring normative justification. C5 and incomplete positive-target questions remain active in EXECUTION_PLAN.md.

@@ -1,4 +1,4 @@
-# Execution status — prototype 0.11, 2026-11-01
+# Execution status — prototype 0.12, 2026-11-01
 
 ## Completed
 
@@ -20,14 +20,14 @@
 - The premature checkpoint-0.9 freeze is withdrawn following the user correction. EXECUTION_PLAN.md restores the original active targets, and LEAN_WORK_MAP.md identifies the actual checked code.
 - MH-007: direct AI production is explicit; a producer-only handoff preserves existing requirements and provisions. Retaining the officer satisfies all three checklists; additionally deleting assignment violates all three while appeal/correction remain.
 - MH-008: the public notice has concrete commitments, a computed numerical denial and genuinely identified contacts; the actual assignee can still be unidentified. The paired repair names that assignee with commitments, calculation, assignment and channels preserved.
-- T10 is checked for the enumerated declaration/provision question and C1 for the declared minimal-disclosure interpretation; four of six fixed C targets now have witnesses.
-- The reuse audit keeps 30 principal definitions and three case domains.
-- Successful clean-copy build: seventeen Lake jobs. The sixteen checked Lean files include the separate Audit.lean file.
-- 63 selected theorem declarations audited: 53 use no logical axioms, 7 use standard propext and 3 use standard propext plus Quot.sound. The exact breakdown is recorded in verification/summary.json. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
+- T10 is checked for the enumerated declaration/provision question and C1 for the declared minimal-disclosure interpretation; the earlier checkpoint supplied four fixed C witnesses; C4 below adds the fifth.
+- The reuse audit keeps 30 principal definitions and three case domains. The current library plus source/audit files totals 1,873 Lean lines; the original 2,000–5,000-line target remains active.
+- Successful clean-copy build: eighteen Lake jobs. The seventeen checked Lean files include the separate Audit.lean file.
+- 70 selected theorem declarations audited: 56 use no logical axioms, 11 use standard propext and 3 use standard propext plus Quot.sound. The exact breakdown is recorded in verification/summary.json. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
 - Source integrity checks passed. No proof placeholders or custom axiom declarations in the delivered Lean files.
-- Six-page plain-language progress report, updated with the declaration/disclosure comparison and concrete proof references, created and visually checked.
+- Six-page plain-language progress report, updated with the disclosure and adopted-fairness comparisons and concrete proof references, created and visually checked.
 - Plain-language final report made a mandatory completion deliverable alongside the technical paper.
-- GitHub access is connected. The version 0.10 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
+- GitHub access is connected. The version 0.11 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
 
 ## Scope and limitations
 
@@ -39,7 +39,7 @@ The oversight comparison preserves the same named responsibility, person-accessi
 
 The participation comparison records and amends a community recommendation and demonstrates its influence when no institutional override is used. An explicit override can still select either outcome. Binding the final rule to the recommendation supplies operational control, but no legitimacy or full-subsidiarity conclusion follows.
 
-The developer comparison does not confuse a design-stage assignee with an assignee for every later decision. A downstream gap violates an existing duty. Distinct stage assignees satisfy the fragments, and an additional developer assignee is also compatible. Legal liability, full ethical-design duties and actual production/delegation semantics are not established.
+The developer comparison does not confuse a design-stage assignee with an assignee for every later decision. A downstream gap violates an existing duty. Distinct stage assignees satisfy the fragments, and an additional developer assignee is also compatible. Legal liability and full ethical-design duties are not established. The later Delegation.lean comparison supplies explicitly bounded production/handoff semantics.
 
 Technical control in the authority case is computed from the review rule. Independent institutional recognition changes without changing that capability. Recognition is not moral or legal legitimacy. The scope/significance audit identifies useful checked dependencies while declining any major-novelty or comprehensive-coverage claim.
 
@@ -47,12 +47,16 @@ Technical control in the authority case is computed from the review rule. Indepe
 
 The prototype supports proceeding narrowly. The current appeal comparison shows where a guaranteed appeal depends on a stronger interpretation. The shared exclusion consequence is labeled a baseline rule consequence. Significance and source fidelity still require external scholarly assessment. RESULT_COVERAGE.md records unfinished targets and the current 30-definition principal-domain count.
 
+## MH-009: explanation and adopted fairness
+
+Checkpoint 0.12 checks C4 using two equally eligible benefits applications and a disclosed assisted-intake penalty. Both explanations are truthful and existing safeguard checklists hold, while the independently adopted channel-invariance and base-score tests fail. Removing the penalty repairs both tests with responsibility and recourse channels preserved. I27/A34/A35 and SCOPE_AUDIT_0_12.md document the source relationship, assumptions and limits.
+
 ## Next action: continue the original formal suite
 
-The assistant's premature freeze is withdrawn. The formal research phase is unfinished. Follow EXECUTION_PLAN.md: C4, C5 and the incomplete positive-target questions remain active; the bounded T10/C1 notice comparison is now checked. A missing model is not a completed result or an earned ambiguity disposition. The original numerical targets and scope controls remain in force.
+The assistant's premature freeze is withdrawn. The formal research phase is unfinished. Follow EXECUTION_PLAN.md: C5 and the incomplete positive-target questions remain active; the bounded T10/C1 notice comparison and C4 case-policy comparison are now checked. A missing model is not a completed result or an earned ambiguity disposition. The original numerical targets and scope controls remain in force.
 
 The technical paper, final plain-language report and reproducible V1 release follow the required formal work and honest completion audit. No new application domain is introduced by this resumption.
 
 ## Repository and release
 
-Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.10 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The formal suite, final paper, final public report and release remain unfinished. Remaining targets are active in EXECUTION_PLAN.md; no early closeout or V1 release is claimed.
+Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.11 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The formal suite, final paper, final public report and release remain unfinished. Remaining targets are active in EXECUTION_PLAN.md; no early closeout or V1 release is claimed.

@@ -1,4 +1,3 @@
-$ lake env lean Audit.lean
 theorem MagnificaHumanitas.stronger_compliance_iff : ∀ {P A D : Type} (g : MagnificaHumanitas.Governance P A D) (d : D),
   MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.harmRemedyPolicy g) d ↔
     MagnificaHumanitas.CompliantAt g (MagnificaHumanitas.responsibilityAppealPolicy g) d ∧
@@ -536,5 +535,42 @@ fun {I H D} r i d contacts hResponsible hMembers hIdentified hAssignee =>
 'MagnificaHumanitas.Disclosure.named_office_satisfies_three' depends on axioms: [propext]
 'MagnificaHumanitas.Disclosure.same_commitment_different_compliance' depends on axioms: [propext]
 'MagnificaHumanitas.Disclosure.disclosure_repair_preserves_assignment_and_channels' does not depend on any axioms
-
-Exit code: 0
+theorem MagnificaHumanitas.Fairness.explanation_and_safeguards_do_not_ensure_adopted_fairness : (∀ (d : Bool),
+    (MagnificaHumanitas.Fairness.office false).explained d ∧
+      MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Fairness.office false)
+          (MagnificaHumanitas.broadAppealPolicy (MagnificaHumanitas.Fairness.office false)) d ∧
+        MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Fairness.office false)
+          (MagnificaHumanitas.harmRemedyPolicy (MagnificaHumanitas.Fairness.office false)) d) ∧
+  (¬∀ (a b : Bool),
+        (MagnificaHumanitas.Fairness.notice false a).snd.snd.snd =
+          (MagnificaHumanitas.Fairness.notice false b).snd.snd.snd) ∧
+    ¬∀ (d : Bool),
+        (MagnificaHumanitas.Fairness.notice false d).snd.snd.snd =
+          decide (50 ≤ (MagnificaHumanitas.Fairness.notice false d).fst) :=
+⟨fun d =>
+  ⟨MagnificaHumanitas.Fairness.truthful_rule_explanations false d,
+    ⟨(MagnificaHumanitas.Fairness.existing_safeguards_satisfied false d).right.right.right.right.right.left,
+      (MagnificaHumanitas.Fairness.existing_safeguards_satisfied false d).right.right.right.right.right.right⟩⟩,
+  ⟨fun h =>
+    MagnificaHumanitas.Fairness.explained_channel_penalty_changes_award.right.right.right.right.right.right.right
+      (h false true),
+    fun h =>
+    have impossible := h true;
+    Eq.casesOn (motive := fun a t => true = a → impossible ≍ t → False) impossible
+      (fun h => False.elim (noConfusion_of_Nat Bool.ctorIdx h)) (Eq.refl true) (HEq.refl impossible)⟩⟩
+theorem MagnificaHumanitas.equal_scores_and_common_cutoff_give_equal_results : ∀ {P : Type} (score : P → Nat)
+  (result : P → Bool) (cutoff : Nat),
+  (∀ (p : P), result p = decide (cutoff ≤ score p)) →
+    (∀ (p q : P), score p = score q) → ∀ (p q : P), result p = result q :=
+fun {P} score result cutoff hRule hScores p q =>
+  Eq.mpr (id (congrArg (fun _a => _a = result q) (hRule p)))
+    (Eq.mpr (id (congrArg (fun _a => decide (cutoff ≤ score p) = _a) (hRule q)))
+      (Eq.mpr (id (congrArg (fun _a => decide (cutoff ≤ _a) = decide (cutoff ≤ score q)) (hScores p q)))
+        (Eq.refl (decide (cutoff ≤ score q)))))
+'MagnificaHumanitas.equal_scores_and_common_cutoff_give_equal_results' does not depend on any axioms
+'MagnificaHumanitas.Fairness.truthful_rule_explanations' depends on axioms: [propext]
+'MagnificaHumanitas.Fairness.existing_safeguards_satisfied' does not depend on any axioms
+'MagnificaHumanitas.Fairness.explained_channel_penalty_changes_award' depends on axioms: [propext]
+'MagnificaHumanitas.Fairness.explanation_and_safeguards_do_not_ensure_adopted_fairness' depends on axioms: [propext]
+'MagnificaHumanitas.Fairness.penalty_removal_satisfies_both_tests' depends on axioms: [propext]
+'MagnificaHumanitas.Fairness.repair_preserves_inputs_and_safeguard_channels' does not depend on any axioms

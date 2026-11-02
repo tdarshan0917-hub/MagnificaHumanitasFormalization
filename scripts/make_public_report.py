@@ -50,11 +50,11 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.11", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.12", "SmallMH")
 p("Who can challenge,<br/>correct and decide?", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
-p("Our checked examples separate responsibility, appeal, correction power, control, oversight, participation and disclosure. A published commitment is not its fulfillment. A known contact may not be the case assignee, an eventual stop may arrive too late, and technical control may exist without a recognized mandate. Each finding depends on stated rules and assumptions.")
+p("Our examples distinguish responsibility, appeal, correction power, control, oversight, participation, disclosure and fairness. A published promise need not be fulfilled; a named contact need not be the case officer; a delivered stop can arrive too late. A truthful calculation can reveal an unfair rule under a stated policy. Each result depends on explicit assumptions.")
 
 p("A simple employment example", "H2MH")
 p("Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.")
@@ -132,30 +132,25 @@ p("Limits and unfinished work", "H2MH")
 p("These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. This is a progress report. The remaining original Lean targets are active; final writing and release follow that work.")
 
 story.append(PageBreak())
-p("PUBLIC BENEFITS / ETHICS COMMITMENTS AND DISCLOSURE", "SmallMH")
-p("Who answers<br/>for this denial?", "TitleMH")
-p("A truthful explanation and published promises can leave the actual case officer unidentified.", "DeckMH")
-
-p("Earlier responsibility checks", "H2MH")
-p("Earlier proofs separate service contacts, actual assignees and correction power, and design-stage from later-use assignments. In the delegation test, an AI producer change preserved existing duties; additionally removing the human officer violated them.")
-
-p("The public notice", "H2MH")
-p("The notice promises identifiable responsibility, appeal and correction capacity. It reports score 47, cutoff 50 and the denial computed by that rule. A genuine public contact is named, but that person handles inquiries. A different, unidentified employee handles the denial.")
-p("This is a hypothetical office with explicit records and a stipulated scoring rule, not an audited agency.", "SmallMH")
-
-disclosure_rows = [
-    ["Check in the public-benefits case", "Contact only", "Assignee added"],
-    ["Same published commitments?", "Yes", "Yes"],
-    ["Correct score/cutoff explanation?", "Yes", "Yes"],
-    ["Genuine named service contact?", "Yes", "Yes"],
-    ["Actual case assignee identified?", "No", "Yes"],
-    ["Meets the announced checklist?", "No", "Yes"],
+p("PUBLIC BENEFITS / DISCLOSURE AND FAIRNESS", "SmallMH")
+p("Explained,<br/>but fair?", "TitleMH")
+p("A correct calculation can reveal a rule that violates an independently adopted fairness standard.", "DeckMH")
+p("The earlier disclosure finding", "H2MH")
+p("Our earlier notice reports score 47, cutoff 50 and a computed denial. It promises responsibility, appeal and correction capacity, yet names a service contact rather than the actual case officer. Identifying that already-assigned officer repairs the responsibility gap without changing the promises, numbers or channels. A stricter disclosure rule could demand that identity from the outset.")
+p("The new fairness test", "H2MH")
+p("Now consider two fully verified applications, each with eligibility score 60 and cutoff 50. One arrives online; the other uses an assisted service desk. Our adopted case policy says intake channel must not change entitlement. The first scoring rule nevertheless deducts 15 points for assisted intake. Both notices disclose the deduction and correctly explain their results.")
+fairness_rows = [
+    ["Application", "Initial rule", "Penalty removed"],
+    ["Online: verified score 60", "60 - 0: grant", "60 - 0: grant"],
+    ["Assisted: verified score 60", "60 - 15: deny", "60 - 0: grant"],
+    ["Both calculations explained?", "Yes", "Yes"],
+    ["Both adopted fairness tests pass?", "No", "Yes"],
 ]
-disclosure_table = Table([
+fairness_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-     for v in row] for i, row in enumerate(disclosure_rows)],
-    colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
-disclosure_table.setStyle(TableStyle([
+     for v in row] for i, row in enumerate(fairness_rows)],
+    colWidths=[2.8*inch, 1.4*inch, 1.4*inch])
+fairness_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
@@ -164,15 +159,13 @@ disclosure_table.setStyle(TableStyle([
     ("TOPPADDING", (0,0), (-1,-1), 7),
     ("BOTTOMPADDING", (0,0), (-1,-1), 7),
 ]))
-story.append(disclosure_table)
-plain.extend(" | ".join(row) for row in disclosure_rows)
-
+story.append(fairness_table)
+plain.extend(" | ".join(row) for row in fairness_rows)
 p("What Lean checked", "H2MH")
-p("The numerical explanation checks out, the listed contact is identifiable and the policy names the required safeguards. Yet the actual assignee is unidentified, so the responsibility requirement fails. Publishing that assignee repairs the gap while internal allocation, promises, numbers, appeal and correction capacity stay fixed.")
-
-p("The practical question and the limit", "H2MH")
-p("Ask who is assigned to this decision, alongside the help desk and score explanation. The minimal disclosure standard permits a service contact; a stronger actual-assignee requirement rejects the first notice. The case proves neither fairness nor data quality or full source compliance. Paragraphs 105-106 motivate the question.")
-p("Proof file: Disclosure.lean. Remaining agreed targets stay active.", "SmallMH")
+p("The first rule fails equal treatment across these channels and fails to apply the cutoff to the verified base score. Removing the penalty supplies both tests. Identified assignment, appeal and correction-capacity checklists pass in both versions; the channels stay fixed. Their availability does not establish that a correction occurred.")
+p("Assumptions and practical use", "H2MH")
+p("Equal eligibility and channel irrelevance are explicit hypothetical policy assumptions. Paragraphs 104 and 109 motivate scrutiny of design choices; they do not prescribe our scoring formula. This tests a local fairness rule, not all justice. Ask whether the explained features are justified, alongside whether the arithmetic is correct. Remaining agreed targets stay active.", "SmallMH")
+p("Proof files: Disclosure.lean and Fairness.lean. No actual agency was audited.", "SmallMH")
 
 story.append(PageBreak())
 p("NEW RESULT / HIGH-STAKES AUTONOMY", "SmallMH")

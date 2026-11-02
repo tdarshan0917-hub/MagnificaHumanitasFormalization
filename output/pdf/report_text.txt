@@ -1,4 +1,4 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.11
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.12
 
 Who can challenge,<br/>correct and decide?
 
@@ -6,7 +6,7 @@ What our computer-checked examples show<br/>Progress report | November 1, 2026
 
 The finding
 
-Our checked examples separate responsibility, appeal, correction power, control, oversight, participation and disclosure. A published commitment is not its fulfillment. A known contact may not be the case assignee, an eventual stop may arrive too late, and technical control may exist without a recognized mandate. Each finding depends on stated rules and assumptions.
+Our examples distinguish responsibility, appeal, correction power, control, oversight, participation, disclosure and fairness. A published promise need not be fulfilled; a named contact need not be the case officer; a delivered stop can arrive too late. A truthful calculation can reveal an unfair rule under a stated policy. Each result depends on explicit assumptions.
 
 A simple employment example
 
@@ -70,43 +70,39 @@ Limits and unfinished work
 
 These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. This is a progress report. The remaining original Lean targets are active; final writing and release follow that work.
 
-PUBLIC BENEFITS / ETHICS COMMITMENTS AND DISCLOSURE
+PUBLIC BENEFITS / DISCLOSURE AND FAIRNESS
 
-Who answers<br/>for this denial?
+Explained,<br/>but fair?
 
-A truthful explanation and published promises can leave the actual case officer unidentified.
+A correct calculation can reveal a rule that violates an independently adopted fairness standard.
 
-Earlier responsibility checks
+The earlier disclosure finding
 
-Earlier proofs separate service contacts, actual assignees and correction power, and design-stage from later-use assignments. In the delegation test, an AI producer change preserved existing duties; additionally removing the human officer violated them.
+Our earlier notice reports score 47, cutoff 50 and a computed denial. It promises responsibility, appeal and correction capacity, yet names a service contact rather than the actual case officer. Identifying that already-assigned officer repairs the responsibility gap without changing the promises, numbers or channels. A stricter disclosure rule could demand that identity from the outset.
 
-The public notice
+The new fairness test
 
-The notice promises identifiable responsibility, appeal and correction capacity. It reports score 47, cutoff 50 and the denial computed by that rule. A genuine public contact is named, but that person handles inquiries. A different, unidentified employee handles the denial.
+Now consider two fully verified applications, each with eligibility score 60 and cutoff 50. One arrives online; the other uses an assisted service desk. Our adopted case policy says intake channel must not change entitlement. The first scoring rule nevertheless deducts 15 points for assisted intake. Both notices disclose the deduction and correctly explain their results.
 
-This is a hypothetical office with explicit records and a stipulated scoring rule, not an audited agency.
+Application | Initial rule | Penalty removed
 
-Check in the public-benefits case | Contact only | Assignee added
+Online: verified score 60 | 60 - 0: grant | 60 - 0: grant
 
-Same published commitments? | Yes | Yes
+Assisted: verified score 60 | 60 - 15: deny | 60 - 0: grant
 
-Correct score/cutoff explanation? | Yes | Yes
+Both calculations explained? | Yes | Yes
 
-Genuine named service contact? | Yes | Yes
-
-Actual case assignee identified? | No | Yes
-
-Meets the announced checklist? | No | Yes
+Both adopted fairness tests pass? | No | Yes
 
 What Lean checked
 
-The numerical explanation checks out, the listed contact is identifiable and the policy names the required safeguards. Yet the actual assignee is unidentified, so the responsibility requirement fails. Publishing that assignee repairs the gap while internal allocation, promises, numbers, appeal and correction capacity stay fixed.
+The first rule fails equal treatment across these channels and fails to apply the cutoff to the verified base score. Removing the penalty supplies both tests. Identified assignment, appeal and correction-capacity checklists pass in both versions; the channels stay fixed. Their availability does not establish that a correction occurred.
 
-The practical question and the limit
+Assumptions and practical use
 
-Ask who is assigned to this decision, alongside the help desk and score explanation. The minimal disclosure standard permits a service contact; a stronger actual-assignee requirement rejects the first notice. The case proves neither fairness nor data quality or full source compliance. Paragraphs 105-106 motivate the question.
+Equal eligibility and channel irrelevance are explicit hypothetical policy assumptions. Paragraphs 104 and 109 motivate scrutiny of design choices; they do not prescribe our scoring formula. This tests a local fairness rule, not all justice. Ask whether the explained features are justified, alongside whether the arithmetic is correct. Remaining agreed targets stay active.
 
-Proof file: Disclosure.lean. Remaining agreed targets stay active.
+Proof files: Disclosure.lean and Fairness.lean. No actual agency was audited.
 
 NEW RESULT / HIGH-STAKES AUTONOMY
 

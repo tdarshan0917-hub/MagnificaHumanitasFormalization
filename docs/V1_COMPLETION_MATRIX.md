@@ -1,6 +1,6 @@
 # V1 active target tracker
 
-Checkpoint: 0.11, 2026-11-01. The user correction restores the original execution plan. The prior freeze and premature final dispositions are withdrawn. This is a working status table, not a completed-suite claim. Missing semantics identify work to perform, not permission to skip a target. EXECUTION_PLAN.md governs the sequence.
+Checkpoint: 0.12, 2026-11-01. The user correction restores the original execution plan. The prior freeze and premature final dispositions are withdrawn. This is a working status table, not a completed-suite claim. Missing semantics identify work to perform, not permission to skip a target. EXECUTION_PLAN.md governs the sequence.
 
 ## Fixed positive-question suite
 
@@ -24,16 +24,16 @@ Checkpoint: 0.11, 2026-11-01. The user correction restores the original executio
 | C1 Disclosure/answerability | Checked under the minimal notice interpretation | The public notice is retrievable, matches the cutoff calculation and lists genuinely identified contacts. Its public contact is not the actual case assignee. Publishing that assignee repairs the gap; a stronger transparency definition may already demand this |
 | C2 Human review/appeal | Checked under the declared review interpretation | Excluded closed-access case violates both appeal policies; non-excluded affected high-impact case satisfies the narrow fragment without appeal |
 | C3 Responsibility/remedy | Checked under the recourse fragment | Identified assignment and appeal can coexist with no correction-capacity channel |
-| C4 Explanation/fairness | Justified fairness criterion needed; not established | No arbitrary Justice=False witness and no claim that an unexplained fairness standard has been formalized |
+| C4 Explanation/fairness | Checked under the adopted case-policy tests | Both records have verified score 60 and cutoff 50; a disclosed 15-point assisted-intake penalty changes one award. Equal-channel treatment and base-score fidelity both fail, while named assignment/appeal/correction checklists hold. Removing the penalty supplies both tests; this is not a full theory of justice |
 | C5 Distributed control/local agency | Extra multi-controller/local-agency semantics needed; not established | The separate participation and authority constructions do not automatically compose into this countermodel |
 | C6 Consultation/final control | Checked under the operational participation fragment | Input is accepted, recorded, amendable and can affect the outcome; a central override still selects either outcome |
 
 ## Honest result count and claim
 
-C1, C2, C3 and C6 now have checked witnesses under their stated interpretations: four of the six fixed C questions. C4 and C5 remain active. The new declaration/disclosure comparison extends the public-benefits case; it is not counted as two novel discoveries because it addresses both T10 and C1. Interface lemmas, baseline consequences and satisfaction helpers are not independent research results. No claim is made that the original 10–15 substantive positive-result goal has been reached.
+C1, C2, C3, C4 and C6 now have checked witnesses under their stated interpretations: five of the six fixed C questions. C5 remains active. C4 is one comparison package with two related case-policy tests, not two independent research findings. The new declaration/disclosure comparison extends the public-benefits case; it is not counted as two novel discoveries because it addresses both T10 and C1. Interface lemmas, baseline consequences and satisfaction helpers are not independent research results. No claim is made that the original 10–15 substantive positive-result goal has been reached.
 
 The potential public value is an inspectable chain from selected passage, through stated interpretation and assumptions, to a checked consequence or counterexample and a readable explanation. Scholarly novelty, textual fidelity and usefulness to an actual institution need separate assessment. These limitations must guide the ongoing research and eventual paper; they do not replace unfinished planned work with a completed-suite claim.
 
 ## Remaining agreed work
 
-Follow EXECUTION_PLAN.md: C4, C5 and the incomplete portions of the positive suite; keep the plain report synchronized. Only after that work should the completion audit, 12–20-page technical paper, 4–6-page final public report and reproducible V1 release be finalized. The original 2,000–5,000-line target and 30-definition ceiling remain. No V1 release or completed formal suite is claimed here.
+Follow EXECUTION_PLAN.md: C5 and the incomplete portions of the positive suite; keep the plain report synchronized. Only after that work should the completion audit, 12–20-page technical paper, 4–6-page final public report and reproducible V1 release be finalized. The original 2,000–5,000-line target and 30-definition ceiling remain. No V1 release or completed formal suite is claimed here.

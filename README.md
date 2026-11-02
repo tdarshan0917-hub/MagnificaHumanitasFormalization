@@ -1,10 +1,10 @@
 # Magnifica Humanitas Formalization
 
-Research prototype 0.15 — 2026-11-01. Lean models for selected AI-governance requirements in the three agreed cases. This checkpoint connects a recorded rule-correction proposal to the operative scoring rule through criteria-scoped authority and a computed assessment, and verifies preservation through finite modeled revision attempts. The version 0.14 GitHub build was independently verified; current checks are visible in GitHub Actions.
+Research prototype 0.16 — 2026-11-02. Lean models for selected AI-governance requirements in the three agreed cases. This checkpoint checks the ordered appeal/review/handoff/applied-update path for an issued denial and derives intervention capacity from that usable path. The version 0.15 GitHub build was independently verified; current checks are visible in GitHub Actions.
 
 Question: what governance conclusions follow from explicit formal interpretations, and what additional assumptions do other conclusions need?
 
-Actual code-to-question map: [What the Lean code checks](docs/LEAN_WORK_MAP.md). Active sequence: [Original V1 execution plan](docs/EXECUTION_PLAN.md). The project is still in its formal research phase.
+Actual code-to-question map: [What the Lean code checks](docs/LEAN_WORK_MAP.md). Active sequence: [Original V1 execution plan](docs/EXECUTION_PLAN.md). The fixed-target audit now leads to the technical-paper and final-report stage; V1 has not been released.
 
 ## Start here
 
@@ -32,7 +32,7 @@ The machine-readable claim ledger is [claims.csv](data/claims.csv), with the sam
 
 Selection is an editorial decision for this prototype, not acceptance of a claim as universally true. Formal candidates are our modeling proposals. Only small responsibility/appeal/remedy fragments and bounded case models are implemented; oversight adds an explicitly limited capacity interpretation. Source fidelity, satisfiability, formal consequences, and empirical validation are separate questions.
 
-Local build evidence is recorded in verification/. Remote CI for version 0.14 was verified at [the successful main-branch run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41390722682). Check the current run for later changes. Release 1.0, novelty priority, and operational compliance certification are not claimed.
+Local build evidence is recorded in verification/. Remote CI for version 0.15 was verified at [the successful main-branch run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41392067371). Check the current run for later changes. Release 1.0, novelty priority, and operational compliance certification are not claimed.
 
 ## Build and reproduce
 
@@ -50,6 +50,8 @@ Checkpoint 0.12 adds [Fairness.lean](MagnificaHumanitas/Fairness.lean): a truthf
 
 Checkpoint 0.13 adds [DistributedControl.lean](MagnificaHumanitas/DistributedControl.lean): separate operator and independent-board holds each pause the contested denial, while initially the recorded community request has no effect under any external setting. Enabling the local pause retains both external powers. See [scope and assumptions](docs/SCOPE_AUDIT_0_13.md). All six C questions have bounded witnesses; step 5 of the original plan reviews and attempts incomplete positive targets before final writing/release.
 
-Checkpoint 0.14: [positive target evidence map](docs/POSITIVE_TARGET_CONSOLIDATION.md), [interpretation robustness matrix](docs/INTERPRETATION_ROBUSTNESS_MATRIX.md), and [actual synthesis proofs](MagnificaHumanitas/InterpretationRobustness.lean). No new case or principal definition is added. T7/T8 governing-criteria and T3/T6 review/correction connections remain active before final writing/release.
+Checkpoint 0.14: [positive target evidence map](docs/POSITIVE_TARGET_CONSOLIDATION.md), [interpretation robustness matrix](docs/INTERPRETATION_ROBUSTNESS_MATRIX.md), and [actual synthesis proofs](MagnificaHumanitas/InterpretationRobustness.lean). No new case or principal definition is added. Those connections were checked at 0.15 and 0.16; the completion audit now records the remaining writing/release work.
 
-Checkpoint 0.15 adds [RuleCorrection.lean](MagnificaHumanitas/RuleCorrection.lean): recording an objection can leave the penalty operative; an assigned, criteria-empowered actor's validated update changes the actual scoring selector and recomputed awards. The guard preserves a corrected rule through all finite modeled revision attempts. See [scope and assumptions](docs/SCOPE_AUDIT_0_15.md). The contested-decision appeal/review/correction action path is next before the completion audit and final writing/release.
+Checkpoint 0.15 adds [RuleCorrection.lean](MagnificaHumanitas/RuleCorrection.lean): recording an objection can leave the penalty operative; an assigned, criteria-empowered actor's validated update changes the actual scoring selector and recomputed awards. The guard preserves a corrected rule through all finite modeled revision attempts. See [scope and assumptions](docs/SCOPE_AUDIT_0_15.md). Checkpoint 0.16 supplies that contested-decision path; the completion audit now leads to writing/release.
+
+Checkpoint 0.16 adds [AppealCorrection.lean](MagnificaHumanitas/AppealCorrection.lean): prospective capacities do not implement a correction; the admitted/reviewed/handed-off/applied path updates the stored denial under exact conditions. See the [completion audit](docs/V1_COMPLETION_AUDIT.md) for original target dispositions and the remaining technical-paper, final-report and reproducible-release work.

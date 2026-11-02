@@ -300,3 +300,24 @@ RuleCorrection.lean reuses the existing benefits scoring-rule family and design/
 | Recording, assignment, identity, base score, cutoff and person-facing channels are preserved | `correction_preserves_records_allocation_and_channels` | Isolates criteria power and operative-rule changes |
 
 The validity criterion is the existing adopted fairness policy, not a complete justice theory. Criteria-revision authority is explicitly scoped; it is not inferred from ordinary case correction powers. The evaluator enforces the guard, and actor/request evidence is supplied as a hypothetical fact. The corrected selector governs recomputation; this does not automatically reopen an already-issued denial or deliver redress. I30/A39/A40 record the assumptions. T3/T6's appeal/review/correction action path remains the next original-target obligation. These nine declarations are one bounded package, not nine quota-filling findings.
+
+
+## MH-013: admitted appeal, completed review and implemented record correction (T3/T6)
+
+AppealCorrection.lean reuses existing structures for an ordered action path in the benefits case. False/true stored awards mean denial/grant. The board's record operation admits an actual request; its assessment revision confirms disagreement between the stored denial and the reassessment under the corrected 0.15 rule. A target-specific update changes the stored award only after a review finding, a working handoff and correction-office power. Board and office capacities are distinct, and the original Governance snapshot describes the pre-correction denial.
+
+| Checked content | Declaration in `AppealCorrection` | Role |
+|---|---|---|
+| Prospective appeal/correction capacities agree exactly with access/power | `static_capacities_iff` | Separates static capacity from performed action |
+| Office correction capacity matches named case-officer authority | `correction_capacity_matches_scoped_officer` | Same-decision scope link |
+| Completed correction has exact access, submission, review, handoff, power and target conditions | `completed_path_iff` | Composed dataflow characterization |
+| Original affected/excluded high-impact case satisfies N/B/H | `person_facing_policies_hold` | Non-vacuous static fragment witness |
+| Those checklists and an actual completed review can coexist with no implemented update when the handoff is missing | `static_safeguards_do_not_supply_handoff` | Actual-path gap, not merely an absent capability label |
+| Review without application leaves the record unchanged | `review_without_application_keeps_denial` | Actual exercise matters |
+| Application attempted before review leaves the record unchanged | `application_before_review_keeps_denial` | Required review finding is enforced in the path |
+| Complete ordered path updates the issued denial to the computed reassessment | `ordered_path_corrects_existing_denial` | Positive record-correction witness |
+| Available powers without performed actions do not change the denial | `available_powers_without_exercise_keep_denial` | Capacity/performance separation |
+| Independent board intervention capacity equals existence of the usable correction path | `actionable_board_iff_path_available` | T6 proxy connected to actual workflow behavior |
+| Handoff repair preserves admission/record/review and oversight recognition/remit | `handoff_repair_preserves_submission_and_review` | Paired connection change |
+
+I31/A41/A42 specify the authentic composed dataflow, stipulated independence and perfect guard enforcement. The reassessment uses the already-checked corrected rule. A corrected stored award is not payment or full restoration, and path capacity does not force agents to exercise it. This is one T3/T6 package with helpers, not eleven independent findings or a new case domain. V1_COMPLETION_AUDIT.md records the original target dispositions and remaining paper/report/release work.

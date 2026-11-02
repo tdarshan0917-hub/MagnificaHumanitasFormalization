@@ -1,8 +1,8 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.15
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.16
 
 What must work<br/>together?
 
-Computer-checked requirements for accountable AI decisions<br/>Progress report | November 1, 2026
+Computer-checked requirements for accountable AI decisions<br/>Progress report | November 2, 2026
 
 The consolidated finding
 
@@ -30,7 +30,7 @@ What this is for
 
 The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.
 
-These are hypothetical models, not audits of actual organizations. The operative rule-correction connection is now checked. The next agreed work connects accessible appeal and review to correction of a contested decision. The final technical paper and V1 release follow the remaining checks.
+These are hypothetical models, not audits of actual organizations. Operative rule correction and the issued-decision review/update path are now checked. The completion audit leads to the final technical paper, public report and reproducible V1 release.
 
 Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.
 
@@ -66,7 +66,7 @@ Assumptions and practical use
 
 This hypothetical protocol assumes requests reach the evaluator and every asserted hold is honored. Independence is stipulated. Paragraphs 108-109 motivate community action but do not specify this rule. The test concerns temporary suspension, not final award authority or complete subsidiarity. Ask which action the community can actually cause, alongside how many institutions share control.
 
-Proof file: DistributedControl.lean. Remaining positive-target questions are active before final writing and release.
+Proof file: DistributedControl.lean. The completion audit leads to final writing and release preparation.
 
 PUBLIC BENEFITS / OBJECTIONS AND RULE CORRECTION
 
@@ -96,7 +96,7 @@ The corrected selector actually feeds the scorer. Both applications then compute
 
 The practical question and assumptions
 
-Ask who can change the operative criteria, alongside whether an objection was logged. This hypothetical process assumes supplied role evidence and perfect enforcement of the checks, and considers only our two candidate rules. Recomputing an award does not automatically reopen an old denial or deliver payment. The separate appeal-to-correction process is next.
+Ask who can change the operative criteria, alongside whether an objection was logged. This hypothetical process assumes supplied role evidence and perfect enforcement of the checks, and considers only our two candidate rules. Recomputing an award does not automatically reopen an old denial or deliver payment. The separate appeal-to-record-correction path is shown on page 5.
 
 Earlier disclosure result: a notice with score 47, cutoff 50 and published safeguards can still name a service contact rather than the actual assignee. Publishing that assignee repairs that separate responsibility gap. Proof files: Disclosure.lean, Fairness.lean and RuleCorrection.lean. Source motivation: paragraphs 104-105, 109 and 111.
 
@@ -138,41 +138,39 @@ Where the limits matter
 
 The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.
 
-NEW RESULT / APPEAL AND REVIEW
+APPEAL, REVIEW AND IMPLEMENTED CORRECTION
 
-Who gets to appeal?
+When does an appeal<br/>change the decision?
 
-An internal review does not itself give the affected person an appeal. The duty's starting point matters.
+An available channel, a review finding and an applied update are different steps.
 
-Two explicit readings
+The already-issued denial
 
-The narrow reading requires appeal after exclusion. The broader reading keeps that rule and adds appeal for an affected person in a consequential decision, even before exclusion. These are two working interpretations; we do not claim they exhaust the source's possible readings.
+The assisted-intake denial is already stored. The scoring rule has now been corrected, so reassessment yields a grant. An independent board can review an admitted appeal; a separate case office has power to amend the record. We check what happens between those capacities and the actual update.
 
-Hypothetical situation | Narrow checklist | Broad checklist
+What happens in the modeled path? | Stored decision
 
-Person excluded; no accessible appeal | Fails | Fails
+Appeal reviewed, but no handoff to the correction office | Denial remains
 
-Consequential decision affects person; no exclusion yet; no appeal | Passes | Fails
+Review completed, but no update applied | Denial remains
 
-Person excluded; accessible appeal provided | Passes | Passes
+Update attempted before completed review | Denial remains
 
-Named responsibility and internal review stay fixed. 'Passes' means only this limited checklist; neither policy includes a remedy-capacity duty.
+Appeal admitted, reviewed, handed off and update applied | Reassessed grant
 
-What survives both readings
+What Lean checked
 
-Both reject exclusion without an accessible appeal. This is a checked consequence of the shared rule, not a new moral discovery. Staff review may occur internally while the person has no channel to challenge. After exclusion, that arrangement fails both checklists.
+The complete path needs open admission, an actual request, completed review, a working handoff, correction power and an update addressed to the correction office. Having the powers available does not perform those actions. The board has a usable intervention path exactly when access, power and the handoff exist. Adding the handoff preserves submission and review behavior.
 
-Where the readings differ
+How this fits the earlier appeal finding
 
-An AI-assisted ranking can affect opportunities before exclusion. Without appeal, the narrow checklist can pass and the broader one fails. Its extra guarantee comes from the added duty. Opening person access satisfies both appeal checklists while review and assignment stay fixed.
+Both tested appeal readings reject exclusion without accessible appeal. The broader reading also requires appeal for affected people in high-impact decisions before exclusion; the narrower one can accept that earlier stage without appeal. Internal human review alone does not give the person access. The new path examines what happens after an appeal is actually admitted.
 
-The practical question
+Assumptions and practical use
 
-When an organization says 'a human reviews our AI decisions,' ask whether the affected person can challenge, and when that opportunity begins. Review, person access, and the duty's trigger are separate issues.
+The reassessment uses the corrected rule already checked in the previous build. The hypothetical workflow enforces the shown order and uses authentic findings from that composed path. The result changes the stored award, not payment or full restoration of every harm. Ask where a reviewed finding goes and which action actually changes the record.
 
-Assumptions and limits
-
-These are hypothetical employment-style cases. High impact and affectedness are stipulated; actual harm is not assumed. The broader duty is explicit. Appeal alone does not establish remedy capacity, restoration, or full source compliance. The remaining agreed research questions are still unfinished.
+Proof file: AppealCorrection.lean. Source motivation: paragraphs 105-106 and 108. The original completion audit now leads to the technical paper, final public report and reproducible release.
 
 NEW RESULT / INDEPENDENT OVERSIGHT
 

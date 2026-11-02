@@ -1,14 +1,14 @@
-# Build verification — prototype 0.15
+# Build verification — prototype 0.16
 
-Date: 2026-11-01.
+Date: 2026-11-02.
 
 Official binary distribution: [Lean 4.35.0](https://github.com/leanprover/lean4/releases/tag/v4.35.0), compiler commit `eb6cafb7290e8bd5f2937522d8d804f58f02bafc`. This exact toolchain is pinned; no Mathlib dependency is used. It was selected from the official releases and Reservoir listings, not guessed.
 
 ## Checks performed
 
-Source was copied to a clean directory without build artifacts. `lake build` succeeded (21 jobs), `lake env lean Audit.lean` succeeded, and `python3 scripts/audit_sources.py` succeeded (40 source candidates, 20 Lean files). Full outputs are under verification/.
+Source was copied to a clean directory without build artifacts. `lake build` succeeded (22 jobs), `lake env lean Audit.lean` succeeded, and `python3 scripts/audit_sources.py` succeeded (40 source candidates, 21 Lean files). Full outputs are under verification/.
 
-Audit.lean prints selected theorem statements and axiom dependencies of 95 declarations. 75 report no logical axioms, 14 use only standard propext, and 6 use standard propext plus Quot.sound. Exact combinations are in verification/summary.json. No custom axioms, proof placeholders or native_decide-based certificate bypasses are used. The declared policy interpretations and case assumptions are not assumption-free; their substantive choices are visible in definitions, theorem hypotheses and the ledgers. These audit counts are not counts of novel research findings.
+Audit.lean prints selected theorem statements and axiom dependencies of 106 declarations. 78 report no logical axioms, 22 use only standard propext, and 6 use standard propext plus Quot.sound. Exact combinations are in verification/summary.json. No custom axioms, proof placeholders or native_decide-based certificate bypasses are used. The declared policy interpretations and case assumptions are not assumption-free; their substantive choices are visible in definitions, theorem hypotheses and the ledgers. These audit counts are not counts of novel research findings.
 
 ## Container compatibility
 
@@ -24,4 +24,4 @@ LD_PRELOAD=/tmp/mh-proc-compat.so lake build
 LD_PRELOAD=/tmp/mh-proc-compat.so lake env lean Audit.lean
 ```
 
-This Linux-only workaround is not enabled in the supplied GitHub workflow. GitHub repository access is now connected. Version 0.14 at commit 7278388 was verified on the main branch: the build, proof dependency audit, and source integrity steps all passed in [run 41390722682](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41390722682). For the current published change, consult GitHub Actions; local verification logs are recorded before publication and do not by themselves certify a later remote run.
+This Linux-only workaround is not enabled in the supplied GitHub workflow. GitHub repository access is now connected. Version 0.15 at commit a230dd5 was verified on the main branch: the build, proof dependency audit, and source integrity steps all passed in [run 41392067371](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41392067371). For the current published change, consult GitHub Actions; local verification logs are recorded before publication and do not by themselves certify a later remote run.

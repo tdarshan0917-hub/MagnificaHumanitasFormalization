@@ -16,3 +16,4 @@ import MagnificaHumanitas.Fairness
 import MagnificaHumanitas.DistributedControl
 import MagnificaHumanitas.InterpretationRobustness
 import MagnificaHumanitas.RuleCorrection
+import MagnificaHumanitas.AppealCorrection

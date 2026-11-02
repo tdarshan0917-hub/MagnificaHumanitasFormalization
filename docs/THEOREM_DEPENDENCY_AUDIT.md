@@ -60,3 +60,6 @@ Prototype 0.14 update: POSITIVE_TARGET_CONSOLIDATION.md is the current ten-targe
 
 
 Prototype 0.15 update: RuleCorrection.lean supplies the agreed T7/T8 governing-criteria connection. Request records feed an assigned/criteria-empowered actor's validated update, whose returned selector is used for actual notice calculations. Log-only and wrong-scope cases preserve the penalty; the valid authorized correction changes the operative rule. A finite-sequence invariant preserves the corrected rule under the modeled guard. Scope and enforcement assumptions are explicit in I30/A39/A40. T3/T6's appeal/review/correction action link is next before completion audit/writing/release.
+
+
+Prototype 0.16 update: AppealCorrection.lean supplies the agreed T3/T6 actual-path connection. Accepted submission, completed reassessment and a handed-off/applied update are composed explicitly; the updated stored award consumes the corrected 0.15 rule. Static capacities alone, missing handoff, omitted application or premature application do not correct the denial. Independent intervention capacity is characterized by existence of this path. V1_COMPLETION_AUDIT.md records the original ten target dispositions, six countermodel questions, scope controls and remaining writing/release deliverables. Helper counts do not certify the numerical positive-result goal.

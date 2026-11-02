@@ -56,3 +56,18 @@ The original N/B/H and eight-combination matrix remains as checked at 0.14. Rule
 | Corrected rule; criteria-empowered actor proposes restoring the penalty | Yes | Yes | No | Corrected rule retained; 60/grant | `RuleCorrection.valid_rule_is_preserved` |
 
 The corrected rule survives every finite sequence of these modeled revision attempts (`RuleCorrection.valid_rule_survives_all_finite_revision_attempts`). Existing assignment, identity and appeal/correction channels remain fixed across the successful comparison. This is the declared two-rule family, not a robustness claim for every possible rule change, and recomputation does not reopen old case records automatically. T3/T6's contested-decision appeal/review/correction action path is next.
+
+
+## Checkpoint 0.16: capacity, connected review and applied correction
+
+AppealCorrection.lean gives the following ordered-path comparison for the existing issued denial after the operative scoring criterion has been corrected. Submission is admitted at the independent board, review produces a finding from that submission and the reassessment, and the implementation office applies the finding. The table concerns this composed path, not arbitrary supplied finding bits.
+
+| Setting | Static appeal/correction capacities | Completed review? | Working handoff and applied update? | Stored award | Evidence |
+|---|---|---|---|---|---|
+| Request admitted/reviewed; handoff absent | Both available | Yes | No handoff | Deny | `AppealCorrection.static_safeguards_do_not_supply_handoff` |
+| Review done; no application action | Both available | Yes | No applied update | Deny | `AppealCorrection.review_without_application_keeps_denial` |
+| Update attempted before review | Both available | No | Required finding absent | Deny | `AppealCorrection.application_before_review_keeps_denial` |
+| Complete admitted/reviewed/handed-off/applied path | Both available | Yes | Yes | Reassessed grant | `AppealCorrection.ordered_path_corrects_existing_denial` |
+| Available powers left unexercised | Both available | No | No | Deny | `AppealCorrection.available_powers_without_exercise_keep_denial` |
+
+`AppealCorrection.completed_path_iff` checks every access/power/handoff/request/review/target combination. N/B/H hold in the same original snapshot even with the missing handoff; these capacity-based policies do not themselves assert completed action. `actionable_board_iff_path_available` derives the board's intervention capacity from the usable ordered correction path, rather than an independent capability flag. This remains administrative correction with explicit dataflow/enforcement assumptions. The original completion audit and writing/release are next.

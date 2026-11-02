@@ -52,9 +52,13 @@ Execute fixed C5 with actual composition of at least two controller inputs. Reus
 
 Execute checkpoint 0.14 using existing cases. Map all original targets to exact evidence, distinguish clear source commitments from implementation choices, compare the actual N/B/H policies including their incomparability, and construct a shared witness for the modeled responsibility/appeal/oversight combinations. Every matrix cell needs proof evidence; no extra example or helper-count inflation is authorized. Consolidate the public explanation within six pages, commit the checked evidence and verify CI. Keep the specific T7/T8 governing-criteria connection and T3/T6 review/correction action connection active under step 5 of EXECUTION_PLAN.md before final writing/release.
 
-### Current execution: MH-012, operative rule correction
+### Completed bounded execution: MH-012, operative rule correction
 
 Execute the agreed 0.15 rule-correction build in the existing benefits case. A recorded objection can leave the 15-point penalty operative; an assigned and criteria-empowered actor can apply a valid proposal through a computed assessment, and the actual scorer must consume the corrected selector. Separate criteria authority from assignment to an individual denial. Preserve relevant eligibility, cutoff, responsibility and recourse channels, check the guard against invalid revisions, update the six-page report and save/verify the build. This concerns actors inside the hypothetical model; no public approval of this research is required. The next step is T3/T6 appeal/review/correction action before the fixed completion audit and writing/release.
+
+### Current execution: MH-013, appeal-to-record correction and completion audit
+
+Execute the T3/T6 action-path check for the already-issued benefits denial. Use actual admission, reassessment and applied-update operations; distinguish prospective capacities from a working handoff and completed action. Link office power to the named case officer and intervention capacity to a usable path. Keep all original scope controls, update the six-page report and save/verify the build. Record every original target disposition and remaining deliverable in V1_COMPLETION_AUDIT.md. The next work is step 6: the technical paper, final public report, source/reproducibility records and V1 release preparation, with fixes for concrete audit defects. No new formal target is proposed.
 
 ## Endpoint
 

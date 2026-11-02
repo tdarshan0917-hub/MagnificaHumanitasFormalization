@@ -50,9 +50,9 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.15", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.16", "SmallMH")
 p("What must work<br/>together?", "TitleMH")
-p("Computer-checked requirements for accountable AI decisions<br/>Progress report | November 1, 2026", "DeckMH")
+p("Computer-checked requirements for accountable AI decisions<br/>Progress report | November 2, 2026", "DeckMH")
 p("The consolidated finding", "H2MH")
 p("Wider appeal access and correction capacity are separate requirements in our tested policies. A case can satisfy either while failing the other. Lean checked the exact evidence needed to satisfy all three current safeguards policies together.")
 summary_rows = [
@@ -83,7 +83,7 @@ p("Which findings survive changes of interpretation?", "H2MH")
 p("A repaired benefits case meets all eight tested responsibility, appeal and oversight combinations. Missing assignee identity fails all three safeguards policies; oversight gaps persist even when all three pass. Each matrix entry links to checked evidence.")
 p("What this is for", "H2MH")
 p("The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.")
-p("These are hypothetical models, not audits of actual organizations. The operative rule-correction connection is now checked. The next agreed work connects accessible appeal and review to correction of a contested decision. The final technical paper and V1 release follow the remaining checks.", "SmallMH")
+p("These are hypothetical models, not audits of actual organizations. Operative rule correction and the issued-decision review/update path are now checked. The completion audit leads to the final technical paper, public report and reproducible V1 release.", "SmallMH")
 p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.', "SmallMH")
 
 story.append(PageBreak())
@@ -120,7 +120,7 @@ p("What Lean checked", "H2MH")
 p("Initially, changing the local request has no pause effect under any external setting. Enabling it gives the community a pause even when both external controllers release their holds. Both external powers remain effective. The original named assignment, appeal and correction-capacity safeguards stay fixed; a pause itself does not award the benefit or correct the record.")
 p("Assumptions and practical use", "H2MH")
 p("This hypothetical protocol assumes requests reach the evaluator and every asserted hold is honored. Independence is stipulated. Paragraphs 108-109 motivate community action but do not specify this rule. The test concerns temporary suspension, not final award authority or complete subsidiarity. Ask which action the community can actually cause, alongside how many institutions share control.", "SmallMH")
-p("Proof file: DistributedControl.lean. Remaining positive-target questions are active before final writing and release.", "SmallMH")
+p("Proof file: DistributedControl.lean. The completion audit leads to final writing and release preparation.", "SmallMH")
 
 story.append(PageBreak())
 p("PUBLIC BENEFITS / OBJECTIONS AND RULE CORRECTION", "SmallMH")
@@ -154,7 +154,7 @@ plain.extend(" | ".join(row) for row in rule_rows)
 p("What Lean checked", "H2MH")
 p("The corrected selector actually feeds the scorer. Both applications then compute as grants. Scores, cutoff, assignment, appeal and correction channels remain fixed. The check rejects proposals that would restore the penalty; the corrected rule survives every finite sequence of the modeled revision attempts.")
 p("The practical question and assumptions", "H2MH")
-p("Ask who can change the operative criteria, alongside whether an objection was logged. This hypothetical process assumes supplied role evidence and perfect enforcement of the checks, and considers only our two candidate rules. Recomputing an award does not automatically reopen an old denial or deliver payment. The separate appeal-to-correction process is next.", "SmallMH")
+p("Ask who can change the operative criteria, alongside whether an objection was logged. This hypothetical process assumes supplied role evidence and perfect enforcement of the checks, and considers only our two candidate rules. Recomputing an award does not automatically reopen an old denial or deliver payment. The separate appeal-to-record-correction path is shown on page 5.", "SmallMH")
 p("Earlier disclosure result: a notice with score 47, cutoff 50 and published safeguards can still name a service contact rather than the actual assignee. Publishing that assignee repairs that separate responsibility gap. Proof files: Disclosure.lean, Fairness.lean and RuleCorrection.lean. Source motivation: paragraphs 104-105, 109 and 111.", "SmallMH")
 
 story.append(PageBreak())
@@ -200,47 +200,40 @@ p("Where the limits matter", "H2MH")
 p("The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.")
 
 story.append(PageBreak())
-p("NEW RESULT / APPEAL AND REVIEW", "SmallMH")
-p("Who gets to appeal?", "TitleMH")
-p("An internal review does not itself give the affected person an appeal. The duty's starting point matters.", "DeckMH")
-
-p("Two explicit readings", "H2MH")
-p("The narrow reading requires appeal after exclusion. The broader reading keeps that rule and adds appeal for an affected person in a consequential decision, even before exclusion. These are two working interpretations; we do not claim they exhaust the source's possible readings.")
-
-appeal_rows = [
-    ["Hypothetical situation", "Narrow checklist", "Broad checklist"],
-    ["Person excluded; no accessible appeal", "Fails", "Fails"],
-    ["Consequential decision affects person; no exclusion yet; no appeal", "Passes", "Fails"],
-    ["Person excluded; accessible appeal provided", "Passes", "Passes"],
+p("APPEAL, REVIEW AND IMPLEMENTED CORRECTION", "SmallMH")
+p("When does an appeal<br/>change the decision?", "TitleMH")
+p("An available channel, a review finding and an applied update are different steps.", "DeckMH")
+p("The already-issued denial", "H2MH")
+p("The assisted-intake denial is already stored. The scoring rule has now been corrected, so reassessment yields a grant. An independent board can review an admitted appeal; a separate case office has power to amend the record. We check what happens between those capacities and the actual update.")
+path_rows = [
+    ["What happens in the modeled path?", "Stored decision"],
+    ["Appeal reviewed, but no handoff to the correction office", "Denial remains"],
+    ["Review completed, but no update applied", "Denial remains"],
+    ["Update attempted before completed review", "Denial remains"],
+    ["Appeal admitted, reviewed, handed off and update applied", "Reassessed grant"],
 ]
-appeal_table = Table([
+path_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-     for v in row] for i, row in enumerate(appeal_rows)],
-    colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
-appeal_table.setStyle(TableStyle([
+     for v in row] for i, row in enumerate(path_rows)],
+    colWidths=[4.0*inch, 1.6*inch])
+path_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
     ("LEFTPADDING", (0,0), (-1,-1), 7),
     ("RIGHTPADDING", (0,0), (-1,-1), 7),
-    ("TOPPADDING", (0,0), (-1,-1), 8),
-    ("BOTTOMPADDING", (0,0), (-1,-1), 8),
+    ("TOPPADDING", (0,0), (-1,-1), 7),
+    ("BOTTOMPADDING", (0,0), (-1,-1), 7),
 ]))
-story.append(appeal_table)
-plain.extend(" | ".join(row) for row in appeal_rows)
-p("Named responsibility and internal review stay fixed. 'Passes' means only this limited checklist; neither policy includes a remedy-capacity duty.", "SmallMH")
-
-p("What survives both readings", "H2MH")
-p("Both reject exclusion without an accessible appeal. This is a checked consequence of the shared rule, not a new moral discovery. Staff review may occur internally while the person has no channel to challenge. After exclusion, that arrangement fails both checklists.")
-
-p("Where the readings differ", "H2MH")
-p("An AI-assisted ranking can affect opportunities before exclusion. Without appeal, the narrow checklist can pass and the broader one fails. Its extra guarantee comes from the added duty. Opening person access satisfies both appeal checklists while review and assignment stay fixed.")
-
-p("The practical question", "H2MH")
-p("When an organization says 'a human reviews our AI decisions,' ask whether the affected person can challenge, and when that opportunity begins. Review, person access, and the duty's trigger are separate issues.")
-
-p("Assumptions and limits", "H2MH")
-p("These are hypothetical employment-style cases. High impact and affectedness are stipulated; actual harm is not assumed. The broader duty is explicit. Appeal alone does not establish remedy capacity, restoration, or full source compliance. The remaining agreed research questions are still unfinished.")
+story.append(path_table)
+plain.extend(" | ".join(row) for row in path_rows)
+p("What Lean checked", "H2MH")
+p("The complete path needs open admission, an actual request, completed review, a working handoff, correction power and an update addressed to the correction office. Having the powers available does not perform those actions. The board has a usable intervention path exactly when access, power and the handoff exist. Adding the handoff preserves submission and review behavior.")
+p("How this fits the earlier appeal finding", "H2MH")
+p("Both tested appeal readings reject exclusion without accessible appeal. The broader reading also requires appeal for affected people in high-impact decisions before exclusion; the narrower one can accept that earlier stage without appeal. Internal human review alone does not give the person access. The new path examines what happens after an appeal is actually admitted.")
+p("Assumptions and practical use", "H2MH")
+p("The reassessment uses the corrected rule already checked in the previous build. The hypothetical workflow enforces the shown order and uses authentic findings from that composed path. The result changes the stored award, not payment or full restoration of every harm. Ask where a reviewed finding goes and which action actually changes the record.", "SmallMH")
+p("Proof file: AppealCorrection.lean. Source motivation: paragraphs 105-106 and 108. The original completion audit now leads to the technical paper, final public report and reproducible release.", "SmallMH")
 
 story.append(PageBreak())
 p("NEW RESULT / INDEPENDENT OVERSIGHT", "SmallMH")

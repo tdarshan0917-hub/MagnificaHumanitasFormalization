@@ -1,4 +1,4 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.10
+MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.11
 
 Who can challenge,<br/>correct and decide?
 
@@ -6,7 +6,7 @@ What our computer-checked examples show<br/>Progress report | November 1, 2026
 
 The finding
 
-Our checked examples separate responsibility, appeal, correction power, timely control, oversight, participation and institutional recognition. They expose specific missing links: a known contact may not be the case assignee, an eventual stop may arrive too late, and technical control may exist without a recognized mandate. Each finding depends on stated rules and assumptions.
+Our checked examples separate responsibility, appeal, correction power, control, oversight, participation and disclosure. A published commitment is not its fulfillment. A known contact may not be the case assignee, an eventual stop may arrive too late, and technical control may exist without a recognized mandate. Each finding depends on stated rules and assumptions.
 
 A simple employment example
 
@@ -70,43 +70,43 @@ Limits and unfinished work
 
 These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. This is a progress report. The remaining original Lean targets are active; final writing and release follow that work.
 
-NEW LEAN RESULT / DELEGATION AND RESPONSIBILITY
+PUBLIC BENEFITS / ETHICS COMMITMENTS AND DISCLOSURE
 
-Who answers after<br/>an AI handoff?
+Who answers<br/>for this denial?
 
-Changing who produces a decision is separate from removing the person responsible for it.
+A truthful explanation and published promises can leave the actual case officer unidentified.
 
-What was already checked
+Earlier responsibility checks
 
-Earlier public-benefits proofs separate the public contact, the actual assignee and correction power. Naming a developer at design does not cover an unassigned later use; split and shared stage assignments are both possible.
+Earlier proofs separate service contacts, actual assignees and correction power, and design-stage from later-use assignments. In the delegation test, an AI producer change preserved existing duties; additionally removing the human officer violated them.
 
-The new test in Lean
+The public notice
 
-In the employment example, a rejected person is harmed. We switch direct production to AI, keeping the named officer, appeal and correction capacity. All three checklists pass. The comparison additionally removes the officer's assignment while keeping the written requirements.
+The notice promises identifiable responsibility, appeal and correction capacity. It reports score 47, cutoff 50 and the denial computed by that rule. A genuine public contact is named, but that person handles inquiries. A different, unidentified employee handles the denial.
 
-These are explicit hypothetical transitions. They do not describe an audited employer or agency.
+This is a hypothetical office with explicit records and a stipulated scoring rule, not an audited agency.
 
-Check after the handoff | Officer kept | Officer removed
+Check in the public-benefits case | Contact only | Assignee added
 
-AI produces the decision? | Yes | Yes
+Same published commitments? | Yes | Yes
 
-Named human officer assigned? | Yes | No
+Correct score/cutoff explanation? | Yes | Yes
 
-Appeal and correction capacity available? | Yes | Yes
+Genuine named service contact? | Yes | Yes
 
-Responsibility requirement still applies? | Yes | Yes
+Actual case assignee identified? | No | Yes
 
-Meets the three current checklists? | Yes | No
+Meets the announced checklist? | No | Yes
 
-What the proof establishes
+What Lean checked
 
-For the specified producer-only change, the existing duties and compliance are preserved. Removing the officer is an additional act and violates the unchanged responsibility duty. Appeal and correction channels do not supply the missing assignee.
+The numerical explanation checks out, the listed contact is identifiable and the policy names the required safeguards. Yet the actual assignee is unidentified, so the responsibility requirement fails. Publishing that assignee repairs the gap while internal allocation, promises, numbers, appeal and correction capacity stay fixed.
 
 The practical question and the limit
 
-Ask which human assignment remains after the AI handoff. The proof depends on the stated transition; it does not guarantee real-world accountability, determine liability or settle AI moral responsibility. Paragraphs 103 and 105 motivate the question.
+Ask who is assigned to this decision, alongside the help desk and score explanation. The minimal disclosure standard permits a service contact; a stronger actual-assignee requirement rejects the first notice. The case proves neither fairness nor data quality or full source compliance. Paragraphs 105-106 motivate the question.
 
-Proof file: Delegation.lean. Remaining targets are active before final writing and release.
+Proof file: Disclosure.lean. Remaining agreed targets stay active.
 
 NEW RESULT / HIGH-STAKES AUTONOMY
 

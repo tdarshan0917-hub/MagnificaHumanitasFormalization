@@ -1,4 +1,4 @@
-# Execution status — prototype 0.10, 2026-11-01
+# Execution status — prototype 0.11, 2026-11-01
 
 ## Completed
 
@@ -19,13 +19,15 @@
 - MH-006B4: technical outcome control is separated from institutional recognition/remit using existing structures and the same review rule. Both capable/unrecognized and capable/recognized witnesses satisfy the named safeguard fragments. Full legitimacy remains outside the proxy.
 - The premature checkpoint-0.9 freeze is withdrawn following the user correction. EXECUTION_PLAN.md restores the original active targets, and LEAN_WORK_MAP.md identifies the actual checked code.
 - MH-007: direct AI production is explicit; a producer-only handoff preserves existing requirements and provisions. Retaining the officer satisfies all three checklists; additionally deleting assignment violates all three while appeal/correction remain.
-- The reuse/significance audit keeps 30 principal definitions and three case domains.
-- Successful clean-copy build: sixteen Lake jobs. The fifteen checked Lean files include the separate Audit.lean file.
-- Fifty-five principal theorem declarations audited: fifty use no logical axioms and five use only standard propext. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
+- MH-008: the public notice has concrete commitments, a computed numerical denial and genuinely identified contacts; the actual assignee can still be unidentified. The paired repair names that assignee with commitments, calculation, assignment and channels preserved.
+- T10 is checked for the enumerated declaration/provision question and C1 for the declared minimal-disclosure interpretation; four of six fixed C targets now have witnesses.
+- The reuse audit keeps 30 principal definitions and three case domains.
+- Successful clean-copy build: seventeen Lake jobs. The sixteen checked Lean files include the separate Audit.lean file.
+- 63 selected theorem declarations audited: 53 use no logical axioms, 7 use standard propext and 3 use standard propext plus Quot.sound. The exact breakdown is recorded in verification/summary.json. No custom axioms are used. Substantive assumptions remain explicit in definitions and hypotheses.
 - Source integrity checks passed. No proof placeholders or custom axiom declarations in the delivered Lean files.
-- Six-page plain-language progress report, updated with delegation and the restored active research plan, created and visually checked.
+- Six-page plain-language progress report, updated with the declaration/disclosure comparison and concrete proof references, created and visually checked.
 - Plain-language final report made a mandatory completion deliverable alongside the technical paper.
-- GitHub access is connected. The version 0.9 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
+- GitHub access is connected. The version 0.10 main-branch workflow was independently verified: build, proof audit, and source-integrity checks passed. Current commit checks are available in GitHub Actions.
 
 ## Scope and limitations
 
@@ -47,10 +49,10 @@ The prototype supports proceeding narrowly. The current appeal comparison shows 
 
 ## Next action: continue the original formal suite
 
-The assistant's premature freeze is withdrawn. The formal research phase is unfinished. Follow EXECUTION_PLAN.md: T10/C1, C4/C5 and the incomplete positive-target questions remain active. A missing model is not a completed result or an earned ambiguity disposition. The original numerical targets and scope controls remain in force.
+The assistant's premature freeze is withdrawn. The formal research phase is unfinished. Follow EXECUTION_PLAN.md: C4, C5 and the incomplete positive-target questions remain active; the bounded T10/C1 notice comparison is now checked. A missing model is not a completed result or an earned ambiguity disposition. The original numerical targets and scope controls remain in force.
 
 The technical paper, final plain-language report and reproducible V1 release follow the required formal work and honest completion audit. No new application domain is introduced by this resumption.
 
 ## Repository and release
 
-Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.9 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The formal suite, final paper, final public report and release remain unfinished. Remaining targets are active in EXECUTION_PLAN.md; no early closeout or V1 release is claimed.
+Repository: https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization (private). Version 0.10 is committed on main and its CI passed; repository read/write access is connected. Current scoped changes can be saved directly through the GitHub tools. Local Mac copies can update by a normal fast-forward pull. No V1.0 release or full source-compliance certification is claimed. The formal suite, final paper, final public report and release remain unfinished. Remaining targets are active in EXECUTION_PLAN.md; no early closeout or V1 release is claimed.

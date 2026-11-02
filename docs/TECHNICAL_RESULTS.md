@@ -1,6 +1,6 @@
 # Prototype results and their limits
 
-Current checkpoint: prototype 0.10. Earlier checked results remain. The premature 0.9 freeze is withdrawn; the planned delegation comparison is now implemented. EXECUTION_PLAN.md restores the active suite.
+Current checkpoint: prototype 0.11. Earlier checked results remain. The planned T10/C1 notice comparison is now implemented. The original remaining suite stays active in EXECUTION_PLAN.md.
 
 Scope: two expressly chosen requirement sets concerning responsibility, appeal, and prospective remedy capacity. This is a small fragment of the selected source claims. It is not an implementation of all 28 claims or the complete encyclical.
 
@@ -201,3 +201,28 @@ The existing Governance structure now has a factual producedByAI field. A produc
 The applicant/officer/decision/desk come from the existing employment case. The producer fact is direct production, separate from possible AI assistance. The bad comparison changes assignment in addition to production; the proof does not conceal that extra action. The example therefore checks the planned T2 distinction without assuming that a real institution always preserves assignment. No moral-agency exclusion premise is used.
 
 Provenance: MH-015 (§103), MH-020 (§105), I24 and A29/A30, alongside the existing I01/I03/I04 policy interpretations. Structural lemmas are not additional discoveries. The original remaining suite and 2,000–5,000-line target remain active; no completed-project claim is made.
+
+
+## MH-008: public commitments, disclosure and case answerability
+
+This build addresses the next fixed step, T10/C1, in the existing public-benefits case. Disclosure.notice is a retrievable public artifact: an Option-valued record containing the concrete safeguard commitments, score 47, cutoff 50, the denial computed by `decide (50 ≤ 47)`, and public contacts. The routine inquiry has no denial notice. Disclosure.office reuses the prior public-benefits allocation and appeal/correction channels. Its explained field is derived from the numerical notice, not set to True.
+
+The chosen minimal disclosure fragment is explicit: the notice can be retrieved; its score/cutoff calculation gives the reported result; the service contact is present; every listed contact really is identifiable. The published commitments exactly match the existing harm-remedy policy for the high-impact, excluding and harmful denial. These commitments are normative promises, not assertions that they have already been fulfilled.
+
+The initial notice lists the public contact, who handles inquiries. The actual denial assignee is a different, unidentified employee. The institution itself is identifiable, and internal case allocation exists; the countermodel does not rely on an empty office or a fictitious contact. It satisfies the displayed disclosure fragment but lacks the identified individual assignee required by the chosen policy.
+
+| Question | Actual declaration | Evidence and limit |
+|---|---|---|
+| Are the published promises substantive? | `Disclosure.commitments_match_existing_policy` | List membership matches every safeguard requirement of the harm-remedy policy for this denial |
+| Is disclosure more than a flag? | `Disclosure.truthful_disclosure_available` | Retrievable score/cutoff/computed result and genuinely identified contacts, with exact policy commitments |
+| Can that declaration and explanation coexist with no identifiable case owner? | `Disclosure.published_ethics_and_explanation_without_answerability` | C1 under the stated minimal-disclosure fragment and a bounded T10 counterexample; known institution/internal allocation, real affected person and failed harm-remedy compliance |
+| What extra connection is sufficient? | `disclosed_assignee_supplies_answerability` | The listed, identified person must belong to the responsible institution and actually be assigned to this decision; sufficient interface bridge, not claimed minimal |
+| Does the repaired case meet the current rules? | `Disclosure.named_office_satisfies_three` | Published case officer is the actual assignee; human answerability and all three encoded policy checklists hold |
+| Does the same public commitment determine compliance? | `Disclosure.same_commitment_different_compliance` | No: identical promises, score, cutoff and result occur in failing and repaired cases; the repaired notice also names the case officer |
+| Which facts stay fixed during repair? | `Disclosure.disclosure_repair_preserves_assignment_and_channels` | Internal assignment, impact, appeal, remedy capacity and policy requirements remain identical |
+
+The remaining audit helper, `Disclosure.unnamed_office_lacks_identifiable_assignee`, ties the new office record to the previously checked actual-assignee separation. The proof uses the same member/assignment/identification semantics; it does not create a new arbitrary Accountability=False field.
+
+Provenance: MH-021 (§105) for identifiable answerability; the §106 context of MH-024 motivates the declaration-versus-effective-provision question. Interpretations I08/I25/I26 and assumptions A31/A32/A33 state the exact information/publication conventions. The legal-framework candidate MH-024 is not implemented as a full legal theory. The threshold calculation is a stipulated decision rule, not an adopted fairness criterion or proof of data quality. This does not complete C4.
+
+C1 does not refute a stronger definition of transparency that already requires publication of the actual assignee. Under that stronger requirement, the initial notice is inadequate. The bounded T10 result concerns the concrete enumerated promises; general user comprehension, complete institutional governance, all ethics declarations and full source compliance are not established. The countermodel intentionally violates the chosen responsibility requirement; it is not presented as fully compliant. C4/C5 and the remaining positive-target review remain active.

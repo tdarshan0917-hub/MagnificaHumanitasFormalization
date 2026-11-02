@@ -29,6 +29,8 @@ Prototype 0.9 update: T9 has a bounded technical-control/recognition comparison 
 
 Prototype 0.10 update: T2 now has explicit direct-producer information, a producer-only invariance check and a retained/removed-assignee comparison in Delegation.lean. The original remaining targets are active in EXECUTION_PLAN.md before final writing/release.
 
+Prototype 0.11 update: T10/C1 now have a retrievable, numerically consistent public notice, concrete policy commitments, genuine contacts, a missing actual-assignee countermodel and a repaired satisfying case in Disclosure.lean. The interpretation is deliberately minimal disclosure; stronger case-owner transparency is not refuted. C4/C5 and incomplete positive-target questions remain active.
+
 ## Recommended first result package
 
 Use the appeal/remedy distinction to test an actual dependency:

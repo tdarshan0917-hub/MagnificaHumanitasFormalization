@@ -31,9 +31,14 @@ The user authorized proceeding and asked that developments be committed. Verify 
 
 The authority comparison is checked under its stated proxy. The assistant's subsequent decision to freeze unfinished work was not authorized by the user's request to stay on plan and is withdrawn. The valid technical results and significance cautions remain; the early closeout does not.
 
-### Current execution: MH-007, restore the plan and implement delegation
+### Completed bounded execution: MH-007, restore the plan and implement delegation
 
 The user's correction takes priority: adhere to the agreed plan and make the actual Lean work clear. EXECUTION_PLAN.md is the active sequence, and LEAN_WORK_MAP.md links plain questions to exact declarations. Implement T2 with an explicit producer change and responsibility-preservation/violation comparisons in the existing case. Maintain source provenance, proof audits and the plain-language report. T10/C1/C4/C5 and incomplete positive-target questions remain active before final writing and release. Do not close those targets just because a model is missing.
+
+
+### Current execution: MH-008, ethics commitments and disclosure
+
+Execute the next fixed T10/C1 step in EXECUTION_PLAN.md. Use a retrievable notice with concrete commitments, a computed explanation and genuine identified contacts. Test actual case-owner answerability rather than using a bare explained flag. Name the disclosure fragment, preserve the existing public-benefits domain and 30-definition ceiling, supply a repaired comparison/satisfying case, and update the actual-proof map and readable report. C4/C5 and incomplete positive-target questions remain next; no early closeout is authorized.
 
 ## Endpoint
 

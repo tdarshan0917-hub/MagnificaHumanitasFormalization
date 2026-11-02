@@ -28,3 +28,8 @@ First implement C3 with substantive operational definitions for assignment, appe
 ## Prototype 0.7 C6 disposition
 
 C6 is implemented in Participation.lean under I21. The named participation fragment has actual accepted and faithfully recorded recommendations, local record amendment, distinct input records and a pair of different final outcomes when no institutional override is used. The central rule can still select either final outcome for every local proposal. The paired binding rule retains the same input/record/amendment functions and supplies final control. Both have joint non-vacuous witnesses with the earlier person-facing and oversight fragments. This is not full subsidiarity, and it does not complete C5.
+
+
+## Prototype 0.11 C1 disposition
+
+C1 is checked under I25's minimal notice interpretation. The notice contains retrievable, numerically consistent decision information, an actual commitment list and genuine identified service contacts. The known institution has internal case allocation, but the disclosed service contact is not the actual denial assignee. The assignee's identity is missing. The case satisfies that explicit disclosure fragment and violates the stronger identifiable-responsibility requirement. A repaired notice publishes the actual assignee, with allocation, promises, score/cutoff/result and channels preserved. A general same-person bridge and a non-vacuous satisfying case accompany the separation. Stronger transparency definitions that require an identified actual assignee are not refuted. The same package supplies the bounded T10 declaration/provision comparison; C4/C5 remain active.

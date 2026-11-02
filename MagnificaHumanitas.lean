@@ -11,3 +11,4 @@ import MagnificaHumanitas.Participation
 import MagnificaHumanitas.DeveloperResponsibility
 import MagnificaHumanitas.Authority
 import MagnificaHumanitas.Delegation
+import MagnificaHumanitas.Disclosure

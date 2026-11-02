@@ -50,11 +50,11 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.10", "SmallMH")
+p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.11", "SmallMH")
 p("Who can challenge,<br/>correct and decide?", "TitleMH")
 p("What our computer-checked examples show<br/>Progress report | November 1, 2026", "DeckMH")
 p("The finding", "H2MH")
-p("Our checked examples separate responsibility, appeal, correction power, timely control, oversight, participation and institutional recognition. They expose specific missing links: a known contact may not be the case assignee, an eventual stop may arrive too late, and technical control may exist without a recognized mandate. Each finding depends on stated rules and assumptions.")
+p("Our checked examples separate responsibility, appeal, correction power, control, oversight, participation and disclosure. A published commitment is not its fulfillment. A known contact may not be the case assignee, an eventual stop may arrive too late, and technical control may exist without a recognized mandate. Each finding depends on stated rules and assumptions.")
 
 p("A simple employment example", "H2MH")
 p("Imagine that an AI-assisted hiring decision rejects an applicant and causes harm. A named officer is responsible. The applicant can send an appeal to a desk that can reconsider the decision. In the first version, that desk has no power to correct it. In the second version, we give the desk correction power. Everything else in the example stays the same.")
@@ -132,30 +132,30 @@ p("Limits and unfinished work", "H2MH")
 p("These hypothetical rules stipulate recording, amendment and recognition; they do not establish full subsidiarity or legitimacy. Paragraphs 107-110 motivate the questions. This is a progress report. The remaining original Lean targets are active; final writing and release follow that work.")
 
 story.append(PageBreak())
-p("NEW LEAN RESULT / DELEGATION AND RESPONSIBILITY", "SmallMH")
-p("Who answers after<br/>an AI handoff?", "TitleMH")
-p("Changing who produces a decision is separate from removing the person responsible for it.", "DeckMH")
+p("PUBLIC BENEFITS / ETHICS COMMITMENTS AND DISCLOSURE", "SmallMH")
+p("Who answers<br/>for this denial?", "TitleMH")
+p("A truthful explanation and published promises can leave the actual case officer unidentified.", "DeckMH")
 
-p("What was already checked", "H2MH")
-p("Earlier public-benefits proofs separate the public contact, the actual assignee and correction power. Naming a developer at design does not cover an unassigned later use; split and shared stage assignments are both possible.")
+p("Earlier responsibility checks", "H2MH")
+p("Earlier proofs separate service contacts, actual assignees and correction power, and design-stage from later-use assignments. In the delegation test, an AI producer change preserved existing duties; additionally removing the human officer violated them.")
 
-p("The new test in Lean", "H2MH")
-p("In the employment example, a rejected person is harmed. We switch direct production to AI, keeping the named officer, appeal and correction capacity. All three checklists pass. The comparison additionally removes the officer's assignment while keeping the written requirements.")
-p("These are explicit hypothetical transitions. They do not describe an audited employer or agency.", "SmallMH")
+p("The public notice", "H2MH")
+p("The notice promises identifiable responsibility, appeal and correction capacity. It reports score 47, cutoff 50 and the denial computed by that rule. A genuine public contact is named, but that person handles inquiries. A different, unidentified employee handles the denial.")
+p("This is a hypothetical office with explicit records and a stipulated scoring rule, not an audited agency.", "SmallMH")
 
-delegation_rows = [
-    ["Check after the handoff", "Officer kept", "Officer removed"],
-    ["AI produces the decision?", "Yes", "Yes"],
-    ["Named human officer assigned?", "Yes", "No"],
-    ["Appeal and correction capacity available?", "Yes", "Yes"],
-    ["Responsibility requirement still applies?", "Yes", "Yes"],
-    ["Meets the three current checklists?", "Yes", "No"],
+disclosure_rows = [
+    ["Check in the public-benefits case", "Contact only", "Assignee added"],
+    ["Same published commitments?", "Yes", "Yes"],
+    ["Correct score/cutoff explanation?", "Yes", "Yes"],
+    ["Genuine named service contact?", "Yes", "Yes"],
+    ["Actual case assignee identified?", "No", "Yes"],
+    ["Meets the announced checklist?", "No", "Yes"],
 ]
-delegation_table = Table([
+disclosure_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
-     for v in row] for i, row in enumerate(delegation_rows)],
+     for v in row] for i, row in enumerate(disclosure_rows)],
     colWidths=[3.0*inch, 1.3*inch, 1.3*inch])
-delegation_table.setStyle(TableStyle([
+disclosure_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
     ("VALIGN", (0,0), (-1,-1), "TOP"),
@@ -164,15 +164,15 @@ delegation_table.setStyle(TableStyle([
     ("TOPPADDING", (0,0), (-1,-1), 7),
     ("BOTTOMPADDING", (0,0), (-1,-1), 7),
 ]))
-story.append(delegation_table)
-plain.extend(" | ".join(row) for row in delegation_rows)
+story.append(disclosure_table)
+plain.extend(" | ".join(row) for row in disclosure_rows)
 
-p("What the proof establishes", "H2MH")
-p("For the specified producer-only change, the existing duties and compliance are preserved. Removing the officer is an additional act and violates the unchanged responsibility duty. Appeal and correction channels do not supply the missing assignee.")
+p("What Lean checked", "H2MH")
+p("The numerical explanation checks out, the listed contact is identifiable and the policy names the required safeguards. Yet the actual assignee is unidentified, so the responsibility requirement fails. Publishing that assignee repairs the gap while internal allocation, promises, numbers, appeal and correction capacity stay fixed.")
 
 p("The practical question and the limit", "H2MH")
-p("Ask which human assignment remains after the AI handoff. The proof depends on the stated transition; it does not guarantee real-world accountability, determine liability or settle AI moral responsibility. Paragraphs 103 and 105 motivate the question.")
-p("Proof file: Delegation.lean. Remaining targets are active before final writing and release.", "SmallMH")
+p("Ask who is assigned to this decision, alongside the help desk and score explanation. The minimal disclosure standard permits a service contact; a stronger actual-assignee requirement rejects the first notice. The case proves neither fairness nor data quality or full source compliance. Paragraphs 105-106 motivate the question.")
+p("Proof file: Disclosure.lean. Remaining agreed targets stay active.", "SmallMH")
 
 story.append(PageBreak())
 p("NEW RESULT / HIGH-STAKES AUTONOMY", "SmallMH")

@@ -463,5 +463,78 @@ have hMissing := fun h => Exists.casesOn h fun w h => And.casesOn h fun ha right
 'MagnificaHumanitas.Delegation.ai_handoff_retains_human_responsibility' does not depend on any axioms
 'MagnificaHumanitas.Delegation.removing_officer_after_handoff_violates_all_three' does not depend on any axioms
 'MagnificaHumanitas.Delegation.officer_removal_preserves_other_safeguards' does not depend on any axioms
+theorem MagnificaHumanitas.Disclosure.published_ethics_and_explanation_without_answerability : ∃ commitments contacts,
+  MagnificaHumanitas.Disclosure.notice false MagnificaHumanitas.PublicBenefits.Decision.benefitDenial =
+      some (commitments, 47, 50, false, contacts) ∧
+    (false = true ↔ 50 ≤ 47) ∧
+      MagnificaHumanitas.PublicBenefits.Officer.publicContact ∈ contacts ∧
+        (∀ (h : MagnificaHumanitas.PublicBenefits.Officer),
+            h ∈ contacts → (MagnificaHumanitas.Disclosure.office false).identifiable h) ∧
+          (∀ (s : MagnificaHumanitas.Safeguard Unit),
+              s ∈ commitments ↔
+                (MagnificaHumanitas.harmRemedyPolicy (MagnificaHumanitas.Disclosure.office false)).required
+                  MagnificaHumanitas.PublicBenefits.Decision.benefitDenial s) ∧
+            (MagnificaHumanitas.Disclosure.office false).highImpact
+                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+              (MagnificaHumanitas.Disclosure.office false).affected ()
+                  MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+                (MagnificaHumanitas.Disclosure.office false).excluded ()
+                    MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+                  (MagnificaHumanitas.Disclosure.office false).explained
+                      MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+                    MagnificaHumanitas.InstitutionalReading (MagnificaHumanitas.PublicBenefits.allocation false true) ∧
+                      MagnificaHumanitas.HasDecisionAllocation
+                          (MagnificaHumanitas.PublicBenefits.allocation false true) ∧
+                        ¬MagnificaHumanitas.HumanAnswerability (MagnificaHumanitas.PublicBenefits.allocation false true)
+                              MagnificaHumanitas.PublicBenefits.Decision.benefitDenial ∧
+                          ¬MagnificaHumanitas.Provided (MagnificaHumanitas.Disclosure.office false)
+                                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial
+                                MagnificaHumanitas.Safeguard.identifiableResponsibility ∧
+                            ¬MagnificaHumanitas.CompliantAt (MagnificaHumanitas.Disclosure.office false)
+                                (MagnificaHumanitas.harmRemedyPolicy (MagnificaHumanitas.Disclosure.office false))
+                                MagnificaHumanitas.PublicBenefits.Decision.benefitDenial :=
+Exists.casesOn (MagnificaHumanitas.Disclosure.truthful_disclosure_available false) fun commitments h =>
+  Exists.casesOn h fun contacts h =>
+    And.casesOn h fun hd right =>
+      And.casesOn right fun ht right =>
+        And.casesOn right fun hc right =>
+          And.casesOn right fun hi hp =>
+            Exists.intro commitments
+              (Exists.intro contacts
+                ⟨hd,
+                  ⟨ht,
+                    ⟨hc,
+                      ⟨hi,
+                        ⟨hp,
+                          ⟨rfl,
+                            ⟨rfl,
+                              ⟨rfl,
+                                ⟨id (of_decide_eq_true (id (Eq.refl true))),
+                                  ⟨MagnificaHumanitas.PublicBenefits.institution_reading_holds false true,
+                                    ⟨MagnificaHumanitas.PublicBenefits.every_impactful_decision_is_allocated false true,
+                                      ⟨MagnificaHumanitas.PublicBenefits.unnamed_case_has_no_human_answerability true,
+                                        ⟨MagnificaHumanitas.Disclosure.unnamed_office_lacks_identifiable_assignee,
+                                          fun h =>
+                                          MagnificaHumanitas.Disclosure.unnamed_office_lacks_identifiable_assignee
+                                            (h MagnificaHumanitas.Safeguard.identifiableResponsibility
+                                              rfl)⟩⟩⟩⟩⟩⟩⟩⟩⟩⟩⟩⟩⟩)
+theorem MagnificaHumanitas.disclosed_assignee_supplies_answerability : ∀ {I H D : Type}
+  (r : MagnificaHumanitas.ResponsibilityAllocation I H D) (i : I) (d : D) (contacts : List H),
+  r.institutionResponsible i d →
+    (∀ (h : H), h ∈ contacts → r.member h i) →
+      (∀ (h : H), h ∈ contacts → r.humanIdentifiable h) →
+        (∃ h, h ∈ contacts ∧ r.assigned h d) → MagnificaHumanitas.HumanAnswerability r d :=
+fun {I H D} r i d contacts hResponsible hMembers hIdentified hAssignee =>
+  Exists.casesOn hAssignee fun h h_1 =>
+    And.casesOn h_1 fun hc ha => Exists.intro i (Exists.intro h ⟨hResponsible, ⟨hMembers h hc, ⟨ha, hIdentified h hc⟩⟩⟩)
+'MagnificaHumanitas.disclosed_assignee_supplies_answerability' does not depend on any axioms
+'MagnificaHumanitas.Disclosure.commitments_match_existing_policy' depends on axioms: [propext, Quot.sound]
+'MagnificaHumanitas.Disclosure.truthful_disclosure_available' depends on axioms: [propext, Quot.sound]
+'MagnificaHumanitas.Disclosure.unnamed_office_lacks_identifiable_assignee' does not depend on any axioms
+'MagnificaHumanitas.Disclosure.published_ethics_and_explanation_without_answerability' depends on axioms: [propext,
+ Quot.sound]
+'MagnificaHumanitas.Disclosure.named_office_satisfies_three' depends on axioms: [propext]
+'MagnificaHumanitas.Disclosure.same_commitment_different_compliance' depends on axioms: [propext]
+'MagnificaHumanitas.Disclosure.disclosure_repair_preserves_assignment_and_channels' does not depend on any axioms
 
 Exit code: 0

@@ -1,10 +1,16 @@
 {
-  "checkpoint": "0.10",
-  "audited_declarations": 55,
-  "no_logical_axioms": 50,
-  "propext_only": 5,
+  "checkpoint": "0.11",
+  "audited_declarations": 63,
+  "no_logical_axioms": 53,
+  "propext_only": 7,
+  "propext_and_quot_sound": 3,
+  "logical_axiom_combinations": {
+    "none": 53,
+    "propext": 7,
+    "Quot.sound, propext": 3
+  },
   "custom_axioms": false,
-  "lean_lines": 1519,
-  "verified_parent_ci_run": 41361213183,
+  "lean_lines": 1701,
+  "verified_parent_ci_run": 41363083069,
   "current_ci_status": "See GitHub Actions for the published commit"
 }

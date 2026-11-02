@@ -1,6 +1,6 @@
 # V1 active target tracker
 
-Checkpoint: 0.10, 2026-11-01. The user correction restores the original execution plan. The prior freeze and premature final dispositions are withdrawn. This is a working status table, not a completed-suite claim. Missing semantics identify work to perform, not permission to skip a target. EXECUTION_PLAN.md governs the sequence.
+Checkpoint: 0.11, 2026-11-01. The user correction restores the original execution plan. The prior freeze and premature final dispositions are withdrawn. This is a working status table, not a completed-suite claim. Missing semantics identify work to perform, not permission to skip a target. EXECUTION_PLAN.md governs the sequence.
 
 ## Fixed positive-question suite
 
@@ -15,13 +15,13 @@ Checkpoint: 0.10, 2026-11-01. The user correction restores the original executio
 | T7 Participation | Bounded countermodel plus source ambiguity | Recorded/amendable input with outcome influence does not supply final control. Own-record amendment is not full subsidiarity or standards-setting power |
 | T8 Developer duties | Stage-allocation checks; wider interpretation needed | Design compliance can leave use uncovered. Split/shared assignments satisfy the existing fragments. Design scrutiny, justice and community-responsible design still need a justified specification; no liability theorem |
 | T9 Governing authority | Bounded proxy countermodel; legitimacy interpretation needed | Operational control does not supply institutional recognition/remit; a capable recognized case is also possible. Recognition is not proved legitimate authority |
-| T10 Ethics-only sufficiency | Duty/provision check exists; ethics-declaration target not established | Existing violation witnesses show a written requirement does not provide its safeguard. A broader ethics declaration is not operationalized; do not claim the full target from that helper result |
+| T10 Ethics-only sufficiency | Concrete declaration/provision separation checked | A retrievable notice lists the exact required safeguards and explains the numerical denial, yet the actual assignee is unidentified. The same promises/numbers occur with repaired compliance. This is a bounded claim, not a result about every ethics statement or all §106 institutions |
 
 ## Fixed countermodel suite
 
 | Target | Current disposition | Completion boundary |
 |---|---|---|
-| C1 Disclosure/answerability | Extra transparency specification needed; not established | An explained flag alone is not the meaningful disclosure specification required by the countermodel protocol |
+| C1 Disclosure/answerability | Checked under the minimal notice interpretation | The public notice is retrievable, matches the cutoff calculation and lists genuinely identified contacts. Its public contact is not the actual case assignee. Publishing that assignee repairs the gap; a stronger transparency definition may already demand this |
 | C2 Human review/appeal | Checked under the declared review interpretation | Excluded closed-access case violates both appeal policies; non-excluded affected high-impact case satisfies the narrow fragment without appeal |
 | C3 Responsibility/remedy | Checked under the recourse fragment | Identified assignment and appeal can coexist with no correction-capacity channel |
 | C4 Explanation/fairness | Justified fairness criterion needed; not established | No arbitrary Justice=False witness and no claim that an unexplained fairness standard has been formalized |
@@ -30,10 +30,10 @@ Checkpoint: 0.10, 2026-11-01. The user correction restores the original executio
 
 ## Honest result count and claim
 
-There are nine bounded comparison packages, including the new delegation check: appeal/remedy capacity; staff versus case assignee; timing/restoration; appeal triggers and human review; oversight levels/powers; participation/final control; developer/deployer stages; technical control/recognition; producer handoff and assignment preservation. This is not a claim of nine novel discoveries or of achieving 10–15 substantive positive theorems. Interface lemmas, baseline projections and repeated witnesses are not independent research results. Three of the six fixed C questions are formally complete. Record this shortfall and keep the publication claim limited, as the contract requires.
+C1, C2, C3 and C6 now have checked witnesses under their stated interpretations: four of the six fixed C questions. C4 and C5 remain active. The new declaration/disclosure comparison extends the public-benefits case; it is not counted as two novel discoveries because it addresses both T10 and C1. Interface lemmas, baseline consequences and satisfaction helpers are not independent research results. No claim is made that the original 10–15 substantive positive-result goal has been reached.
 
 The potential public value is an inspectable chain from selected passage, through stated interpretation and assumptions, to a checked consequence or counterexample and a readable explanation. Scholarly novelty, textual fidelity and usefulness to an actual institution need separate assessment. These limitations must guide the ongoing research and eventual paper; they do not replace unfinished planned work with a completed-suite claim.
 
 ## Remaining agreed work
 
-Follow EXECUTION_PLAN.md: T10/C1, then C4, C5 and the incomplete portions of the positive suite; keep the plain report synchronized. Only after that work should the completion audit, 12–20-page technical paper, 4–6-page final public report and reproducible V1 release be finalized. The original 2,000–5,000-line target and 30-definition ceiling remain. No V1 release or completed formal suite is claimed here.
+Follow EXECUTION_PLAN.md: C4, C5 and the incomplete portions of the positive suite; keep the plain report synchronized. Only after that work should the completion audit, 12–20-page technical paper, 4–6-page final public report and reproducible V1 release be finalized. The original 2,000–5,000-line target and 30-definition ceiling remain. No V1 release or completed formal suite is claimed here.

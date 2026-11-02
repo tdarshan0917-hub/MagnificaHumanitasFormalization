@@ -10,9 +10,9 @@
     },
     {
       "path": "output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf",
-      "pages": 5,
-      "sha256": "143402922b0b356ea845f84d2db566d77c3a9ec17228510255483ab40e79a1fc"
+      "pages": 6,
+      "sha256": "d0a119893e2e60ff03a2615ed007690924a22e1ff25429e879757395404b079c"
     }
   ],
-  "public_report_version": "1.2"
+  "public_report_version": "1.3"
 }

@@ -3,8 +3,8 @@
   "subtitle": "A close reading of Magnifica Humanitas and its formal governance findings",
   "author": "Travis Darshan",
   "date": "November 2, 2026",
-  "version": "1.2",
-  "outline_contract": "User-approved five-page, 22-paragraph outline, 2026-11-02",
+  "version": "1.3",
+  "outline_contract": "Integrated six-page public report: seven key findings, source analysis, checked examples, recommendations/execution and acknowledgment; approved 2026-11-02.",
   "source_url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.pdf",
   "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
   "pages": [
@@ -15,22 +15,17 @@
         {
           "id": 1,
           "label": "What we have done",
-          "text": "We have translated selected AI-governance commitments in Pope Leo XIV's Magnifica Humanitas into explicit requirements and checked examples using Lean, a computer program that verifies logical proofs. We built hypothetical arrangements where a protection fails, then checked repairs that supply it. For example, an appeal can be reviewed while a benefits denial remains unchanged because the finding never reaches an applied correction. Our proposal is to use these source-linked comparisons to examine whether an institution's procedures deliver its stated protections. This report explains the encyclical, the requirements we selected, and what the checked comparisons show."
+          "text": "We have translated selected AI-governance commitments in Pope Leo XIV's Magnifica Humanitas into explicit requirements and checked examples using Lean, a computer program that verifies logical proofs. We built hypothetical arrangements where protections fail, then checked repairs that supply them. Our proposal is to use these comparisons to examine whether an institution's procedures deliver its stated protections. The findings above summarize the results; the following analysis connects each result to the source passage, our interpretation and the example examined."
         },
         {
           "id": 2,
           "label": "Why it matters",
-          "text": "Imagine receiving a benefits denial with a named agency, a help desk and an appeal form. Those provisions still leave questions: who is assigned to your decision, can anyone correct it, and does a successful review actually change the record? Our work makes these connections explicit. The encyclical places technological change within a Christian account of human dignity and the common good (§§1-16); its opening contrasts Babel's self-aggrandizement with Nehemiah's cooperative rebuilding (§§7-10). We examine what selected commitments require in a decision procedure. The contribution is a way to distinguish a stated protection, the powers available to provide it, and the performed action that makes it effective."
+          "text": "Imagine receiving a benefits denial with a named agency, a help desk and an appeal form. Who is assigned to your decision, can anyone correct it, and does a successful review actually change the record? Our work makes these connections explicit. The encyclical places technological change within a Christian account of human dignity and the common good (§§1-16); its opening contrasts Babel's self-aggrandizement with Nehemiah's cooperative rebuilding (§§7-10). We examine how selected commitments can operate through actual assignments, powers and performed actions."
         },
         {
           "id": 3,
           "label": "The encyclical’s wider argument",
-          "text": "Magnifica Humanitas is an encyclical, a papal teaching letter, dated 15 May 2026 and addressed to Catholics, other Christians and people of goodwill (§16). Its official English PDF has 91 pages, including notes, and 245 numbered paragraphs. Its five chapters move from social doctrine's development and foundations to technology and dominance, truth/work/freedom, and power/peace; the conclusion returns to Christian life and hope. This wider argument gives our investigation its setting. An appeal desk is one practical arrangement through which a commitment might operate; it cannot represent the whole ethical vision. Our study therefore identifies a particular group of passages and makes its interpretation of them available for inspection."
-        },
-        {
-          "id": 4,
-          "label": "Our proposal and source selection",
-          "text": "We select §§97-111, on pages 33-38 in Chapter Three, because their responsibility, recourse, oversight, participation and design questions can be examined together. Picture following a benefits denial from its calculation to a named officer, an appeal, a review and an applied correction. Our proposal is to examine that chain against explicit, source-linked requirements and use checked repairs to identify missing connections. The following page explains our close reading; pages 3-5 develop the formal findings through examples in employment, public benefits and high-stakes autonomy. Source principles, our procedural choices and the proof results remain distinguishable throughout, so readers can inspect both the interpretation and the evidence."
+          "text": "Magnifica Humanitas is an encyclical, a papal teaching letter, dated 15 May 2026 and addressed to Catholics, other Christians and people of goodwill (§16). Its official English PDF has 91 pages, including notes, and 245 numbered paragraphs. Its five chapters move from social doctrine's development and foundations to technology and dominance, truth/work/freedom, and power/peace; the conclusion returns to Christian life and hope. That wider argument gives this study its setting. An appeal desk is one practical arrangement through which a commitment might operate; it cannot represent the whole ethical vision. Our selected passages and explicit interpretations define the investigation."
         }
       ],
       "notes": "Source: Leo XIV, Magnifica Humanitas, official English edition, 15 May 2026; introduction, chapter structure and selected §§97-111. Page numbers refer to this edition, accessed 2 November 2026. The full document is contextual background; the formal source boundary remains §§97-111."
@@ -39,6 +34,11 @@
       "title": "A close reading of the selected passages",
       "deck": "What we selected, how we read it, and why the questions belong together",
       "paragraphs": [
+        {
+          "id": 4,
+          "label": "Our proposal and source selection",
+          "text": "We select §§97-111, on pages 33-38 in Chapter Three, because their responsibility, recourse, oversight, participation and design questions can be examined together. Picture following a benefits denial from its calculation to a named officer, an appeal, a review and an applied correction. The close reading below explains why these connections matter. Pages 3-5 examine the resulting questions through checked examples in employment, public benefits and high-stakes autonomy; page 6 translates the findings into an institutional execution blueprint. Source principles, our procedural choices and the proof results remain distinguishable throughout."
+        },
         {
           "id": 5,
           "label": "From context to consequential decisions",
@@ -142,16 +142,263 @@
         },
         {
           "id": 21,
-          "label": "Use the checked comparisons to examine a procedure",
-          "text": "We propose using these source-linked, checked comparisons as reference cases when examining procedures intended to implement the selected commitments. An agency could take one denial notice and trace it to the actual assignee, the accepted appeal, the authorized reviewer and the office that applies the correction. If the reviewed finding stops between departments, the procedure has a specific connection to repair. If the objection concerns the scoring rule, the next question is who can revise that rule and how an approved revision reaches the calculator. This method gives institutions concrete grounds for improving procedures and affected people concrete questions to ask. It makes implementation evidence visible alongside the ethical requirement being applied."
+          "label": "Read the findings as one connected process",
+          "text": "The examples now join into a practical line of inquiry. Take one denial notice and trace it to the actual assignee, the accepted appeal, the authorized reviewer and the office that applies the correction. A finding that stops between departments exposes a specific connection to repair. An objection about the scoring rule raises a different question: who can revise that rule and how does the approved revision reach the calculator? These are the connections checked in our reference cases. The execution blueprint on the next page turns them into proposed institutional actions and evidence of completion, including a final check of the record actually changed."
         },
         {
           "id": 22,
-          "label": "What the work contributes",
-          "text": "We have made selected commitments in the encyclical precise enough to examine through machine-checked failures, working repairs and conditional guarantees. The completed models show why an appeal form, a named office and a review board can coexist with an unchanged denial, and how a connected review-to-update path corrects the stored award. The contribution is the traceable relationship between the actual passages, our explicit interpretations and the checked consequences. The technical paper and reproducible Lean files let readers inspect that evidence and its assumptions. Institutions applying these commitments should be able to show who can act, on which decision, and how that action changes the outcome."
+          "label": "From checked findings to institutional action",
+          "text": "We have made selected commitments in the encyclical precise enough to examine through machine-checked failures, working repairs and conditional guarantees. The models show why an appeal form, a named office and a review board can coexist with an unchanged denial, and how a connected review-to-update path corrects the stored award. The contribution is the traceable relationship between the actual passages, our explicit interpretations and the checked consequences. The recommendations that follow apply those distinctions to a proposed workflow. The companion technical paper and reproducible Lean files let readers inspect the evidence and its assumptions."
         }
       ],
       "notes": "Evidence: technical paper §12 (timing), §13 (interpretation comparisons), §14 (target dispositions, proof audit and positive-result shortfall), §15 (reproduction). Formal checkpoint: 0b938e373dbf538fe0853f6282e4d9502e67ea01, Lean 4.35.0. The machine/equipment story illustrates the existing abstract high-stakes model. The technical paper and Lean proofs are unchanged."
+    },
+    {
+      "title": "From governance commitments to implemented decisions",
+      "deck": "A proposed execution blueprint for institutions using AI in consequential decisions",
+      "paragraphs": [
+        {
+          "id": 23,
+          "label": "Follow one decision to completion",
+          "text": "We recommend examining one complete decision process, from its governing criteria to the action implementing a correction. For every stage, identify the responsible role, its authority and evidence that the required action occurred. The blueprint below applies the preceding findings to that institutional task."
+        },
+        {
+          "id": 24,
+          "label": "A worked example",
+          "text": "Two applicants each have eligibility score 60 and cutoff 50. A 15-point assisted-intake penalty produces one denial. The institution's adopted policy treats intake channel as irrelevant to entitlement. An authorized design reviewer removes the penalty after assessment, and the calculation now yields a grant. The applicant's earlier denial still remains in the records. An appeal must be admitted, reviewed and handed to an empowered case office, which applies the update. Completion requires checking that the stored denial changed to the reassessed grant. Correcting a general rule and implementing the correction for an affected person are connected tasks requiring separate actions."
+        },
+        {
+          "id": 25,
+          "label": "Where delay can defeat protection",
+          "text": "If an automated action could cause irreversible damage, examine the preventive path before execution. A stop request must reach the system in time and be obeyed. A later review or corrected log cannot itself establish that the physical harm was prevented."
+        },
+        {
+          "id": 26,
+          "label": "Make the protection demonstrable",
+          "text": "This blueprint is our implementation proposal, informed by the checked comparisons. The technical paper states the supporting results and assumptions; suggested execution records are practical evidence to examine in an actual procedure. Institutions applying these commitments should show who can act, on which decision, and how the action changes the outcome."
+        }
+      ],
+      "table": {
+        "after_paragraph": 23,
+        "headers": [
+          "Stage",
+          "Recommended action",
+          "Evidence of execution"
+        ],
+        "rows": [
+          [
+            "1. Assign responsibility",
+            "Identify the owners of the governing rule and individual decision, with their relevant powers.",
+            "Named assignments covering the rule, case and type of correction."
+          ],
+          [
+            "2. Examine criteria",
+            "Assess the rule actually used against the explicitly adopted standard.",
+            "The operative rule and an assessment of whether it meets that standard."
+          ],
+          [
+            "3. Enable challenge",
+            "Provide a usable appeal route and record a submitted challenge.",
+            "Acceptance and delivery of the submission to the appropriate reviewer."
+          ],
+          [
+            "4. Connect review to action",
+            "Give the reviewer remit over the decision and a handoff to an empowered office.",
+            "A completed finding and a working route to the office authorized to act."
+          ],
+          [
+            "5. Apply correction",
+            "Use the role authorized for that change; rule revision and case correction may require different actors.",
+            "The revised rule reaches the calculation, or the authorized update changes the case record."
+          ],
+          [
+            "6. Check completion",
+            "Check the resulting record before resolution; track payment or other required delivery separately.",
+            "Evidence of the applied change and any outstanding implementation steps."
+          ]
+        ],
+        "support": [
+          {
+            "stage": 1,
+            "proofs": [
+              {
+                "file": "MagnificaHumanitas/Responsibility.lean",
+                "declaration": "institution_to_human_with_allocation_and_identification"
+              },
+              {
+                "file": "MagnificaHumanitas/Responsibility.lean",
+                "declaration": "human_to_actionable_with_power"
+              },
+              {
+                "file": "MagnificaHumanitas/RuleCorrection.lean",
+                "declaration": "criteria_authority_is_scoped"
+              }
+            ],
+            "implementation_evidence": "Named assignment records are proposed operational evidence."
+          },
+          {
+            "stage": 2,
+            "proofs": [
+              {
+                "file": "MagnificaHumanitas/Fairness.lean",
+                "declaration": "penalty_removal_satisfies_both_tests"
+              },
+              {
+                "file": "MagnificaHumanitas/InterpretationRobustness.lean",
+                "declaration": "assessed_rule_protects_equal_eligibility"
+              }
+            ],
+            "implementation_evidence": "Actual institutional criteria and audit records must be supplied; the formal case uses the declared two-rule family."
+          },
+          {
+            "stage": 3,
+            "proofs": [
+              {
+                "file": "MagnificaHumanitas/AppealReview.lean",
+                "declaration": "internal_review_without_appeal"
+              },
+              {
+                "file": "MagnificaHumanitas/AppealReview.lean",
+                "declaration": "accessible_appeal_satisfies_both"
+              },
+              {
+                "file": "MagnificaHumanitas/AppealCorrection.lean",
+                "declaration": "completed_path_iff"
+              }
+            ],
+            "implementation_evidence": "Submission/delivery receipts are proposed records; the model composes admission and review under explicit enforcement assumptions."
+          },
+          {
+            "stage": 4,
+            "proofs": [
+              {
+                "file": "MagnificaHumanitas/Oversight.lean",
+                "declaration": "regime_to_decision_with_bridges"
+              },
+              {
+                "file": "MagnificaHumanitas/AppealCorrection.lean",
+                "declaration": "static_safeguards_do_not_supply_handoff"
+              },
+              {
+                "file": "MagnificaHumanitas/AppealCorrection.lean",
+                "declaration": "actionable_board_iff_path_available"
+              }
+            ],
+            "implementation_evidence": "A real handoff and record trail require operational evidence; the formal workflow specifies their effect."
+          },
+          {
+            "stage": 5,
+            "proofs": [
+              {
+                "file": "MagnificaHumanitas/RuleCorrection.lean",
+                "declaration": "authorized_correction_changes_rule_and_awards"
+              },
+              {
+                "file": "MagnificaHumanitas/AppealCorrection.lean",
+                "declaration": "ordered_path_corrects_existing_denial"
+              }
+            ],
+            "implementation_evidence": "The model computes the changed scoring rule and stored award; practical records should demonstrate the corresponding performed actions."
+          },
+          {
+            "stage": 6,
+            "proofs": [
+              {
+                "file": "MagnificaHumanitas/AppealCorrection.lean",
+                "declaration": "completed_path_iff"
+              },
+              {
+                "file": "MagnificaHumanitas/AppealCorrection.lean",
+                "declaration": "ordered_path_corrects_existing_denial"
+              }
+            ],
+            "implementation_evidence": "Inspecting the returned/stored result supports the proposed completion check. Institutional closure flags, payments and physical delivery are not formalized."
+          }
+        ]
+      },
+      "notes": "Source basis: selected §§104-111, official English PDF pp. 36-38. Evidence map: technical paper §§4-5 and 8 (assignment), §§9-10 (criteria/rule change), §§3 and 11 (appeal/applied update), §6 (oversight), §12 (timing). The workflow and suggested execution records are our recommendations, not additional Lean theorems."
     }
+  ],
+  "ai_credit": "Research, formalization and drafting supported by ChatGPT (OpenAI).",
+  "key_findings": [
+    "An identifiable agency or help desk does not necessarily identify the officer assigned to a decision.",
+    "Human review, accessible appeal and correction power are separate protections.",
+    "Under their stated conditions, checked repairs connect authorized rule changes to actual calculations and completed appeals to updated decision records.",
+    "Independent oversight needs authority over the particular decision and a usable intervention path.",
+    "Recording community input does not establish that it can change or pause an outcome.",
+    "A truthful numerical explanation can coexist with failure of the explicitly adopted fairness criterion.",
+    "Timely stopping can prevent modeled damage; correcting the record afterward cannot necessarily reverse it."
+  ],
+  "acknowledgment": {
+    "heading": "Acknowledgment",
+    "text": "Research, formalization and drafting were supported by ChatGPT (OpenAI). Lean 4 was used to check the formal proofs. Travis Darshan is the author and takes responsibility for the interpretations, assumptions and presentation of the work."
+  },
+  "key_findings_evidence": [
+    [
+      {
+        "file": "MagnificaHumanitas/Disclosure.lean",
+        "declaration": "published_ethics_and_explanation_without_answerability"
+      }
+    ],
+    [
+      {
+        "file": "MagnificaHumanitas/AppealReview.lean",
+        "declaration": "internal_review_without_appeal"
+      },
+      {
+        "file": "MagnificaHumanitas/InterpretationRobustness.lean",
+        "declaration": "appeal_and_remedy_extensions_are_incomparable"
+      }
+    ],
+    [
+      {
+        "file": "MagnificaHumanitas/RuleCorrection.lean",
+        "declaration": "authorized_correction_changes_rule_and_awards"
+      },
+      {
+        "file": "MagnificaHumanitas/AppealCorrection.lean",
+        "declaration": "ordered_path_corrects_existing_denial"
+      }
+    ],
+    [
+      {
+        "file": "MagnificaHumanitas/Oversight.lean",
+        "declaration": "coverage_without_intervention_is_insufficient"
+      },
+      {
+        "file": "MagnificaHumanitas/AppealCorrection.lean",
+        "declaration": "actionable_board_iff_path_available"
+      }
+    ],
+    [
+      {
+        "file": "MagnificaHumanitas/DistributedControl.lean",
+        "declaration": "local_pause_capacity_iff_enabled"
+      },
+      {
+        "file": "MagnificaHumanitas/Participation.lean",
+        "declaration": "consultation_and_revision_without_final_control"
+      }
+    ],
+    [
+      {
+        "file": "MagnificaHumanitas/Fairness.lean",
+        "declaration": "explanation_and_safeguards_do_not_ensure_adopted_fairness"
+      }
+    ],
+    [
+      {
+        "file": "MagnificaHumanitas/HighStakes.lean",
+        "declaration": "same_final_control_flags_different_outcomes"
+      },
+      {
+        "file": "MagnificaHumanitas/HighStakes.lean",
+        "declaration": "loss_not_restorable"
+      },
+      {
+        "file": "MagnificaHumanitas/HighStakes.lean",
+        "declaration": "timely_stop_protects_all_continuations"
+      }
+    ]
   ]
 }

@@ -1,14 +1,40 @@
+Who can challenge, correct and decide?
+
+A close reading of Magnifica Humanitas and its formal governance findings
+
+Travis Darshan | November 2, 2026
+
+Research, formalization and drafting supported by ChatGPT (OpenAI).
+
+Key findings from the Lean models
+
+- An identifiable agency or help desk does not necessarily identify the officer assigned to a decision.
+
+- Human review, accessible appeal and correction power are separate protections.
+
+- Under their stated conditions, checked repairs connect authorized rule changes to actual calculations and completed appeals to updated decision records.
+
+- Independent oversight needs authority over the particular decision and a usable intervention path.
+
+- Recording community input does not establish that it can change or pause an outcome.
+
+- A truthful numerical explanation can coexist with failure of the explicitly adopted fairness criterion.
+
+- Timely stopping can prevent modeled damage; correcting the record afterward cannot necessarily reverse it.
+
 The encyclical and this study
 
-What we have done. We have translated selected AI-governance commitments in Pope Leo XIV's Magnifica Humanitas into explicit requirements and checked examples using Lean, a computer program that verifies logical proofs. We built hypothetical arrangements where a protection fails, then checked repairs that supply it. For example, an appeal can be reviewed while a benefits denial remains unchanged because the finding never reaches an applied correction. Our proposal is to use these source-linked comparisons to examine whether an institution's procedures deliver its stated protections. This report explains the encyclical, the requirements we selected, and what the checked comparisons show.
+What we have done. We have translated selected AI-governance commitments in Pope Leo XIV's Magnifica Humanitas into explicit requirements and checked examples using Lean, a computer program that verifies logical proofs. We built hypothetical arrangements where protections fail, then checked repairs that supply them. Our proposal is to use these comparisons to examine whether an institution's procedures deliver its stated protections. The findings above summarize the results; the following analysis connects each result to the source passage, our interpretation and the example examined.
 
-Why it matters. Imagine receiving a benefits denial with a named agency, a help desk and an appeal form. Those provisions still leave questions: who is assigned to your decision, can anyone correct it, and does a successful review actually change the record? Our work makes these connections explicit. The encyclical places technological change within a Christian account of human dignity and the common good (§§1-16); its opening contrasts Babel's self-aggrandizement with Nehemiah's cooperative rebuilding (§§7-10). We examine what selected commitments require in a decision procedure. The contribution is a way to distinguish a stated protection, the powers available to provide it, and the performed action that makes it effective.
+Why it matters. Imagine receiving a benefits denial with a named agency, a help desk and an appeal form. Who is assigned to your decision, can anyone correct it, and does a successful review actually change the record? Our work makes these connections explicit. The encyclical places technological change within a Christian account of human dignity and the common good (§§1-16); its opening contrasts Babel's self-aggrandizement with Nehemiah's cooperative rebuilding (§§7-10). We examine how selected commitments can operate through actual assignments, powers and performed actions.
 
-The encyclical’s wider argument. Magnifica Humanitas is an encyclical, a papal teaching letter, dated 15 May 2026 and addressed to Catholics, other Christians and people of goodwill (§16). Its official English PDF has 91 pages, including notes, and 245 numbered paragraphs. Its five chapters move from social doctrine's development and foundations to technology and dominance, truth/work/freedom, and power/peace; the conclusion returns to Christian life and hope. This wider argument gives our investigation its setting. An appeal desk is one practical arrangement through which a commitment might operate; it cannot represent the whole ethical vision. Our study therefore identifies a particular group of passages and makes its interpretation of them available for inspection.
+The encyclical’s wider argument. Magnifica Humanitas is an encyclical, a papal teaching letter, dated 15 May 2026 and addressed to Catholics, other Christians and people of goodwill (§16). Its official English PDF has 91 pages, including notes, and 245 numbered paragraphs. Its five chapters move from social doctrine's development and foundations to technology and dominance, truth/work/freedom, and power/peace; the conclusion returns to Christian life and hope. That wider argument gives this study its setting. An appeal desk is one practical arrangement through which a commitment might operate; it cannot represent the whole ethical vision. Our selected passages and explicit interpretations define the investigation.
 
-Our proposal and source selection. We select §§97-111, on pages 33-38 in Chapter Three, because their responsibility, recourse, oversight, participation and design questions can be examined together. Picture following a benefits denial from its calculation to a named officer, an appeal, a review and an applied correction. Our proposal is to examine that chain against explicit, source-linked requirements and use checked repairs to identify missing connections. The following page explains our close reading; pages 3-5 develop the formal findings through examples in employment, public benefits and high-stakes autonomy. Source principles, our procedural choices and the proof results remain distinguishable throughout, so readers can inspect both the interpretation and the evidence.
+Source: Leo XIV, Magnifica Humanitas, official English edition, 15 May 2026; introduction, chapter structure and selected §§97-111. Page numbers refer to this edition, accessed 2 November 2026. The full document is contextual background; the formal source boundary remains §§97-111.
 
 A close reading of the selected passages
+
+Our proposal and source selection. We select §§97-111, on pages 33-38 in Chapter Three, because their responsibility, recourse, oversight, participation and design questions can be examined together. Picture following a benefits denial from its calculation to a named officer, an appeal, a review and an applied correction. The close reading below explains why these connections matter. Pages 3-5 examine the resulting questions through checked examples in employment, public benefits and high-stakes autonomy; page 6 translates the findings into an institutional execution blueprint. Source principles, our procedural choices and the proof results remain distinguishable throughout.
 
 From context to consequential decisions. Paragraphs 97-103, on pages 33-36, supply context about human direction, AI use and consequential decisions. Consider an applicant told that a computer placed her below an eligibility threshold. She needs a route to question that particular outcome and someone assigned to answer for it. This is why we focus on decisions affecting identifiable people: the relationship between a protection and its intended recipient can be examined precisely. We use the surrounding observations to understand the setting, rather than treating every empirical description of AI as a permanent rule. Employment and public services supply concrete settings for asking how responsibility reaches the person affected.
 
@@ -17,6 +43,8 @@ Appeal and accountable responsibility. On page 36, §104 addresses exclusion “
 Institutions and participation. Paragraphs 106-109, on pages 36-37, extend the discussion to institutional safeguards, participation and correction. Suppose residents submit a request to pause a disputed benefits decision. Recording that request shows that input was received; the procedure must establish separately whether the request can cause a pause. Similarly, a board authorized to review routine inquiries may lack authority over this denial. We read the selected passages as prompting examination of such practical powers and their scope. Our models compare receipt, influence, binding effect and intervention without making one mechanism a complete definition of participation or subsidiarity. Wider questions, including the distribution of data and resources, remain outside these comparisons.
 
 Authority, development and our interpretation. On page 37, §110 challenges the assumption that “technical power automatically confers the right to govern”; §111, continuing onto page 38, addresses developers. An operator might be able to make a review rule produce a grant or a denial while lacking institutional recognition to govern that decision. A developer might be assigned to design review while a separate official handles the later denial. These examples motivate our separate questions about capability, mandate and stage-specific responsibility. The resulting analytical categories are ours, and the particular board or correction desk is a proposed implementation. Keeping that distinction visible allows readers to examine how our procedural interpretation relates to the cited text.
+
+Source locations: §§97-103, pp. 33-36; §§104-107, p. 36; §108, pp. 36-37; §§109-110, p. 37; §111, pp. 37-38. Quotation marks identify exact short extracts; other source descriptions are attributed paraphrases. The procedural questions and interpretations are the study’s analysis.
 
 Responsibility and recourse
 
@@ -30,6 +58,8 @@ Separate review, appeal and correction. For §§104-105 (p. 36), a hiring office
 
 Make the reviewed appeal change the record. For §§105-106 and 108 (pp. 36-37), consider an assisted-intake benefits denial already stored in the agency's records. Reassessment under the corrected scoring rule yields a grant. A board can complete review while the denial remains unchanged if its finding never reaches the correcting office. Lean checks that the completed path needs open admission, a submitted request, completed review, a working handoff, correction power and an update applied through the correct office. Missing the handoff or leaving the update unperformed preserves the denial; applying it before review also fails. With the modeled checks enforced, the ordered path changes the stored award to grant. Payment remains a separate action.
 
+Evidence: technical paper §§2-5 (method, appeal, assignee, disclosure), §8 (stages) and §11 (applied correction); declaration references and assumptions accompany those sections.
+
 Institutions, participation and design
 
 Give the board power over this denial. For §§106 and 108 (pp. 36-37), suppose an agency announces an independent review board, but its remit covers routine inquiries rather than the disputed denial. Our first comparison has that gap. A second board covers the denial but lacks intervention power; a third supplies both. Lean checks the failures and repairs while the person's other safeguards stay fixed. Independence is assumed in the example. In the separate appeal-to-update workflow, the board has a usable intervention path when appeal access, correction power and the handoff exist. The practical test is to follow this denial: may the board review it, and can its finding reach an action that changes the record?
@@ -42,12 +72,46 @@ Make the objection change the calculation. For §§104-105, 109 and 111 (pp. 36-
 
 Separate the ability to act from authority. For §110 (p. 37), an operator in our example can make the review rule choose a grant or a denial. That capability can coexist with no recognized mandate for the decision. Granting the mandate changes recognition while preserving the operator's technical powers. Lean checks these comparisons and a general result for authority interpretations that explicitly require recognition and decision remit. Within that family, capability alone cannot supply authority. The mandate is institutional evidence, not a complete definition of moral legitimacy. The concrete inquiry is who authorized this operator to govern this decision, alongside what the operator can technically do.
 
+Evidence: companion technical paper §§6-10: oversight, participation/local pause, authority, adopted fairness and operative rule correction. The source motivates the questions; the particular procedures and enforcement assumptions are ours.
+
 Timing, interpretation and practical use
 
 See why a late stop is different. For the preventive-control question motivated by §§97, 105-106 (pp. 33-36), picture automated equipment about to cause damage. This illustrates our hypothetical high-stakes model. In one sequence, the stop command reaches the machine before the hazardous action, preventing damage. In the other, damage occurs before the stop arrives. Both records eventually show that the stop arrived and the administrative record was corrected. Their physical outcomes differ. Under our rules, later reviews and record corrections cannot undo the damage. Lean checks that result for any number of the permitted later steps. It also checks that a timely delivered stop keeps a loss-free state protected through those steps. The model assumes delivered stopping is obeyed.
 
 Explain which protections work together. For the tested requirements motivated by §§104-108 (pp. 36-37), consider the same unidentified denial officer under different appeal rules. Opening appeal earlier does not identify that officer. Lean checks that missing assignee identification fails all three safeguards policies; board-coverage and power gaps also persist when those policies pass. Conversely, giving an applicant appeal does not supply a correcting desk, and providing correction after harm need not supply appeal before exclusion. The additions require separate evidence. A repaired benefits case meets eight tested combinations of responsibility, appeal and oversight requirements, with correction capacity retained. This shows those protections can work together; it does not establish every conclusion under every possible reading of the encyclical.
 
-Use the checked comparisons to examine a procedure. We propose using these source-linked, checked comparisons as reference cases when examining procedures intended to implement the selected commitments. An agency could take one denial notice and trace it to the actual assignee, the accepted appeal, the authorized reviewer and the office that applies the correction. If the reviewed finding stops between departments, the procedure has a specific connection to repair. If the objection concerns the scoring rule, the next question is who can revise that rule and how an approved revision reaches the calculator. This method gives institutions concrete grounds for improving procedures and affected people concrete questions to ask. It makes implementation evidence visible alongside the ethical requirement being applied.
+Read the findings as one connected process. The examples now join into a practical line of inquiry. Take one denial notice and trace it to the actual assignee, the accepted appeal, the authorized reviewer and the office that applies the correction. A finding that stops between departments exposes a specific connection to repair. An objection about the scoring rule raises a different question: who can revise that rule and how does the approved revision reach the calculator? These are the connections checked in our reference cases. The execution blueprint on the next page turns them into proposed institutional actions and evidence of completion, including a final check of the record actually changed.
 
-What the work contributes. We have made selected commitments in the encyclical precise enough to examine through machine-checked failures, working repairs and conditional guarantees. The completed models show why an appeal form, a named office and a review board can coexist with an unchanged denial, and how a connected review-to-update path corrects the stored award. The contribution is the traceable relationship between the actual passages, our explicit interpretations and the checked consequences. The technical paper and reproducible Lean files let readers inspect that evidence and its assumptions. Institutions applying these commitments should be able to show who can act, on which decision, and how that action changes the outcome.
+From checked findings to institutional action. We have made selected commitments in the encyclical precise enough to examine through machine-checked failures, working repairs and conditional guarantees. The models show why an appeal form, a named office and a review board can coexist with an unchanged denial, and how a connected review-to-update path corrects the stored award. The contribution is the traceable relationship between the actual passages, our explicit interpretations and the checked consequences. The recommendations that follow apply those distinctions to a proposed workflow. The companion technical paper and reproducible Lean files let readers inspect the evidence and its assumptions.
+
+Evidence: technical paper §12 (timing), §13 (interpretation comparisons), §14 (target dispositions, proof audit and positive-result shortfall), §15 (reproduction). Formal checkpoint: 0b938e373dbf538fe0853f6282e4d9502e67ea01, Lean 4.35.0. The machine/equipment story illustrates the existing abstract high-stakes model. The technical paper and Lean proofs are unchanged.
+
+From governance commitments to implemented decisions
+
+Follow one decision to completion. We recommend examining one complete decision process, from its governing criteria to the action implementing a correction. For every stage, identify the responsible role, its authority and evidence that the required action occurred. The blueprint below applies the preceding findings to that institutional task.
+
+Stage | Recommended action | Evidence of execution
+
+1. Assign responsibility | Identify the owners of the governing rule and individual decision, with their relevant powers. | Named assignments covering the rule, case and type of correction.
+
+2. Examine criteria | Assess the rule actually used against the explicitly adopted standard. | The operative rule and an assessment of whether it meets that standard.
+
+3. Enable challenge | Provide a usable appeal route and record a submitted challenge. | Acceptance and delivery of the submission to the appropriate reviewer.
+
+4. Connect review to action | Give the reviewer remit over the decision and a handoff to an empowered office. | A completed finding and a working route to the office authorized to act.
+
+5. Apply correction | Use the role authorized for that change; rule revision and case correction may require different actors. | The revised rule reaches the calculation, or the authorized update changes the case record.
+
+6. Check completion | Check the resulting record before resolution; track payment or other required delivery separately. | Evidence of the applied change and any outstanding implementation steps.
+
+A worked example. Two applicants each have eligibility score 60 and cutoff 50. A 15-point assisted-intake penalty produces one denial. The institution's adopted policy treats intake channel as irrelevant to entitlement. An authorized design reviewer removes the penalty after assessment, and the calculation now yields a grant. The applicant's earlier denial still remains in the records. An appeal must be admitted, reviewed and handed to an empowered case office, which applies the update. Completion requires checking that the stored denial changed to the reassessed grant. Correcting a general rule and implementing the correction for an affected person are connected tasks requiring separate actions.
+
+Where delay can defeat protection. If an automated action could cause irreversible damage, examine the preventive path before execution. A stop request must reach the system in time and be obeyed. A later review or corrected log cannot itself establish that the physical harm was prevented.
+
+Make the protection demonstrable. This blueprint is our implementation proposal, informed by the checked comparisons. The technical paper states the supporting results and assumptions; suggested execution records are practical evidence to examine in an actual procedure. Institutions applying these commitments should show who can act, on which decision, and how the action changes the outcome.
+
+Source basis: selected §§104-111, official English PDF pp. 36-38. Evidence map: technical paper §§4-5 and 8 (assignment), §§9-10 (criteria/rule change), §§3 and 11 (appeal/applied update), §6 (oversight), §12 (timing). The workflow and suggested execution records are our recommendations, not additional Lean theorems.
+
+Acknowledgment
+
+Research, formalization and drafting were supported by ChatGPT (OpenAI). Lean 4 was used to check the formal proofs. Travis Darshan is the author and takes responsibility for the interpretations, assumptions and presentation of the work.

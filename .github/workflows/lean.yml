@@ -1,4 +1,4 @@
-name: Lean prototype
+name: Lean and artifact verification
 on:
   push:
   pull_request:
@@ -23,3 +23,7 @@ jobs:
         run: lake env lean Audit.lean
       - name: Check source integrity
         run: python3 scripts/audit_sources.py
+      - name: Verify final documents and source identities
+        run: |
+          python3 -m pip install pypdf==6.10.0
+          python3 scripts/verify_release.py

@@ -1,4 +1,4 @@
-"""Generate the short public progress report; no Lean knowledge is required."""
+"""Generate the final six-page public report; no Lean knowledge is required."""
 from pathlib import Path
 from xml.sax.saxutils import escape
 from reportlab.lib import colors
@@ -8,6 +8,7 @@ from reportlab.lib.units import inch
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak,
 )
+from reportlab.pdfgen import canvas as pdfcanvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
@@ -50,22 +51,22 @@ def p(text, style="BodyMH"):
     story.append(Paragraph(text, styles[style]))
     plain.append(text)
 
-p("MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.16", "SmallMH")
-p("What must work<br/>together?", "TitleMH")
-p("Computer-checked requirements for accountable AI decisions<br/>Progress report | November 2, 2026", "DeckMH")
-p("The consolidated finding", "H2MH")
-p("Wider appeal access and correction capacity are separate requirements in our tested policies. A case can satisfy either while failing the other. Lean checked the exact evidence needed to satisfy all three current safeguards policies together.")
+p("MAGNIFICA HUMANITAS / PUBLIC REPORT / VERSION 1.0", "SmallMH")
+p("Who can challenge,<br/>correct and decide?", "TitleMH")
+p("What makes an AI safeguard work?<br/>Travis Darshan | November 2, 2026", "DeckMH")
+p("The finding", "H2MH")
+p("A promise of human oversight does not tell us who can change an AI-assisted decision. We tested small, explicit examples in employment, public benefits and high-stakes autonomous action. Four questions repeatedly separate a working protection from a protection that exists only on paper.")
 summary_rows = [
-    ["Safeguard", "When our tested policies require it"],
-    ["Identifiable actual assignee", "High-impact decision: all three policies"],
-    ["Appeal for an excluded person", "All three policies"],
-    ["Appeal before exclusion", "Broader appeal policy, for an affected person in a high-impact decision"],
-    ["Correction capacity after harm", "Harm-remedy policy, after stipulated harm"],
+    ["Safeguard", "Question to ask"],
+    ["Someone answers", "Can the person assigned to this decision be identified?"],
+    ["People can challenge", "Can the affected person actually submit an appeal?"],
+    ["Someone can correct", "Does the responsible role have the relevant power?"],
+    ["The route reaches the decision", "Does the finding change the rule or stored decision?"],
 ]
 summary_table = Table([
     [Paragraph(escape(v), styles["HeaderMH" if i == 0 else "CellMH"])
      for v in row] for i, row in enumerate(summary_rows)],
-    colWidths=[2.2*inch, 3.4*inch])
+    colWidths=[2.0*inch, 3.6*inch])
 summary_table.setStyle(TableStyle([
     ("BACKGROUND", (0,0), (-1,0), navy),
     ("ROWBACKGROUNDS", (0,1), (-1,-1), [colors.HexColor("#EFF5F6"), colors.white]),
@@ -77,23 +78,22 @@ summary_table.setStyle(TableStyle([
 ]))
 story.append(summary_table)
 plain.extend(" | ".join(row) for row in summary_rows)
-p("A concrete employment example", "H2MH")
-p("A rejected, harmed applicant has a named officer and can appeal, but the desk cannot correct the decision. Both appeal policies pass; the correction-capacity policy fails. Before exclusion, another affected applicant with no stipulated harm lacks appeal: the correction-capacity policy passes, but broader appeal fails.")
-p("Which findings survive changes of interpretation?", "H2MH")
-p("A repaired benefits case meets all eight tested responsibility, appeal and oversight combinations. Missing assignee identity fails all three safeguards policies; oversight gaps persist even when all three pass. Each matrix entry links to checked evidence.")
-p("What this is for", "H2MH")
-p("The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.")
-p("These are hypothetical models, not audits of actual organizations. Operative rule correction and the issued-decision review/update path are now checked. The completion audit leads to the final technical paper, public report and reproducible V1 release.", "SmallMH")
-p('Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.', "SmallMH")
+p("An employment example", "H2MH")
+p("A rejected applicant has a named officer and an appeal, but the desk cannot correct the decision. Appeal access exists; correction capacity does not. Before exclusion, another affected applicant can lack appeal even when a rule requiring correction after harm is satisfied. Wider appeal and correction capacity are separate protections.")
+p("What the computer checked", "H2MH")
+p("Lean, a proof-checking program, verified that the stated conclusions follow from the written rules. It also checked repaired examples where the missing protections work together. The same repaired benefits case meets eight tested combinations of responsibility, appeal and oversight requirements.")
+p("The following pages show how local control, rule correction, timely stopping, applied appeals and independent oversight work in these examples. They give concrete questions for institutions to answer.")
+p("These are hypothetical cases, not measurements of actual organizations. The source supplies principles; the particular procedures and assumptions are ours. The technical paper identifies the exact rules and proofs.", "SmallMH")
+p('Source: Leo XIV, <i>Magnifica Humanitas</i>, official English text, selected paragraphs 97-111. Accessed November 2, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions accompany this report in the research repository.', "SmallMH")
 
 story.append(PageBreak())
 p("PARTICIPATION, DISTRIBUTED CONTROL AND LOCAL ACTION", "SmallMH")
 p("Who can actually<br/>act?", "TitleMH")
-p("Sharing control between institutions need not give a community an effective action of its own.", "DeckMH")
-p("Earlier: influence and authority", "H2MH")
-p("Our earlier community recommendation is recorded, amendable and sometimes changes the review outcome, yet an institutional override can still decide. A binding rule supplies final control. Separately, a technically capable operator may lack institutional recognition. Neither influence nor recognition alone establishes a justified right to govern.")
-p("Now: two controllers and a local pause", "H2MH")
-p("An operator and an independent review board each have a separate hold input that can pause execution of the disputed benefits denial. Neither can cancel the other's hold. The community can submit and amend a pause request, but the first evaluator ignores it. The repair makes that local request effective alongside both external holds.")
+p("Sharing control between institutions need not give the affected community an effective action of its own.", "DeckMH")
+p("Influence and authority", "H2MH")
+p("A community recommendation in the model is recorded, amendable and sometimes changes the review outcome, yet an institutional override can still decide. A binding rule supplies final control. Separately, a technically capable operator may lack institutional recognition. Neither influence nor recognition alone establishes a justified right to govern.")
+p("Two controllers and a local pause", "H2MH")
+p("An operator and an independent review board each have a separate hold input that can pause execution of the disputed benefits denial. Neither can cancel the other's hold. The affected community can submit and amend a pause request, but the first evaluator ignores it. The repair makes that local request effective alongside both external holds.")
 control_rows = [
     ["Power in this pause protocol", "Initial rule", "Local input enabled"],
     ["Operator can cause a pause?", "Yes", "Yes"],
@@ -120,7 +120,7 @@ p("What Lean checked", "H2MH")
 p("Initially, changing the local request has no pause effect under any external setting. Enabling it gives the community a pause even when both external controllers release their holds. Both external powers remain effective. The original named assignment, appeal and correction-capacity safeguards stay fixed; a pause itself does not award the benefit or correct the record.")
 p("Assumptions and practical use", "H2MH")
 p("This hypothetical protocol assumes requests reach the evaluator and every asserted hold is honored. Independence is stipulated. Paragraphs 108-109 motivate community action but do not specify this rule. The test concerns temporary suspension, not final award authority or complete subsidiarity. Ask which action the community can actually cause, alongside how many institutions share control.", "SmallMH")
-p("Proof file: DistributedControl.lean. The completion audit leads to final writing and release preparation.", "SmallMH")
+p("Here, community means an affected group inside the example. Proof file: DistributedControl.lean. Source motivation: paragraphs 108-109.", "SmallMH")
 
 story.append(PageBreak())
 p("PUBLIC BENEFITS / OBJECTIONS AND RULE CORRECTION", "SmallMH")
@@ -158,7 +158,7 @@ p("Ask who can change the operative criteria, alongside whether an objection was
 p("Earlier disclosure result: a notice with score 47, cutoff 50 and published safeguards can still name a service contact rather than the actual assignee. Publishing that assignee repairs that separate responsibility gap. Proof files: Disclosure.lean, Fairness.lean and RuleCorrection.lean. Source motivation: paragraphs 104-105, 109 and 111.", "SmallMH")
 
 story.append(PageBreak())
-p("NEW RESULT / HIGH-STAKES AUTONOMY", "SmallMH")
+p("HIGH-STAKES AUTONOMY", "SmallMH")
 p("A stop that arrives too late", "TitleMH")
 p("The same final checklist can hide a crucial difference: whether control reached the system before the harm occurred.", "DeckMH")
 p("The example", "H2MH")
@@ -197,7 +197,7 @@ p("The practical lesson", "H2MH")
 p("Ask when control became effective, not just whether a human was involved. Also ask what a promised correction can change: the record, the decision, or the physical harm. Those protections are different.")
 
 p("Where the limits matter", "H2MH")
-p("The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.")
+p("The guarantee depends on our irreversibility and stopping rules. It does not establish that every real loss is permanent or that the source requires this exact mechanism. Real use needs evidence that delivery and stopping work.")
 
 story.append(PageBreak())
 p("APPEAL, REVIEW AND IMPLEMENTED CORRECTION", "SmallMH")
@@ -232,11 +232,11 @@ p("The complete path needs open admission, an actual request, completed review, 
 p("How this fits the earlier appeal finding", "H2MH")
 p("Both tested appeal readings reject exclusion without accessible appeal. The broader reading also requires appeal for affected people in high-impact decisions before exclusion; the narrower one can accept that earlier stage without appeal. Internal human review alone does not give the person access. The new path examines what happens after an appeal is actually admitted.")
 p("Assumptions and practical use", "H2MH")
-p("The reassessment uses the corrected rule already checked in the previous build. The hypothetical workflow enforces the shown order and uses authentic findings from that composed path. The result changes the stored award, not payment or full restoration of every harm. Ask where a reviewed finding goes and which action actually changes the record.", "SmallMH")
-p("Proof file: AppealCorrection.lean. Source motivation: paragraphs 105-106 and 108. The original completion audit now leads to the technical paper, final public report and reproducible release.", "SmallMH")
+p("The reassessment uses the corrected rule shown on page 3. The hypothetical workflow enforces the shown order and uses authentic findings from that composed path. The result changes the stored award, not payment or full restoration of every harm. Ask where a reviewed finding goes and which action actually changes the record.", "SmallMH")
+p("Proof file: AppealCorrection.lean. Source motivation: paragraphs 105-106 and 108. Reproduction instructions and the full evidence map accompany the technical paper.", "SmallMH")
 
 story.append(PageBreak())
-p("NEW RESULT / INDEPENDENT OVERSIGHT", "SmallMH")
+p("INDEPENDENT OVERSIGHT", "SmallMH")
 p("Does the board cover<br/>your decision?", "TitleMH")
 p("An independent board can exist without being able to oversee a particular benefit denial.", "DeckMH")
 
@@ -274,7 +274,7 @@ p("The practical question", "H2MH")
 p("When told 'we have independent oversight,' ask which decisions it covers and what the reviewer can do about them. The existence of a board, the right to review and the power to intervene are separate checks.")
 
 p("Assumptions and limits", "H2MH")
-p("Independence and powers are stipulated in this hypothetical example. Our test checks capacity, not actual action, speed or successful correction. The source's call for effective oversight is broader: criteria and community participation also matter. This example does not settle those requirements or prove full source compliance. The exact board arrangement is our interpretation of paragraphs 106 and 108.")
+p("Independence and powers are stipulated in this hypothetical example. This comparison checks capacity. Page 5 separately checks an actual modeled review-to-update path; neither measures real-world speed or delivery. The source's call for effective oversight is broader: criteria and community participation also matter. This example does not settle those requirements or prove full source compliance. The exact board arrangement is our interpretation of paragraphs 106 and 108.")
 
 def footer(canvas, doc):
     canvas.saveState()
@@ -283,7 +283,7 @@ def footer(canvas, doc):
     canvas.line(0.7*inch,0.57*inch,width-0.7*inch,0.57*inch)
     canvas.setFont("MHRegular",7)
     canvas.setFillColor(muted)
-    canvas.drawString(0.7*inch,0.38*inch,"MAGNIFICA HUMANITAS | Plain-language progress report")
+    canvas.drawString(0.7*inch,0.38*inch,"MAGNIFICA HUMANITAS | Public report 1.0")
     canvas.drawRightString(width-0.7*inch,0.38*inch,str(doc.page))
     canvas.restoreState()
 
@@ -291,7 +291,11 @@ doc = SimpleDocTemplate(str(target), pagesize=(612,792),
     rightMargin=0.7*inch,leftMargin=0.7*inch,
     topMargin=0.6*inch,bottomMargin=0.75*inch,
     title="Who can challenge, correct and decide?",
-    author="Magnifica Humanitas Formalization research project")
-doc.build(story,onFirstPage=footer,onLaterPages=footer)
+    author="Travis Darshan")
+class DeterministicCanvas(pdfcanvas.Canvas):
+    def __init__(self, *args, **kwargs):
+        kwargs['invariant'] = 1
+        super().__init__(*args, **kwargs)
+doc.build(story,onFirstPage=footer,onLaterPages=footer,canvasmaker=DeterministicCanvas)
 (out / "report_text.txt").write_text("\n\n".join(plain)+"\n")
 print(target)

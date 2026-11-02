@@ -1,4 +1,6 @@
-# Execution status — prototype 0.16, 2026-11-02
+# Execution status — final documents, 2026-11-02
+
+The formal history below records checkpoints through 0.16. Final writing is complete: the sixteen-page technical paper and six-page public report are in output/pdf/. See V1_COMPLETION_AUDIT.md and RELEASE_NOTES_V1.md for final dispositions; dated statements about then-pending targets below are historical. A source/verification package is prepared from the exact final documentation commit.
 
 ## Completed
 
@@ -45,7 +47,7 @@ Technical control in the authority case is computed from the review rule. Indepe
 
 ## Prototype gate
 
-The prototype supports proceeding narrowly. The current appeal comparison shows where a guaranteed appeal depends on a stronger interpretation. The shared exclusion consequence is labeled a baseline rule consequence. Significance and source fidelity still require external scholarly assessment. RESULT_COVERAGE.md records unfinished targets and the current 30-definition principal-domain count.
+The prototype supports proceeding narrowly. The current appeal comparison shows where a guaranteed appeal depends on a stronger interpretation. The shared exclusion consequence is labeled a baseline rule consequence. The paper states the contribution and source interpretation directly; external review or community approval is not a completion gate. RESULT_COVERAGE.md records unfinished targets and the current 30-definition principal-domain count.
 
 ## MH-009: explanation and adopted fairness
 

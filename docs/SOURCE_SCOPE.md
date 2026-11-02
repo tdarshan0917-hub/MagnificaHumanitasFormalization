@@ -4,7 +4,7 @@ Primary source: [official English Vatican text](https://www.vatican.va/content/l
 
 Document metadata verified on 2026-11-01: Pope Leo XIV, *Magnifica Humanitas*, dated 2026-05-15. Formal source boundary: §§97–111. Paragraph numbers are the canonical locators; webpage line numbers are not stable source IDs.
 
-Access: official HTML read through web retrieval. This checkpoint contains no full-text copy and no byte-level source checksum. A frozen bibliographic record is not an immutable source snapshot. Before publication, record the exact downloaded source version, date, and checksum when permitted and available; compare any later source changes explicitly.
+Access: the official English HTML was downloaded again on 2026-11-02. `data/source_version.json` records the exact access time, URL, HTTP response-body SHA-256 and a normalized fingerprint of selected §§97–111. Normalization is specified there. The full source text is not redistributed or retained in the release package. The fingerprints identify the representation examined; without the original full bytes they are not an immutable full-text archive. Compare future downloads explicitly rather than treating webpage metadata as version identity.
 
 The claim ledger uses short descriptive labels rather than quotations. Candidate formulas and modeling notes are project proposals, not additional wording attributed to the source. This checkpoint does not reproduce the encyclical.
 

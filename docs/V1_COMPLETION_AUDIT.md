@@ -1,10 +1,10 @@
-# V1 completion audit — checkpoint 0.16
+# V1 completion audit — final documents
 
-Date: 2026-11-02. This audits the original contract after the concrete criteria-correction and contested-decision correction checks. It is not a V1 release announcement.
+Date: 2026-11-02. This audits the original contract after the concrete criteria-correction and contested-decision correction checks. Formal checkpoint 0.16 supplies the proof basis; final documents and reproducible package materials are now complete. Remote tag publication is recorded separately.
 
 ## Readiness decision
 
-The fixed formal question suite now has explicit, examined dispositions under the documented models. The remaining source-facing gaps identified at 0.14 were actually attempted: RuleCorrection.lean checks objection-to-operative-criteria correction, and AppealCorrection.lean checks admitted appeal-to-review-to-applied-record correction. The next planned work is the technical paper, final public explanation and reproducible release preparation. Any concrete verification or source-mapping defect found during that work must be fixed; no new case or theorem family is proposed to extend the project.
+The fixed formal question suite now has explicit, examined dispositions under the documented models. The remaining source-facing gaps identified at 0.14 were actually attempted: RuleCorrection.lean checks objection-to-operative-criteria correction, and AppealCorrection.lean checks admitted appeal-to-review-to-applied-record correction. The technical paper and final public explanation now report those dispositions. The reproducible package records exact source/document identities and final-commit CI evidence. Any concrete verification or source-mapping defect found during that work must be fixed; no new case or theorem family is proposed to extend the project.
 
 ## Original ten-question dispositions
 
@@ -42,14 +42,14 @@ The contract allows fewer positive targets to survive if the shortfall is docume
 
 This is the earned outcome of examining the fixed suite, not a reason to skip an unattempted agreed target. The two specific implementation connections left open at 0.14 have now been checked.
 
-## Deliverables remaining before V1 release
+## Final deliverables
 
 | Deliverable | Status / concrete next work |
 |---|---|
-| 12–20-page technical paper | Write from the current evidence map, with explicit formulas, dependency results, cases, assumptions and scope |
-| 4–6-page final plain-language report | Current six-page progress report contains the checked findings; edit into the final standalone account alongside the paper |
-| Source-version evidence | Record the official edition/access/version information and a source capture/checksum when available; do not label a bibliographic pointer an immutable source snapshot |
-| Related-work attribution | Attribute the relevant formal-normative methodology with primary sources; make no first-ever or priority claim without evidence |
-| Reproducible V1 release | Prepare exact revision/tag, pinned toolchain instructions, proof/source logs and final artifacts; verify the published revision's CI |
+| 12–20-page technical paper | Complete: 16-page technical PDF, structured manuscript and editable technical text; explicit formulas, dependency results, cases and assumptions |
+| 4–6-page final plain-language report | Complete: six-page final standalone public report; each case has a practical question and stated assumptions |
+| Source-version evidence | Complete: official English representation accessed 2026-11-02; full-response and normalized-scope SHA-256 recorded in data/source_version.json; full text not redistributed |
+| Related-work attribution | Complete: primary LogiKEy and Lean references included; no first-ever or priority claim |
+| Reproducible V1 release | Prepared: exact formal/document revision distinction, source/PDF manifests, pinned-toolchain instructions, proof/source logs, and deterministic ZIP script. The finished package records the final documentation commit and its inspected CI result; remote V1 tag publication is not asserted. |
 
-No outside community consultation or approval of this research is a completion requirement. The paper/report present the findings directly. A V1 tag or final release is not claimed by this audit; those follow completion of the listed deliverables.
+No outside community consultation or approval of this research is a completion requirement. The paper/report present the findings directly. The technical paper and public report are final. The package records exact commit identity without relying on a remote tag; a published GitHub V1 tag/release is not claimed by this audit.

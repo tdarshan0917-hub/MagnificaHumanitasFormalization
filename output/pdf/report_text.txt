@@ -1,52 +1,50 @@
-MAGNIFICA HUMANITAS / RESEARCH PROTOTYPE 0.16
+MAGNIFICA HUMANITAS / PUBLIC REPORT / VERSION 1.0
 
-What must work<br/>together?
+Who can challenge,<br/>correct and decide?
 
-Computer-checked requirements for accountable AI decisions<br/>Progress report | November 2, 2026
+What makes an AI safeguard work?<br/>Travis Darshan | November 2, 2026
 
-The consolidated finding
+The finding
 
-Wider appeal access and correction capacity are separate requirements in our tested policies. A case can satisfy either while failing the other. Lean checked the exact evidence needed to satisfy all three current safeguards policies together.
+A promise of human oversight does not tell us who can change an AI-assisted decision. We tested small, explicit examples in employment, public benefits and high-stakes autonomous action. Four questions repeatedly separate a working protection from a protection that exists only on paper.
 
-Safeguard | When our tested policies require it
+Safeguard | Question to ask
 
-Identifiable actual assignee | High-impact decision: all three policies
+Someone answers | Can the person assigned to this decision be identified?
 
-Appeal for an excluded person | All three policies
+People can challenge | Can the affected person actually submit an appeal?
 
-Appeal before exclusion | Broader appeal policy, for an affected person in a high-impact decision
+Someone can correct | Does the responsible role have the relevant power?
 
-Correction capacity after harm | Harm-remedy policy, after stipulated harm
+The route reaches the decision | Does the finding change the rule or stored decision?
 
-A concrete employment example
+An employment example
 
-A rejected, harmed applicant has a named officer and can appeal, but the desk cannot correct the decision. Both appeal policies pass; the correction-capacity policy fails. Before exclusion, another affected applicant with no stipulated harm lacks appeal: the correction-capacity policy passes, but broader appeal fails.
+A rejected applicant has a named officer and an appeal, but the desk cannot correct the decision. Appeal access exists; correction capacity does not. Before exclusion, another affected applicant can lack appeal even when a rule requiring correction after harm is satisfied. Wider appeal and correction capacity are separate protections.
 
-Which findings survive changes of interpretation?
+What the computer checked
 
-A repaired benefits case meets all eight tested responsibility, appeal and oversight combinations. Missing assignee identity fails all three safeguards policies; oversight gaps persist even when all three pass. Each matrix entry links to checked evidence.
+Lean, a proof-checking program, verified that the stated conclusions follow from the written rules. It also checked repaired examples where the missing protections work together. The same repaired benefits case meets eight tested combinations of responsibility, appeal and oversight requirements.
 
-What this is for
+The following pages show how local control, rule correction, timely stopping, applied appeals and independent oversight work in these examples. They give concrete questions for institutions to answer.
 
-The project provides a source-linked way to examine who answers, who can challenge, who can correct, and what communities can change. A published duty does not supply its own implementation.
+These are hypothetical cases, not measurements of actual organizations. The source supplies principles; the particular procedures and assumptions are ours. The technical paper identifies the exact rules and proofs.
 
-These are hypothetical models, not audits of actual organizations. Operative rule correction and the issued-decision review/update path are now checked. The completion audit leads to the final technical paper, public report and reproducible V1 release.
-
-Source: official English Vatican text, <i>Magnifica Humanitas</i>, selected paragraphs 97-111. Accessed November 1, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence: docs/POSITIVE_TARGET_CONSOLIDATION.md and docs/INTERPRETATION_ROBUSTNESS_MATRIX.md.
+Source: Leo XIV, <i>Magnifica Humanitas</i>, official English text, selected paragraphs 97-111. Accessed November 2, 2026. <link href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html" color="#147D80">Read the source</link>. Evidence and assumptions accompany this report in the research repository.
 
 PARTICIPATION, DISTRIBUTED CONTROL AND LOCAL ACTION
 
 Who can actually<br/>act?
 
-Sharing control between institutions need not give a community an effective action of its own.
+Sharing control between institutions need not give the affected community an effective action of its own.
 
-Earlier: influence and authority
+Influence and authority
 
-Our earlier community recommendation is recorded, amendable and sometimes changes the review outcome, yet an institutional override can still decide. A binding rule supplies final control. Separately, a technically capable operator may lack institutional recognition. Neither influence nor recognition alone establishes a justified right to govern.
+A community recommendation in the model is recorded, amendable and sometimes changes the review outcome, yet an institutional override can still decide. A binding rule supplies final control. Separately, a technically capable operator may lack institutional recognition. Neither influence nor recognition alone establishes a justified right to govern.
 
-Now: two controllers and a local pause
+Two controllers and a local pause
 
-An operator and an independent review board each have a separate hold input that can pause execution of the disputed benefits denial. Neither can cancel the other's hold. The community can submit and amend a pause request, but the first evaluator ignores it. The repair makes that local request effective alongside both external holds.
+An operator and an independent review board each have a separate hold input that can pause execution of the disputed benefits denial. Neither can cancel the other's hold. The affected community can submit and amend a pause request, but the first evaluator ignores it. The repair makes that local request effective alongside both external holds.
 
 Power in this pause protocol | Initial rule | Local input enabled
 
@@ -66,7 +64,7 @@ Assumptions and practical use
 
 This hypothetical protocol assumes requests reach the evaluator and every asserted hold is honored. Independence is stipulated. Paragraphs 108-109 motivate community action but do not specify this rule. The test concerns temporary suspension, not final award authority or complete subsidiarity. Ask which action the community can actually cause, alongside how many institutions share control.
 
-Proof file: DistributedControl.lean. The completion audit leads to final writing and release preparation.
+Here, community means an affected group inside the example. Proof file: DistributedControl.lean. Source motivation: paragraphs 108-109.
 
 PUBLIC BENEFITS / OBJECTIONS AND RULE CORRECTION
 
@@ -100,7 +98,7 @@ Ask who can change the operative criteria, alongside whether an objection was lo
 
 Earlier disclosure result: a notice with score 47, cutoff 50 and published safeguards can still name a service contact rather than the actual assignee. Publishing that assignee repairs that separate responsibility gap. Proof files: Disclosure.lean, Fairness.lean and RuleCorrection.lean. Source motivation: paragraphs 104-105, 109 and 111.
 
-NEW RESULT / HIGH-STAKES AUTONOMY
+HIGH-STAKES AUTONOMY
 
 A stop that arrives too late
 
@@ -136,7 +134,7 @@ Ask when control became effective, not just whether a human was involved. Also a
 
 Where the limits matter
 
-The result depends on the stated irreversibility and stop rules. It does not establish that every real loss is permanent or that the encyclical uniquely requires this particular mechanism. We have initial examples in all three agreed case domains; the full research project remains unfinished.
+The guarantee depends on our irreversibility and stopping rules. It does not establish that every real loss is permanent or that the source requires this exact mechanism. Real use needs evidence that delivery and stopping work.
 
 APPEAL, REVIEW AND IMPLEMENTED CORRECTION
 
@@ -168,11 +166,11 @@ Both tested appeal readings reject exclusion without accessible appeal. The broa
 
 Assumptions and practical use
 
-The reassessment uses the corrected rule already checked in the previous build. The hypothetical workflow enforces the shown order and uses authentic findings from that composed path. The result changes the stored award, not payment or full restoration of every harm. Ask where a reviewed finding goes and which action actually changes the record.
+The reassessment uses the corrected rule shown on page 3. The hypothetical workflow enforces the shown order and uses authentic findings from that composed path. The result changes the stored award, not payment or full restoration of every harm. Ask where a reviewed finding goes and which action actually changes the record.
 
-Proof file: AppealCorrection.lean. Source motivation: paragraphs 105-106 and 108. The original completion audit now leads to the technical paper, final public report and reproducible release.
+Proof file: AppealCorrection.lean. Source motivation: paragraphs 105-106 and 108. Reproduction instructions and the full evidence map accompany the technical paper.
 
-NEW RESULT / INDEPENDENT OVERSIGHT
+INDEPENDENT OVERSIGHT
 
 Does the board cover<br/>your decision?
 
@@ -204,4 +202,4 @@ When told 'we have independent oversight,' ask which decisions it covers and wha
 
 Assumptions and limits
 
-Independence and powers are stipulated in this hypothetical example. Our test checks capacity, not actual action, speed or successful correction. The source's call for effective oversight is broader: criteria and community participation also matter. This example does not settle those requirements or prove full source compliance. The exact board arrangement is our interpretation of paragraphs 106 and 108.
+Independence and powers are stipulated in this hypothetical example. This comparison checks capacity. Page 5 separately checks an actual modeled review-to-update path; neither measures real-world speed or delivery. The source's call for effective oversight is broader: criteria and community participation also matter. This example does not settle those requirements or prove full source compliance. The exact board arrangement is our interpretation of paragraphs 106 and 108.

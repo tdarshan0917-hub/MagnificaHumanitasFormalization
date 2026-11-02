@@ -1,0 +1,135 @@
+{
+  "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "lean_files": 21,
+  "lean_lines": 2789,
+  "files": [
+    {
+      "path": "Audit.lean",
+      "sha256": "3cb16ba7e749f21c63611900c1a669485a825e99947acb173bc46a379f405d7c",
+      "git_blob_sha": "b6ac1d7d677dd00b9f33e5ac280aca986f90f87f",
+      "lines": 154
+    },
+    {
+      "path": "MagnificaHumanitas/AppealCorrection.lean",
+      "sha256": "49efb1cb1a6f80844f82c2073f29eefc1deaff705b0b5d3e2a511fb8db6bef84",
+      "git_blob_sha": "dcb7e1b34696c40054819470d86bb970f0c5ab4d",
+      "lines": 223
+    },
+    {
+      "path": "MagnificaHumanitas/AppealReview.lean",
+      "sha256": "150226140be0f5c7a97bfdf6b3fd6e66da117465b7661de5aa9e090bb0af4234",
+      "git_blob_sha": "6a18eefdee094d1f6eafb0fabe2f6df5951c6bc7",
+      "lines": 162
+    },
+    {
+      "path": "MagnificaHumanitas/Authority.lean",
+      "sha256": "6a0b0898d77df02b55f407b4730fc2625774b83beb857976ddd7e57d5c961550",
+      "git_blob_sha": "8b97590a2f9b383829749f063103fc4104645b52",
+      "lines": 99
+    },
+    {
+      "path": "MagnificaHumanitas/Delegation.lean",
+      "sha256": "f810f28ea97599348f938e0a19c22221ecd2d5a62717bbe5939c2c805135c1fe",
+      "git_blob_sha": "0cb38fa98f6e077b6a39b6212f6341d989b98599",
+      "lines": 101
+    },
+    {
+      "path": "MagnificaHumanitas/DeveloperResponsibility.lean",
+      "sha256": "196e3c53429696b9cdf9833cc639614debd4a719ca3e81b77d9af1d5a2e35bfb",
+      "git_blob_sha": "4b97240a3f22ea072f853342b7feb5271de09227",
+      "lines": 142
+    },
+    {
+      "path": "MagnificaHumanitas/Disclosure.lean",
+      "sha256": "20c632eb2619f571aff73c4507277618b3854adc3e0e19f3e92e724935c49984",
+      "git_blob_sha": "5cb8b9e9374a18f251e2e7ee5199c1d392e6ee56",
+      "lines": 168
+    },
+    {
+      "path": "MagnificaHumanitas/DistributedControl.lean",
+      "sha256": "2b8ab6682aebeedc62b3688d427721d93c00a32865e03172d9074ebe50ad472e",
+      "git_blob_sha": "19dcef45e8b3b9b7cfa901a272c1358e8ccb1f8c",
+      "lines": 191
+    },
+    {
+      "path": "MagnificaHumanitas/Examples.lean",
+      "sha256": "7bff85d952ed43ee0d73d1505f24e25c8feb10ce851c6feab4a98899b517e7ae",
+      "git_blob_sha": "a5c416b1141d8deeca086891464777520ed60fa2",
+      "lines": 95
+    },
+    {
+      "path": "MagnificaHumanitas/Fairness.lean",
+      "sha256": "355f57ded2d9ae3a22152e80543aa4256b7da509bfe7cf24fdb95ba9b2604fae",
+      "git_blob_sha": "2b431de0883449024b235b29203bb1286d4299db",
+      "lines": 158
+    },
+    {
+      "path": "MagnificaHumanitas/HighStakes.lean",
+      "sha256": "8d5d0a315b50d9e8a3f07186e74338972985b12fc3fbb29544df2db39a0d7938",
+      "git_blob_sha": "57ba7dc04d0b668759cf5319d608f54aab092afd",
+      "lines": 141
+    },
+    {
+      "path": "MagnificaHumanitas/InterpretationRobustness.lean",
+      "sha256": "636ed0bdff2826c41b10c5198d82175f0b14627781867a6e5e21da9e61a63843",
+      "git_blob_sha": "fbd5a95b119d881e09003fb764cab277ed96d28a",
+      "lines": 242
+    },
+    {
+      "path": "MagnificaHumanitas/Model.lean",
+      "sha256": "9387569fc10e041c21c603d30f0f3f7916995cc46cbcd7f25c99d389bfedfde6",
+      "git_blob_sha": "7ecea349feffb223391632a8a34722abd317dc8b",
+      "lines": 52
+    },
+    {
+      "path": "MagnificaHumanitas/Oversight.lean",
+      "sha256": "6f8fbbc8331794aad56f70fa631b7de203ec5455aa2201ebfa51fe526de83db9",
+      "git_blob_sha": "9dbb199e9222f5bcff85673693365e9e64e1286f",
+      "lines": 188
+    },
+    {
+      "path": "MagnificaHumanitas/Participation.lean",
+      "sha256": "42bc148bf96bed0976cb5137959c1a404646066d9d598d0011a9341489dec46a",
+      "git_blob_sha": "3df9861a52177d47cdaf1c0db1569a4cf9d21f5d",
+      "lines": 146
+    },
+    {
+      "path": "MagnificaHumanitas/PublicBenefits.lean",
+      "sha256": "4e6cb934aa43f230bc0f497d30c27a7a57504b61b6904074288ac540b14f2bfa",
+      "git_blob_sha": "03b6f3f3e24aff8c95e650ab32609577a63e3810",
+      "lines": 125
+    },
+    {
+      "path": "MagnificaHumanitas/Responsibility.lean",
+      "sha256": "65158f225f4c37ac51489c138ebedcbd4c2112b3ef6528dda9c16cff57766ba0",
+      "git_blob_sha": "7106160e38fdbb4f87e7f0b182b98cf2a38e8284",
+      "lines": 84
+    },
+    {
+      "path": "MagnificaHumanitas/RuleCorrection.lean",
+      "sha256": "1ef0796616c98b66d193bc341496e4d5bca3f72e791de5715d4848eb0c3ee3f8",
+      "git_blob_sha": "a4f02adf8e48af1b54b10bb5795372570f093d6d",
+      "lines": 190
+    },
+    {
+      "path": "MagnificaHumanitas/Source.lean",
+      "sha256": "4fdd5735cb983f36d99211096db99028872d280ceae60d8373a8caf09f0308d5",
+      "git_blob_sha": "5ded4bfcfaad45776ec121974e4f1f389cb6e63d",
+      "lines": 52
+    },
+    {
+      "path": "MagnificaHumanitas/Theory.lean",
+      "sha256": "b32e3e2b43b801a451c2b192f435be96a01389e6d93585b394f9775d41792c4d",
+      "git_blob_sha": "f98fd59d7b35989e1197aa5a6d778aace33f6c9c",
+      "lines": 57
+    },
+    {
+      "path": "MagnificaHumanitas.lean",
+      "sha256": "4006b66e954d67d6989fd87881d1340eea120495498178c9a854292c59f75f9b",
+      "git_blob_sha": "6de4efcbf7d7948ae2b91ca657caabe081f16d48",
+      "lines": 19
+    }
+  ],
+  "verified_formal_ci": "https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41394350840"
+}

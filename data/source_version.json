@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+  "resolved_url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+  "accessed_utc": "2026-11-02T14:27:24.246941+00:00",
+  "representation": "HTTP response body: official English HTML",
+  "sha256": "1591db33ab674b6e71b7d9072280f14ea553866dbc2fd742e766e89d500b1166",
+  "bytes": 395818,
+  "content_type": null,
+  "last_modified": null,
+  "formal_paragraph_scope": [
+    97,
+    111
+  ],
+  "full_text_distributed": false,
+  "scope_representation": "Python html.parser text nodes, excluding script/style; space-joined with Unicode whitespace collapsed; paragraph 97 marker through paragraph 111, excluding the subsequent heading What must not be lost; trimmed",
+  "scope_sha256": "2b3f341a71aee0bdb8aa08be7ec0e9760570fd7c9a75ca12438b06a41b3dd3d8",
+  "scope_utf8_bytes": 14621,
+  "archive_note": "Official full HTML used locally for fingerprinting; full source text is not redistributed."
+}

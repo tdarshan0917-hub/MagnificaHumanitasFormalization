@@ -2,7 +2,7 @@
 
 A Lean 4 analysis of selected AI-governance requirements in Magnifica Humanitas
 
-Travis Darshan · November 2, 2026 · Version 1.1
+Travis Darshan · November 3, 2026 · Version 1.2
 
 Formal source revision: `0b938e373dbf538fe0853f6282e4d9502e67ea01`
 
@@ -14,13 +14,13 @@ Research, formalization and drafting supported by ChatGPT (OpenAI).
 
 This paper presents a source-linked formal-governance study of selected requirements from the official English edition of Magnifica Humanitas, paragraphs 97-111. A Lean 4 library separates a stated obligation from the safeguard actually supplied, then examines the consequences of explicit operational interpretations. Three safeguards policies distinguish exclusion-triggered appeal, broader affected-person appeal, and harm-triggered correction capacity. The latter two extensions are checked incomparable. A shared repaired benefits case satisfies eight tested combinations of responsibility, appeal and oversight fragments. Finite examples identify gaps between disclosure and case answerability, review and appeal, named responsibility and correction power, consultation and final control, explanation and an adopted fairness test, and distributed external control and local pause capacity. Constructive results supply repaired arrangements, an operative rule-correction process and an ordered appeal-to-record-correction path. Inductive invariants cover all finite modeled revision attempts and continuations of a protected high-stakes state. The contribution is an inspectable chain from selected passage through declared interpretation and assumptions to checked consequences, counterexamples and working comparison models.
 
-### Principal results
+### What Lean adds
 
-Appeal expansion and correction capacity require independent evidence. Identified assignment must concern the actual decision and assignee. Oversight requires both coverage and an effective connection to intervention. A recorded objection can be connected to the rule used by the scorer, and a completed appeal can be connected to an applied record update. Timing matters where the modeled outcome is irreversible. The operational question is whether a protection reaches the affected person through an assigned role, usable power and performed action.
+Lean checks proof terms against the written definitions and assumptions. It makes omitted premises and mismatched roles visible. In the appeal example, capacity to review does not change the stored award: the completed path must admit the request, perform review, deliver the finding and apply the authorized update. Separate results characterize that path exactly, show two policy extensions incomparable, and prove preservation through every finite permitted rule-revision sequence or protected high-stakes continuation. The contribution is precision, inspectable assumptions and reusable specifications; elementary bridges and finite countermodels have distinct supporting roles.
 
 ### Artifact and reading guide
 
-The formal basis is checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01. The library contains 2,789 Lean lines across 21 Lean files, including provenance and audit files. It uses Lean 4.35.0 without Mathlib. A separate six-page public report presents the findings without requiring Lean knowledge. Sections 1-3 introduce the method and policy family; sections 4-12 develop the results; sections 13-15 give interpretation, audit and reproduction details.
+The formal basis is checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01. The library contains 2,789 Lean lines across 21 Lean files, including provenance and audit files. It uses Lean 4.35.0 without Mathlib. A six-page public report and one-page illustrated summary explain the findings without requiring Lean knowledge. Sections 1-3 introduce the method and policy family; sections 4-12 develop the results; sections 13-15 give interpretation, audit and reproduction details; section 16 provides a sourced legal comparison.
 
 ## 1. Corpus, method and contribution
 
@@ -376,7 +376,7 @@ The trust boundary includes the source-to-formula judgments, the hypothetical ca
 
 ## 15. Reproduction, references and concluding use
 
-The formal results remain fixed at checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01 [4]. The companion MagnificaHumanitas_V1_Source_and_Reports.zip supplies the current reports, editable manuscripts, Lean sources, ledgers and scripts without requiring repository access. RELEASE_COMMIT.txt identifies its packaging revision, RELEASE_VERIFICATION.json records CI evidence, and MANIFEST.sha256 covers the payload. Extract the package and run the commands below inside its MagnificaHumanitas_V1 folder; authorized repository users may instead clone [4].
+The formal results remain fixed at checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01 [4]. The companion MagnificaHumanitas_V1_Source_and_Reports.zip supplies release 1.1: the current reports, one-page summary, diagram, publication metadata, editable manuscripts, Lean sources, ledgers and scripts without requiring repository access. RELEASE_COMMIT.txt identifies its packaging revision, RELEASE_VERIFICATION.json records CI evidence, and MANIFEST.sha256 covers the payload. Extract the package and run the commands below inside its MagnificaHumanitas_V1 folder; authorized repository users may instead clone [4].
 
 ```
 # Inside the extracted MagnificaHumanitas_V1 folder:
@@ -396,10 +396,32 @@ Install the pinned leanprover/lean4:v4.35.0 toolchain. The project has no Mathli
 
 [3] Leonardo de Moura and Sebastian Ullrich. The Lean 4 Theorem Prover and Programming Language (System Description). 2021. Official project paper: https://lean-lang.org/papers/lean4.pdf.
 
-[4] Travis Darshan. MagnificaHumanitasFormalization, formal checkpoint 0.16, public report 1.4 and technical paper 1.1. Companion source archive as described above. Repository (access required while private): https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization.
+[4] Travis Darshan. MagnificaHumanitasFormalization, formal checkpoint 0.16, release 1.1: public report 1.5, technical paper 1.2 and one-page summary 1.0. Companion source archive as described above. Repository (access required while private): https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization.
 
 ### Use and conclusion
 
 Use the artifact to trace one consequential decision: who is assigned, who can challenge it, which reviewer has scope, how a finding reaches the correcting office, and whether the operative record changes. The rule comparison separately examines criteria against a declared assessment standard. The contribution is the inspectable source/interpretation/proof chain and working comparison models. The practical aim is a protection that reaches the affected person; real accessibility, delivery of support and broader human circumstances require institutional evidence beyond the modeled record update.
 
 Research, formalization and drafting were supported by ChatGPT (OpenAI). The author takes responsibility for interpretation, assumptions and presentation; Lean supplies the stated proof check. These examples support examination of institutional procedures without asserting institutional adoption or endorsement.
+
+## 16. Connections to human oversight and contestable decisions
+
+This discussion connects the model distinctions to selected European provisions. It is a comparison, not a formalization of those laws. The legal provisions add no premises or theorems to the Lean suite. Whether they apply to a real system depends on their scope, exceptions and applicable legal framework.
+
+### Human oversight: EU AI Act, Articles 14 and 26(2)
+
+Article 14 addresses effective human oversight of high-risk AI systems. Article 14(4) includes, as appropriate and proportionate, the ability to interpret outputs, disregard or reverse them, and intervene or stop the system safely. Article 26(2) requires deployers to assign oversight to people with the necessary competence, training, authority and support [5-6]. Our distinction between a board's existence, its decision coverage and its intervention power offers questions for examining implementation. The timely-stop model adds a conditional illustration of when an intervention becomes effective. These results do not establish the legal adequacy of a particular system or require that every oversight arrangement use our example's board.
+
+### Contesting a decision: EU GDPR, Article 22
+
+Article 22(1) concerns decisions based solely on automated processing that have legal or similarly significant effects. Paragraph 2 sets exceptions. For the contract-necessity and explicit-consent exceptions in Article 22(2)(a) and (c), paragraph 3 requires safeguards including human intervention, expression of the person's view and contesting the decision. The statutory-authorization exception has its own safeguard requirement in paragraph 2(b) [7]. Our review/appeal distinction helps explain why internal review alone does not show that the person can contest a decision. This is not a universal right to reverse every AI-assisted outcome.
+
+The appeal-to-record-update model then asks a further implementation question: when review warrants correction, does the finding reach an authorized office and change the record? That checked workflow is not itself prescribed by Article 22, and a corrected record does not establish payment or restoration of every harm. The usefulness of the comparison is to identify evidence to examine, while keeping legal applicability and model correctness separate.
+
+### Primary sources, checked 3 November 2026
+
+[5] Regulation (EU) 2024/1689, Article 14(1)-(4). European Commission, AI Act Service Desk, article text: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14
+
+[6] Regulation (EU) 2024/1689, Article 26(2). European Commission, AI Act Service Desk, article text: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26
+
+[7] Regulation (EU) 2016/679, Article 22(1)-(3), EUR-Lex, CELEX 32016R0679: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679.

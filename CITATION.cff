@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the release title and version. Add its Zenodo DOI once the release is published."
+type: software
+title: "From Principles to Working Safeguards: A Lean Formalization and Analysis of Selected AI-Governance Commitments in Magnifica Humanitas"
+authors:
+  - family-names: Darshan
+    given-names: Travis
+version: "1.1"
+url: "https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization"
+abstract: "Source-linked formal analysis with public and technical reports, an illustrated summary, and a reproducible Lean 4 suite. Formal scope: selected commitments in Magnifica Humanitas paragraphs 97-111."
+keywords:
+  - AI governance
+  - human dignity
+  - formal verification
+  - Lean 4

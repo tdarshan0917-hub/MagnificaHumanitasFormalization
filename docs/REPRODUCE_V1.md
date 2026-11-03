@@ -1,6 +1,6 @@
 # Reproduce the Version 1.0 artifact
 
-Current report editions: public 1.4 (six pages) and technical 1.1 (sixteen pages). The refreshed source package contains both current PDFs and editable manuscripts, with the unchanged 0.16 Lean sources. See [report revision record](REPORT_REVISION_2026-11-02.md).
+Current release: **1.1**. Components: public report 1.5 (six pages), technical paper 1.2 (seventeen pages) and one-page summary 1.0. See [current revision record](PLAIN_LANGUAGE_REVISION_2026-11-03.md).
 
 ## Two exact revisions
 
@@ -23,16 +23,17 @@ python3 scripts/verify_release.py
 
 The original container's optional Linux proc-self compatibility shim is described in BUILD_VERIFICATION.md. Ordinary macOS/Linux builds and GitHub Actions use the unmodified pinned compiler. Existing verification logs record the formal checkpoint; the package's `RELEASE_VERIFICATION.json` records the independently inspected final-commit CI result.
 
-## Regenerate the two papers
+## Regenerate the reports and diagram
 
-Document generation requires Python 3, `reportlab`, `pypdf`, and the DejaVu Sans fonts. The scripts use `/usr/share/fonts/truetype/dejavu` by default; adjust that font location on other systems without changing the manuscript.
+Document generation requires Python 3, `reportlab`, `pypdf`, `pymupdf` (for the PNG export), and the DejaVu Sans fonts. The scripts use `/usr/share/fonts/truetype/dejavu` by default; adjust that font location on other systems without changing the manuscript.
 
 ```bash
 python3 scripts/make_technical_paper.py
 python3 scripts/make_public_report.py
+python3 scripts/make_one_page_summary.py
 ```
 
-The structured technical source is `paper/manuscript.json`; the script also emits `docs/TECHNICAL_PAPER.md`. Public prose is in `scripts/make_public_report.py`, with extracted authoring text in `output/pdf/report_text.txt`. The delivered PDFs were generated with ReportLab 4.4.9 and verified with pypdf 6.10.0. Both PDF builds fix their internal creation metadata for reproducibility; byte identity also depends on using the same ReportLab/font versions. Run the release verifier against the delivered PDFs before regeneration. If regenerating with different rendering dependencies, compare extracted content and layout rather than assuming the existing PDF checksum will match.
+The structured technical source is `paper/manuscript.json`; the script also emits `docs/TECHNICAL_PAPER.md`. Public prose is in `paper/public_report.json`, summary prose is in `paper/one_page_summary.json`, and the shared vector diagram is in `scripts/report_graphics.py`. The renderers emit editable Markdown and the public extracted text at `output/pdf/report_text.txt`. The delivered PDFs were generated with ReportLab 4.4.9 and verified with pypdf 6.10.0. All PDF builds fix their internal creation metadata for reproducibility; byte identity also depends on using the same ReportLab/font versions. Run the release verifier against the delivered PDFs before regeneration. If regenerating with different rendering dependencies, compare extracted content and layout rather than assuming the existing PDF checksum will match.
 
 ## Check the source version
 

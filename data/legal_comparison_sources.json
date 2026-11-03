@@ -1,0 +1,27 @@
+{
+  "checked_date": "2026-11-03",
+  "scope": "Contextual implementation comparison; no legal formalization or compliance certification",
+  "sources": [
+    {
+      "id": 5,
+      "instrument": "Regulation (EU) 2024/1689",
+      "provisions": "Article 14(1)-(4)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+      "retrieval": "Direct official European Commission article text"
+    },
+    {
+      "id": 6,
+      "instrument": "Regulation (EU) 2024/1689",
+      "provisions": "Article 26(2)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+      "retrieval": "Direct official European Commission article text"
+    },
+    {
+      "id": 7,
+      "instrument": "Regulation (EU) 2016/679",
+      "provisions": "Article 22(1)-(3)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+      "retrieval": "Official EUR-Lex text in search-index retrieval; direct open encountered access challenge"
+    }
+  ]
+}

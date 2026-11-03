@@ -44,7 +44,7 @@ md=[f"# {PAPER['title']}",PAPER['subtitle'],f"{PAPER['author']} · {PAPER['date'
 for index,page in enumerate(PAPER['pages']):
     if index: story.append(PageBreak())
     if not index:
-        story.append(paragraph(f'MAGNIFICA HUMANITAS / TECHNICAL PAPER / VERSION {PAPER["version"]}', 'small'))
+        story.append(paragraph(f'MAGNIFICA HUMANITAS / RELEASE {PAPER["release"]} / TECHNICAL PAPER {PAPER["version"]}', 'small'))
         story.append(paragraph(page['title'],'title'))
         story.append(paragraph(f"{PAPER['author']}  |  {PAPER['date']}",'small'))
     else:
@@ -76,7 +76,7 @@ for index,page in enumerate(PAPER['pages']):
 def footer(c,doc):
     c.saveState(); c.setStrokeColor(colors.HexColor('#D7E1E6')); c.line(54,44,558,44)
     c.setFillColor(MUTED); c.setFont('MH',7)
-    c.drawString(54,30,f'FROM PRINCIPLES TO WORKING SAFEGUARDS  |  Technical paper {PAPER["version"]}')
+    c.drawString(54,30,f'RELEASE {PAPER["release"]} | FROM PRINCIPLES TO WORKING SAFEGUARDS | Technical {PAPER["version"]}')
     c.drawRightString(558,30,str(doc.page)); c.restoreState()
 class DeterministicCanvas(canvas.Canvas):
     def __init__(self,*args,**kwargs):

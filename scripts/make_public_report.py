@@ -9,6 +9,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas as pdfcanvas
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Table, TableStyle
+from report_graphics import correction_diagram
 
 ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'paper/public_report.json').read_text())
@@ -30,10 +31,10 @@ S={
  'byline':ParagraphStyle('byline',fontName='MHB',fontSize=9,leading=12,textColor=NAVY,spaceAfter=3),
  'credit':ParagraphStyle('credit',fontName='MHI',fontSize=8.5,leading=11.5,textColor=MUTED,spaceAfter=9),
  'keyhead':ParagraphStyle('keyhead',fontName='MHB',fontSize=10,leading=13,textColor=TEAL,spaceAfter=5),
- 'key':ParagraphStyle('key',fontName='MH',fontSize=9,leading=11.5,textColor=NAVY,leftIndent=11,bulletIndent=0,bulletFontName='MH',bulletFontSize=8,spaceAfter=3),
- 'body':ParagraphStyle('body',fontName='MH',fontSize=10,leading=13,textColor=NAVY,spaceAfter=8),
+ 'key':ParagraphStyle('key',fontName='MH',fontSize=9.2,leading=12,textColor=NAVY,leftIndent=11,bulletIndent=0,bulletFontName='MH',bulletFontSize=8,spaceAfter=3),
+ 'body':ParagraphStyle('body',fontName='MH',fontSize=10.5,leading=14.5,textColor=NAVY,spaceAfter=9),
  'notes':ParagraphStyle('notes',fontName='MH',fontSize=7.2,leading=10,textColor=MUTED,spaceBefore=4,spaceAfter=3),
- 'cell':ParagraphStyle('cell',fontName='MH',fontSize=8.5,leading=11,textColor=NAVY),
+ 'cell':ParagraphStyle('cell',fontName='MH',fontSize=9,leading=12,textColor=NAVY),
  'head':ParagraphStyle('head',fontName='MHB',fontSize=8.1,leading=10.5,textColor=colors.white),
  'ack':ParagraphStyle('ack',fontName='MH',fontSize=8.5,leading=11.5,textColor=MUTED,spaceBefore=7),
 }
@@ -51,7 +52,7 @@ md=[f"# {D['title']}",D['subtitle'],f"**{D['author']} | {D['date']}**",'*'+D['ai
 plain=[D['title'],D['subtitle'],D['author']+' | '+D['date'],D['ai_credit'],'Key findings from the Lean models']+['- '+x for x in D['key_findings']]
 for i,page in enumerate(D['pages'],1):
  if i>1:story.append(PageBreak())
- story.append(para(f'MAGNIFICA HUMANITAS / PUBLIC REPORT {D["version"]} / {i} OF {TOTAL}','kicker'))
+ story.append(para(f'MAGNIFICA HUMANITAS / RELEASE {D["release"]} / PUBLIC REPORT / {i} OF {TOTAL}','kicker'))
  if i==1:
   story.extend([para(escape(D['title']),'title'),para(escape(D['subtitle']),'subtitle'),para(escape(D['author']+' | '+D['date']),'byline'),para(escape(D['ai_credit']),'credit'),summary(),Spacer(1,12),para('1. '+escape(page['title']),'section')])
  else:
@@ -60,6 +61,14 @@ for i,page in enumerate(D['pages'],1):
  for p in page['paragraphs']:
   story.append(para('<b>'+escape(p['label'])+'.</b> '+escape(p['text'])))
   md.append('**'+p['label']+'.** '+p['text']);plain.append(p['label']+'. '+p['text'])
+  for extra in ['lean_explainer','model_limits']:
+   box=D.get(extra)
+   if box and box['after_paragraph']==p['id']:
+    content=para('<b>'+escape(box['heading'])+'.</b> '+escape(box['text']))
+    bt=Table([[content]],colWidths=[WIDTH]);bt.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),colors.HexColor('#EFF6F5')),('LEFTPADDING',(0,0),(-1,-1),9),('RIGHTPADDING',(0,0),(-1,-1),9),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),1)]))
+    story.extend([bt,Spacer(1,7)]);md.extend(['### '+box['heading'],box['text']]);plain.extend([box['heading'],box['text']])
+  if page.get('diagram_after_paragraph')==p['id']:
+   story.extend([correction_diagram(WIDTH),Spacer(1,9)]);md.append('![Decision-to-correction route](../output/figures/decision_to_correction.svg)')
   b=page.get('table')
   if b and b['after_paragraph']==p['id']:
    story.extend([blueprint(b),Spacer(1,9)])
@@ -70,7 +79,7 @@ for i,page in enumerate(D['pages'],1):
 
 def footer(c,doc):
  c.saveState();c.setStrokeColor(colors.HexColor('#D7E1E6'));c.line(45,41,550.276,41)
- c.setFillColor(MUTED);c.setFont('MH',7);c.drawString(45,27,f'MAGNIFICA HUMANITAS | Public report {D["version"]}')
+ c.setFillColor(MUTED);c.setFont('MH',7);c.drawString(45,27,f'RELEASE {D["release"]} | Public report {D["version"]}')
  c.setFillColor(TEAL);c.drawString(350,27,'Source PDF');c.drawString(425,27,'Evidence')
  c.linkURL(D['source_url'],(350,24,395,36),relative=0);c.linkRect('Evidence and companion source package','evidence',(425,24,465,36),relative=0,thickness=0)
  c.setFillColor(MUTED);c.drawRightString(550.276,27,f'{doc.page} / {TOTAL}');c.restoreState()

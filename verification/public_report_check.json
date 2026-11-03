@@ -1,9 +1,9 @@
 {
-  "report_version": "1.4",
+  "release": "1.1",
+  "report_version": "1.5",
   "pages": 6,
-  "original_body_paragraphs_retained": 22,
   "body_paragraphs": 26,
-  "body_words": 2465,
+  "body_words": 1484,
   "paragraphs_by_page": [
     [
       1,
@@ -45,7 +45,6 @@
     ]
   ],
   "key_findings": 7,
-  "key_findings_words": 101,
   "blueprint_stages": 6,
   "blueprint_stage_evidence_checked": true,
   "header_credit": "Research, formalization and drafting supported by ChatGPT (OpenAI).",
@@ -57,8 +56,8 @@
   ],
   "source_page_reference_edition": "Official English Vatican PDF, 91 pages",
   "formal_sources_unchanged": true,
-  "technical_paper_unchanged": false,
-  "pdf_sha256": "c3c0d88e229ab0068fc385feab348c511c07cf06bf8a7dda31cdd15fbbd51d03",
-  "technical_paper_version": "1.1",
-  "evidence_link": "Internal source-package note; supplied archive supports reproduction without repository access"
+  "technical_paper_version": "1.2",
+  "summary_version": "1.0",
+  "diagram_note": "Steps 1-5 summarize the reference correction route; step 6 is a recommended inspection of the returned result.",
+  "pdf_sha256": "d312e3bc511cfcfee2ccfd606ef7d4ca97a61abbc150e05e3e805dd90bdd9437"
 }

@@ -1,6 +1,6 @@
 # Magnifica Humanitas Formalization
 
-**Public report 1.4, technical paper 1.1 and reproducible source package - November 2, 2026.**
+**Release 1.1 - November 3, 2026.** Public report 1.5, technical paper 1.2 and one-page summary 1.0 share this publication release.
 
 This project examines what selected AI-governance principles require when put into explicit procedures. Its Lean examples distinguish an actual assignee from a service contact, appeal from correction power, review from applied correction, consultation from control, explanation from an adopted fairness test, and a requested stop from a timely stop.
 
@@ -8,9 +8,12 @@ The formal suite covers the three agreed domains—employment, public benefits/s
 
 ## Read the findings
 
-- [Public report 1.4, six pages](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf): **Who can challenge, correct and decide?** The stable filename preserves existing links. The revised report integrates seven findings, close reading, person-centered examples, a six-stage execution blueprint and acknowledgment.
-- [Technical paper 1.1, sixteen pages](output/pdf/MagnificaHumanitas_Technical_Paper.pdf): **From Principles to Working Safeguards**. The revision corrects the responsibility comparison, clarifies hypothetical inputs and distinguishes result classes.
-- [Revision record](docs/REPORT_REVISION_2026-11-02.md): agreed review changes and their disposition. The refreshed companion source package contains these current report editions and the unchanged Lean suite.
+- [One-page illustrated summary](output/pdf/MagnificaHumanitas_One_Page_Summary.pdf): start here for the purpose, Lean explanation, example, correction-route diagram and institutional checks.
+- [Public report 1.5, six pages](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf): the close reading, seven findings and practical blueprint, rewritten in plain speech.
+- [Technical paper 1.2, seventeen pages](output/pdf/MagnificaHumanitas_Technical_Paper.pdf): definitions, exact evidence, what Lean adds, assumptions and the sourced EU legal comparison.
+- [Reusable diagram](output/figures/decision_to_correction.svg) and [PNG](output/figures/decision_to_correction.png).
+- [Current revision record](docs/PLAIN_LANGUAGE_REVISION_2026-11-03.md) and [earlier corrections](docs/REPORT_REVISION_2026-11-02.md).
+- [Zenodo deposit guide](publication/ZENODO_DEPOSIT_GUIDE.md), [publication metadata](publication/zenodo_metadata.json), [release identity](publication/release.json) and [reader-check sheet](publication/READER_CHECK.md).
 - [Editable public report](docs/PUBLIC_REPORT.md) and [public manuscript](paper/public_report.json).
 - [Editable technical text](docs/TECHNICAL_PAPER.md) and [structured manuscript](paper/manuscript.json).
 - [V1 release notes](docs/RELEASE_NOTES_V1.md), [reproduction instructions](docs/REPRODUCE_V1.md) and [completion audit](docs/V1_COMPLETION_AUDIT.md).
@@ -40,6 +43,10 @@ The library has 2,789 Lean lines in 21 files; Audit.lean reports dependencies fo
 
 ## Interpretation boundary
 
-The official English source scope is §§97–111. Source principles, operational definitions, hypothetical facts and checked consequences remain distinguishable. The repaired models demonstrate compatibility and specific working mechanisms. They do not certify actual institutions, the entire encyclical, complete moral legitimacy or sole legal liability. The three policies and eight-combination witness have their exact scope stated in the technical paper and matrix.
+The official English source scope is §§97–111. Source principles, operational definitions, hypothetical facts and checked consequences remain distinguishable. The repaired models demonstrate compatibility and specific working mechanisms. They do not certify actual institutions, the entire encyclical, complete moral legitimacy or sole legal liability. The three policies and eight-combination witness have their exact scope stated in the technical paper and matrix. The legal discussion is an implementation comparison, not a formalization or certification of the cited laws.
 
 Earlier checkpoint documents are retained as dated development records; the V1 completion audit and final paper state the final status. The source corpus is not redistributed. No outside consultation or approval of this research is a completion requirement. A GitHub V1 tag/release is not implied by the presence of the final documents; publication of a tag is a separate repository action.
+
+## Publication status
+
+Release 1.1 is prepared for Zenodo; no DOI has been reserved or registered here. Cite the title, author and release version until the published DOI is available. Copyright remains with the author; this preparation grants no additional reuse license. The source ZIP contains all three current PDFs and is reproducible without GitHub access. No independent nontechnical-reader study has been performed; the supplied reader-check sheet supports that editorial step.

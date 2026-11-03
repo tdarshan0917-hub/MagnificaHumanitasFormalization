@@ -1,0 +1,34 @@
+{
+  "title": "From Principles to Working Safeguards: A Lean Formalization and Analysis of Selected AI-Governance Commitments in Magnifica Humanitas",
+  "resource_type": "Publication / Report",
+  "creators": [
+    {
+      "name": "Darshan, Travis"
+    }
+  ],
+  "version": "1.1",
+  "description": "This source-linked study translates selected AI-governance commitments in Magnifica Humanitas §§97-111 into explicit requirements and hypothetical procedures checked in Lean 4. It distinguishes responsibility, appeal, correction power, oversight, participation and performed action. The release includes a six-page public close reading, a one-page illustrated summary, a technical paper with a sourced EU legal comparison, the unchanged formal source suite, ledgers and verification evidence. The models establish conditional results and worked repairs; they do not certify actual institutions. Research, formalization and drafting were supported by ChatGPT (OpenAI); Travis Darshan is responsible for interpretation and presentation.",
+  "keywords": [
+    "AI governance",
+    "AI safety",
+    "human dignity",
+    "formal verification",
+    "Lean 4",
+    "Magnifica Humanitas",
+    "accountability",
+    "appeal",
+    "human oversight"
+  ],
+  "language": "English",
+  "publication_date": "Set to the actual date of first public release in Zenodo",
+  "rights": "Copyright 2026 Travis Darshan. All rights reserved. No additional reuse license is granted by preparing this release.",
+  "doi": null,
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/tree/0b938e373dbf538fe0853f6282e4d9502e67ea01",
+      "relation": "isDerivedFrom",
+      "note": "Verified formal source checkpoint; repository access is private. All delivered sources are included in the archive."
+    }
+  ],
+  "note": "This is human-readable deposit metadata, not an API request. No DOI or public deposit has been created."
+}

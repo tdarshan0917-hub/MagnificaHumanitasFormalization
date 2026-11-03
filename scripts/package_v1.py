@@ -23,12 +23,14 @@ for record in git('ls-tree','-rz','HEAD').split(b'\0'):
  name=name.decode();payload[name]=git('cat-file','blob',obj.decode())
 payload['RELEASE_COMMIT.txt']=(sha+'\n').encode()
 payload['RELEASE_VERIFICATION.json']=(json.dumps(verification,indent=2,sort_keys=True)+'\n').encode()
+release=json.loads(payload['publication/release.json'])
+payload['RELEASE_VERSION.txt']=(release['release']+'\n').encode()
 manifest=''.join(f"{hashlib.sha256(data).hexdigest()}  {name}\n" for name,data in sorted(payload.items()))
 payload['MANIFEST.sha256']=manifest.encode()
 buf=io.BytesIO()
 with zipfile.ZipFile(buf,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
  for name,data in sorted(payload.items()):
-  info=zipfile.ZipInfo('MagnificaHumanitas_V1/'+name,date_time=(2026,11,2,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o100644<<16
+  info=zipfile.ZipInfo('MagnificaHumanitas_V1/'+name,date_time=(2026,11,3,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o100644<<16
   z.writestr(info,data)
 out=ROOT/'dist/MagnificaHumanitas_V1_Source_and_Reports.zip';out.parent.mkdir(exist_ok=True)
 out.write_bytes(buf.getvalue())

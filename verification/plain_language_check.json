@@ -1,0 +1,47 @@
+{
+  "release": "1.1",
+  "before": {
+    "words": 2427,
+    "sentences": 175,
+    "average_sentence_words": 13.9,
+    "sentences_above_25_words": 2
+  },
+  "after": {
+    "words": 1465,
+    "sentences": 121,
+    "average_sentence_words": 12.1,
+    "sentences_above_25_words": 1
+  },
+  "body_word_reduction_percent": 39.6,
+  "interpretation": "These are editorial language measures, not a validated comprehension test.",
+  "independent_nontechnical_reader_test": "Not performed; reader-check sheet supplied.",
+  "diagram_reuses_same_source": true,
+  "public_body_paragraph_ids_preserved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ]
+}

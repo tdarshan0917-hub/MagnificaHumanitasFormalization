@@ -1,0 +1,135 @@
+{
+  "version": "1.4",
+  "body_paragraphs": [
+    {
+      "id": 1,
+      "label": "What we have done",
+      "text": "This study turns selected commitments in Pope Leo XIV's Magnifica Humanitas into questions institutions can answer with evidence. Using Lean, a computer program that verifies logical proofs, we checked hypothetical arrangements where protections fail and repairs that supply them. The purpose is to establish whether a promised protection reaches the person it should protect. We connect each source passage to our interpretation, the example examined and the checked result, then propose an institutional execution blueprint."
+    },
+    {
+      "id": 2,
+      "label": "Why it matters",
+      "text": "Imagine receiving a benefits denial with a named agency, a help desk and an appeal form, while support you depend on remains unavailable. Who handles your decision, who can correct it, and does a successful review change the record? These questions give practical form to the encyclical's concern for dignity and the common good. Paragraph 14 calls for principles to become practices; §47 encourages effective academic applications to the digital revolution. Our contribution examines selected connections between a commitment, the powers to fulfill it and the performed action."
+    },
+    {
+      "id": 3,
+      "label": "The encyclical’s wider argument",
+      "text": "Magnifica Humanitas is a papal teaching letter dated 15 May 2026, addressed to Catholics, other Christians and people of goodwill (§16). Its official English PDF has 91 pages, including notes, and 245 numbered paragraphs. Its five chapters address social doctrine's development and foundations, technology and dominance, truth/work/freedom, and power/peace. Babel and Nehemiah frame a choice between self-aggrandizement and cooperative rebuilding (§§7-10). Human dignity extends beyond data and performance (§10), and the person retains freedom and possibilities of change (§128). These contextual passages explain the human purpose; the formal investigation remains limited to selected commitments in §§97-111."
+    },
+    {
+      "id": 4,
+      "label": "Our proposal and source selection",
+      "text": "We select §§97-111, on pages 33-38 in Chapter Three, because their responsibility, recourse, oversight, participation and design questions can be examined together. Picture following a benefits denial from its calculation to a named officer, an appeal, a review and an applied correction. The close reading below explains why these connections matter. Pages 3-5 examine the resulting questions through checked examples in employment, public benefits and high-stakes autonomy; page 6 translates the findings into an institutional execution blueprint. Source principles, our procedural choices and the proof results remain distinguishable throughout."
+    },
+    {
+      "id": 5,
+      "label": "From context to consequential decisions",
+      "text": "Paragraphs 97-103 (pp. 33-36) place AI within human direction and consequential decisions. Paragraphs 102-103 connect exclusion to the loss of responsible judgment, compassion and recognition that people can change. Consider an applicant told that a computer placed her below an eligibility threshold. She needs someone able to hear her circumstances, examine the decision and answer for it. Our model examines specific access and responsibility conditions serving that purpose; it does not model compassion or a person's whole life. The hypothetical applicant illustrates why a protection must reach its intended recipient. Employment and public services provide concrete settings for that inquiry."
+    },
+    {
+      "id": 6,
+      "label": "Appeal and accountable responsibility",
+      "text": "On page 36, §104 addresses exclusion “without the possibility of appeal”; §105 requires that “responsibility must be clearly defined at every stage”. We read these commitments together as grounds for examining a connected chain. Suppose a denied applicant is directed from a help desk to a review team, but neither identifies the person assigned to the denial. Several departments are involved, yet the applicant still lacks that answer. An accessible appeal, an identifiable assignee and correction power are distinct pieces of evidence in our interpretation. The question is whether a proposed procedure joins them for the same case, rather than leaving each protection somewhere in the organization."
+    },
+    {
+      "id": 7,
+      "label": "Institutions and participation",
+      "text": "Paragraphs 106-109, on pages 36-37, extend the discussion to institutional safeguards, participation and correction. Suppose residents submit a request to pause a disputed benefits decision. Recording that request shows that input was received; the procedure must establish separately whether the request can cause a pause. Similarly, a board authorized to review routine inquiries may lack authority over this denial. We read the selected passages as prompting examination of such practical powers and their scope. Our models compare receipt, influence, binding effect and intervention without making one mechanism a complete definition of participation or subsidiarity. Wider questions, including the distribution of data and resources, remain outside these comparisons."
+    },
+    {
+      "id": 8,
+      "label": "Authority, development and our interpretation",
+      "text": "On page 37, §110 challenges the assumption that “technical power automatically confers the right to govern”; §111, continuing onto page 38, addresses developers. An operator might be able to make a review rule produce a grant or a denial while lacking institutional recognition to govern that decision. A developer might be assigned to design review while a separate official handles the later denial. These examples motivate our separate questions about capability, mandate and stage-specific responsibility. The resulting analytical categories are ours, and the particular board or correction desk is a proposed implementation. Keeping that distinction visible allows readers to examine how our procedural interpretation relates to the cited text."
+    },
+    {
+      "id": 9,
+      "label": "How the checking works",
+      "text": "Suppose an office promises appeal but accepts no appeal from the person denied. We describe that arrangement precisely and ask Lean to check whether it meets our stated appeal requirement. We then describe an accessible channel and check the repair. This separates a duty from its fulfillment and supplies inspectable comparisons of failure and success. Lean verifies that the conclusions follow from the written rules; the source interpretation and hypothetical facts are stated inputs. The following examples explain those rules in ordinary language. Their scores, roles and procedures are modeling choices, not measurements of actual agencies."
+    },
+    {
+      "id": 10,
+      "label": "Find the person assigned to your decision",
+      "text": "For §105 (p. 36), our benefits example distinguishes a public contact who handles inquiries from the officer assigned to a denial. A separate notice comparison gives a truthful score of 47, a cutoff of 50, published safeguards and an identifiable contact. The actual denial officer can still be unidentified. Lean checks this gap and a repair that names the already-assigned officer while preserving the assignment and channels. It also checks the sufficient connection from responsible institution through case allocation to identifiable assignee. Being named does not itself supply correction power. For the applicant, the concrete questions are who is assigned to this denial and what that person can do about it."
+    },
+    {
+      "id": 11,
+      "label": "Follow responsibility through the handoff",
+      "text": "For §§103, 105 and 111 (pp. 35-38), imagine an employment office changing to direct AI production of a decision. Our comparison retains the named officer's assignment, appeal and correction capacity. Lean checks that the tested requirements remain satisfied. Removing the officer's assignment makes all three safeguards policies fail, even while the other channels remain. In a separate design/use comparison, a developer assigned to design review does not thereby fill an unassigned role for a later benefits denial. Assigning a deployer to that denial covers the second stage; sharing the downstream assignment is also compatible. These results concern the specified allocation, not sole legal liability."
+    },
+    {
+      "id": 12,
+      "label": "Separate review, appeal and correction",
+      "text": "For §§104-105 (p. 36), a hiring office can review a rejection internally while accepting no appeal from the applicant. Lean checks that arrangement. Both tested appeal readings reject exclusion without accessible appeal; a broader reading also requires access before exclusion for affected people in high-impact cases. In the employment comparisons, a rejected, harmed applicant can reach a reviewing desk that lacks correction power. Before exclusion, another affected applicant lacks appeal while no harm triggers the separate correction duty. These cases show why wider appeal and harm-triggered correction capacity cannot substitute for each other. An institution must establish access and relevant power under the conditions each requirement specifies."
+    },
+    {
+      "id": 13,
+      "label": "Make the reviewed appeal change the record",
+      "text": "For §§105-106 and 108 (pp. 36-37), consider an assisted-intake denial stored in the agency's records. Reassessment under the corrected rule yields a grant, yet review alone can leave that denial operative. Lean checks that the completed path needs open admission, a submitted request, completed review, a working handoff, correction power and an update through the correct office. Missing the handoff or leaving the update unperformed preserves the denial; acting before review also fails. With the modeled checks enforced, the ordered path changes the stored award to grant. For someone awaiting support, this connection matters beyond the review letter. Payment is a separate action requiring its own evidence."
+    },
+    {
+      "id": 14,
+      "label": "Give the board power over this denial",
+      "text": "For §§106 and 108 (pp. 36-37), suppose an agency announces an independent review board, but its remit covers routine inquiries rather than the disputed denial. Our first comparison has that gap. A second board covers the denial but lacks intervention power; a third supplies both. Lean checks the failures and repairs while the person's other safeguards stay fixed. Independence is assumed in the example. In the separate appeal-to-update workflow, the board has a usable intervention path when appeal access, correction power and the handoff exist. The practical test is to follow this denial: may the board review it, and can its finding reach an action that changes the record?"
+    },
+    {
+      "id": 15,
+      "label": "Show what a community request can do",
+      "text": "For §§108-109 (pp. 36-37), residents ask to pause the disputed denial before implementation. In our initial pause procedure, their request is recorded but has no effect, while the operator and independent board can each impose a hold. Enabling the local input makes the residents' request effective even when both external holds are released; both external powers remain available. Lean checks that comparison, assuming requests arrive and holds are honored. A separate consultation model shows recommendations influencing outcomes while the institution retains the final choice; a binding rule changes that arrangement. These are specific powers. A temporary pause does not itself award the benefit or correct the record."
+    },
+    {
+      "id": 16,
+      "label": "Examine the rule behind the explanation",
+      "text": "For §§104 and 109 (pp. 36-37), assume two hypothetical applicants each have assessed eligibility score 60 and cutoff 50. One applies online; the other uses assisted intake. Someone might need assistance because of disability, language or limited connectivity; these are illustrations, not modeled facts. Our adopted policy treats intake channel as irrelevant to entitlement. A 15-point assisted-intake penalty nevertheless causes a denial, accurately explained in the notice. Lean checks that the rule fails the adopted equal-treatment and common-cutoff tests despite the other safeguards passing. Removing the penalty supplies both tests. Equal eligibility is an assumption; Lean checks the rule's consequences, not actual eligibility."
+    },
+    {
+      "id": 17,
+      "label": "Make the objection change the calculation",
+      "text": "For §§104-105, 109 and 111 (pp. 36-38), an objection asks to remove that 15-point penalty. Logging it leaves the calculator unchanged. A design reviewer without criteria-changing power cannot implement it; the denial handler's case assignment also supplies no design authority. An assigned, empowered reviewer can implement a proposal that passes the eligibility check. The scorer then uses the returned rule, and both applications yield grants. Lean also checks that any number of permitted revision attempts leaves the corrected rule in place: a proposal to restore the penalty fails validation. That guarantee assumes enforced checks, fixed permissions and the two modeled candidate rules. Earlier denials still need the separate reopening-and-update path."
+    },
+    {
+      "id": 18,
+      "label": "Separate the ability to act from authority",
+      "text": "For §110 (p. 37), an operator in our example can make the review rule choose a grant or a denial. That capability can coexist with no recognized mandate for the decision. Granting the mandate changes recognition while preserving the operator's technical powers. Lean checks these comparisons and a general result for authority interpretations that explicitly require recognition and decision remit. Within that family, capability alone cannot supply authority. The mandate is institutional evidence, not a complete definition of moral legitimacy. The concrete inquiry is who authorized this operator to govern this decision, alongside what the operator can technically do."
+    },
+    {
+      "id": 19,
+      "label": "See why a late stop is different",
+      "text": "For the preventive-control question motivated by §§97, 105-106 (pp. 33-36), picture automated equipment about to cause damage. This illustrates our hypothetical high-stakes model. In one sequence, the stop command reaches the machine before the hazardous action, preventing damage. In the other, damage occurs before the stop arrives. Both records eventually show that the stop arrived and the administrative record was corrected. Their physical outcomes differ. Under our rules, later reviews and record corrections cannot undo the damage. Lean checks that result for any number of the permitted later steps. It also checks that a timely delivered stop keeps a loss-free state protected through those steps. The model assumes delivered stopping is obeyed."
+    },
+    {
+      "id": 20,
+      "label": "Explain which protections work together",
+      "text": "For the requirements motivated by §§104-108 (pp. 36-37), some conclusions survive every safeguards-policy variation tested. Earlier appeal access does not identify an unnamed denial officer. A board can still lack coverage or power while the person's other safeguards pass. Other conclusions depend on the adopted requirement: appeal before exclusion and correction capacity after harm need separate evidence. Lean also checks a repaired benefits arrangement in which the selected responsibility, appeal and oversight requirements work together. This establishes compatibility within the declared family, rather than covering every possible reading of the encyclical. The technical paper gives the exact combinations and their evidence."
+    },
+    {
+      "id": 21,
+      "label": "Read the findings as one connected process",
+      "text": "Take one denial notice and trace it to the actual assignee, the accepted appeal, the authorized reviewer and the office applying the correction. A finding that stops between departments exposes a connection to repair. An objection about the scoring rule raises a separate question: who can revise that rule, and how does the revision reach the calculator? Ask also whether the person can use the channel in practice, including any assistance needed. Accessibility arrangements require institutional evidence beyond our modeled open channel. The next page turns the checked distinctions into proposed actions and records of completion."
+    },
+    {
+      "id": 22,
+      "label": "From checked findings to institutional action",
+      "text": "Our contribution is a traceable chain from selected source passages, through explicit interpretations, to checked failures, working repairs and conditional guarantees. It helps an institution identify where an appeal form, named office or review board fails to change an operative denial, and what connection the reference model supplies. These are practical means of pursuing the encyclical's human purpose. Its wider concern for dignity, relationships and the common good guides why the protections matter. The following recommendations show how to examine an actual process; the technical paper and companion source package provide the formal evidence and assumptions."
+    },
+    {
+      "id": 23,
+      "label": "Follow one decision to completion",
+      "text": "We recommend examining one complete decision process, from its governing criteria to the action implementing a correction. For every stage, identify the responsible role, its authority and evidence that the required action occurred. The blueprint below applies the preceding findings to that institutional task."
+    },
+    {
+      "id": 24,
+      "label": "A worked example",
+      "text": "Assume two applicants each have assessed eligibility score 60 and cutoff 50. A 15-point assisted-intake penalty produces one denial, contrary to the adopted channel-irrelevance policy. An authorized design reviewer removes the penalty after assessment, and the calculation yields a grant. The earlier denial still remains in the records. An appeal must be admitted, reviewed and handed to an empowered case office, which applies the update. Check that the stored denial changed to the reassessed grant, then separately verify delivery of any resulting support. Correcting a general rule and correcting an affected person's case require connected, distinct actions."
+    },
+    {
+      "id": 25,
+      "label": "Where delay can defeat protection",
+      "text": "If an automated action could cause irreversible damage, examine the preventive path before execution. A stop request must reach the system in time and be obeyed. A later review or corrected log cannot itself establish that the physical harm was prevented."
+    },
+    {
+      "id": 26,
+      "label": "Make the protection demonstrable",
+      "text": "Trace one consequential decision and locate any missing assignment, access route, power or handoff. Require evidence of the repair and changed operative result. These recommendations aim to let a person challenge a decision, reach someone empowered to act and obtain an implemented correction when review warrants it. The promised protection must reach that person."
+    }
+  ]
+}

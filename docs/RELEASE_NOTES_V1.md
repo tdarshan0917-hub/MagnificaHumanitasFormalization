@@ -1,6 +1,6 @@
 # Version 1.0 — research artifact and final documents
 
-Current report editions: public 1.4 (six pages) and technical 1.1 (sixteen pages). The refreshed source package contains both current PDFs and editable manuscripts, with the unchanged 0.16 Lean sources. See [report revision record](REPORT_REVISION_2026-11-02.md).
+Current release: **1.1**, prepared 3 November 2026. Public report 1.5 (six pages), technical paper 1.2 (seventeen pages), one-page summary 1.0, shared vector diagram, sourced legal comparison and Zenodo preparation files. The source suite remains unchanged. See [current revision record](PLAIN_LANGUAGE_REVISION_2026-11-03.md).
 
 Date: November 2, 2026. Author: Travis Darshan.
 

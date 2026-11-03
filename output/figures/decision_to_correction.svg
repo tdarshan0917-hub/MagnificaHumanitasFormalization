@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="505.276" height="190" preserveAspectRatio="xMinYMin meet" viewBox="0 0 505 190" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>From a benefits denial to an applied correction</title>
+	<desc>Six steps in the reference example, with three failure points. A named person remains responsible throughout. The final inspection is a recommended check of the returned result.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="505.276" height="190"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-190)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="166" width="505.276" height="23" rx="3" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(91%,95%,94%); fill-rule: evenodd;"/>
+			<text x="96.17950390624998" y="174" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: bold; font-size: 9px;fill: rgb(7%,49%,50%); stroke:none;" transform="translate(0,348) scale(1,-1)">A named person remains responsible for the case throughout</text>
+			<rect x="0" y="102" width="152" height="43" rx="4" ry="0" style="stroke: rgb(78%,83%,87%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="33.2267578125" y="128" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: bold; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,256) scale(1,-1)">1  Existing denial</text>
+			<text x="36.228125" y="115" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,230) scale(1,-1)">in the case record</text>
+			<rect x="176.5" y="102" width="152.0" height="43" rx="4" ry="0" style="stroke: rgb(78%,83%,87%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="205.1205078125" y="128" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: bold; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,256) scale(1,-1)">2  Appeal accepted</text>
+			<text x="203.571484375" y="115" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,230) scale(1,-1)">and brought to review</text>
+			<rect x="353" y="102" width="152" height="43" rx="4" ry="0" style="stroke: rgb(78%,83%,87%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="381.4701171875" y="128" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: bold; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,256) scale(1,-1)">3  Review finds the</text>
+			<text x="382.0029296875" y="115" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,230) scale(1,-1)">denial should change</text>
+			<rect x="353" y="36" width="152" height="43" rx="4" ry="0" style="stroke: rgb(78%,83%,87%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="383.28984375" y="62" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: bold; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,124) scale(1,-1)">4  Finding reaches</text>
+			<text x="380.3658203125" y="49" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,98) scale(1,-1)">the office that can act</text>
+			<rect x="176.5" y="36" width="152.0" height="43" rx="4" ry="0" style="stroke: rgb(78%,83%,87%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="203.721875" y="62" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: bold; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,124) scale(1,-1)">5  Authorized office</text>
+			<text x="204.4716796875" y="49" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,98) scale(1,-1)">applies the correction</text>
+			<rect x="0" y="36" width="152" height="43" rx="4" ry="0" style="stroke: rgb(78%,83%,87%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="29.194140624999996" y="62" style="font-family: DejaVu Sans, Arial, sans-serif; font-weight: bold; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,124) scale(1,-1)">6  Check the result</text>
+			<text x="17.60546875" y="49" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.8px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,98) scale(1,-1)">Recommended final check</text>
+			<path d="M 153,123.5 L 174.5,123.5 Z" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="174.5 123.5, 169.5 126.5, 169.5 120.5" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+			<path d="M 329.5,123.5 L 351,123.5 Z" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="351 123.5, 346 126.5, 346 120.5" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+			<path d="M 429,100 L 429,81 Z" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="429 81, 426 86, 432 86" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+			<path d="M 351,57.5 L 330,57.5 Z" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="330 57.5, 335 60.5, 335 54.5" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+			<path d="M 174.5,57.5 L 153,57.5 Z" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1.5;"/>
+			<polygon points="153 57.5, 158 60.5, 158 54.5" style="stroke: rgb(7%,49%,50%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+			<path d="M 160,120.5 L 166,126.5 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 160,126.5 L 166,120.5 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 426,87 L 432,93 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 426,93 L 432,87 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 337.5,54.5 L 343.5,60.5 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 337.5,60.5 L 343.5,54.5 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="12" y="13" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.1px;fill: rgb(67%,23%,23%); stroke:none;" transform="translate(0,26) scale(1,-1)">Red gaps: appeal not accepted; finding not delivered; correction not applied.</text>
+			<text x="12" y="1" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.1px;fill: rgb(32%,38%,45%); stroke:none;" transform="translate(0,2) scale(1,-1)">In this example, any of these gaps leaves the stored denial unchanged.</text>
+		</g>
+	</g>
+</svg>

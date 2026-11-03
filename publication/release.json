@@ -1,0 +1,18 @@
+{
+  "release": "1.1",
+  "prepared_date": "2026-11-03",
+  "status": "prepared_for_Zenodo_publication",
+  "title": "From Principles to Working Safeguards: A Lean Formalization and Analysis of Selected AI-Governance Commitments in Magnifica Humanitas",
+  "author": "Travis Darshan",
+  "formal_checkpoint": "0.16",
+  "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
+  "document_versions": {
+    "public_report": "1.5",
+    "technical_paper": "1.2",
+    "one_page_summary": "1.0"
+  },
+  "doi": null,
+  "doi_status": "Not reserved or registered in this preparation",
+  "archive_filename": "MagnificaHumanitas_V1_Source_and_Reports.zip",
+  "rights": "Copyright 2026 Travis Darshan. All rights reserved. No additional reuse license is granted by preparing this release."
+}

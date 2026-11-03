@@ -1,19 +1,26 @@
 {
-  "version": "1.1",
+  "release": "1.1",
+  "version": "1.2",
   "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
   "source_version_record": "data/source_version.json",
+  "public_report_version": "1.5",
+  "technical_paper_version": "1.2",
+  "one_page_summary_version": "1.0",
   "documents": [
     {
       "path": "output/pdf/MagnificaHumanitas_Technical_Paper.pdf",
-      "pages": 16,
-      "sha256": "1f65cb3836601213c27b02bfcb2e68f3d4c3391ea54790912153ca6c3c9cc1cd"
+      "pages": 17,
+      "sha256": "353a73198817c88713900ae410054e6694541769067c21e09ad7cf2517454d6a"
     },
     {
       "path": "output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf",
       "pages": 6,
-      "sha256": "c3c0d88e229ab0068fc385feab348c511c07cf06bf8a7dda31cdd15fbbd51d03"
+      "sha256": "d312e3bc511cfcfee2ccfd606ef7d4ca97a61abbc150e05e3e805dd90bdd9437"
+    },
+    {
+      "path": "output/pdf/MagnificaHumanitas_One_Page_Summary.pdf",
+      "pages": 1,
+      "sha256": "47d20de3c2d706f03478f8464c8dbd0299d89843d096a166a5532e1501e5209e"
     }
-  ],
-  "public_report_version": "1.4",
-  "technical_paper_version": "1.1"
+  ]
 }

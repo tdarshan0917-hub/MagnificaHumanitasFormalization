@@ -32,4 +32,33 @@ for f in documents['documents']:
  r=PdfReader(p); assert len(r.pages)==f['pages'],f['path']
  assert all(len(page.extract_text().split())>100 for page in r.pages),'Empty or overflow-only page'
  assert all('\ufffd' not in page.extract_text() for page in r.pages),'Unmapped glyph'
-print(f"Release checks passed: 21 unchanged Lean files, {len(references)} named paper references, 16-page technical paper, {documents['documents'][1]['pages']}-page public report.")
+public=json.loads((ROOT/'paper/public_report.json').read_text())
+summary=json.loads((ROOT/'paper/one_page_summary.json').read_text())
+release=json.loads((ROOT/'publication/release.json').read_text())
+assert public['release']==manuscript['release']==summary['release']==release['release']==documents['release']
+assert all(x['formal_commit']==source['formal_commit'] for x in [public,manuscript,summary,release])
+assert len(public['pages'])==6 and len(manuscript['pages'])==17
+assert len(public['key_findings'])==7 and len(public['pages'][5]['table']['rows'])==6
+by_path={d['path']:d for d in documents['documents']}
+assert by_path['output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf']['pages']==6
+assert by_path['output/pdf/MagnificaHumanitas_Technical_Paper.pdf']['pages']==17
+assert by_path['output/pdf/MagnificaHumanitas_One_Page_Summary.pdf']['pages']==1
+assert release['document_versions']=={'public_report':public['version'],'technical_paper':manuscript['version'],'one_page_summary':summary['version']}
+normalize=lambda s:' '.join(s.split())
+pub_pdf=PdfReader(ROOT/'output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf')
+pub_text=normalize('\n'.join(p.extract_text() for p in pub_pdf.pages))
+assert [p['id'] for pg in public['pages'] for p in pg['paragraphs']]==list(range(1,27))
+for pg in public['pages']:
+ for p in pg['paragraphs']:assert normalize(p['text']) in pub_text,p['id']
+for name in ['lean_explainer','model_limits']:assert normalize(public[name]['text']) in pub_text
+assert normalize(public['acknowledgment']['text']) in normalize(pub_pdf.pages[-1].extract_text())
+sum_text=normalize(PdfReader(ROOT/'output/pdf/MagnificaHumanitas_One_Page_Summary.pdf').pages[0].extract_text())
+for key in ['purpose','lean','story','limits','evidence_note']:assert normalize(summary[key]) in sum_text,key
+for finding in summary['findings']:assert normalize(finding) in sum_text,finding
+for refs in public['key_findings_evidence']+[r['proofs'] for r in public['pages'][5]['table']['support']]:
+ for ref in refs:assert re.search(r'\btheorem\s+'+re.escape(ref['declaration'])+r'\b',(ROOT/ref['file']).read_text()),ref
+for page in pub_pdf.pages:
+ destinations=[a.get_object()['/Dest'] for a in page.get('/Annots',[]) if '/Dest' in a.get_object()]
+ assert len(destinations)==1 and destinations[0][0].get_object()==pub_pdf.pages[-1]
+assert 'Recommended final check' in pub_text and 'Recommended final check' in sum_text
+print(f"Release {release['release']} checks passed: 21 unchanged Lean files, {len(references)} named paper references; technical 17 pages, public 6 pages, summary 1 page; complete text and evidence links.")

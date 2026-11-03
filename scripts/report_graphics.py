@@ -32,10 +32,10 @@ def correction_diagram(width=505.276):
     arrow(153,123.5,174.5,123.5);arrow(329.5,123.5,351,123.5)
     arrow(429,100,429,81);arrow(351,57.5,330,57.5);arrow(174.5,57.5,153,57.5)
     # Mark three modeled failure locations with a red cross and nearby label.
-    for x,y in [(163,123.5),(429,90),(340.5,57.5)]:
+    for x,y in [(163,123.5),(429,90),(320,42)]:
         d.add(Line(x-3,y-3,x+3,y+3,strokeColor=RED,strokeWidth=1.8))
         d.add(Line(x-3,y+3,x+3,y-3,strokeColor=RED,strokeWidth=1.8))
-    d.add(String(12,13,'Red gaps: appeal not accepted; finding not delivered; correction not applied.',fontName='MH',fontSize=8.1,fillColor=RED))
+    d.add(String(12,13,'Red gaps: appeal not accepted; finding not delivered; office does not apply the correction.',fontName='MH',fontSize=8.1,fillColor=RED))
     d.add(String(12,1,'In this example, any of these gaps leaves the stored denial unchanged.',fontName='MH',fontSize=8.1,fillColor=MUTED))
     if scale!=1:
         d.scale(scale,scale);d.width=width;d.height=190*scale

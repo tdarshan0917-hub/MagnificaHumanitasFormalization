@@ -40,7 +40,7 @@ What the selected passages ask of us
 
 Why these passages. We chose §§97-111, on pages 33-38 of the official English PDF. They connect responsibility, appeal, oversight, participation and the choices made by developers. Together they let us follow a decision from the rule that produces it to the people who can question and correct it. The following source references explain each connection.
 
-Keep the person in view: §§97-103. These paragraphs discuss human direction and the consequences of AI use. In §§102-103, Leo connects automated exclusion with lost responsibility and the need to recognize that people can change. An applicant needs someone able to hear her circumstances and examine her case. We study specific procedures that can serve that purpose. Compassion and a person's whole life remain wider human concerns.
+Keep the person in view: §§97-103. These paragraphs discuss human direction and the consequences of AI use. In §§102-103, Pope Leo connects automated exclusion with lost responsibility and the need to recognize that people can change. An applicant needs someone able to hear her circumstances and examine her case. We study specific procedures that can serve that purpose. Compassion and a person's whole life remain wider human concerns.
 
 Make appeal and responsibility real: §§104-105. Paragraph 104 rejects exclusion “without the possibility of appeal”. Paragraph 105 says “responsibility must be clearly defined at every stage”. We examine how an institution can put these commitments into practice. Does it identify the person assigned to this case? Can the affected person submit an appeal? Can someone correct the decision when correction is warranted? Each question needs its own answer.
 
@@ -54,7 +54,7 @@ From a denial to a corrected record
 
 Start with the denied applicant. The main benefits example uses an assumed eligibility score of 60 and a cutoff of 50. The initial rule subtracts 15 points for assisted applications. That applicant is denied. The study's agreed fairness standard says the way someone applies should not change entitlement. Removing the deduction makes the calculation yield a grant. An earlier denial still needs its own correction.
 
-Who is responsible for this case?. A general contact can be identifiable while the person assigned responsibility for the denial remains unidentified. Lean checks this gap and a version that identifies the assigned person. A separate notice example uses score 47 and cutoff 50. It tests disclosure, not the 15-point deduction. Naming the responsible person also leaves a further question: what can that person change?
+Who is responsible for this case? A general contact can be identifiable while the person assigned responsibility for the denial remains unidentified. Lean checks this gap and a version that identifies the assigned person. Naming the responsible person also leaves a further question: what can that person change?
 
 Follow responsibility when AI is introduced. In the employment example, switching to direct AI production leaves responsibility, appeal and correction protections intact when the institution retains them. Removing the person's assignment breaks the responsibility requirement. A separate comparison shows that a developer assigned to design review does not fill an unassigned role for a later denial. The institution must provide that later assignment too.
 
@@ -86,13 +86,13 @@ Separate what stays true from what changes. We tested different appeal and corre
 
 What an institution can learn. Take one consequential decision and follow it. Who is responsible? Can the person challenge it? Can the reviewer examine this case? Who receives the finding and applies a warranted correction? The answers can reveal a missing connection. They also tell an institution what evidence it needs to show that a protection works.
 
-How the evidence fits together. Each result connects a source passage, our interpretation, stated assumptions and a checked conclusion. The technical paper gives the exact statements and proof references. It also compares the findings with selected EU human-oversight and automated-decision provisions (§16). That legal discussion explains related questions; it adds no new legal premises to the Lean models.
+How the evidence fits together. Each result connects a source passage, our interpretation, stated assumptions and a checked conclusion. The technical paper gives the exact statements and proof references. It also compares the findings with selected EU human-oversight and automated-decision provisions (§15). That legal discussion explains related questions; it adds no new legal premises to the Lean models.
 
 How to read the examples
 
 The scores, roles, permissions and actions are stated assumptions in imagined cases. Lean checks what follows from them. The study covers selected commitments within §§97-111, not the whole encyclical. A real institution must provide evidence of its own procedures, accessibility and results. The examples do not certify it. The technical paper states the assumptions for each result.
 
-Technical evidence: §12 (timing), §13 (comparison of requirements), §14 (result types and proof audit), §16 (legal comparison). The formal proofs remain at checkpoint 0.16. A correction to the record and delivery of support are separate outcomes.
+Technical evidence: §12 (timing), §13 (comparison of requirements), §14 (result types and proof audit), §15 (legal comparison). The formal proofs remain at checkpoint 0.16. A correction to the record and delivery of support are separate outcomes.
 
 Put the findings to work
 
@@ -118,7 +118,7 @@ Make the route usable and timely. Check whether the person can use the appeal ro
 
 The purpose of the work. The aim is a protection people can use: someone answers for the case, a challenge reaches a reviewer, and a warranted correction reaches the decision. This offers institutions a concrete way to examine selected commitments in the encyclical. The final question is whether the promised protection reaches the person who needs it.
 
-Companion evidence: the technical paper, one-page summary and MagnificaHumanitas_V1_Source_and_Reports.zip, release 1.1. The package includes the Lean sources, proof references, assumptions and reproduction instructions. It can be used without repository access. Suggested institutional records in this table are recommendations.
+Companion evidence: the technical paper, one-page summary and MagnificaHumanitas_V1_Source_and_Reports.zip, release 1.1. The package includes the Lean sources, proof references, assumptions and reproduction instructions. It can be used without repository access. Suggested institutional records in this table are recommendations. Release DOI: 10.5281/zenodo.23923506.
 
 Acknowledgment
 

@@ -1,6 +1,6 @@
 # Reproduce the Version 1.0 artifact
 
-Current release: **1.1**. Components: public report 1.5 (six pages), technical paper 1.2 (seventeen pages) and one-page summary 1.0. See [current revision record](PLAIN_LANGUAGE_REVISION_2026-11-03.md).
+Current release: **1.1**. Components: public report 1.6 (six pages), technical paper 1.3 (seventeen pages) and one-page summary 1.1. See [current revision record](PLAIN_LANGUAGE_REVISION_2026-11-03.md).
 
 ## Two exact revisions
 

@@ -32,6 +32,7 @@ STYLES = {
  'head':ParagraphStyle('head',fontName='MHB',fontSize=8.4,leading=11.5,textColor=colors.white),
  'code':ParagraphStyle('code',fontName='MHM',fontSize=8,leading=11,textColor=NAVY,spaceAfter=9),
  'small':ParagraphStyle('small',fontName='MH',fontSize=8,leading=12,textColor=MUTED,spaceAfter=10),
+ 'ref':ParagraphStyle('ref',fontName='MH',fontSize=9,leading=12,textColor=NAVY,spaceAfter=5),
 }
 def paragraph(text, key='p'):
     return Paragraph(escape(text).replace('\n','<br/>'),STYLES[key])
@@ -40,13 +41,13 @@ def panel(items, background):
     t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),background),('BOX',(0,0),(-1,-1),0.4,colors.HexColor('#D7E5E7')),('LEFTPADDING',(0,0),(-1,-1),9),('RIGHTPADDING',(0,0),(-1,-1),9),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),6)]))
     return t
 story=[]
-md=[f"# {PAPER['title']}",PAPER['subtitle'],f"{PAPER['author']} · {PAPER['date']} · Version {PAPER['version']}",f"Formal source revision: `{PAPER['formal_commit']}`"]
+md=[f"# {PAPER['title']}",PAPER['subtitle'],f"{PAPER['author']} · {PAPER['date']} · Version {PAPER['version']}",f"Formal source revision: `{PAPER['formal_commit']}`",'Release DOI: '+PAPER['doi_url']]
 for index,page in enumerate(PAPER['pages']):
     if index: story.append(PageBreak())
     if not index:
         story.append(paragraph(f'MAGNIFICA HUMANITAS / RELEASE {PAPER["release"]} / TECHNICAL PAPER {PAPER["version"]}', 'small'))
         story.append(paragraph(page['title'],'title'))
-        story.append(paragraph(f"{PAPER['author']}  |  {PAPER['date']}",'small'))
+        story.append(Paragraph(escape(PAPER['author']+' | '+PAPER['date'])+' | DOI: <link href="'+PAPER['doi_url']+'">'+escape(PAPER['doi'])+'</link>',STYLES['small']))
     else:
         story.append(paragraph(page['title'],'page'))
         md.append('## '+page['title'])
@@ -54,7 +55,7 @@ for index,page in enumerate(PAPER['pages']):
         typ=block['type']
         if typ in ['p','h','lean']:
             txt=block['text']
-            story.append(paragraph(('Lean evidence: '+txt) if typ=='lean' else txt,('last' if index==15 and typ=='p' else typ)))
+            story.append(paragraph(('Lean evidence: '+txt) if typ=='lean' else txt,('ref' if index==len(PAPER['pages'])-1 and typ=='p' and txt.startswith('[') else ('last' if index==len(PAPER['pages'])-1 and typ=='p' else typ))))
             md.append(('### '+txt) if typ=='h' else (('Lean evidence: `'+txt+'`') if typ=='lean' else txt))
         elif typ=='formula':
             story.extend([panel([paragraph(block['text'],'formula')],colors.HexColor('#F0F4F7')),Spacer(1,9)])

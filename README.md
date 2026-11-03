@@ -1,6 +1,6 @@
 # Magnifica Humanitas Formalization
 
-**Release 1.1 - November 3, 2026.** Public report 1.5, technical paper 1.2 and one-page summary 1.0 share this publication release.
+**Release 1.1 - November 3, 2026.** Public report 1.6, technical paper 1.3 and one-page summary 1.1 share this publication release.
 
 This project examines what selected AI-governance principles require when put into explicit procedures. Its Lean examples distinguish an actual assignee from a service contact, appeal from correction power, review from applied correction, consultation from control, explanation from an adopted fairness test, and a requested stop from a timely stop.
 
@@ -9,8 +9,8 @@ The formal suite covers the three agreed domains—employment, public benefits/s
 ## Read the findings
 
 - [One-page illustrated summary](output/pdf/MagnificaHumanitas_One_Page_Summary.pdf): start here for the purpose, Lean explanation, example, correction-route diagram and institutional checks.
-- [Public report 1.5, six pages](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf): the close reading, seven findings and practical blueprint, rewritten in plain speech.
-- [Technical paper 1.2, seventeen pages](output/pdf/MagnificaHumanitas_Technical_Paper.pdf): definitions, exact evidence, what Lean adds, assumptions and the sourced EU legal comparison.
+- [Public report 1.6, six pages](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf): the close reading, seven findings and practical blueprint, rewritten in plain speech.
+- [Technical paper 1.3, seventeen pages](output/pdf/MagnificaHumanitas_Technical_Paper.pdf): definitions, exact evidence, what Lean adds, assumptions and the sourced EU legal comparison.
 - [Reusable diagram](output/figures/decision_to_correction.svg) and [PNG](output/figures/decision_to_correction.png).
 - [Current revision record](docs/PLAIN_LANGUAGE_REVISION_2026-11-03.md) and [earlier corrections](docs/REPORT_REVISION_2026-11-02.md).
 - [Zenodo deposit guide](publication/ZENODO_DEPOSIT_GUIDE.md), [publication metadata](publication/zenodo_metadata.json), [release identity](publication/release.json) and [reader-check sheet](publication/READER_CHECK.md).
@@ -49,4 +49,6 @@ Earlier checkpoint documents are retained as dated development records; the V1 c
 
 ## Publication status
 
-Release 1.1 is prepared for Zenodo; no DOI has been reserved or registered here. Cite the title, author and release version until the published DOI is available. Copyright remains with the author; this preparation grants no additional reuse license. The source ZIP contains all three current PDFs and is reproducible without GitHub access. No independent nontechnical-reader study has been performed; the supplied reader-check sheet supports that editorial step.
+Release 1.1 carries reserved DOI [10.5281/zenodo.23923506](https://doi.org/10.5281/zenodo.23923506). The author supplied the reservation from a Zenodo draft; registration is pending publication. The three PDFs and citation files include this identifier. Use the existing draft for publication. Copyright remains with the author; this preparation grants no additional reuse license. The source ZIP contains all three current PDFs and is reproducible without GitHub access. No independent nontechnical-reader study has been performed; the supplied reader-check sheet supports that editorial step.
+
+Final editorial changes and DOI provenance: [DOI finalization record](docs/DOI_FINALIZATION_2026-11-03.md).

@@ -3,7 +3,7 @@
   "subtitle": "A one-page guide to the Magnifica Humanitas study",
   "author": "Travis Darshan",
   "date": "November 3, 2026",
-  "version": "1.0",
+  "version": "1.1",
   "release": "1.1",
   "ai_credit": "Research, formalization and drafting supported by ChatGPT (OpenAI).",
   "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
@@ -49,5 +49,7 @@
   ],
   "limits": "The examples are hypothetical. Lean checks consequences of stated rules, not actual agencies or the whole encyclical. The six-page public report explains the source; the technical paper gives proofs, assumptions and the legal comparison.",
   "source_url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.pdf",
-  "evidence_note": "Release 1.1 includes both reports, this summary, the diagram and the reproducible source package."
+  "evidence_note": "Full reports and source package: https://doi.org/10.5281/zenodo.23923506",
+  "doi": "10.5281/zenodo.23923506",
+  "doi_url": "https://doi.org/10.5281/zenodo.23923506"
 }

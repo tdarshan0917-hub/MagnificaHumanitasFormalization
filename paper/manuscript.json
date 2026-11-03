@@ -3,7 +3,7 @@
   "subtitle": "A Lean 4 analysis of selected AI-governance requirements in Magnifica Humanitas",
   "author": "Travis Darshan",
   "date": "November 3, 2026",
-  "version": "1.2",
+  "version": "1.3",
   "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
   "pages": [
     {
@@ -39,7 +39,7 @@
         },
         {
           "type": "p",
-          "text": "The formal basis is checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01. The library contains 2,789 Lean lines across 21 Lean files, including provenance and audit files. It uses Lean 4.35.0 without Mathlib. A six-page public report and one-page illustrated summary explain the findings without requiring Lean knowledge. Sections 1-3 introduce the method and policy family; sections 4-12 develop the results; sections 13-15 give interpretation, audit and reproduction details; section 16 provides a sourced legal comparison."
+          "text": "The formal basis is checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01. The library contains 2,789 Lean lines across 21 Lean files, including provenance and audit files. It uses Lean 4.35.0 without Mathlib. A six-page public report and one-page illustrated summary explain the findings without requiring Lean knowledge. Sections 1-3 introduce the method and policy family; sections 4-12 develop the results; sections 13-14 give interpretation and audit details; section 15 provides the legal comparison; section 16 closes with reproduction, conclusion and references."
         }
       ]
     },
@@ -979,56 +979,7 @@
       ]
     },
     {
-      "title": "15. Reproduction, references and concluding use",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "The formal results remain fixed at checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01 [4]. The companion MagnificaHumanitas_V1_Source_and_Reports.zip supplies release 1.1: the current reports, one-page summary, diagram, publication metadata, editable manuscripts, Lean sources, ledgers and scripts without requiring repository access. RELEASE_COMMIT.txt identifies its packaging revision, RELEASE_VERIFICATION.json records CI evidence, and MANIFEST.sha256 covers the payload. Extract the package and run the commands below inside its MagnificaHumanitas_V1 folder; authorized repository users may instead clone [4]."
-        },
-        {
-          "type": "code",
-          "text": "# Inside the extracted MagnificaHumanitas_V1 folder:\nlake build\nlake env lean Audit.lean\npython3 scripts/audit_sources.py\npython3 scripts/verify_release.py"
-        },
-        {
-          "type": "p",
-          "text": "Install the pinned leanprover/lean4:v4.35.0 toolchain. The project has no Mathlib or third-party Lean package. The repository contains plain-language and technical sources, generation scripts, ledgers, theorem references and verification logs. The optional Linux proc-self compatibility shim documented in BUILD_VERIFICATION.md concerns the original execution container; ordinary macOS/Linux and the GitHub workflow use the normal compiler. Document rendering has separate Python/font dependencies."
-        },
-        {
-          "type": "h",
-          "text": "References"
-        },
-        {
-          "type": "p",
-          "text": "[1] Leo XIV. Magnifica Humanitas. Official English edition, 15 May 2026. Formal scope: §§97-111; contextual discussion: §§10, 14, 47, 128. Accessed 2 November 2026. Official HTML/PDF URLs and source fingerprints: data/source_version.json."
-        },
-        {
-          "type": "p",
-          "text": "[2] Christoph Benzmüller, Xavier Parent and Leendert van der Torre. Designing normative theories for ethical and legal reasoning: LogiKEy framework, methodology, and tool support. Artificial Intelligence 287 (2020), 103348. doi:10.1016/j.artint.2020.103348. Author manuscript: arXiv:1903.10187v6."
-        },
-        {
-          "type": "p",
-          "text": "[3] Leonardo de Moura and Sebastian Ullrich. The Lean 4 Theorem Prover and Programming Language (System Description). 2021. Official project paper: https://lean-lang.org/papers/lean4.pdf."
-        },
-        {
-          "type": "p",
-          "text": "[4] Travis Darshan. MagnificaHumanitasFormalization, formal checkpoint 0.16, release 1.1: public report 1.5, technical paper 1.2 and one-page summary 1.0. Companion source archive as described above. Repository (access required while private): https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization."
-        },
-        {
-          "type": "h",
-          "text": "Use and conclusion"
-        },
-        {
-          "type": "p",
-          "text": "Use the artifact to trace one consequential decision: who is assigned, who can challenge it, which reviewer has scope, how a finding reaches the correcting office, and whether the operative record changes. The rule comparison separately examines criteria against a declared assessment standard. The contribution is the inspectable source/interpretation/proof chain and working comparison models. The practical aim is a protection that reaches the affected person; real accessibility, delivery of support and broader human circumstances require institutional evidence beyond the modeled record update."
-        },
-        {
-          "type": "p",
-          "text": "Research, formalization and drafting were supported by ChatGPT (OpenAI). The author takes responsibility for interpretation, assumptions and presentation; Lean supplies the stated proof check. These examples support examination of institutional procedures without asserting institutional adoption or endorsement."
-        }
-      ]
-    },
-    {
-      "title": "16. Connections to human oversight and contestable decisions",
+      "title": "15. Connections to human oversight and contestable decisions",
       "blocks": [
         {
           "type": "p",
@@ -1053,10 +1004,55 @@
         {
           "type": "p",
           "text": "The appeal-to-record-update model then asks a further implementation question: when review warrants correction, does the finding reach an authorized office and change the record? That checked workflow is not itself prescribed by Article 22, and a corrected record does not establish payment or restoration of every harm. The usefulness of the comparison is to identify evidence to examine, while keeping legal applicability and model correctness separate."
+        }
+      ]
+    },
+    {
+      "title": "16. Reproduction, conclusion and references",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The formal results remain at checkpoint 0.16, commit 0b938e373dbf538fe0853f6282e4d9502e67ea01 [4]. The companion source ZIP supplies release 1.1: all reports, summary, diagram, editable sources, Lean files, ledgers and scripts. It can be used without repository access. RELEASE_COMMIT.txt identifies the packaging revision, RELEASE_VERIFICATION.json records CI evidence, and MANIFEST.sha256 covers the payload. Extract the ZIP and run these commands inside MagnificaHumanitas_V1/."
+        },
+        {
+          "type": "code",
+          "text": "# Inside the extracted MagnificaHumanitas_V1 folder:\nlake build\nlake env lean Audit.lean\npython3 scripts/audit_sources.py\npython3 scripts/verify_release.py"
+        },
+        {
+          "type": "p",
+          "text": "Install leanprover/lean4:v4.35.0. No Mathlib or other Lean package is required. Document checks use Python and pypdf; rendering has separate dependencies. BUILD_VERIFICATION.md explains the original container's optional compatibility shim. Ordinary macOS/Linux builds and GitHub Actions use the normal compiler."
         },
         {
           "type": "h",
-          "text": "Primary sources, checked 3 November 2026"
+          "text": "Use and conclusion"
+        },
+        {
+          "type": "p",
+          "text": "Trace one consequential decision: who is responsible, who can challenge it, which reviewer has authority, and how a warranted correction reaches the record. The checked examples make those connections inspectable. The rule comparison separately examines the standard used to assess a calculation. Real accessibility, delivery of support and wider human circumstances require institutional evidence beyond the model."
+        },
+        {
+          "type": "p",
+          "text": "Research, formalization and drafting were supported by ChatGPT (OpenAI). The author takes responsibility for interpretation, assumptions and presentation; Lean supplies the stated proof check. These examples support examination of institutional procedures without asserting institutional adoption or endorsement."
+        },
+        {
+          "type": "h",
+          "text": "References"
+        },
+        {
+          "type": "p",
+          "text": "[1] Leo XIV. Magnifica Humanitas. Official English edition, 15 May 2026. Formal scope: §§97-111; contextual discussion: §§10, 14, 47, 128. Accessed 2 November 2026. Official HTML/PDF URLs and source fingerprints: data/source_version.json."
+        },
+        {
+          "type": "p",
+          "text": "[2] Christoph Benzmüller, Xavier Parent and Leendert van der Torre. Designing normative theories for ethical and legal reasoning: LogiKEy framework, methodology, and tool support. Artificial Intelligence 287 (2020), 103348. doi:10.1016/j.artint.2020.103348. Author manuscript: arXiv:1903.10187v6."
+        },
+        {
+          "type": "p",
+          "text": "[3] Leonardo de Moura and Sebastian Ullrich. The Lean 4 Theorem Prover and Programming Language (System Description). 2021. Official project paper: https://lean-lang.org/papers/lean4.pdf."
+        },
+        {
+          "type": "p",
+          "text": "[4] Travis Darshan. From Principles to Working Safeguards. Release 1.1 (2026). DOI: 10.5281/zenodo.23923506. The companion archive supplies reports and formal sources; publication/release.json identifies component revisions."
         },
         {
           "type": "p",
@@ -1073,5 +1069,7 @@
       ]
     }
   ],
-  "release": "1.1"
+  "release": "1.1",
+  "doi": "10.5281/zenodo.23923506",
+  "doi_url": "https://doi.org/10.5281/zenodo.23923506"
 }

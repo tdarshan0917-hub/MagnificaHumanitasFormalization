@@ -44,9 +44,9 @@
 			<path d="M 160,126.5 L 166,120.5 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
 			<path d="M 426,87 L 432,93 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
 			<path d="M 426,93 L 432,87 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
-			<path d="M 337.5,54.5 L 343.5,60.5 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
-			<path d="M 337.5,60.5 L 343.5,54.5 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
-			<text x="12" y="13" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.1px;fill: rgb(67%,23%,23%); stroke:none;" transform="translate(0,26) scale(1,-1)">Red gaps: appeal not accepted; finding not delivered; correction not applied.</text>
+			<path d="M 317,39 L 323,45 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 317,45 L 323,39 Z" style="stroke: rgb(67%,23%,23%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="12" y="13" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.1px;fill: rgb(67%,23%,23%); stroke:none;" transform="translate(0,26) scale(1,-1)">Red gaps: appeal not accepted; finding not delivered; office does not apply the correction.</text>
 			<text x="12" y="1" style="font-family: DejaVu Sans, Arial, sans-serif; font-size: 8.1px;fill: rgb(32%,38%,45%); stroke:none;" transform="translate(0,2) scale(1,-1)">In this example, any of these gaps leaves the stored denial unchanged.</text>
 		</g>
 	</g>

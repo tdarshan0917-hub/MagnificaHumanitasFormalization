@@ -7,12 +7,13 @@
   "formal_checkpoint": "0.16",
   "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
   "document_versions": {
-    "public_report": "1.5",
-    "technical_paper": "1.2",
-    "one_page_summary": "1.0"
+    "public_report": "1.6",
+    "technical_paper": "1.3",
+    "one_page_summary": "1.1"
   },
-  "doi": null,
-  "doi_status": "Not reserved or registered in this preparation",
+  "doi": "10.5281/zenodo.23923506",
+  "doi_status": "Reserved by the author in a Zenodo draft; registration occurs on publication. Public registration has not been independently verified.",
   "archive_filename": "MagnificaHumanitas_V1_Source_and_Reports.zip",
-  "rights": "Copyright 2026 Travis Darshan. All rights reserved. No additional reuse license is granted by preparing this release."
+  "rights": "Copyright 2026 Travis Darshan. All rights reserved. No additional reuse license is granted by preparing this release.",
+  "doi_url": "https://doi.org/10.5281/zenodo.23923506"
 }

@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite the release title and version. Add its Zenodo DOI once the release is published."
+message: "Please cite the release title, version and DOI. This DOI was reserved in the author's Zenodo draft and registers on publication."
 type: software
 title: "From Principles to Working Safeguards: A Lean Formalization and Analysis of Selected AI-Governance Commitments in Magnifica Humanitas"
 authors:
   - family-names: Darshan
     given-names: Travis
 version: "1.1"
+doi: "10.5281/zenodo.23923506"
 url: "https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization"
 abstract: "Source-linked formal analysis with public and technical reports, an illustrated summary, and a reproducible Lean 4 suite. Formal scope: selected commitments in Magnifica Humanitas paragraphs 97-111."
 keywords:

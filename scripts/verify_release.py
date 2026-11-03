@@ -44,6 +44,15 @@ assert by_path['output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf
 assert by_path['output/pdf/MagnificaHumanitas_Technical_Paper.pdf']['pages']==17
 assert by_path['output/pdf/MagnificaHumanitas_One_Page_Summary.pdf']['pages']==1
 assert release['document_versions']=={'public_report':public['version'],'technical_paper':manuscript['version'],'one_page_summary':summary['version']}
+doi=release['doi'];doi_url='https://doi.org/'+doi
+assert doi=='10.5281/zenodo.23923506'
+assert all(x['doi']==doi and x['doi_url']==doi_url for x in [public,manuscript,summary])
+assert json.loads((ROOT/'publication/zenodo_metadata.json').read_text())['doi']==doi
+assert ('doi: "'+doi+'"') in (ROOT/'CITATION.cff').read_text()
+assert manuscript['pages'][-2]['title'].startswith('15. Connections')
+assert manuscript['pages'][-1]['title'].startswith('16. Reproduction')
+refs=[b['text'] for b in manuscript['pages'][-1]['blocks'] if b.get('text','').startswith('[')]
+assert [int(re.match(r'\[(\d+)\]',x).group(1)) for x in refs]==list(range(1,8))
 normalize=lambda s:' '.join(s.split())
 pub_pdf=PdfReader(ROOT/'output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf')
 pub_text=normalize('\n'.join(p.extract_text() for p in pub_pdf.pages))
@@ -61,4 +70,10 @@ for page in pub_pdf.pages:
  destinations=[a.get_object()['/Dest'] for a in page.get('/Annots',[]) if '/Dest' in a.get_object()]
  assert len(destinations)==1 and destinations[0][0].get_object()==pub_pdf.pages[-1]
 assert 'Recommended final check' in pub_text and 'Recommended final check' in sum_text
+assert '?.' not in pub_text
+assert not re.search(r'(score(?: of)?|cutoff(?: of)?)\s+47\b',pub_text,re.I)
+for f in documents['documents']:
+ r=PdfReader(ROOT/f['path']);assert doi in normalize('\n'.join(p.extract_text() for p in r.pages)),f['path']
+ links=[a.get_object().get('/A',{}).get('/URI') for p in r.pages for a in p.get('/Annots',[])]
+ assert doi_url in links,f['path']
 print(f"Release {release['release']} checks passed: 21 unchanged Lean files, {len(references)} named paper references; technical 17 pages, public 6 pages, summary 1 page; complete text and evidence links.")

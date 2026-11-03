@@ -22,7 +22,7 @@
   "language": "English",
   "publication_date": "Set to the actual date of first public release in Zenodo",
   "rights": "Copyright 2026 Travis Darshan. All rights reserved. No additional reuse license is granted by preparing this release.",
-  "doi": null,
+  "doi": "10.5281/zenodo.23923506",
   "related_identifiers": [
     {
       "identifier": "https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/tree/0b938e373dbf538fe0853f6282e4d9502e67ea01",
@@ -30,5 +30,7 @@
       "note": "Verified formal source checkpoint; repository access is private. All delivered sources are included in the archive."
     }
   ],
-  "note": "This is human-readable deposit metadata, not an API request. No DOI or public deposit has been created."
+  "note": "Human-readable deposit metadata for the existing Zenodo draft with reserved DOI 10.5281/zenodo.23923506. The draft has not been published by this assistant.",
+  "doi_url": "https://doi.org/10.5281/zenodo.23923506",
+  "doi_status": "Reserved by the author in a Zenodo draft; registration occurs on publication. Public registration has not been independently verified."
 }

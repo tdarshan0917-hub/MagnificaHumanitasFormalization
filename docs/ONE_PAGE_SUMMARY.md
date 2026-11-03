@@ -4,6 +4,8 @@ Travis Darshan | November 3, 2026
 
 Release 1.1
 
+Release DOI: https://doi.org/10.5281/zenodo.23923506
+
 We studied selected governance commitments in Pope Leo XIV's Magnifica Humanitas (§§97-111). The aim is to show what an institution needs to connect a promised protection to action for the affected person.
 
 ## What Lean does
@@ -41,6 +43,6 @@ Check the result | Did the record change? Is payment or other action still due?
 
 The examples are hypothetical. Lean checks consequences of stated rules, not actual agencies or the whole encyclical. The six-page public report explains the source; the technical paper gives proofs, assumptions and the legal comparison.
 
-Release 1.1 includes both reports, this summary, the diagram and the reproducible source package.
+Full reports and source package: https://doi.org/10.5281/zenodo.23923506
 
 Research, formalization and drafting supported by ChatGPT (OpenAI).

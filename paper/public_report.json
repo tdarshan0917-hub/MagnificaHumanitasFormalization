@@ -3,7 +3,7 @@
   "subtitle": "Selected AI-governance commitments in Magnifica Humanitas, explained and checked",
   "author": "Travis Darshan",
   "date": "November 3, 2026",
-  "version": "1.5",
+  "version": "1.6",
   "outline_contract": "Integrated six-page public report: seven key findings, source analysis, checked examples, recommendations/execution and acknowledgment; approved 2026-11-02.",
   "source_url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.pdf",
   "formal_commit": "0b938e373dbf538fe0853f6282e4d9502e67ea01",
@@ -42,7 +42,7 @@
         {
           "id": 5,
           "label": "Keep the person in view: §§97-103",
-          "text": "These paragraphs discuss human direction and the consequences of AI use. In §§102-103, Leo connects automated exclusion with lost responsibility and the need to recognize that people can change. An applicant needs someone able to hear her circumstances and examine her case. We study specific procedures that can serve that purpose. Compassion and a person's whole life remain wider human concerns."
+          "text": "These paragraphs discuss human direction and the consequences of AI use. In §§102-103, Pope Leo connects automated exclusion with lost responsibility and the need to recognize that people can change. An applicant needs someone able to hear her circumstances and examine her case. We study specific procedures that can serve that purpose. Compassion and a person's whole life remain wider human concerns."
         },
         {
           "id": 6,
@@ -74,7 +74,7 @@
         {
           "id": 10,
           "label": "Who is responsible for this case?",
-          "text": "A general contact can be identifiable while the person assigned responsibility for the denial remains unidentified. Lean checks this gap and a version that identifies the assigned person. A separate notice example uses score 47 and cutoff 50. It tests disclosure, not the 15-point deduction. Naming the responsible person also leaves a further question: what can that person change?"
+          "text": "A general contact can be identifiable while the person assigned responsibility for the denial remains unidentified. Lean checks this gap and a version that identifies the assigned person. Naming the responsible person also leaves a further question: what can that person change?"
         },
         {
           "id": 11,
@@ -149,10 +149,10 @@
         {
           "id": 22,
           "label": "How the evidence fits together",
-          "text": "Each result connects a source passage, our interpretation, stated assumptions and a checked conclusion. The technical paper gives the exact statements and proof references. It also compares the findings with selected EU human-oversight and automated-decision provisions (§16). That legal discussion explains related questions; it adds no new legal premises to the Lean models."
+          "text": "Each result connects a source passage, our interpretation, stated assumptions and a checked conclusion. The technical paper gives the exact statements and proof references. It also compares the findings with selected EU human-oversight and automated-decision provisions (§15). That legal discussion explains related questions; it adds no new legal premises to the Lean models."
         }
       ],
-      "notes": "Technical evidence: §12 (timing), §13 (comparison of requirements), §14 (result types and proof audit), §16 (legal comparison). The formal proofs remain at checkpoint 0.16. A correction to the record and delivery of support are separate outcomes."
+      "notes": "Technical evidence: §12 (timing), §13 (comparison of requirements), §14 (result types and proof audit), §15 (legal comparison). The formal proofs remain at checkpoint 0.16. A correction to the record and delivery of support are separate outcomes."
     },
     {
       "title": "Put the findings to work",
@@ -317,7 +317,7 @@
           }
         ]
       },
-      "notes": "Companion evidence: the technical paper, one-page summary and MagnificaHumanitas_V1_Source_and_Reports.zip, release 1.1. The package includes the Lean sources, proof references, assumptions and reproduction instructions. It can be used without repository access. Suggested institutional records in this table are recommendations."
+      "notes": "Companion evidence: the technical paper, one-page summary and MagnificaHumanitas_V1_Source_and_Reports.zip, release 1.1. The package includes the Lean sources, proof references, assumptions and reproduction instructions. It can be used without repository access. Suggested institutional records in this table are recommendations. Release DOI: 10.5281/zenodo.23923506."
     }
   ],
   "ai_credit": "Research, formalization and drafting supported by ChatGPT (OpenAI).",
@@ -412,5 +412,7 @@
     "heading": "How to read the examples",
     "after_paragraph": 22,
     "text": "The scores, roles, permissions and actions are stated assumptions in imagined cases. Lean checks what follows from them. The study covers selected commitments within §§97-111, not the whole encyclical. A real institution must provide evidence of its own procedures, accessibility and results. The examples do not certify it. The technical paper states the assumptions for each result."
-  }
+  },
+  "doi": "10.5281/zenodo.23923506",
+  "doi_url": "https://doi.org/10.5281/zenodo.23923506"
 }

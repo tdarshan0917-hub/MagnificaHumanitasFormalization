@@ -48,19 +48,20 @@ def blueprint(b):
  t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),NAVY),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.HexColor('#EFF5F6'),colors.white]),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),6),('RIGHTPADDING',(0,0),(-1,-1),6),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5)]));return t
 
 story=[]
-md=[f"# {D['title']}",D['subtitle'],f"**{D['author']} | {D['date']}**",'*'+D['ai_credit']+'*','## Key findings from the Lean models','\n'.join('- '+x for x in D['key_findings'])]
+md=[f"# {D['title']}",D['subtitle'],f"**{D['author']} | {D['date']}**",'*'+D['ai_credit']+'*','Release DOI: '+D['doi_url'],'## Key findings from the Lean models','\n'.join('- '+x for x in D['key_findings'])]
 plain=[D['title'],D['subtitle'],D['author']+' | '+D['date'],D['ai_credit'],'Key findings from the Lean models']+['- '+x for x in D['key_findings']]
 for i,page in enumerate(D['pages'],1):
  if i>1:story.append(PageBreak())
  story.append(para(f'MAGNIFICA HUMANITAS / RELEASE {D["release"]} / PUBLIC REPORT / {i} OF {TOTAL}','kicker'))
  if i==1:
-  story.extend([para(escape(D['title']),'title'),para(escape(D['subtitle']),'subtitle'),para(escape(D['author']+' | '+D['date']),'byline'),para(escape(D['ai_credit']),'credit'),summary(),Spacer(1,12),para('1. '+escape(page['title']),'section')])
+  story.extend([para(escape(D['title']),'title'),para(escape(D['subtitle']),'subtitle'),para(escape(D['author']+' | '+D['date']),'byline'),para(escape(D['ai_credit']),'credit'),para('Release DOI: <link href="'+D['doi_url']+'">'+escape(D['doi'])+'</link>','subtitle'),summary(),Spacer(1,12),para('1. '+escape(page['title']),'section')])
  else:
   story.extend([para(str(i)+'. '+escape(page['title']),'section'),para(escape(page['deck']),'deck')])
  md.append('## '+page['title']);plain.append(page['title'])
  for p in page['paragraphs']:
-  story.append(para('<b>'+escape(p['label'])+'.</b> '+escape(p['text'])))
-  md.append('**'+p['label']+'.** '+p['text']);plain.append(p['label']+'. '+p['text'])
+  punctuation='' if p['label'].endswith(('.', '?', '!')) else '.'
+  story.append(para('<b>'+escape(p['label'])+punctuation+'</b> '+escape(p['text'])))
+  md.append('**'+p['label']+punctuation+'** '+p['text']);plain.append(p['label']+punctuation+' '+p['text'])
   for extra in ['lean_explainer','model_limits']:
    box=D.get(extra)
    if box and box['after_paragraph']==p['id']:

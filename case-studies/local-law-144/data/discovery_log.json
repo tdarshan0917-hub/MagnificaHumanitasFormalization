@@ -1,0 +1,79 @@
+[
+  {
+    "id": "D001",
+    "phase": "exploratory_before_protocol",
+    "date": "2026-11-04",
+    "engine": "web system2",
+    "query": "site.ibm.com \"New York City\" \"bias audit\" candidates; bundled with NYC rules and audit queries",
+    "result": "Mixed results exposed Morgan Stanley, TIAA, Citizens and vendor pages; Citizens chosen as documentary pilot, not by missing safeguards.",
+    "employer_id": "E001",
+    "decision": "include_pilot",
+    "reason": "Employer-controlled LL144 landing page and linked candidate documents."
+  },
+  {
+    "id": "D002",
+    "phase": "pilot_gap_search",
+    "date": "2026-11-04",
+    "engine": "web system1",
+    "query": "site.jobs.citizensbank.com \"appeal\" assessment",
+    "result": "Mostly irrelevant or third-party results; no negative inference.",
+    "employer_id": "E001",
+    "decision": "search_limitation",
+    "reason": "Repeat with site:jobs.citizensbank.com and standardized terms."
+  },
+  {
+    "id": "D003",
+    "phase": "pilot_gap_search",
+    "date": "2026-11-04",
+    "engine": "web system1",
+    "query": "site.jobs.citizensbank.com \"alternative\" assessment",
+    "result": "Mostly irrelevant or third-party results; no negative inference.",
+    "employer_id": "E001",
+    "decision": "search_limitation",
+    "reason": "Repeat prescribed standardized search."
+  },
+  {
+    "id": "D004",
+    "phase": "pilot_gap_search",
+    "date": "2026-11-04",
+    "engine": "web system1",
+    "query": "site.jobs.citizensbank.com \"reconsider\" assessment",
+    "result": "Mostly irrelevant or third-party results; no negative inference.",
+    "employer_id": "E001",
+    "decision": "search_limitation",
+    "reason": "Use reconsideration in standardized second pass."
+  },
+  {
+    "id": "D005",
+    "phase": "standardized_pilot_search",
+    "date": "2026-11-04",
+    "engine": "web system1 with jobs.citizensbank.com domain filter",
+    "query": "site:jobs.citizensbank.com appeal",
+    "result": "Combined retrieval returned unrelated lease/tax-appeal job material; excluded. No negative inference from search results.",
+    "employer_id": "E001",
+    "decision": "exclude_unrelated_result",
+    "reason": "Not a candidate assessment challenge procedure."
+  },
+  {
+    "id": "D006",
+    "phase": "standardized_pilot_search",
+    "date": "2026-11-04",
+    "engine": "web system1 with jobs.citizensbank.com domain filter",
+    "query": "site:jobs.citizensbank.com reconsideration",
+    "result": "Combined retrieval returned unrelated lease/tax-appeal job material; excluded. No negative inference from search results.",
+    "employer_id": "E001",
+    "decision": "exclude_unrelated_result",
+    "reason": "Not a candidate assessment challenge procedure."
+  },
+  {
+    "id": "D007",
+    "phase": "standardized_pilot_search",
+    "date": "2026-11-04",
+    "engine": "web system1 with jobs.citizensbank.com domain filter",
+    "query": "site:jobs.citizensbank.com \"alternative assessment\"",
+    "result": "Combined retrieval returned unrelated lease/tax-appeal job material; excluded. No negative inference from search results.",
+    "employer_id": "E001",
+    "decision": "exclude_unrelated_result",
+    "reason": "Not a candidate assessment challenge procedure."
+  }
+]

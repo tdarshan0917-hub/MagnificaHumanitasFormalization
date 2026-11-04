@@ -1,0 +1,208 @@
+[
+  {
+    "id": "E001",
+    "name": "Citizens",
+    "corporate_group": "Citizens Financial Group",
+    "tool": "HireVue; primary examined linked audit: adaptability",
+    "selection": "pilot_before_protocol_freeze",
+    "included": true,
+    "deep": true,
+    "reviewed_on": "2026-11-04",
+    "second_pass_complete": false,
+    "reviewer": "ChatGPT-assisted documentary reading; no independent coder",
+    "source_ids": [
+      "E001-S1",
+      "E001-S2",
+      "E001-S3",
+      "E001-S4",
+      "E001-S5",
+      "E001-S6"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E001-S1"
+        ],
+        "locator": "audit landing, introductory paragraph",
+        "population": "Candidates described by the page",
+        "note": "Employer identifies itself.",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E001-S2"
+        ],
+        "locator": "Job Seekers with Disabilities",
+        "population": "Candidates needing the described assistance",
+        "note": "Support email is a contact; not proof of assignment.",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E001-S4"
+        ],
+        "locator": "Why do I need to complete an assessment",
+        "population": "Candidates in the described assessment process",
+        "note": "Recruiters review applications and assessments; no case-specific corrective power established.",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S3",
+          "E001-S4",
+          "E001-S5",
+          "E001-S6"
+        ],
+        "locator": "six-document set; see review boundary",
+        "population": "NYC screening candidates",
+        "note": "No described case-linked assignee in the reviewed set; internal assignment remains unknown.",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S3",
+          "E001-S4",
+          "E001-S5",
+          "E001-S6"
+        ],
+        "locator": "six-document set; privacy policy California section kept separate",
+        "population": "NYC screening candidates",
+        "note": "No NYC-scoped reconsideration procedure located in this set. Domain searches were repeated; a second coding pass remains pending.",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S4"
+        ],
+        "locator": "audit landing; help; assessment instructions",
+        "population": "NYC candidates seeking an alternative to AEDT assessment",
+        "note": "Assistance and accommodation language is not counted as a distinct alternative-selection instruction.",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E001-S2"
+        ],
+        "locator": "Job Seekers with Disabilities",
+        "population": "Job seekers with a disability needing assistance",
+        "note": "Email route and request details are stated; operation untested.",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {
+      "identify_responsibility": {
+        "status": "unclear",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S3",
+          "E001-S4",
+          "E001-S5",
+          "E001-S6"
+        ],
+        "locator": "support/recruiter descriptions versus case-assignee gap",
+        "population": "NYC screening candidates",
+        "note": "Institution, contact and review role are described; case assignment and corrective authority are not established.",
+        "operationally_verified": false
+      },
+      "examine_rule": {
+        "status": "documented",
+        "source_ids": [
+          "E001-S1",
+          "E001-S6"
+        ],
+        "locator": "audit landing; linked audit p.1",
+        "population": "Nationwide historical audited assessment population",
+        "note": "Audit information is published. This status covers disclosure only; no complete compliance, fairness or working rule-correction finding.",
+        "operationally_verified": false
+      },
+      "accept_challenge": {
+        "status": "not_described",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S3",
+          "E001-S4",
+          "E001-S5",
+          "E001-S6"
+        ],
+        "locator": "six-document set; privacy rights scope considered",
+        "population": "NYC screening candidates",
+        "note": "A candidate outcome-challenge route is not established by general review/help information.",
+        "operationally_verified": false
+      },
+      "deliver_finding": {
+        "status": "not_described",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S3",
+          "E001-S4",
+          "E001-S5",
+          "E001-S6"
+        ],
+        "locator": "six-document set",
+        "population": "NYC screening candidates",
+        "note": "No case-linked review-to-implementer receipt procedure located.",
+        "operationally_verified": false
+      },
+      "apply_correction": {
+        "status": "not_described",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S3",
+          "E001-S4",
+          "E001-S5",
+          "E001-S6"
+        ],
+        "locator": "six-document set; distinguish California data rights",
+        "population": "NYC screening candidates",
+        "note": "No NYC-scoped reassessment/application procedure established.",
+        "operationally_verified": false
+      },
+      "check_result": {
+        "status": "not_described",
+        "source_ids": [
+          "E001-S1",
+          "E001-S2",
+          "E001-S3",
+          "E001-S4",
+          "E001-S5",
+          "E001-S6"
+        ],
+        "locator": "six-document set; hiring page application-status paragraph",
+        "population": "NYC screening candidates",
+        "note": "Checking application status is not evidence of a completed correction and notification.",
+        "operationally_verified": false
+      }
+    },
+    "other_scoped_rights": [
+      {
+        "status": "documented",
+        "source_ids": [
+          "E001-S5"
+        ],
+        "locator": "California Consumer Privacy Act Notice; How to Exercise Your Rights",
+        "population": "California residents covered by the stated policy conditions",
+        "note": "Policy describes data correction and conditional automated-processing objection rights and a request channel. Record positive evidence for this scope; do not infer NYC coverage or legal accuracy independently.",
+        "operationally_verified": false
+      }
+    ],
+    "legal_coverage": "Public LL144 disclosure establishes documentary relevance; present use, job-specific reliance and NYC applicability not independently established.",
+    "review_boundary": "Six documents; first of sixteen audit tables only. No candidate account, live process, case logs or employer contact. Exploratory searches were weak; three standardized domain-filtered searches repeated and logged. Second coding pass remains pending."
+  }
+]

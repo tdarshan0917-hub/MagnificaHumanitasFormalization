@@ -1,0 +1,134 @@
+[
+  {
+    "id": "S01",
+    "title": "Local Law 144 of 2021: enacted text",
+    "publisher": "New York City Council",
+    "url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524&GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&Options=ID%7CText%7C",
+    "kind": "statute",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Enacted 2021; text tab §§20-870–874. Linked standalone law PDF returned 410; text tab used.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "S02",
+    "title": "AEDT adopted implementing rule",
+    "publisher": "NYC DCWP",
+    "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
+    "kind": "rule",
+    "retrieved_on": "2026-11-04",
+    "document_version": "April 2023 adoption PDF, §§5-300–304; later-amendment check remains a pre-model task.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "S03",
+    "title": "AEDT frequently asked questions",
+    "publisher": "NYC DCWP",
+    "url": "https://www.nyc.gov/site/dca/businesses/faq-automated-employment-decision-tools.page",
+    "kind": "agency_guidance",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Page footer 06/29/2023; explanatory guidance, not enacted law.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "S04",
+    "title": "Enforcement audit 2024-N-6",
+    "publisher": "New York State Comptroller",
+    "url": "https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-24n6.pdf",
+    "kind": "historical_audit",
+    "retrieved_on": "2026-11-04",
+    "document_version": "December 2025; audit July 2023–June 2025; DCWP response September 26, 2025 included.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "S05",
+    "title": "Current code §20-871",
+    "publisher": "NYC Code / American Legal Publishing",
+    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-135843",
+    "kind": "codified_statute",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Page label November 2026 (current), with publisher currency disclaimer; only §20-871 checked here.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "S06",
+    "title": "AEDT public information and complaint guidance",
+    "publisher": "NYC DCWP",
+    "url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+    "kind": "agency_guidance",
+    "retrieved_on": "2026-11-04",
+    "document_version": null,
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E001-S1",
+    "title": "Annual AI Bias Audit",
+    "publisher": "Citizens careers",
+    "url": "https://jobs.citizensbank.com/en/Annual-AI-Bias-Audit",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Page date not established; audit landing page.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E001-S2",
+    "title": "Job Seeker Help",
+    "publisher": "Citizens careers",
+    "url": "https://jobs.citizensbank.com/help",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Page date not established.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E001-S3",
+    "title": "Hiring process / Job Seeker Resources",
+    "publisher": "Citizens careers",
+    "url": "https://jobs.citizensbank.com/hiring-process",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Page date not established.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E001-S4",
+    "title": "Video Interview Assessment",
+    "publisher": "Citizens careers",
+    "url": "https://jobs.citizensbank.com/en/Video-Interview-Assessment",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Page date not established.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E001-S5",
+    "title": "Job Applicant Data Privacy Policy",
+    "publisher": "Citizens Financial Group",
+    "url": "https://jobs.citizensbank.com/Job-Applicant-Privacy-Policy",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Effective October 9, 2026; California rights are conditionally scoped employer statements.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E001-S6",
+    "title": "National Adaptability All Jobs audit",
+    "publisher": "DCI, linked by Citizens",
+    "url": "https://tbcdn.talentbrew.com/company/288/v4_0/docs/ai-audit/national-adaptability-all-jobs.pdf",
+    "kind": "auditor_disclosure",
+    "retrieved_on": "2026-11-04",
+    "document_version": "Summary July 5, 2025; nationwide data June 1, 2024–June 1, 2025; one of 16 linked tables examined. No current-use/freshness finding.",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
+    "original_bytes_archived": false
+  }
+]

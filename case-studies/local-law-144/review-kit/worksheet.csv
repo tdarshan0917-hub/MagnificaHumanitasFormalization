@@ -1,0 +1,7 @@
+case_id,check,evidence_required,source_or_record_id,applicable_population,evidence_status,documented_capacity,observed_execution,reviewer_note
+,identify_responsibility,Case-assigned responsible role and authority,,,,,,
+,examine_rule,Criteria and relevant audit plus procedure to investigate a suspected error,,,,,,
+,accept_challenge,Submission route and acknowledgement for this screening decision,,,,,,
+,deliver_finding,Case-linked finding sent to an authorized recipient with receipt,,,,,,
+,apply_correction,Authorized data change or reassessment recorded,,,,,,
+,check_result,Result checked and communicated with remaining actions identified,,,,,,

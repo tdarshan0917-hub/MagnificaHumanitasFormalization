@@ -1,0 +1,20 @@
+name: Local Law 144 documentary evidence
+on:
+  push:
+    paths:
+      - 'case-studies/local-law-144/**'
+      - '.github/workflows/local-law-144.yml'
+  pull_request:
+    paths:
+      - 'case-studies/local-law-144/**'
+      - '.github/workflows/local-law-144.yml'
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate references and documentary scope
+        run: python3 case-studies/local-law-144/scripts/validate_study.py

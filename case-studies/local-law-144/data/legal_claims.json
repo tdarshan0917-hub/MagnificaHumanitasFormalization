@@ -1,0 +1,207 @@
+[
+  {
+    "id": "L01",
+    "source_ids": [
+      "S01",
+      "S05"
+    ],
+    "locator": "§20-871(a)(1)",
+    "layer": "legal_requirement",
+    "summary": "Covered use requires a bias audit within the preceding year.",
+    "checks": [
+      "examine_rule"
+    ],
+    "boundary": "Scope of covered use must be established separately; no employer compliance finding.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L02",
+    "source_ids": [
+      "S01",
+      "S05"
+    ],
+    "locator": "§20-871(a)(2)",
+    "layer": "legal_requirement",
+    "summary": "Audit summary and tool distribution date must be published before covered use.",
+    "checks": [
+      "examine_rule"
+    ],
+    "boundary": "Publication is distinct from correcting an individual decision.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L03",
+    "source_ids": [
+      "S01",
+      "S05"
+    ],
+    "locator": "§20-871(b)(1)–(2)",
+    "layer": "legal_requirement",
+    "summary": "Covered NYC-resident candidates receive tool/criteria notice at least ten business days before use.",
+    "checks": [
+      "accept_challenge",
+      "examine_rule"
+    ],
+    "boundary": "Notice timing alone does not demonstrate challenge availability.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L04",
+    "source_ids": [
+      "S01",
+      "S05"
+    ],
+    "locator": "§20-871(b)(3)",
+    "layer": "legal_requirement",
+    "summary": "Specified data information is disclosed online or provided within thirty days of written request, subject to exceptions.",
+    "checks": [
+      "examine_rule"
+    ],
+    "boundary": "This information request is not itself an outcome appeal.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L05",
+    "source_ids": [
+      "S01"
+    ],
+    "locator": "§20-873",
+    "layer": "legal_requirement",
+    "summary": "City enforcement can seek court-ordered correction of violations, compliance and appropriate relief.",
+    "checks": [
+      "apply_correction"
+    ],
+    "boundary": "Do not describe LL144 as fines only; individual reconsideration is a different question.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L06",
+    "source_ids": [
+      "S01"
+    ],
+    "locator": "§20-874",
+    "layer": "legal_requirement",
+    "summary": "The provision preserves candidate civil-action rights and human-rights enforcement authority.",
+    "checks": [
+      "accept_challenge",
+      "apply_correction"
+    ],
+    "boundary": "Do not erase outside remedies or assert a new private cause of action.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L07",
+    "source_ids": [
+      "S02"
+    ],
+    "locator": "§5-300, AEDT definition",
+    "layer": "legal_requirement",
+    "summary": "Covered reliance includes sole output reliance, greatest weighting, or output overriding other decision factors.",
+    "checks": [
+      "examine_rule"
+    ],
+    "boundary": "Tool identity alone does not establish this use relationship.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L08",
+    "source_ids": [
+      "S02"
+    ],
+    "locator": "§§5-301–302",
+    "layer": "legal_requirement",
+    "summary": "Audit duties distinguish selection/scoring methods, demographic comparisons and allowed data sources.",
+    "checks": [
+      "examine_rule"
+    ],
+    "boundary": "Full metric/data/independence encoding is pending; earlier fairness predicates are not substituted.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L09",
+    "source_ids": [
+      "S02"
+    ],
+    "locator": "§5-303(a)–(c)",
+    "layer": "legal_requirement",
+    "summary": "Published results include specified data and category information; keep them posted for six months after latest use.",
+    "checks": [
+      "examine_rule"
+    ],
+    "boundary": "No present-use inference from a retained historical audit.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L10",
+    "source_ids": [
+      "S02"
+    ],
+    "locator": "§5-304(a)",
+    "layer": "legal_requirement",
+    "summary": "Notice includes alternative/accommodation request instructions if available; the subchapter does not mandate providing an alternative.",
+    "checks": [
+      "accept_challenge"
+    ],
+    "boundary": "Separate request instructions, accommodation rights under other laws and actual provision.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L11",
+    "source_ids": [
+      "S03"
+    ],
+    "locator": "II, question 2",
+    "layer": "agency_guidance",
+    "summary": "DCWP describes no audit-result-specific action under LL144 and separately notes other antidiscrimination duties.",
+    "checks": [
+      "examine_rule",
+      "apply_correction"
+    ],
+    "boundary": "Not permission to disregard discrimination or other law.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L12",
+    "source_ids": [
+      "S03"
+    ],
+    "locator": "VII, question 2",
+    "layer": "agency_guidance",
+    "summary": "DCWP distinguishes audit/notice enforcement from discrimination complaints referred to the Human Rights Commission.",
+    "checks": [
+      "accept_challenge",
+      "deliver_finding"
+    ],
+    "boundary": "External enforcement is not automatically an employer reassessment path.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L13",
+    "source_ids": [
+      "S04"
+    ],
+    "locator": "printed pp.1–2, 9, 14–19, 23",
+    "layer": "historical_audit_observation",
+    "summary": "The audit reports routing problems and at least seventeen potential noncompliance instances; overall review involved thirty-two companies.",
+    "checks": [
+      "accept_challenge",
+      "deliver_finding"
+    ],
+    "boundary": "Historical July 2023–June 2025; instances are not companies or adjudicated violations; discussion distinguishes a twenty-two-company subset.",
+    "status": "primary_text_checked"
+  },
+  {
+    "id": "L14",
+    "source_ids": [
+      "S04"
+    ],
+    "locator": "printed pp.24–38, especially pp.25–27",
+    "layer": "historical_audit_observation",
+    "summary": "DCWP disputes aspects of the auditors’ characterization and describes resources and enforcement choices; the report includes rebuttals.",
+    "checks": [
+      "identify_responsibility"
+    ],
+    "boundary": "Read agency response with findings; follow-up implementation is not established by this document.",
+    "status": "primary_text_checked"
+  }
+]

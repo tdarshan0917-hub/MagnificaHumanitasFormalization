@@ -1,0 +1,6 @@
+role,case_assignment_record,may_receive_challenge,may_review_assessment,may_correct_input_data,may_authorize_reassessment,may_change_decision,may_notify_candidate,scope_and_limits,delegation_record
+Candidate support,,,,,,,,,
+Assigned case owner,,,,,,,,,
+Assessment reviewer,,,,,,,,,
+Authorized HR decision owner,,,,,,,,,
+Vendor technical support,,,,,,,,,

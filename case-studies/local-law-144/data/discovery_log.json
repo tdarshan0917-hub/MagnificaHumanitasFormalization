@@ -75,5 +75,191 @@
     "employer_id": "E001",
     "decision": "exclude_unrelated_result",
     "reason": "Not a candidate assessment challenge procedure."
+  },
+  {
+    "id": "D008",
+    "phase": "bounded_discovery",
+    "date": "2026-11-05",
+    "engine": "web system1",
+    "query": "\"Local Law 144\" \"bias audit\" careers",
+    "result": "Snowflake was the first new eligible employer in this returned result set.",
+    "employer_id": "E002",
+    "decision": "include_deep",
+    "reason": "Employer-controlled notice; order retained. Non-employer and duplicate results are recorded in discovery_results.json."
+  },
+  {
+    "id": "D009",
+    "phase": "bounded_discovery",
+    "date": "2026-11-05",
+    "engine": "web system1",
+    "query": "\"automated employment decision tool\" \"candidate\" \"audit\" employer",
+    "result": "Instacart was the first new eligible employer in this returned result set.",
+    "employer_id": "E003",
+    "decision": "include_deep",
+    "reason": "Employer-controlled notice; order retained. Non-employer and duplicate results are recorded in discovery_results.json."
+  },
+  {
+    "id": "D010",
+    "phase": "bounded_discovery",
+    "date": "2026-11-05",
+    "engine": "web system1",
+    "query": "\"Local Law 144\" \"alternative selection process\" employer",
+    "result": "NBCUniversal was the first new eligible employer in this returned result set.",
+    "employer_id": "E004",
+    "decision": "include_deep",
+    "reason": "Employer-controlled notice; order retained. Non-employer and duplicate results are recorded in discovery_results.json."
+  },
+  {
+    "id": "D011",
+    "phase": "supplemental_discovery",
+    "date": "2026-11-05",
+    "engine": "web system1",
+    "query": "\"Local Law 144\" \"bias audit\" \"candidate privacy\"",
+    "result": "SharkNinja was the first new eligible employer in this returned result set.",
+    "employer_id": "E005",
+    "decision": "include_deep",
+    "reason": "Employer-controlled notice; order retained. Non-employer and duplicate results are recorded in discovery_results.json."
+  },
+  {
+    "id": "D012",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:careers.snowflake.com appeal",
+    "employer_id": "E002",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D013",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:careers.snowflake.com reconsideration",
+    "employer_id": "E002",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D014",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:careers.snowflake.com \"alternative assessment\"",
+    "employer_id": "E002",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D015",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:instacart.careers appeal",
+    "employer_id": "E003",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D016",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:instacart.careers reconsideration",
+    "employer_id": "E003",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D017",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:instacart.careers \"alternative assessment\"",
+    "employer_id": "E003",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D018",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:nbcunicareers.com appeal",
+    "employer_id": "E004",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D019",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:nbcunicareers.com reconsideration",
+    "employer_id": "E004",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D020",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:nbcunicareers.com \"alternative assessment\"",
+    "employer_id": "E004",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D021",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:sharkninja.com appeal",
+    "employer_id": "E005",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D022",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:sharkninja.com reconsideration",
+    "employer_id": "E005",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D023",
+    "phase": "standardized_gap_search",
+    "date": "2026-11-05",
+    "engine": "web system1 with domain filter",
+    "query": "site:sharkninja.com \"alternative assessment\"",
+    "employer_id": "E005",
+    "decision": "retain_scoped_evidence",
+    "result": "Relevant reviewed primary pages retained; irrelevant results excluded. No inference of absence from retrieval.",
+    "reason": "Bounded gap search; scope and positive provisions assessed from primary pages."
+  },
+  {
+    "id": "D024",
+    "phase": "search_limitation",
+    "date": "2026-11-05",
+    "engine": "web system1",
+    "query": "Combined appeal reconsideration alternative-assessment queries for NBCUniversal and SharkNinja",
+    "decision": "exclude_unrelated_result",
+    "result": "Combined search returned education/testing pages; replaced by three separate searches per domain.",
+    "reason": "Unrelated population; no negative employer inference."
   }
 ]

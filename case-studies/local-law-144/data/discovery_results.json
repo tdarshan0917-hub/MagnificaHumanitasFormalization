@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-05",
+  "engine": "web system1",
+  "scope": "Returned single result set per query; not an exhaustive web inventory. Search ranking can change. Four eligible groups including pilot after original families; supplemental family added for fifth.",
+  "queries": [
+    {
+      "query": "\"Local Law 144\" \"bias audit\" careers",
+      "eligible_new": [
+        "E002"
+      ],
+      "duplicates": [
+        "E001"
+      ],
+      "excluded": [
+        "NYC FAQ and information pages",
+        "NYC rules",
+        "Comptroller audit",
+        "DLA Piper commentary",
+        "Deloitte audit-service explanation, not own hiring notice"
+      ]
+    },
+    {
+      "query": "\"automated employment decision tool\" \"candidate\" \"audit\" employer",
+      "eligible_new": [
+        "E003"
+      ],
+      "duplicates": [],
+      "excluded": [
+        "NYC FAQ/rule/code/311 pages",
+        "Comptroller audit"
+      ]
+    },
+    {
+      "query": "\"Local Law 144\" \"alternative selection process\" employer",
+      "eligible_new": [
+        "E004"
+      ],
+      "duplicates": [],
+      "excluded": [
+        "Modulos vendor documentation and mirror",
+        "Vervoe vendor guidance",
+        "PLI presentation",
+        "NYC public comments",
+        "Jones Day and JD Supra commentary",
+        "Deloitte vendor framework"
+      ]
+    },
+    {
+      "query": "\"Local Law 144\" \"bias audit\" \"candidate privacy\"",
+      "eligible_new": [
+        "E005"
+      ],
+      "duplicates": [
+        "E002"
+      ],
+      "excluded": [
+        "NYC FAQ/code/311/information/rules pages"
+      ],
+      "discovery_url": "https://www.sharkninja.mx/candidate-privacy-notice-new-york-city.html",
+      "verification": "Official US notice reached through employer global privacy notice; country mirror not independent corroboration"
+    }
+  ],
+  "limitations": [
+    "Result metadata grouped by source category; not a complete ranked URL archive. No probability sampling claim.",
+    "Supplemental search executed before written protocol amendment; disclosed sequencing deviation.",
+    "Domain searches sometimes returned off-domain or irrelevant material; these do not establish absence."
+  ]
+}

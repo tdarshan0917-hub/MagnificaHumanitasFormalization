@@ -1,4 +1,4 @@
-# Codebook 0.1
+# Codebook 0.2
 
 ## Evidence status
 
@@ -42,3 +42,18 @@ Capacity, documented procedure and observed execution are separate. This public-
 - `formal_consequence`: a theorem about declared definitions and assumptions.
 
 N/B/H remain original interpretation policies. Do not map an unknown disclosure to a false Lean fact. Actual negative facts require evidence; hypothetical countermodels must be labeled as hypothetical.
+
+## Frozen calibration 0.2 — 5 November 2026
+
+The original definitions above remain. The five calibration reviews add these mandatory qualifications:
+
+- Every evidence row records `tool_scope`, `stage` and `time_scope`. A provision for one assessment tool does not cover an employer's other tools automatically.
+- `post_decision_review_nyc` is the legacy field name for a scoped opportunity to challenge a screening decision **or an assessment result**. The stage must say which. A documented result challenge does not imply a universal appeal of final rejection. Final reporting must separate these categories and primary-tool from any-tool coverage.
+- Human review before a decision is a review role, not a post-decision challenge. Explicit further human review of recruitment decisions can establish a request route without establishing correction authority or completed correction.
+- A conditional right to contest AI decisions is recorded positively in `other_scoped_rights`; use `unclear` for NYC availability when its geographic/legal conditions are unresolved.
+- Profiling objections, requests for non-AI review and data correction remain positive scoped provisions. If timing or adverse-decision remit is unspecified, they do not automatically satisfy the outcome-challenge check.
+- Historically published alternative instructions are not erased, but their historical date must remain visible; do not describe current provision as verified.
+- `examine_rule: documented` records criteria/audit disclosure only. It does not mark the full substantive rule-investigation check satisfied.
+- `apply_correction: unclear` can record explicit decision-change capacity or data-correction rights without an implementation procedure. It never means a correction was observed.
+
+This freeze follows calibration, not preregistration. All five records have a dated same-assistant reconciliation entry. A later definition change requires an amendment and recoding of earlier records. Search results and source-byte preservation remain limited as stated in the protocol.

@@ -35,4 +35,4 @@ The review kit can ask for an internal case-owner record, challenge procedure, r
 
 ## Review boundary and remaining work
 
-The first exploratory domain searches were weak and returned irrelevant results. The standardized searches were repeated with the correct domain on 4 November and logged; returned lease/tax-appeal material was excluded as unrelated. Results still do not establish absence. A second full coding pass, source-version capture and final corpus freeze remain pending. No candidate account, adverse decision, submitted challenge or actual correction was observed.
+The first exploratory domain searches were weak and returned irrelevant results. The standardized searches were repeated with the correct domain on 4 November and logged; returned lease/tax-appeal material was excluded as unrelated. Results still do not establish absence. A same-assistant coding reconciliation under Codebook 0.2 was completed on 5 November 2026; classifications were retained. Source-byte capture and final corpus freeze remain pending. No candidate account, adverse decision, submitted challenge or actual correction was observed.

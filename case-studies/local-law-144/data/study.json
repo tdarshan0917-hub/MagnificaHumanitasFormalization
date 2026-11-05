@@ -1,7 +1,7 @@
 {
   "study": "Local Law 144 employment case study",
-  "build": "0.1",
-  "date": "2026-11-04",
+  "build": "0.2",
+  "date": "2026-11-05",
   "base_commit": "50ec7e0fcce32ce7cf9a85a718b7b4a9feebb5c9",
   "branch": "case-study/local-law-144",
   "target_employers": 25,
@@ -9,7 +9,8 @@
   "corpus_frozen": false,
   "formal_extension": "not_implemented",
   "operational_pilot": "not_performed",
-  "protocol": "0.1",
-  "codebook": "0.1",
-  "source_bytes_preserved": false
+  "protocol": "0.2",
+  "codebook": "0.2",
+  "source_bytes_preserved": false,
+  "deep_review_stage": "five documentary reviews reconciled; no independent coder"
 }

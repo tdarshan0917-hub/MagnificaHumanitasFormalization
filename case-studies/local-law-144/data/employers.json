@@ -8,7 +8,7 @@
     "included": true,
     "deep": true,
     "reviewed_on": "2026-11-04",
-    "second_pass_complete": false,
+    "second_pass_complete": true,
     "reviewer": "ChatGPT-assisted documentary reading; no independent coder",
     "source_ids": [
       "E001-S1",
@@ -27,7 +27,10 @@
         "locator": "audit landing, introductory paragraph",
         "population": "Candidates described by the page",
         "note": "Employer identifies itself.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "candidate_contact": {
         "status": "documented",
@@ -37,7 +40,10 @@
         "locator": "Job Seekers with Disabilities",
         "population": "Candidates needing the described assistance",
         "note": "Support email is a contact; not proof of assignment.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "review_role": {
         "status": "documented",
@@ -47,7 +53,10 @@
         "locator": "Why do I need to complete an assessment",
         "population": "Candidates in the described assessment process",
         "note": "Recruiters review applications and assessments; no case-specific corrective power established.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "case_assignee": {
         "status": "not_described",
@@ -62,7 +71,10 @@
         "locator": "six-document set; see review boundary",
         "population": "NYC screening candidates",
         "note": "No described case-linked assignee in the reviewed set; internal assignment remains unknown.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "post_decision_review_nyc": {
         "status": "not_described",
@@ -76,8 +88,11 @@
         ],
         "locator": "six-document set; privacy policy California section kept separate",
         "population": "NYC screening candidates",
-        "note": "No NYC-scoped reconsideration procedure located in this set. Domain searches were repeated; a second coding pass remains pending.",
-        "operationally_verified": false
+        "note": "No NYC reconsideration procedure located in the six-document set; California rights remain separately recorded.",
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "alternative_process_instructions": {
         "status": "not_described",
@@ -89,7 +104,10 @@
         "locator": "audit landing; help; assessment instructions",
         "population": "NYC candidates seeking an alternative to AEDT assessment",
         "note": "Assistance and accommodation language is not counted as a distinct alternative-selection instruction.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "accommodation_instructions": {
         "status": "documented",
@@ -99,7 +117,10 @@
         "locator": "Job Seekers with Disabilities",
         "population": "Job seekers with a disability needing assistance",
         "note": "Email route and request details are stated; operation untested.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       }
     },
     "deep_checks": {
@@ -116,7 +137,10 @@
         "locator": "support/recruiter descriptions versus case-assignee gap",
         "population": "NYC screening candidates",
         "note": "Institution, contact and review role are described; case assignment and corrective authority are not established.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "examine_rule": {
         "status": "documented",
@@ -127,7 +151,10 @@
         "locator": "audit landing; linked audit p.1",
         "population": "Nationwide historical audited assessment population",
         "note": "Audit information is published. This status covers disclosure only; no complete compliance, fairness or working rule-correction finding.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "accept_challenge": {
         "status": "not_described",
@@ -142,7 +169,10 @@
         "locator": "six-document set; privacy rights scope considered",
         "population": "NYC screening candidates",
         "note": "A candidate outcome-challenge route is not established by general review/help information.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "deliver_finding": {
         "status": "not_described",
@@ -157,7 +187,10 @@
         "locator": "six-document set",
         "population": "NYC screening candidates",
         "note": "No case-linked review-to-implementer receipt procedure located.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "apply_correction": {
         "status": "not_described",
@@ -172,7 +205,10 @@
         "locator": "six-document set; distinguish California data rights",
         "population": "NYC screening candidates",
         "note": "No NYC-scoped reassessment/application procedure established.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       },
       "check_result": {
         "status": "not_described",
@@ -187,7 +223,10 @@
         "locator": "six-document set; hiring page application-status paragraph",
         "population": "NYC screening candidates",
         "note": "Checking application status is not evidence of a completed correction and notification.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       }
     },
     "other_scoped_rights": [
@@ -199,10 +238,910 @@
         "locator": "California Consumer Privacy Act Notice; How to Exercise Your Rights",
         "population": "California residents covered by the stated policy conditions",
         "note": "Policy describes data correction and conditional automated-processing objection rights and a request channel. Record positive evidence for this scope; do not infer NYC coverage or legal accuracy independently.",
-        "operationally_verified": false
+        "operationally_verified": false,
+        "tool_scope": "HireVue; primary examined linked audit: adaptability",
+        "stage": "Candidate screening; California privacy rights separate",
+        "time_scope": "Source set rechecked 2026-11-05; historical audit scope retained"
       }
     ],
     "legal_coverage": "Public LL144 disclosure establishes documentary relevance; present use, job-specific reliance and NYC applicability not independently established.",
-    "review_boundary": "Six documents; first of sixteen audit tables only. No candidate account, live process, case logs or employer contact. Exploratory searches were weak; three standardized domain-filtered searches repeated and logged. Second coding pass remains pending."
+    "review_boundary": "Six documents; first of sixteen audit tables only. No candidate account, live process, case logs or employer contact. Exploratory searches were weak; three standardized domain-filtered searches repeated and logged. Same-assistant second pass completed under Codebook 0.2; not independent review.",
+    "second_pass": {
+      "date": "2026-11-05",
+      "codebook": "0.2",
+      "method": "Same-assistant rereading of all six sources and decisive privacy/hiring sections; not independent replication.",
+      "changes": "Original classifications retained; added explicit tool, stage and temporal bounds."
+    }
+  },
+  {
+    "id": "E002",
+    "name": "Snowflake",
+    "corporate_group": "Snowflake",
+    "tool": "Ashby Criteria Evaluation Model",
+    "selection": "logged_query_order",
+    "included": true,
+    "deep": true,
+    "reviewed_on": "2026-11-05",
+    "second_pass_complete": true,
+    "reviewer": "ChatGPT-assisted source rereading and coding reconciliation; no independent coder",
+    "source_ids": [
+      "E002-S1",
+      "E002-S2",
+      "E002-S3",
+      "E002-S4",
+      "E002-S5"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E002-S1"
+        ],
+        "locator": "NYC notice",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Identity disclosed.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E002-S2"
+        ],
+        "locator": "§8 request form; §11",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Privacy request route; not a case assignment.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E002-S4"
+        ],
+        "locator": "Hiring process",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Recruiter/manager roles described.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E002-S1",
+          "E002-S2",
+          "E002-S3",
+          "E002-S4",
+          "E002-S5"
+        ],
+        "locator": "Five-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No case-linked assignee identified within set.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "unclear",
+        "source_ids": [
+          "E002-S2"
+        ],
+        "locator": "§8 AI candidacy decisions",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Contesting and human review are conditional on law; NYC eligibility unresolved.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E002-S1",
+          "E002-S2",
+          "E002-S3",
+          "E002-S4"
+        ],
+        "locator": "Notice, rights, hiring and accommodation pages",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No distinct alternative-selection submission procedure located.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E002-S3"
+        ],
+        "locator": "Accommodation paragraph",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Request route described; visible email and mailto differ, so use original page with caution.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {
+      "identify_responsibility": {
+        "status": "unclear",
+        "source_ids": [
+          "E002-S2",
+          "E002-S4"
+        ],
+        "locator": "Privacy and hiring roles",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Contact and functional review do not establish assigned corrective authority.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "examine_rule": {
+        "status": "documented",
+        "source_ids": [
+          "E002-S1",
+          "E002-S5"
+        ],
+        "locator": "Notice and audit pp.1,3,6",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Criteria/audit disclosure only; no compliance certification.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "accept_challenge": {
+        "status": "unclear",
+        "source_ids": [
+          "E002-S2"
+        ],
+        "locator": "§8",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Conditional contest right; NYC scope unresolved.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "deliver_finding": {
+        "status": "not_described",
+        "source_ids": [
+          "E002-S1",
+          "E002-S2",
+          "E002-S3",
+          "E002-S4",
+          "E002-S5"
+        ],
+        "locator": "Five-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No case-linked receipt process located.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "apply_correction": {
+        "status": "unclear",
+        "source_ids": [
+          "E002-S2"
+        ],
+        "locator": "§8",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Conditional data/decision rights do not establish implementation of reassessment.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "check_result": {
+        "status": "not_described",
+        "source_ids": [
+          "E002-S1",
+          "E002-S2",
+          "E002-S3",
+          "E002-S4",
+          "E002-S5"
+        ],
+        "locator": "Five-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No correction-confirmation procedure located.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "other_scoped_rights": [
+      {
+        "status": "documented",
+        "source_ids": [
+          "E002-S2"
+        ],
+        "locator": "§8",
+        "population": "Applicants where applicable law supplies the stated rights",
+        "note": "Conditional AI contest and data rights recorded positively; applicability remains qualified.",
+        "tool_scope": "Ashby Criteria Evaluation Model",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    ],
+    "legal_coverage": "No actual vacancy coverage or use established; audit concerns model criteria, not a complete institutional process.",
+    "review_boundary": "5 sources. Public documents only; no account, submitted request, candidate case or institutional contact. Conditional rights cannot be converted to unconditional NYC availability. Accommodation contact mismatch retained.",
+    "second_pass": {
+      "date": "2026-11-05",
+      "codebook": "0.2",
+      "method": "Same-assistant rereading of decisive source sections and reconciliation across the scoped document set; not independent replication.",
+      "changes": "Tool, stage, temporal and jurisdiction limits retained; no operational verification."
+    }
+  },
+  {
+    "id": "E003",
+    "name": "Instacart",
+    "corporate_group": "Maplebear / Instacart",
+    "tool": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+    "selection": "logged_query_order",
+    "included": true,
+    "deep": true,
+    "reviewed_on": "2026-11-05",
+    "second_pass_complete": true,
+    "reviewer": "ChatGPT-assisted source rereading and coding reconciliation; no independent coder",
+    "source_ids": [
+      "E003-S1",
+      "E003-S2",
+      "E003-S3",
+      "E003-S4"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "Notice introduction",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Employer identified.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "NYC options and tool sections",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "CandidateQuestions route published.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "How Decisions Are Made",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Human hiring review described across tool sections.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E003-S1",
+          "E003-S2",
+          "E003-S4"
+        ],
+        "locator": "Bounded employer documents",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Functional team is not a case-linked assignee.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "Tool 5: Your Right to Request Human Review",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "CodeSignal result review route with decision-change authority; not an all-tools rejection appeal.",
+        "tool_scope": "CodeSignal only; Tofu fraud review recorded separately",
+        "stage": "Assessment score/proctoring result review; not universal final rejection",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "NYC options; Tools 1,3,4,5",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Tool-specific manual/alternative requests; not uniform coverage.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "NYC options and tool sections",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Accommodation request route described.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {
+      "identify_responsibility": {
+        "status": "unclear",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "Tool 5 human review",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Corrective capacity described for CodeSignal; individual case linkage untested.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "examine_rule": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "Tool descriptions; NYC audit table",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Criteria and an audit link disclosed; Metaview audit not generalized to other tools.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "accept_challenge": {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "Tool 5 human review; Tool 3 fraud review",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Scoped result challenges described, not a universal final-rejection appeal.",
+        "tool_scope": "CodeSignal result and Tofu fraud flag; not primary Greenhouse-wide",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "deliver_finding": {
+        "status": "not_described",
+        "source_ids": [
+          "E003-S1",
+          "E003-S2",
+          "E003-S4"
+        ],
+        "locator": "Bounded employer documents",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No receipt trail from finding to implementer located.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "apply_correction": {
+        "status": "unclear",
+        "source_ids": [
+          "E003-S1"
+        ],
+        "locator": "Tool 5 human review",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Authority to change a decision is explicit; applied correction and record update are unobserved.",
+        "tool_scope": "CodeSignal decision-change capacity only",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "check_result": {
+        "status": "not_described",
+        "source_ids": [
+          "E003-S1",
+          "E003-S2",
+          "E003-S4"
+        ],
+        "locator": "Bounded employer documents",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No case-linked corrected-record confirmation located.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "other_scoped_rights": [
+      {
+        "status": "documented",
+        "source_ids": [
+          "E003-S1",
+          "E003-S2"
+        ],
+        "locator": "California/Colorado future-rights sections",
+        "population": "Stated covered state residents, from January 1, 2027",
+        "note": "Future provisions remain outside present NYC classifications.",
+        "tool_scope": "Greenhouse Real Talent (primary); Metaview, Tofu, BrightHire, CodeSignal annotated separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    ],
+    "legal_coverage": "Full-Service Shopper account deactivation appeals excluded as a different population; 2027 state-specific rights not treated as current NYC rights.",
+    "review_boundary": "4 sources. Public documents only; no account, submitted request, candidate case or institutional contact. Positive result review is CodeSignal-specific; Tofu fraud review is separate. Primary Greenhouse tool does not inherit those provisions.",
+    "second_pass": {
+      "date": "2026-11-05",
+      "codebook": "0.2",
+      "method": "Same-assistant rereading of decisive source sections and reconciliation across the scoped document set; not independent replication.",
+      "changes": "Tool, stage, temporal and jurisdiction limits retained; no operational verification."
+    }
+  },
+  {
+    "id": "E004",
+    "name": "NBCUniversal",
+    "corporate_group": "NBCUniversal",
+    "tool": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+    "selection": "logged_query_order",
+    "included": true,
+    "deep": true,
+    "reviewed_on": "2026-11-05",
+    "second_pass_complete": true,
+    "reviewer": "ChatGPT-assisted source rereading and coding reconciliation; no independent coder",
+    "source_ids": [
+      "E004-S1",
+      "E004-S2",
+      "E004-S3",
+      "E004-S4",
+      "E004-S5"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S1",
+          "E004-S2"
+        ],
+        "locator": "Notice and policy operator",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Institution identified.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S1",
+          "E004-S2"
+        ],
+        "locator": "Notice email; policy contact section",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Request/contact route published.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S2"
+        ],
+        "locator": "§2.5",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Recruiters and hiring managers review outputs.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E004-S1",
+          "E004-S2",
+          "E004-S3",
+          "E004-S4",
+          "E004-S5"
+        ],
+        "locator": "Five-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No case-linked assignee disclosed.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S2"
+        ],
+        "locator": "§2.5 further human review; contact section",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Recruitment-decision review can be requested; preceding general sentence is separate from California access rights.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S1"
+        ],
+        "locator": "Historical notice request paragraph",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Alternative request instructions documented historically; present availability not independently verified.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Historical August 2024 notice; current procedure unverified",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S4"
+        ],
+        "locator": "Support throughout recruitment",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Accommodation request email provided.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {
+      "identify_responsibility": {
+        "status": "unclear",
+        "source_ids": [
+          "E004-S2"
+        ],
+        "locator": "§2.5",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Review roles described; case assignment and corrective remit unresolved.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "examine_rule": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S2",
+          "E004-S5"
+        ],
+        "locator": "§2.5 link and audit p.1",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Published audit is dated July 2025; no present compliance inference.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "accept_challenge": {
+        "status": "documented",
+        "source_ids": [
+          "E004-S2"
+        ],
+        "locator": "§2.5 further review; contacts",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "General request for further human review of recruitment decisions described.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "deliver_finding": {
+        "status": "not_described",
+        "source_ids": [
+          "E004-S1",
+          "E004-S2",
+          "E004-S3",
+          "E004-S4",
+          "E004-S5"
+        ],
+        "locator": "Five-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No finding-delivery receipt located.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "apply_correction": {
+        "status": "unclear",
+        "source_ids": [
+          "E004-S2"
+        ],
+        "locator": "§2.5; §5",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Review and conditional data rights do not specify changed hiring-decision procedure.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "check_result": {
+        "status": "not_described",
+        "source_ids": [
+          "E004-S1",
+          "E004-S2",
+          "E004-S3",
+          "E004-S4",
+          "E004-S5"
+        ],
+        "locator": "Five-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Application status is not confirmation of corrected outcome.",
+        "tool_scope": "SmartAssistant; historical NYC notice plus March 2026 general policy",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "other_scoped_rights": [],
+    "legal_coverage": "Current policy links a July 2025 audit using pooled historical data; age alone is not a finding of unlawful present use.",
+    "review_boundary": "5 sources. Public documents only; no account, submitted request, candidate case or institutional contact. Alternative instructions come from a 2024 notice. General further-review provision comes from March 2026 policy; retain dates separately.",
+    "second_pass": {
+      "date": "2026-11-05",
+      "codebook": "0.2",
+      "method": "Same-assistant rereading of decisive source sections and reconciliation across the scoped document set; not independent replication.",
+      "changes": "Tool, stage, temporal and jurisdiction limits retained; no operational verification."
+    }
+  },
+  {
+    "id": "E005",
+    "name": "SharkNinja",
+    "corporate_group": "SharkNinja",
+    "tool": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+    "selection": "logged_query_order",
+    "included": true,
+    "deep": true,
+    "reviewed_on": "2026-11-05",
+    "second_pass_complete": true,
+    "reviewer": "ChatGPT-assisted source rereading and coding reconciliation; no independent coder",
+    "source_ids": [
+      "E005-S1",
+      "E005-S2",
+      "E005-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E005-S1",
+          "E005-S2"
+        ],
+        "locator": "NYC notice; global operator",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Institution identified.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E005-S1",
+          "E005-S2"
+        ],
+        "locator": "Your Options; exercise-rights contacts",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Contact links described; extraction masks email addresses, delivery untested.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E005-S1"
+        ],
+        "locator": "Tool We Use",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Trained recruitment reviewer can override before screening.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E005-S1",
+          "E005-S2",
+          "E005-S3"
+        ],
+        "locator": "Three-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No case-linked assignee disclosed.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "unclear",
+        "source_ids": [
+          "E005-S2"
+        ],
+        "locator": "AI processing rights",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Non-AI review, explanation and data-correction requests described; post-adverse-decision reconsideration scope unclear.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E005-S1"
+        ],
+        "locator": "Your Options",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Alternative process may be requested; availability is expressly not guaranteed.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E005-S1"
+        ],
+        "locator": "Your Options; disability contact",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Separate accommodation request link described.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {
+      "identify_responsibility": {
+        "status": "unclear",
+        "source_ids": [
+          "E005-S1"
+        ],
+        "locator": "Tool We Use",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Pre-decision authority is described; not a case-linked correction assignment.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "examine_rule": {
+        "status": "documented",
+        "source_ids": [
+          "E005-S1",
+          "E005-S3"
+        ],
+        "locator": "Bias Audit; linked dashboard",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Audit disclosure; dashboard vendor-level and dynamic.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "accept_challenge": {
+        "status": "unclear",
+        "source_ids": [
+          "E005-S2"
+        ],
+        "locator": "AI rights",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Profiling objection is not automatically a post-decision appeal.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "deliver_finding": {
+        "status": "not_described",
+        "source_ids": [
+          "E005-S1",
+          "E005-S2",
+          "E005-S3"
+        ],
+        "locator": "Three-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No finding-to-implementer receipt process located.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "apply_correction": {
+        "status": "unclear",
+        "source_ids": [
+          "E005-S2"
+        ],
+        "locator": "AI rights: data correction",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Requesting data correction does not establish changed hiring decision.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      },
+      "check_result": {
+        "status": "not_described",
+        "source_ids": [
+          "E005-S1",
+          "E005-S2",
+          "E005-S3"
+        ],
+        "locator": "Three-document set",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "No corrected-outcome confirmation located.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    },
+    "other_scoped_rights": [
+      {
+        "status": "documented",
+        "source_ids": [
+          "E005-S2"
+        ],
+        "locator": "AI processing rights",
+        "population": "Candidates within the notice scope; NYC applicability noted separately",
+        "note": "Profiling objection, non-AI review and data-correction requests; timing of outcome appeal unresolved.",
+        "tool_scope": "Talent Matching (NYC primary); Notetaker and Real Talent separately",
+        "stage": "candidate screening",
+        "time_scope": "Published material retrieved 2026-11-05; source-version limitations apply",
+        "operationally_verified": false
+      }
+    ],
+    "legal_coverage": "General AI-output and profiling rights recorded positively; implementation untested. Vendor dashboard is not proof of this employer’s workflow.",
+    "review_boundary": "3 sources. Public documents only; no account, submitted request, candidate case or institutional contact. NYC notice retains a prospective August 2026 start and says not yet used. Neither launch nor current use is inferred.",
+    "second_pass": {
+      "date": "2026-11-05",
+      "codebook": "0.2",
+      "method": "Same-assistant rereading of decisive source sections and reconciliation across the scoped document set; not independent replication.",
+      "changes": "Tool, stage, temporal and jurisdiction limits retained; no operational verification."
+    }
   }
 ]

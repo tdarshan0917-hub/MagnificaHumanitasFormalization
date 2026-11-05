@@ -44,11 +44,20 @@ def main():
         if e['deep']:
             require(set(e['deep_checks']) == checks, f"Deep-check coverage {e['id']}")
         require(set(e['source_ids']) <= source_ids, f"Unknown employer source {e['id']}")
+        if e['second_pass_complete']:
+            review = e.get('second_pass', {})
+            require(review.get('date') and review.get('method') and review.get('changes'),
+                    f"Missing second-pass record {e['id']}")
+            require(review.get('codebook') == study['codebook'],
+                    f"Second pass uses an older codebook {e['id']}")
         fields = list(e['quick_scan'].values()) + list(e['deep_checks'].values()) + e['other_scoped_rights']
         for item in fields:
             require(item['status'] in statuses, f"Invalid evidence status {e['id']}")
             require(item['source_ids'] and set(item['source_ids']) <= set(e['source_ids']), f"Unlinked evidence {e['id']}")
             require(item['locator'] and item['population'] and item['note'], f"Missing scope/locator {e['id']}")
+            if study['codebook'] == '0.2':
+                require(all(item.get(k) for k in ['tool_scope', 'stage', 'time_scope']),
+                        f"Missing tool/stage/time boundary {e['id']}")
             require(item['operationally_verified'] is False, 'Documentary build cannot assert operational performance')
         require(any(d.get('employer_id') == e['id'] and d['decision'].startswith('include') for d in discovery), f"Missing inclusion trail {e['id']}")
     for name in ['worksheet.csv', 'authority.csv', 'findings.csv']:

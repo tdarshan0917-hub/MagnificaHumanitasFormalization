@@ -130,5 +130,192 @@
     "document_version": "Summary July 5, 2025; nationwide data June 1, 2024–June 1, 2025; one of 16 linked tables examined. No current-use/freshness finding.",
     "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no live byte snapshot retained",
     "original_bytes_archived": false
+  },
+  {
+    "id": "E002-S1",
+    "title": "NYC AEDT notice",
+    "publisher": "Snowflake",
+    "url": "https://careers.snowflake.com/us/en/aedt-notice-nyc",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Distribution November 28, 2025; audit preparation September 21, 2026",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E002-S2",
+    "title": "Candidate privacy notice",
+    "publisher": "Snowflake",
+    "url": "https://careers.snowflake.com/candidateprivacy",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Updated October 2, 2026; §8 conditional rights; §11 contact",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E002-S3",
+    "title": "Equal opportunity",
+    "publisher": "Snowflake",
+    "url": "https://careers.snowflake.com/us/en/equal-opportunity",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Undated; displayed accommodation email differs from mailto target",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E002-S4",
+    "title": "Hiring process",
+    "publisher": "Snowflake",
+    "url": "https://careers.snowflake.com/us/en/gethired",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Undated; hiring roles, not post-decision correction",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E002-S5",
+    "title": "Ashby criteria audit",
+    "publisher": "Warden AI, linked by employer",
+    "url": "https://cdn.phenompeople.com/CareerConnectResources/SNCOUS/documents/Ashby-CriteriaEvaluationModel-AIAuditReport-2026-09-21-1791214883203.pdf",
+    "kind": "employer_linked_audit",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Warden AI, September 21, 2026; 15 pages",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E003-S1",
+    "title": "AI-assisted screening tools notice",
+    "publisher": "Instacart",
+    "url": "https://www.instacart.careers/ai-assisted-screening-tools-notice",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Effective October 30, 2026; five tools with distinct options",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E003-S2",
+    "title": "Applicant and personnel privacy",
+    "publisher": "Instacart",
+    "url": "https://www.instacart.careers/job-applicant-privacy-notice",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Effective October 30, 2026; future California/Colorado provisions separated",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E003-S3",
+    "title": "Linked Metaview audit dashboard",
+    "publisher": "Warden AI, linked by employer",
+    "url": "https://trust.warden-ai.com/metaview/application-review",
+    "kind": "employer_linked_audit",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Employer describes September 1, 2026 audit; repeat open failed, no independently preserved audit report",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E003-S4",
+    "title": "Candidate AI usage guidance",
+    "publisher": "Instacart",
+    "url": "https://www.instacart.careers/ai-usage-guide",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Undated; candidate conduct guidance, not an appeal procedure",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E004-S1",
+    "title": "Historical NYC AEDT notice",
+    "publisher": "NBCUniversal",
+    "url": "https://cdn2.nbcuni.com/NBCUnicareers/2024-08/Notice%20Regarding%20Automated%20Employment%20Decision%20Tools%208.8.2024.pdf",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "August 8, 2024; one-page historical notice",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E004-S2",
+    "title": "Candidate privacy policy",
+    "publisher": "NBCUniversal",
+    "url": "https://www.nbcunicareers.com/candidate-privacy-policy",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "March 2026; English §2.5 and contact section",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E004-S3",
+    "title": "Candidate FAQ",
+    "publisher": "NBCUniversal",
+    "url": "https://www.nbcunicareers.com/faq",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Undated; hiring process and accessibility",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E004-S4",
+    "title": "Accessibility statement",
+    "publisher": "NBCUniversal",
+    "url": "https://www.nbcunicareers.com/accessibility-statement",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Undated; disability support route",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E004-S5",
+    "title": "Employer-linked SmartAssistant audit",
+    "publisher": "NBCUniversal",
+    "url": "https://cdn2.nbcuni.com/NBCUnicareers/2025-08/NBCUniversal_AEDT_Notice_7.30.25.pdf",
+    "kind": "employer_linked_audit",
+    "retrieved_on": "2026-11-05",
+    "document_version": "ConductorAI July 30, 2025; pooled historical data July 2024–July 2025; one page",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E005-S1",
+    "title": "NYC candidate notice",
+    "publisher": "SharkNinja",
+    "url": "https://www.sharkninja.com/candidate-privacy-notice-new-york-city.html",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Undated; says not yet used and expected August 10, 2026 start; present-use status unresolved",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E005-S2",
+    "title": "Global candidate privacy notice",
+    "publisher": "SharkNinja",
+    "url": "https://www.sharkninja.com/candidate-privacy-notice.html",
+    "kind": "employer_disclosure",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Reviewed June 2026; AI rights and local-law qualifications",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
+  },
+  {
+    "id": "E005-S3",
+    "title": "Employer-linked Talent Matching dashboard",
+    "publisher": "Warden AI, linked by employer",
+    "url": "https://trust.warden-ai.com/greenhouse/talent-matching",
+    "kind": "employer_linked_audit",
+    "retrieved_on": "2026-11-05",
+    "document_version": "Dynamic vendor dashboard; displays October 14, 2026 latest audit; not employer-specific execution evidence",
+    "retrieval_method": "Indexed/extracted primary-source text via web retrieval; no original byte snapshot retained",
+    "original_bytes_archived": false
   }
 ]

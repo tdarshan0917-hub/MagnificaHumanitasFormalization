@@ -1,0 +1,34 @@
+{
+  "frozen_on": "2026-11-09",
+  "final_employers": 20,
+  "included_employer_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005",
+    "E006",
+    "E007",
+    "E008",
+    "E009",
+    "E010",
+    "E011",
+    "E012",
+    "E013",
+    "E014",
+    "E015",
+    "E016",
+    "E017",
+    "E018",
+    "E019",
+    "E020"
+  ],
+  "discovery_shortfall": 5,
+  "ledger_sha256": {
+    "employers.json": "332a20aea4ce4ba756e3a5f05a364789a5e1c4d9aff6a66833285fc356746208",
+    "sources.json": "4a952a32b1f170cf5080d8ce91ce9ba53a461d0fd71d475f9af2b862011c138d",
+    "legal_claims.json": "de451dde328637518b979ba6ed9cca838cc6a4210e31443920f2b01e3b663ca1",
+    "discovery_log.json": "6ff6ea1e7cb47c9c0aafb05ffb63949666d1014aa5e6a7a64105a4387785bc94"
+  },
+  "version_limit": "Hashes cover the research ledgers. Original source bytes were not preserved."
+}

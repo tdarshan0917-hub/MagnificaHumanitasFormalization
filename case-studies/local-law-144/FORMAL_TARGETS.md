@@ -32,3 +32,22 @@ The repaired path may correct applicant data and cause reassessment; a job offer
 Start from a candidate record and an independently computed justified finding; define review and application functions. Derive the resulting record by evaluating the functions. For a claimed guarantee over all allowed executions, explicitly model required execution/delivery or show why an execution can stall. Existence of a successful trace is not universal eventual completion. Do not assume employment or correction happened and re-prove the assumption.
 
 An evidence-to-model ledger must label every Boolean/field as a legal premise, hypothetical design choice, or supported case fact. `not_described` and `unclear` produce unknowns, not negative facts. Publish exact scoped conclusions even if a proposed separation fails.
+
+## Implementation handoff — 9 November 2026
+
+The documentary corpus is closed at 20 and the counts are reproducible. Begin the Lean implementation on the existing case-study branch. The project already has the required Lake package, a Lean 4.35.0 pin and the reusable governance interfaces. The extension can have its own build entry and dependency audit within this repository.
+
+### First module
+
+1. In `LocalLaw144.lean`, define a hiring-use input with distinct facts for covered NYC use and candidate NYC residence. Represent the reliance categories from L07 separately from tool identity. For F1, encode the selected audit, publication and notice conditions with an explicit before-use ordering, an audit freshness predicate and a business-day notice interval. Keep independence and technical audit adequacy as declared predicates with traceable meanings until their criteria are modeled. List the status of L04 and L08–L10 individually, including each abstraction or omission. Preserve outside-remedy scope from L05–L06 in the ledger.
+2. Check a witness with covered use and an NYC resident candidate so the triggered obligations are exercised. Check a failed notice boundary and a failed audit condition. Then evaluate the actual N, B and H definitions using `CompliantAt`. An excluded, affected candidate in a high-impact screening example triggers appeal and responsibility questions. An additional harmed case tests H's remedy-capacity requirement. Use a witness for each failed implication and name each added premise for any positive implication.
+
+### Second module
+
+3. In `EmploymentWorkflow.lean`, use a small, hypothetical hiring assessment. A submitted qualification is incorrectly recorded as absent, so the initial screen produces an adverse result. Review compares the stored field with independently supported evidence and produces a case-linked finding.
+4. Hold the candidate, finding, rule and selected audit/notice conditions fixed. Evaluate a trace where the finding is recorded but lacks a route to the case's authorized implementer. Add that connection and evaluate a trace where the finding is delivered, applied to the same case and followed by reassessment. Check the revised result and prove preservation of the audit/notice conditions and unrelated channels.
+5. State the conditions for a completed correction in the modeled trace. Check missing authority, missing delivery, wrong case and application attempted before review. Separate available capacity from actual exercise of it. If the transition system permits an actor to stop early, characterize successful completion under its stated execution conditions.
+
+The evidence-to-model ledger must trace each field to a selected legal premise, a hypothetical design choice or a sourced documentary fact. Employer counts remain in the documentary layer. Unknown disclosures cannot set a modeled employer safeguard to false.
+
+For acceptance, build the new modules with the pinned toolchain, audit proof dependencies, and run the existing release and documentary verification. Keep the case-specific proof audit separate from the original release audit.

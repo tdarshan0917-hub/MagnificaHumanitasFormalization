@@ -1,14 +1,15 @@
 # Local Law 144: from published safeguards to an actionable challenge
 
-Travis Darshan · Documentary build 0.3 · 9 November 2026
+Travis Darshan · Documentary build 0.4 · 9 November 2026
 
-**Status: 20 employer groups reviewed, including five deep reviews.** The bounded discovery effort finished five groups short of target. The 25-employer corpus, new Lean results and final case-study report are not complete.
+**Status: documentary corpus closed at 20 employer groups, including five deep reviews.** The bounded search finished five groups short of target. The five formal targets are ready for implementation.
 
 Question: when an employer publishes AI hiring safeguards, what do the applicable requirements and the available documents establish about a candidate's route to reconsideration and correction?
 
 ## Start here
 
-- [Plain-language build summary](BUILD_SUMMARY_0_3.md).
+- [Documentary results and scope](DOCUMENTARY_RESULTS.md).
+- [Discovery build summary](BUILD_SUMMARY_0_3.md).
 - [Protocol](PROTOCOL.md): fixed sample, selection method, evidence boundaries and stopping point.
 - [Coding rules](CODEBOOK.md): reproducible distinctions for the three scan questions and six deep-review checks.
 - [Primary-source register](data/sources.json) and [legal source ledger](data/legal_claims.json).
@@ -35,4 +36,4 @@ Branch: `case-study/local-law-144`. The original source, PDFs and publication id
 
 The existing framework supplies responsibility, appeal and correction distinctions. New York law is a separate source of requirements. N/B/H are interpretation policies, not legal compliance certificates. Recommendations carry their own normative label. Employer statements are evidence of disclosure, not verified performance.
 
-The eventual deliverable is one law-level analysis, a scan of 25 employers with five deep reviews, a bounded Lean extension, a 3–4-page case-study report and an evidence appendix/review kit. An authorized operational pilot may follow; it is not required to publish the documentary study. Release numbering and a separate case-study DOI will be finalized when the deliverables are ready.
+The eventual deliverable is one law-level analysis, a closed sample of 20 employers with five deep reviews, a bounded Lean extension, a 3–4-page case-study report and an evidence appendix/review kit. An authorized operational pilot may follow; it is not required to publish the documentary study. Release numbering and a separate case-study DOI will be finalized when the deliverables are ready.

@@ -1,12 +1,7 @@
-# Status — build 0.3, 9 November 2026
+# Status — build 0.4, 9 November 2026
 
-The study has 20 eligible employer groups, including the five deep reviews. Fifteen quick scans were added and reconciled against decisive source passages by the same assistant. The bounded discovery effort ended five groups short of target. See [the build summary](BUILD_SUMMARY_0_3.md) and [the amended protocol](PROTOCOL.md).
+The documentary sample is closed at 20 employer groups with five deep reviews. The original target of 25 remains in the protocol and freeze manifest. The validator reproduces the counts from the frozen ledgers. See [documentary results](DOCUMENTARY_RESULTS.md).
 
-The discovery log preserves result sets, tracker row order and the distinction between eligible records, duplicate groups, vendor product audits and unresolved primary sources. The source register preserves dated observations and retrieval limits.
+The Lean extension is ready to start on the existing case-study branch. The [implementation handoff](FORMAL_TARGETS.md) specifies the modules, model inputs, witness cases and verification steps. Implementation and proof verification are pending.
 
-Pending:
-
-1. Decide the final denominator after the disclosed shortfall and freeze the source versions. Revisit the original five source sets and preserve dated evidence where available.
-2. Separate primary-tool and any-tool coverage, assessment-result and final-rejection review, and historical and present procedures before reporting sample counts.
-3. Implement and audit the five bounded formal targets, or record precise counterfindings.
-4. Finish the short case-study report and a populated review-kit example for the reproducible release.
+The final release will assemble the short case-study report, source appendix, reviewed model and populated review-kit example.

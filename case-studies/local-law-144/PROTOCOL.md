@@ -74,3 +74,9 @@ The accommodation query surfaced a duplicate NBCUniversal notice and no new grou
 2. `site:jobs.lever.co "automated employment decision tool" "New York City"`
 
 Stop discovery after these results and report any remaining shortfall.
+
+## Amendment 0.4 — close the documentary sample, 9 November 2026
+
+The planned target remains 25. The final denominator is 20 distinct employer groups, with five deep reviews. Discovery ended at the recorded bounds and left five groups short of target. All included groups completed the same-reviewer reconciliation. The frozen roster and hashes identify the exact study ledgers used for counts.
+
+The freeze preserves the dated source observations already in the register. The source-byte limitation remains. The closeout records targeted checks of decisive passages from the five deep cases. Current availability of employer procedures and their execution remain unverified.

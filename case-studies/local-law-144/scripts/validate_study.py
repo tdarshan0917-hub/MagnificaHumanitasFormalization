@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate documentary provenance and block premature sample claims; no network."""
 import csv
+import hashlib
 import json
 from pathlib import Path
 
@@ -66,14 +67,26 @@ def main():
         require(rows and len(set(rows[0])) == len(rows[0]), f'Invalid CSV header {name}')
         require(all(len(row) == len(rows[0]) for row in rows), f'Ragged CSV {name}')
     require(not list(ROOT.rglob('*.lean')), 'No unbuilt Lean files in documentary directory')
-    ready = (study['corpus_frozen'] and len(included) == study['target_employers']
-             and sum(e['deep'] for e in included) == study['target_deep']
-             and all(e['second_pass_complete'] for e in included))
+    ready = study['corpus_frozen']
+    if ready:
+        freeze = read('corpus_freeze.json')
+        require([e['id'] for e in included] == freeze['included_employer_ids'],
+                'Included employer roster differs from frozen corpus')
+        require(len(included) == freeze['final_employers'], 'Frozen denominator mismatch')
+        require(study['target_employers'] - len(included) == freeze['discovery_shortfall'],
+                'Frozen discovery shortfall mismatch')
+        require(sum(e['deep'] for e in included) == study['target_deep'],
+                'Frozen corpus has incomplete deep-review coverage')
+        require(all(e['second_pass_complete'] for e in included),
+                'Frozen corpus contains an unreconciled review')
+        for name in ['employers.json', 'sources.json', 'legal_claims.json', 'discovery_log.json']:
+            digest = hashlib.sha256((ROOT / 'data' / name).read_bytes()).hexdigest()
+            require(digest == freeze['ledger_sha256'].get(name), f'Frozen ledger changed: {name}')
     print(f"Documentary validation passed: {len(sources)} sources, {len(claims)} source claims, {len(included)} employer record(s), {sum(e['deep'] for e in included)} deep-review sheet(s).")
     if not ready:
         print('Exploratory build: final sample rates withheld; corpus/review completion pending.')
     else:
-        for key in ['case_assignee', 'post_decision_review_nyc', 'alternative_process_instructions']:
+        for key in sorted(quick):
             counts = {s: sum(e['quick_scan'][key]['status'] == s for e in included) for s in sorted(statuses)}
             print(f'{key}: {counts}; denominator={len(included)} employer document sets, not all NYC employers.')
 

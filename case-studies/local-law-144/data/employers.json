@@ -1143,5 +1143,1899 @@
       "method": "Same-assistant rereading of decisive source sections and reconciliation across the scoped document set; not independent replication.",
       "changes": "Tool, stage, temporal and jurisdiction limits retained; no operational verification."
     }
+  },
+  {
+    "id": "E006",
+    "name": "PwC US",
+    "corporate_group": "PwC US",
+    "tool": "Unnamed application tool",
+    "selection": "amendment_0.3_query_rerun",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E006-S1",
+      "E006-S2",
+      "E006-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E006-S1"
+        ],
+        "locator": "Audit introduction and Table 1",
+        "note": "The published record identifies PwC US.",
+        "population": "Applicants covered by the PwC US audit; entry-level recruiting guidance scoped separately",
+        "tool_scope": "Unnamed application tool",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 21 May 2026; planned distribution 17 June 2026; deployment not verified",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E006-S2"
+        ],
+        "locator": "School recruiter contact and application timelines",
+        "note": "School recruiter contact lookup is described for entry-level applicants.",
+        "population": "Applicants covered by the PwC US audit; entry-level recruiting guidance scoped separately",
+        "tool_scope": "General recruiting, tool unspecified",
+        "stage": "Entry-level recruiting",
+        "time_scope": "Audit 21 May 2026; planned distribution 17 June 2026; deployment not verified",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E006-S2"
+        ],
+        "locator": "School recruiter contact and application timelines",
+        "note": "Recruiters review entry-level applications.",
+        "population": "Applicants covered by the PwC US audit; entry-level recruiting guidance scoped separately",
+        "tool_scope": "General recruiting, tool unspecified",
+        "stage": "Entry-level application review",
+        "time_scope": "Audit 21 May 2026; planned distribution 17 June 2026; deployment not verified",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E006-S1",
+          "E006-S2",
+          "E006-S3"
+        ],
+        "locator": "Audit introduction and Table 1; School recruiter contact and application timelines; Job applicants page; applicable firm scope",
+        "note": "No scoped provision located in the reviewed material. Predeployment audit expressly reserves PwC’s position on legal coverage. No separate NYC candidate AEDT notice located.",
+        "population": "Applicants covered by the PwC US audit; entry-level recruiting guidance scoped separately",
+        "tool_scope": "Unnamed application tool",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 21 May 2026; planned distribution 17 June 2026; deployment not verified",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E006-S1",
+          "E006-S2",
+          "E006-S3"
+        ],
+        "locator": "Audit introduction and Table 1; School recruiter contact and application timelines; Job applicants page; applicable firm scope",
+        "note": "No scoped provision located in the reviewed material. Predeployment audit expressly reserves PwC’s position on legal coverage. No separate NYC candidate AEDT notice located.",
+        "population": "Applicants covered by the PwC US audit; entry-level recruiting guidance scoped separately",
+        "tool_scope": "Unnamed application tool",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 21 May 2026; planned distribution 17 June 2026; deployment not verified",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E006-S1",
+          "E006-S2",
+          "E006-S3"
+        ],
+        "locator": "Audit introduction and Table 1; School recruiter contact and application timelines; Job applicants page; applicable firm scope",
+        "note": "No scoped provision located in the reviewed material. Predeployment audit expressly reserves PwC’s position on legal coverage. No separate NYC candidate AEDT notice located.",
+        "population": "Applicants covered by the PwC US audit; entry-level recruiting guidance scoped separately",
+        "tool_scope": "Unnamed application tool",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 21 May 2026; planned distribution 17 June 2026; deployment not verified",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E006-S1",
+          "E006-S2",
+          "E006-S3"
+        ],
+        "locator": "Audit introduction and Table 1; School recruiter contact and application timelines; Job applicants page; applicable firm scope",
+        "note": "No scoped provision located in the reviewed material. Predeployment audit expressly reserves PwC’s position on legal coverage. No separate NYC candidate AEDT notice located.",
+        "population": "Applicants covered by the PwC US audit; entry-level recruiting guidance scoped separately",
+        "tool_scope": "Unnamed application tool",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 21 May 2026; planned distribution 17 June 2026; deployment not verified",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Predeployment audit expressly reserves PwC’s position on legal coverage. No separate NYC candidate AEDT notice located.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E007",
+    "name": "Aon",
+    "corporate_group": "Aon",
+    "tool": "Unnamed AEDT; separate online assessment provisions",
+    "selection": "amendment_0.3_query_rerun",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E007-S1",
+      "E007-S2",
+      "E007-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E007-S1"
+        ],
+        "locator": "Page 1, candidate options and accommodations",
+        "note": "The published record identifies Aon.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Unnamed AEDT; separate online assessment provisions",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E007-S1"
+        ],
+        "locator": "Page 1, candidate options and accommodations",
+        "note": "Disability accommodation and data inquiry contacts provided.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Unnamed AEDT; separate online assessment provisions",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E007-S2"
+        ],
+        "locator": "Sections 10, 11 and 15",
+        "note": "Policy describes human review in recruitment generally.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Automated tools generally",
+        "stage": "Initial recruitment review",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E007-S1",
+          "E007-S2",
+          "E007-S3"
+        ],
+        "locator": "Page 1, candidate options and accommodations; Sections 10, 11 and 15; Candidate FAQ",
+        "note": "No scoped provision located in the reviewed material. The audit citation is a placeholder in the retrieved notice. Global privacy and NYC tool coverage were assessed separately.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Unnamed AEDT; separate online assessment provisions",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "unclear",
+        "source_ids": [
+          "E007-S2"
+        ],
+        "locator": "Sections 10, 11 and 15",
+        "note": "Conditional right to human reconsideration is described. Its application to a NYC candidate screened with the notice tool remains unresolved.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Automated decision under privacy policy",
+        "stage": "After a solely automated decision",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "unclear",
+        "source_ids": [
+          "E007-S1"
+        ],
+        "locator": "Page 1, candidate options and accommodations",
+        "note": "Notice offers opt-out but gives no explicit method for submitting the opt-out in that notice.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Unnamed AEDT; separate online assessment provisions",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E007-S1"
+        ],
+        "locator": "Page 1, candidate options and accommodations",
+        "note": "Accommodation requests can be emailed to the stated inbox.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Unnamed AEDT; separate online assessment provisions",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [
+      {
+        "status": "documented",
+        "source_ids": [
+          "E007-S2"
+        ],
+        "locator": "Sections 10, 11 and 15",
+        "note": "Right to challenge and seek human intervention is stated subject to privacy-law and automated-decision conditions.",
+        "population": "NYC residents or applicants to NYC roles under the notice; privacy provisions subject to their conditions",
+        "tool_scope": "Solely automated significant decisions covered by policy",
+        "stage": "Post-decision challenge",
+        "time_scope": "Notice gives 5 August 2024 start; separate global privacy policy undated in extract",
+        "operationally_verified": false
+      }
+    ],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "The audit citation is a placeholder in the retrieved notice. Global privacy and NYC tool coverage were assessed separately.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E008",
+    "name": "DoorDash",
+    "corporate_group": "DoorDash",
+    "tool": "Covey Scout for Inbound",
+    "selection": "amendment_0.3_query_rerun",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E008-S1",
+      "E008-S2",
+      "E008-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E008-S1"
+        ],
+        "locator": "NYC applicant notice and accommodation paragraph",
+        "note": "The published record identifies DoorDash.",
+        "population": "Candidates for NYC jobs or remote jobs associated with NYC office",
+        "tool_scope": "Covey Scout for Inbound",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice says use ended 30 April 2026; other recruiting guidance may postdate use",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E008-S1"
+        ],
+        "locator": "NYC applicant notice and accommodation paragraph",
+        "note": "Candidates can inform their recruiting contact about accommodation needs.",
+        "population": "Candidates for NYC jobs or remote jobs associated with NYC office",
+        "tool_scope": "General recruiting",
+        "stage": "Recruiting contact",
+        "time_scope": "Notice says use ended 30 April 2026; other recruiting guidance may postdate use",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E008-S1",
+          "E008-S2",
+          "E008-S3"
+        ],
+        "locator": "NYC applicant notice and accommodation paragraph; Live interview accommodations; Employer-linked legal page; substantive privacy text unavailable in extract",
+        "note": "No scoped provision located in the reviewed material. Public posting describes historical Covey use. Linked applicant privacy text was not readable in retrieval.",
+        "population": "Candidates for NYC jobs or remote jobs associated with NYC office",
+        "tool_scope": "Covey Scout for Inbound",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice says use ended 30 April 2026; other recruiting guidance may postdate use",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E008-S1",
+          "E008-S2",
+          "E008-S3"
+        ],
+        "locator": "NYC applicant notice and accommodation paragraph; Live interview accommodations; Employer-linked legal page; substantive privacy text unavailable in extract",
+        "note": "No scoped provision located in the reviewed material. Public posting describes historical Covey use. Linked applicant privacy text was not readable in retrieval.",
+        "population": "Candidates for NYC jobs or remote jobs associated with NYC office",
+        "tool_scope": "Covey Scout for Inbound",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice says use ended 30 April 2026; other recruiting guidance may postdate use",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "unclear",
+        "source_ids": [
+          "E008-S3"
+        ],
+        "locator": "Employer-linked legal page; substantive privacy text unavailable in extract",
+        "note": "Linked privacy text was unavailable for review. Dasher account appeals concern a different population.",
+        "population": "Candidates for NYC jobs or remote jobs associated with NYC office",
+        "tool_scope": "Historical Covey use",
+        "stage": "Post-screening",
+        "time_scope": "Notice says use ended 30 April 2026; other recruiting guidance may postdate use",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E008-S1",
+          "E008-S2",
+          "E008-S3"
+        ],
+        "locator": "NYC applicant notice and accommodation paragraph; Live interview accommodations; Employer-linked legal page; substantive privacy text unavailable in extract",
+        "note": "No scoped provision located in the reviewed material. Public posting describes historical Covey use. Linked applicant privacy text was not readable in retrieval.",
+        "population": "Candidates for NYC jobs or remote jobs associated with NYC office",
+        "tool_scope": "Covey Scout for Inbound",
+        "stage": "Hiring and screening",
+        "time_scope": "Notice says use ended 30 April 2026; other recruiting guidance may postdate use",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E008-S1"
+        ],
+        "locator": "NYC applicant notice and accommodation paragraph",
+        "note": "Posting directs applicants to their recruiting contact upon initial connection.",
+        "population": "Candidates for NYC jobs or remote jobs associated with NYC office",
+        "tool_scope": "General recruiting",
+        "stage": "Application/interview",
+        "time_scope": "Notice says use ended 30 April 2026; other recruiting guidance may postdate use",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Public posting describes historical Covey use. Linked applicant privacy text was not readable in retrieval.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E009",
+    "name": "Bloomberg L.P.",
+    "corporate_group": "Bloomberg L.P.",
+    "tool": "PLUM Assessment",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E009-S1",
+      "E009-S2"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E009-S1"
+        ],
+        "locator": "Title, sections 2 and 3",
+        "note": "The published record identifies Bloomberg L.P..",
+        "population": "Applicants in audit scope; NYC jobs identified",
+        "tool_scope": "PLUM Assessment",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit dated 3 July 2023; current tool use unresolved",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "not_described",
+        "source_ids": [
+          "E009-S1",
+          "E009-S2"
+        ],
+        "locator": "Title, sections 2 and 3; Public notices index",
+        "note": "No scoped provision located in the reviewed material. Audit reviewed. Careers page retrieval failed; no applicant-specific help/privacy route verified in the bounded set.",
+        "population": "Applicants in audit scope; NYC jobs identified",
+        "tool_scope": "PLUM Assessment",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit dated 3 July 2023; current tool use unresolved",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E009-S1",
+          "E009-S2"
+        ],
+        "locator": "Title, sections 2 and 3; Public notices index",
+        "note": "No scoped provision located in the reviewed material. Audit reviewed. Careers page retrieval failed; no applicant-specific help/privacy route verified in the bounded set.",
+        "population": "Applicants in audit scope; NYC jobs identified",
+        "tool_scope": "PLUM Assessment",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit dated 3 July 2023; current tool use unresolved",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E009-S1",
+          "E009-S2"
+        ],
+        "locator": "Title, sections 2 and 3; Public notices index",
+        "note": "No scoped provision located in the reviewed material. Audit reviewed. Careers page retrieval failed; no applicant-specific help/privacy route verified in the bounded set.",
+        "population": "Applicants in audit scope; NYC jobs identified",
+        "tool_scope": "PLUM Assessment",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit dated 3 July 2023; current tool use unresolved",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "unclear",
+        "source_ids": [
+          "E009-S1",
+          "E009-S2"
+        ],
+        "locator": "Title, sections 2 and 3; Public notices index",
+        "note": "Historical audit and notices index were readable. The employer careers page could not be inspected, limiting classification of applicant-facing procedures.",
+        "population": "Applicants in audit scope; NYC jobs identified",
+        "tool_scope": "PLUM Assessment",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit dated 3 July 2023; current tool use unresolved",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "unclear",
+        "source_ids": [
+          "E009-S1",
+          "E009-S2"
+        ],
+        "locator": "Title, sections 2 and 3; Public notices index",
+        "note": "Historical audit and notices index were readable. The employer careers page could not be inspected, limiting classification of applicant-facing procedures.",
+        "population": "Applicants in audit scope; NYC jobs identified",
+        "tool_scope": "PLUM Assessment",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit dated 3 July 2023; current tool use unresolved",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "unclear",
+        "source_ids": [
+          "E009-S1",
+          "E009-S2"
+        ],
+        "locator": "Title, sections 2 and 3; Public notices index",
+        "note": "Historical audit and notices index were readable. The employer careers page could not be inspected, limiting classification of applicant-facing procedures.",
+        "population": "Applicants in audit scope; NYC jobs identified",
+        "tool_scope": "PLUM Assessment",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit dated 3 July 2023; current tool use unresolved",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Audit reviewed. Careers page retrieval failed; no applicant-specific help/privacy route verified in the bounded set.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E010",
+    "name": "Dover",
+    "corporate_group": "Dover",
+    "tool": "Dover tool, exact feature unspecified",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E010-S1",
+      "E010-S2"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E010-S1"
+        ],
+        "locator": "Page 1, employer and purveyor fields",
+        "note": "The published record identifies Dover.",
+        "population": "Applicants in historical audit; general Dover hiring guidance separately",
+        "tool_scope": "Dover tool, exact feature unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 23 June 2023; undated EOE page",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E010-S2"
+        ],
+        "locator": "AI-assisted features; Accommodations and Requests",
+        "note": "Public application accommodation request link.",
+        "population": "Applicants in historical audit; general Dover hiring guidance separately",
+        "tool_scope": "General Dover hiring",
+        "stage": "Application assistance",
+        "time_scope": "Audit 23 June 2023; undated EOE page",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E010-S2"
+        ],
+        "locator": "AI-assisted features; Accommodations and Requests",
+        "note": "Dover identifies its hiring team as the decision maker.",
+        "population": "Applicants in historical audit; general Dover hiring guidance separately",
+        "tool_scope": "General Dover hiring",
+        "stage": "Hiring decision",
+        "time_scope": "Audit 23 June 2023; undated EOE page",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E010-S1",
+          "E010-S2"
+        ],
+        "locator": "Page 1, employer and purveyor fields; AI-assisted features; Accommodations and Requests",
+        "note": "No scoped provision located in the reviewed material. Audit explicitly identifies Dover as employer and purveyor. General EOE page does not establish which historical tool version is in current use.",
+        "population": "Applicants in historical audit; general Dover hiring guidance separately",
+        "tool_scope": "Dover tool, exact feature unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 23 June 2023; undated EOE page",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E010-S1",
+          "E010-S2"
+        ],
+        "locator": "Page 1, employer and purveyor fields; AI-assisted features; Accommodations and Requests",
+        "note": "No scoped provision located in the reviewed material. Audit explicitly identifies Dover as employer and purveyor. General EOE page does not establish which historical tool version is in current use.",
+        "population": "Applicants in historical audit; general Dover hiring guidance separately",
+        "tool_scope": "Dover tool, exact feature unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 23 June 2023; undated EOE page",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E010-S1",
+          "E010-S2"
+        ],
+        "locator": "Page 1, employer and purveyor fields; AI-assisted features; Accommodations and Requests",
+        "note": "No scoped provision located in the reviewed material. Audit explicitly identifies Dover as employer and purveyor. General EOE page does not establish which historical tool version is in current use.",
+        "population": "Applicants in historical audit; general Dover hiring guidance separately",
+        "tool_scope": "Dover tool, exact feature unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit 23 June 2023; undated EOE page",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E010-S2"
+        ],
+        "locator": "AI-assisted features; Accommodations and Requests",
+        "note": "EOE page links an accommodation request route.",
+        "population": "Applicants in historical audit; general Dover hiring guidance separately",
+        "tool_scope": "General Dover hiring",
+        "stage": "Application",
+        "time_scope": "Audit 23 June 2023; undated EOE page",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Audit explicitly identifies Dover as employer and purveyor. General EOE page does not establish which historical tool version is in current use.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E011",
+    "name": "Morgan Stanley",
+    "corporate_group": "Morgan Stanley",
+    "tool": "Eightfold resume scoring",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E011-S1",
+      "E011-S2",
+      "E011-S3",
+      "E011-S4"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E011-S1"
+        ],
+        "locator": "Page 1, introduction and executive summary",
+        "note": "The published record identifies Morgan Stanley.",
+        "population": "Applicants covered by the July 2026 audit; global applicant notice conditions apply",
+        "tool_scope": "Eightfold resume scoring",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2026; records June 2025 through May 2026",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E011-S3"
+        ],
+        "locator": "General recruiting inquiry contacts",
+        "note": "Public regional recruiting inquiry contacts.",
+        "population": "Applicants covered by the July 2026 audit; global applicant notice conditions apply",
+        "tool_scope": "General recruiting",
+        "stage": "Recruitment inquiries",
+        "time_scope": "Audit July 2026; records June 2025 through May 2026",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E011-S2"
+        ],
+        "locator": "Automated application screening paragraphs",
+        "note": "Personnel review scores and profiles before employment decisions.",
+        "population": "Applicants covered by the July 2026 audit; global applicant notice conditions apply",
+        "tool_scope": "Recruiting match-score tools",
+        "stage": "Before employment decision",
+        "time_scope": "Audit July 2026; records June 2025 through May 2026",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E011-S1",
+          "E011-S2",
+          "E011-S3",
+          "E011-S4"
+        ],
+        "locator": "Page 1, introduction and executive summary; Automated application screening paragraphs; General recruiting inquiry contacts; Public EEO statement",
+        "note": "No scoped provision located in the reviewed material. Audit URL now serves a July 2026 version, distinct from the tracker’s July 2024 entry. General recruiting channels are scoped separately.",
+        "population": "Applicants covered by the July 2026 audit; global applicant notice conditions apply",
+        "tool_scope": "Eightfold resume scoring",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2026; records June 2025 through May 2026",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E011-S1",
+          "E011-S2",
+          "E011-S3",
+          "E011-S4"
+        ],
+        "locator": "Page 1, introduction and executive summary; Automated application screening paragraphs; General recruiting inquiry contacts; Public EEO statement",
+        "note": "No scoped provision located in the reviewed material. Audit URL now serves a July 2026 version, distinct from the tracker’s July 2024 entry. General recruiting channels are scoped separately.",
+        "population": "Applicants covered by the July 2026 audit; global applicant notice conditions apply",
+        "tool_scope": "Eightfold resume scoring",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2026; records June 2025 through May 2026",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E011-S1",
+          "E011-S2",
+          "E011-S3",
+          "E011-S4"
+        ],
+        "locator": "Page 1, introduction and executive summary; Automated application screening paragraphs; General recruiting inquiry contacts; Public EEO statement",
+        "note": "No scoped provision located in the reviewed material. Audit URL now serves a July 2026 version, distinct from the tracker’s July 2024 entry. General recruiting channels are scoped separately.",
+        "population": "Applicants covered by the July 2026 audit; global applicant notice conditions apply",
+        "tool_scope": "Eightfold resume scoring",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2026; records June 2025 through May 2026",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E011-S1",
+          "E011-S2",
+          "E011-S3",
+          "E011-S4"
+        ],
+        "locator": "Page 1, introduction and executive summary; Automated application screening paragraphs; General recruiting inquiry contacts; Public EEO statement",
+        "note": "No scoped provision located in the reviewed material. Audit URL now serves a July 2026 version, distinct from the tracker’s July 2024 entry. General recruiting channels are scoped separately.",
+        "population": "Applicants covered by the July 2026 audit; global applicant notice conditions apply",
+        "tool_scope": "Eightfold resume scoring",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2026; records June 2025 through May 2026",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Audit URL now serves a July 2026 version, distinct from the tracker’s July 2024 entry. General recruiting channels are scoped separately.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E012",
+    "name": "Covista (formerly Adtalem)",
+    "corporate_group": "Covista (formerly Adtalem)",
+    "tool": "SmartAssistant (linked audit title)",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E012-S1",
+      "E012-S2",
+      "E012-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E012-S1"
+        ],
+        "locator": "Recruiting use, human roles, requests and linked audit",
+        "note": "The published record identifies Covista (formerly Adtalem).",
+        "population": "NYC residents and applicants to NYC-based jobs under the notice",
+        "tool_scope": "SmartAssistant (linked audit title)",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated notice retrieved 9 November 2026",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E012-S1"
+        ],
+        "locator": "Recruiting use, human roles, requests and linked audit",
+        "note": "Talent Acquisition contact for alternative selection, accommodation and data requests.",
+        "population": "NYC residents and applicants to NYC-based jobs under the notice",
+        "tool_scope": "SmartAssistant (linked audit title)",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated notice retrieved 9 November 2026",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E012-S1"
+        ],
+        "locator": "Recruiting use, human roles, requests and linked audit",
+        "note": "Hiring manager makes decisions with TA or HR input.",
+        "population": "NYC residents and applicants to NYC-based jobs under the notice",
+        "tool_scope": "SmartAssistant (linked audit title)",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated notice retrieved 9 November 2026",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E012-S1",
+          "E012-S2",
+          "E012-S3"
+        ],
+        "locator": "Recruiting use, human roles, requests and linked audit; Candidate FAQ; Public accessibility information",
+        "note": "No scoped provision located in the reviewed material. Tracker cross-reference is a distinct employing group. The Adtalem URL redirects to Covista. The employer notice provides the observed procedures.",
+        "population": "NYC residents and applicants to NYC-based jobs under the notice",
+        "tool_scope": "SmartAssistant (linked audit title)",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated notice retrieved 9 November 2026",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E012-S1",
+          "E012-S2",
+          "E012-S3"
+        ],
+        "locator": "Recruiting use, human roles, requests and linked audit; Candidate FAQ; Public accessibility information",
+        "note": "No scoped provision located in the reviewed material. Tracker cross-reference is a distinct employing group. The Adtalem URL redirects to Covista. The employer notice provides the observed procedures.",
+        "population": "NYC residents and applicants to NYC-based jobs under the notice",
+        "tool_scope": "SmartAssistant (linked audit title)",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated notice retrieved 9 November 2026",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E012-S1"
+        ],
+        "locator": "Recruiting use, human roles, requests and linked audit",
+        "note": "Notice gives a Talent Acquisition email to request an alternative.",
+        "population": "NYC residents and applicants to NYC-based jobs under the notice",
+        "tool_scope": "SmartAssistant (linked audit title)",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated notice retrieved 9 November 2026",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E012-S1"
+        ],
+        "locator": "Recruiting use, human roles, requests and linked audit",
+        "note": "Notice gives a Talent Acquisition email to request accommodation.",
+        "population": "NYC residents and applicants to NYC-based jobs under the notice",
+        "tool_scope": "SmartAssistant (linked audit title)",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated notice retrieved 9 November 2026",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Tracker cross-reference is a distinct employing group. The Adtalem URL redirects to Covista. The employer notice provides the observed procedures.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E013",
+    "name": "NYU Langone Health",
+    "corporate_group": "NYU Langone Health",
+    "tool": "Talent Plus assessments",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E013-S1",
+      "E013-S2",
+      "E013-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E013-S1"
+        ],
+        "locator": "Overview and findings, PDF pp. 3–4",
+        "note": "The published record identifies NYU Langone Health.",
+        "population": "NYU Langone audit applicants; general candidate accessibility separately",
+        "tool_scope": "Talent Plus assessments",
+        "stage": "Hiring and screening",
+        "time_scope": "Historical audit data November 2019 to November 2022; careers accessibility page undated",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E013-S2"
+        ],
+        "locator": "Accessibility assistance and application difficulties",
+        "note": "Accessibility and technical assistance contacts.",
+        "population": "NYU Langone audit applicants; general candidate accessibility separately",
+        "tool_scope": "General applicant support",
+        "stage": "Application assistance",
+        "time_scope": "Historical audit data November 2019 to November 2022; careers accessibility page undated",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E013-S1",
+          "E013-S2",
+          "E013-S3"
+        ],
+        "locator": "Overview and findings, PDF pp. 3–4; Accessibility assistance and application difficulties; Website policy scope",
+        "note": "No scoped provision located in the reviewed material. Historical audit describes NYU Langone data. Website privacy policy is not an applicant-specific AEDT notice.",
+        "population": "NYU Langone audit applicants; general candidate accessibility separately",
+        "tool_scope": "Talent Plus assessments",
+        "stage": "Hiring and screening",
+        "time_scope": "Historical audit data November 2019 to November 2022; careers accessibility page undated",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E013-S1",
+          "E013-S2",
+          "E013-S3"
+        ],
+        "locator": "Overview and findings, PDF pp. 3–4; Accessibility assistance and application difficulties; Website policy scope",
+        "note": "No scoped provision located in the reviewed material. Historical audit describes NYU Langone data. Website privacy policy is not an applicant-specific AEDT notice.",
+        "population": "NYU Langone audit applicants; general candidate accessibility separately",
+        "tool_scope": "Talent Plus assessments",
+        "stage": "Hiring and screening",
+        "time_scope": "Historical audit data November 2019 to November 2022; careers accessibility page undated",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E013-S1",
+          "E013-S2",
+          "E013-S3"
+        ],
+        "locator": "Overview and findings, PDF pp. 3–4; Accessibility assistance and application difficulties; Website policy scope",
+        "note": "No scoped provision located in the reviewed material. Historical audit describes NYU Langone data. Website privacy policy is not an applicant-specific AEDT notice.",
+        "population": "NYU Langone audit applicants; general candidate accessibility separately",
+        "tool_scope": "Talent Plus assessments",
+        "stage": "Hiring and screening",
+        "time_scope": "Historical audit data November 2019 to November 2022; careers accessibility page undated",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E013-S1",
+          "E013-S2",
+          "E013-S3"
+        ],
+        "locator": "Overview and findings, PDF pp. 3–4; Accessibility assistance and application difficulties; Website policy scope",
+        "note": "No scoped provision located in the reviewed material. Historical audit describes NYU Langone data. Website privacy policy is not an applicant-specific AEDT notice.",
+        "population": "NYU Langone audit applicants; general candidate accessibility separately",
+        "tool_scope": "Talent Plus assessments",
+        "stage": "Hiring and screening",
+        "time_scope": "Historical audit data November 2019 to November 2022; careers accessibility page undated",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E013-S2"
+        ],
+        "locator": "Accessibility assistance and application difficulties",
+        "note": "Phone route expressly accepts accommodation requests.",
+        "population": "NYU Langone audit applicants; general candidate accessibility separately",
+        "tool_scope": "General applicant support",
+        "stage": "Application assistance",
+        "time_scope": "Historical audit data November 2019 to November 2022; careers accessibility page undated",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Historical audit describes NYU Langone data. Website privacy policy is not an applicant-specific AEDT notice.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E014",
+    "name": "Pfizer",
+    "corporate_group": "Pfizer",
+    "tool": "HiredScore (2026 notice); HireVue historical",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E014-S1",
+      "E014-S2",
+      "E014-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E014-S1"
+        ],
+        "locator": "Page 1, screening, request paragraph and audit link",
+        "note": "The published record identifies Pfizer.",
+        "population": "Applicants covered by Pfizer NYC AEDT notice",
+        "tool_scope": "HiredScore (2026 notice); HireVue historical",
+        "stage": "Hiring and screening",
+        "time_scope": "May 2026 notice file and July 2023 HireVue audit",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E014-S1"
+        ],
+        "locator": "Page 1, screening, request paragraph and audit link",
+        "note": "Notice names an inbox for alternative, accommodation and data requests.",
+        "population": "Applicants covered by Pfizer NYC AEDT notice",
+        "tool_scope": "HiredScore (2026 notice); HireVue historical",
+        "stage": "Hiring and screening",
+        "time_scope": "May 2026 notice file and July 2023 HireVue audit",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E014-S1",
+          "E014-S2",
+          "E014-S3"
+        ],
+        "locator": "Page 1, screening, request paragraph and audit link; Page 1, data period and Pfizer selection threshold; Interview process page",
+        "note": "No scoped provision located in the reviewed material. Historical HireVue audit and the HiredScore notice concern different tools. No coverage transfer inferred.",
+        "population": "Applicants covered by Pfizer NYC AEDT notice",
+        "tool_scope": "HiredScore (2026 notice); HireVue historical",
+        "stage": "Hiring and screening",
+        "time_scope": "May 2026 notice file and July 2023 HireVue audit",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E014-S1",
+          "E014-S2",
+          "E014-S3"
+        ],
+        "locator": "Page 1, screening, request paragraph and audit link; Page 1, data period and Pfizer selection threshold; Interview process page",
+        "note": "No scoped provision located in the reviewed material. Historical HireVue audit and the HiredScore notice concern different tools. No coverage transfer inferred.",
+        "population": "Applicants covered by Pfizer NYC AEDT notice",
+        "tool_scope": "HiredScore (2026 notice); HireVue historical",
+        "stage": "Hiring and screening",
+        "time_scope": "May 2026 notice file and July 2023 HireVue audit",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E014-S1",
+          "E014-S2",
+          "E014-S3"
+        ],
+        "locator": "Page 1, screening, request paragraph and audit link; Page 1, data period and Pfizer selection threshold; Interview process page",
+        "note": "No scoped provision located in the reviewed material. Historical HireVue audit and the HiredScore notice concern different tools. No coverage transfer inferred.",
+        "population": "Applicants covered by Pfizer NYC AEDT notice",
+        "tool_scope": "HiredScore (2026 notice); HireVue historical",
+        "stage": "Hiring and screening",
+        "time_scope": "May 2026 notice file and July 2023 HireVue audit",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E014-S1"
+        ],
+        "locator": "Page 1, screening, request paragraph and audit link",
+        "note": "Notice directs alternative-selection requests to the listed inbox.",
+        "population": "Applicants covered by Pfizer NYC AEDT notice",
+        "tool_scope": "HiredScore (2026 notice); HireVue historical",
+        "stage": "Hiring and screening",
+        "time_scope": "May 2026 notice file and July 2023 HireVue audit",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E014-S1"
+        ],
+        "locator": "Page 1, screening, request paragraph and audit link",
+        "note": "Notice directs accommodation requests to the same inbox.",
+        "population": "Applicants covered by Pfizer NYC AEDT notice",
+        "tool_scope": "HiredScore (2026 notice); HireVue historical",
+        "stage": "Hiring and screening",
+        "time_scope": "May 2026 notice file and July 2023 HireVue audit",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Historical HireVue audit and the HiredScore notice concern different tools. No coverage transfer inferred.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E015",
+    "name": "Sheppard Mullin",
+    "corporate_group": "Sheppard Mullin",
+    "tool": "Suited",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E015-S1",
+      "E015-S2"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E015-S1"
+        ],
+        "locator": "Suited AEDT notice and contact",
+        "note": "The published record identifies Sheppard Mullin.",
+        "population": "Attorney candidates, including NYC residents",
+        "tool_scope": "Suited",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated current careers notice; tracker audit link unavailable",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E015-S1"
+        ],
+        "locator": "Suited AEDT notice and contact",
+        "note": "Notice supplies a point of contact for information about Suited.",
+        "population": "Attorney candidates, including NYC residents",
+        "tool_scope": "Suited",
+        "stage": "Tool information requests",
+        "time_scope": "Undated current careers notice; tracker audit link unavailable",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E015-S1",
+          "E015-S2"
+        ],
+        "locator": "Suited AEDT notice and contact; Linked general privacy policy; AEDT-specific remedy not verified",
+        "note": "No scoped provision located in the reviewed material. The original tracker audit link returned 404. Employer careers notice independently qualifies this employer. Named notice contact is a general contact, not a case assignment.",
+        "population": "Attorney candidates, including NYC residents",
+        "tool_scope": "Suited",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated current careers notice; tracker audit link unavailable",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E015-S1",
+          "E015-S2"
+        ],
+        "locator": "Suited AEDT notice and contact; Linked general privacy policy; AEDT-specific remedy not verified",
+        "note": "No scoped provision located in the reviewed material. The original tracker audit link returned 404. Employer careers notice independently qualifies this employer. Named notice contact is a general contact, not a case assignment.",
+        "population": "Attorney candidates, including NYC residents",
+        "tool_scope": "Suited",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated current careers notice; tracker audit link unavailable",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E015-S1",
+          "E015-S2"
+        ],
+        "locator": "Suited AEDT notice and contact; Linked general privacy policy; AEDT-specific remedy not verified",
+        "note": "No scoped provision located in the reviewed material. The original tracker audit link returned 404. Employer careers notice independently qualifies this employer. Named notice contact is a general contact, not a case assignment.",
+        "population": "Attorney candidates, including NYC residents",
+        "tool_scope": "Suited",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated current careers notice; tracker audit link unavailable",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E015-S1",
+          "E015-S2"
+        ],
+        "locator": "Suited AEDT notice and contact; Linked general privacy policy; AEDT-specific remedy not verified",
+        "note": "No scoped provision located in the reviewed material. The original tracker audit link returned 404. Employer careers notice independently qualifies this employer. Named notice contact is a general contact, not a case assignment.",
+        "population": "Attorney candidates, including NYC residents",
+        "tool_scope": "Suited",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated current careers notice; tracker audit link unavailable",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E015-S1",
+          "E015-S2"
+        ],
+        "locator": "Suited AEDT notice and contact; Linked general privacy policy; AEDT-specific remedy not verified",
+        "note": "No scoped provision located in the reviewed material. The original tracker audit link returned 404. Employer careers notice independently qualifies this employer. Named notice contact is a general contact, not a case assignment.",
+        "population": "Attorney candidates, including NYC residents",
+        "tool_scope": "Suited",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated current careers notice; tracker audit link unavailable",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "The original tracker audit link returned 404. Employer careers notice independently qualifies this employer. Named notice contact is a general contact, not a case assignment.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E016",
+    "name": "Wells Fargo",
+    "corporate_group": "Wells Fargo",
+    "tool": "Teller assessment, vendor unspecified",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E016-S1",
+      "E016-S2",
+      "E016-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E016-S1"
+        ],
+        "locator": "Page 1, analysis information and purpose",
+        "note": "The published record identifies Wells Fargo.",
+        "population": "NYC teller applicants in audit; US candidates in accommodation guidance",
+        "tool_scope": "Teller assessment, vendor unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2023, assessment data 2022–23; current general support page undated",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E016-S2"
+        ],
+        "locator": "Application accommodation steps for US applicants",
+        "note": "Accommodation vendor contact is provided.",
+        "population": "NYC teller applicants in audit; US candidates in accommodation guidance",
+        "tool_scope": "General applicant support",
+        "stage": "Application assistance",
+        "time_scope": "Audit July 2023, assessment data 2022–23; current general support page undated",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E016-S1",
+          "E016-S2",
+          "E016-S3"
+        ],
+        "locator": "Page 1, analysis information and purpose; Application accommodation steps for US applicants; Application accessibility and accommodations",
+        "note": "No scoped provision located in the reviewed material. Historical NYC teller audit and current general accommodation instructions answer different questions. Audit does not identify a case assignee.",
+        "population": "NYC teller applicants in audit; US candidates in accommodation guidance",
+        "tool_scope": "Teller assessment, vendor unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2023, assessment data 2022–23; current general support page undated",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E016-S1",
+          "E016-S2",
+          "E016-S3"
+        ],
+        "locator": "Page 1, analysis information and purpose; Application accommodation steps for US applicants; Application accessibility and accommodations",
+        "note": "No scoped provision located in the reviewed material. Historical NYC teller audit and current general accommodation instructions answer different questions. Audit does not identify a case assignee.",
+        "population": "NYC teller applicants in audit; US candidates in accommodation guidance",
+        "tool_scope": "Teller assessment, vendor unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2023, assessment data 2022–23; current general support page undated",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E016-S1",
+          "E016-S2",
+          "E016-S3"
+        ],
+        "locator": "Page 1, analysis information and purpose; Application accommodation steps for US applicants; Application accessibility and accommodations",
+        "note": "No scoped provision located in the reviewed material. Historical NYC teller audit and current general accommodation instructions answer different questions. Audit does not identify a case assignee.",
+        "population": "NYC teller applicants in audit; US candidates in accommodation guidance",
+        "tool_scope": "Teller assessment, vendor unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2023, assessment data 2022–23; current general support page undated",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E016-S1",
+          "E016-S2",
+          "E016-S3"
+        ],
+        "locator": "Page 1, analysis information and purpose; Application accommodation steps for US applicants; Application accessibility and accommodations",
+        "note": "No scoped provision located in the reviewed material. Historical NYC teller audit and current general accommodation instructions answer different questions. Audit does not identify a case assignee.",
+        "population": "NYC teller applicants in audit; US candidates in accommodation guidance",
+        "tool_scope": "Teller assessment, vendor unspecified",
+        "stage": "Hiring and screening",
+        "time_scope": "Audit July 2023, assessment data 2022–23; current general support page undated",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E016-S2"
+        ],
+        "locator": "Application accommodation steps for US applicants",
+        "note": "US applicants directed to submit the accommodation form to the named vendor.",
+        "population": "NYC teller applicants in audit; US candidates in accommodation guidance",
+        "tool_scope": "General applicant support",
+        "stage": "Application/interview",
+        "time_scope": "Audit July 2023, assessment data 2022–23; current general support page undated",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Historical NYC teller audit and current general accommodation instructions answer different questions. Audit does not identify a case assignee.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E017",
+    "name": "ZoomInfo",
+    "corporate_group": "ZoomInfo",
+    "tool": "Unnamed ADT",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E017-S1",
+      "E017-S2"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E017-S1"
+        ],
+        "locator": "Applicant evaluation, alternatives and data requests",
+        "note": "The published record identifies ZoomInfo.",
+        "population": "Applicants for the positions identified in the employer notice",
+        "tool_scope": "Unnamed ADT",
+        "stage": "Hiring and screening",
+        "time_scope": "Employer notice identifies April 2026 audit based on 2025 test data; underlying applicant privacy notice unavailable",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E017-S1"
+        ],
+        "locator": "Applicant evaluation, alternatives and data requests",
+        "note": "Notice identifies HR and privacy contacts.",
+        "population": "Applicants for the positions identified in the employer notice",
+        "tool_scope": "Unnamed ADT",
+        "stage": "Hiring and screening",
+        "time_scope": "Employer notice identifies April 2026 audit based on 2025 test data; underlying applicant privacy notice unavailable",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E017-S1"
+        ],
+        "locator": "Applicant evaluation, alternatives and data requests",
+        "note": "Employer says human decision-making remains in the process; specific reviewer remit unspecified.",
+        "population": "Applicants for the positions identified in the employer notice",
+        "tool_scope": "Unnamed ADT",
+        "stage": "Hiring and screening",
+        "time_scope": "Employer notice identifies April 2026 audit based on 2025 test data; underlying applicant privacy notice unavailable",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E017-S1",
+          "E017-S2"
+        ],
+        "locator": "Applicant evaluation, alternatives and data requests; PDF viewer only; underlying text not retrieved",
+        "note": "No scoped provision located in the reviewed material. Search interface returned no usable gap-search result. Employer notice and linked viewer were inspected; privacy content remains unresolved.",
+        "population": "Applicants for the positions identified in the employer notice",
+        "tool_scope": "Unnamed ADT",
+        "stage": "Hiring and screening",
+        "time_scope": "Employer notice identifies April 2026 audit based on 2025 test data; underlying applicant privacy notice unavailable",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "unclear",
+        "source_ids": [
+          "E017-S2"
+        ],
+        "locator": "PDF viewer only; underlying text not retrieved",
+        "note": "Linked applicant policy text is inaccessible in the extract.",
+        "population": "Applicants for the positions identified in the employer notice",
+        "tool_scope": "Unnamed ADT",
+        "stage": "Hiring and screening",
+        "time_scope": "Employer notice identifies April 2026 audit based on 2025 test data; underlying applicant privacy notice unavailable",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E017-S1"
+        ],
+        "locator": "Applicant evaluation, alternatives and data requests",
+        "note": "Notice directs applicants to email HR to request an alternative selection procedure.",
+        "population": "Applicants for the positions identified in the employer notice",
+        "tool_scope": "Unnamed ADT",
+        "stage": "Hiring and screening",
+        "time_scope": "Employer notice identifies April 2026 audit based on 2025 test data; underlying applicant privacy notice unavailable",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "unclear",
+        "source_ids": [
+          "E017-S1"
+        ],
+        "locator": "Applicant evaluation, alternatives and data requests",
+        "note": "Notice calls the alternative request an accommodation request; separate disability-specific instructions are not clear.",
+        "population": "Applicants for the positions identified in the employer notice",
+        "tool_scope": "Unnamed ADT",
+        "stage": "Hiring and screening",
+        "time_scope": "Employer notice identifies April 2026 audit based on 2025 test data; underlying applicant privacy notice unavailable",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Search interface returned no usable gap-search result. Employer notice and linked viewer were inspected; privacy content remains unresolved.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E018",
+    "name": "Burlington Stores",
+    "corporate_group": "Burlington Stores",
+    "tool": "HireVue",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E018-S1",
+      "E018-S2",
+      "E018-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E018-S1"
+        ],
+        "locator": "Connect with us; NYC early career and intern notice",
+        "note": "The published record identifies Burlington Stores.",
+        "population": "NYC residents applying for named early-career development and intern roles",
+        "tool_scope": "HireVue",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated careers notice identifies a 9 June 2026 audit; separate tracker audit dated July 2023",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E018-S1"
+        ],
+        "locator": "Connect with us; NYC early career and intern notice",
+        "note": "Notice provides early-career recruiting and data-request inboxes.",
+        "population": "NYC residents applying for named early-career development and intern roles",
+        "tool_scope": "HireVue",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated careers notice identifies a 9 June 2026 audit; separate tracker audit dated July 2023",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E018-S1",
+          "E018-S2"
+        ],
+        "locator": "Connect with us; NYC early career and intern notice; Early career audit cover and analysis information",
+        "note": "No scoped provision located in the reviewed material. Role-specific notice gives instructions for named programs. Review of an alternative request is distinct from reconsidering a screening outcome.",
+        "population": "NYC residents applying for named early-career development and intern roles",
+        "tool_scope": "HireVue",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated careers notice identifies a 9 June 2026 audit; separate tracker audit dated July 2023",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E018-S1",
+          "E018-S2"
+        ],
+        "locator": "Connect with us; NYC early career and intern notice; Early career audit cover and analysis information",
+        "note": "No scoped provision located in the reviewed material. Role-specific notice gives instructions for named programs. Review of an alternative request is distinct from reconsidering a screening outcome.",
+        "population": "NYC residents applying for named early-career development and intern roles",
+        "tool_scope": "HireVue",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated careers notice identifies a 9 June 2026 audit; separate tracker audit dated July 2023",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E018-S1",
+          "E018-S2"
+        ],
+        "locator": "Connect with us; NYC early career and intern notice; Early career audit cover and analysis information",
+        "note": "No scoped provision located in the reviewed material. Role-specific notice gives instructions for named programs. Review of an alternative request is distinct from reconsidering a screening outcome.",
+        "population": "NYC residents applying for named early-career development and intern roles",
+        "tool_scope": "HireVue",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated careers notice identifies a 9 June 2026 audit; separate tracker audit dated July 2023",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E018-S1"
+        ],
+        "locator": "Connect with us; NYC early career and intern notice",
+        "note": "Named early-career candidates can email to request an alternative.",
+        "population": "NYC residents applying for named early-career development and intern roles",
+        "tool_scope": "HireVue",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated careers notice identifies a 9 June 2026 audit; separate tracker audit dated July 2023",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E018-S1"
+        ],
+        "locator": "Connect with us; NYC early career and intern notice",
+        "note": "The same route takes accommodation requests.",
+        "population": "NYC residents applying for named early-career development and intern roles",
+        "tool_scope": "HireVue",
+        "stage": "Hiring and screening",
+        "time_scope": "Undated careers notice identifies a 9 June 2026 audit; separate tracker audit dated July 2023",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Role-specific notice gives instructions for named programs. Review of an alternative request is distinct from reconsidering a screening outcome. Current careers notice identifies a 9 June 2026 audit, separate from the 2023 tracker-linked report.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E019",
+    "name": "The Cigna Group",
+    "corporate_group": "The Cigna Group",
+    "tool": "Phenom Fit Score; AI Recruiting Agent separately listed",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E019-S1",
+      "E019-S2",
+      "E019-S3"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E019-S1"
+        ],
+        "locator": "Effective date, US tools, oversight and contact paragraphs",
+        "note": "The published record identifies The Cigna Group.",
+        "population": "US-based roles under 2026 notice; historical audit population separately",
+        "tool_scope": "Phenom Fit Score; AI Recruiting Agent separately listed",
+        "stage": "Hiring and screening",
+        "time_scope": "Current notice effective March 2026; older unnamed tool audit October 2023",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "documented",
+        "source_ids": [
+          "E019-S1"
+        ],
+        "locator": "Effective date, US tools, oversight and contact paragraphs",
+        "note": "Notice gives an AI-question subject line and accommodation inbox.",
+        "population": "US-based roles under 2026 notice; historical audit population separately",
+        "tool_scope": "Phenom Fit Score; AI Recruiting Agent separately listed",
+        "stage": "Hiring and screening",
+        "time_scope": "Current notice effective March 2026; older unnamed tool audit October 2023",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "documented",
+        "source_ids": [
+          "E019-S1"
+        ],
+        "locator": "Effective date, US tools, oversight and contact paragraphs",
+        "note": "Recruiters review applications and humans decide who advances.",
+        "population": "US-based roles under 2026 notice; historical audit population separately",
+        "tool_scope": "Phenom Fit Score and AI Recruiting Agent",
+        "stage": "Initial screening",
+        "time_scope": "Current notice effective March 2026; older unnamed tool audit October 2023",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E019-S1",
+          "E019-S2",
+          "E019-S3"
+        ],
+        "locator": "Effective date, US tools, oversight and contact paragraphs; Page 1, audit and distribution dates; Hiring process",
+        "note": "No scoped provision located in the reviewed material. Historical audit names no product. Later notice lists different functions without identifying the older tool.",
+        "population": "US-based roles under 2026 notice; historical audit population separately",
+        "tool_scope": "Phenom Fit Score; AI Recruiting Agent separately listed",
+        "stage": "Hiring and screening",
+        "time_scope": "Current notice effective March 2026; older unnamed tool audit October 2023",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E019-S1",
+          "E019-S2",
+          "E019-S3"
+        ],
+        "locator": "Effective date, US tools, oversight and contact paragraphs; Page 1, audit and distribution dates; Hiring process",
+        "note": "No scoped provision located in the reviewed material. Historical audit names no product. Later notice lists different functions without identifying the older tool.",
+        "population": "US-based roles under 2026 notice; historical audit population separately",
+        "tool_scope": "Phenom Fit Score; AI Recruiting Agent separately listed",
+        "stage": "Hiring and screening",
+        "time_scope": "Current notice effective March 2026; older unnamed tool audit October 2023",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E019-S1",
+          "E019-S2",
+          "E019-S3"
+        ],
+        "locator": "Effective date, US tools, oversight and contact paragraphs; Page 1, audit and distribution dates; Hiring process",
+        "note": "No scoped provision located in the reviewed material. Historical audit names no product. Later notice lists different functions without identifying the older tool.",
+        "population": "US-based roles under 2026 notice; historical audit population separately",
+        "tool_scope": "Phenom Fit Score; AI Recruiting Agent separately listed",
+        "stage": "Hiring and screening",
+        "time_scope": "Current notice effective March 2026; older unnamed tool audit October 2023",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "documented",
+        "source_ids": [
+          "E019-S1"
+        ],
+        "locator": "Effective date, US tools, oversight and contact paragraphs",
+        "note": "Notice gives an inbox for reasonable accommodation during application.",
+        "population": "US-based roles under 2026 notice; historical audit population separately",
+        "tool_scope": "General applicant support",
+        "stage": "Application",
+        "time_scope": "Current notice effective March 2026; older unnamed tool audit October 2023",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Historical audit names no product. Later notice lists different functions without identifying the older tool.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
+  },
+  {
+    "id": "E020",
+    "name": "Alidoro",
+    "corporate_group": "Alidoro",
+    "tool": "Landed",
+    "selection": "amendment_0.3_tracker",
+    "included": true,
+    "deep": false,
+    "reviewed_on": "2026-11-09",
+    "second_pass_complete": true,
+    "reviewer": "Same assistant documentary reading and reconciliation",
+    "source_ids": [
+      "E020-S1",
+      "E020-S2"
+    ],
+    "quick_scan": {
+      "institution_identified": {
+        "status": "documented",
+        "source_ids": [
+          "E020-S1"
+        ],
+        "locator": "Page 1, tool and data basis",
+        "note": "The published record identifies Alidoro.",
+        "population": "Alidoro applicants; historical audit uses test data",
+        "tool_scope": "Landed",
+        "stage": "Hiring and screening",
+        "time_scope": "27 June 2023 audit; current careers page undated",
+        "operationally_verified": false
+      },
+      "candidate_contact": {
+        "status": "not_described",
+        "source_ids": [
+          "E020-S1",
+          "E020-S2"
+        ],
+        "locator": "Page 1, tool and data basis; Jobs and application links",
+        "note": "No scoped provision located in the reviewed material. Auditor identifies Alidoro and Landed. The careers page did not establish a current link to the same tool.",
+        "population": "Alidoro applicants; historical audit uses test data",
+        "tool_scope": "Landed",
+        "stage": "Hiring and screening",
+        "time_scope": "27 June 2023 audit; current careers page undated",
+        "operationally_verified": false
+      },
+      "review_role": {
+        "status": "not_described",
+        "source_ids": [
+          "E020-S1",
+          "E020-S2"
+        ],
+        "locator": "Page 1, tool and data basis; Jobs and application links",
+        "note": "No scoped provision located in the reviewed material. Auditor identifies Alidoro and Landed. The careers page did not establish a current link to the same tool.",
+        "population": "Alidoro applicants; historical audit uses test data",
+        "tool_scope": "Landed",
+        "stage": "Hiring and screening",
+        "time_scope": "27 June 2023 audit; current careers page undated",
+        "operationally_verified": false
+      },
+      "case_assignee": {
+        "status": "not_described",
+        "source_ids": [
+          "E020-S1",
+          "E020-S2"
+        ],
+        "locator": "Page 1, tool and data basis; Jobs and application links",
+        "note": "No scoped provision located in the reviewed material. Auditor identifies Alidoro and Landed. The careers page did not establish a current link to the same tool.",
+        "population": "Alidoro applicants; historical audit uses test data",
+        "tool_scope": "Landed",
+        "stage": "Hiring and screening",
+        "time_scope": "27 June 2023 audit; current careers page undated",
+        "operationally_verified": false
+      },
+      "post_decision_review_nyc": {
+        "status": "not_described",
+        "source_ids": [
+          "E020-S1",
+          "E020-S2"
+        ],
+        "locator": "Page 1, tool and data basis; Jobs and application links",
+        "note": "No scoped provision located in the reviewed material. Auditor identifies Alidoro and Landed. The careers page did not establish a current link to the same tool.",
+        "population": "Alidoro applicants; historical audit uses test data",
+        "tool_scope": "Landed",
+        "stage": "Hiring and screening",
+        "time_scope": "27 June 2023 audit; current careers page undated",
+        "operationally_verified": false
+      },
+      "alternative_process_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E020-S1",
+          "E020-S2"
+        ],
+        "locator": "Page 1, tool and data basis; Jobs and application links",
+        "note": "No scoped provision located in the reviewed material. Auditor identifies Alidoro and Landed. The careers page did not establish a current link to the same tool.",
+        "population": "Alidoro applicants; historical audit uses test data",
+        "tool_scope": "Landed",
+        "stage": "Hiring and screening",
+        "time_scope": "27 June 2023 audit; current careers page undated",
+        "operationally_verified": false
+      },
+      "accommodation_instructions": {
+        "status": "not_described",
+        "source_ids": [
+          "E020-S1",
+          "E020-S2"
+        ],
+        "locator": "Page 1, tool and data basis; Jobs and application links",
+        "note": "No scoped provision located in the reviewed material. Auditor identifies Alidoro and Landed. The careers page did not establish a current link to the same tool.",
+        "population": "Alidoro applicants; historical audit uses test data",
+        "tool_scope": "Landed",
+        "stage": "Hiring and screening",
+        "time_scope": "27 June 2023 audit; current careers page undated",
+        "operationally_verified": false
+      }
+    },
+    "deep_checks": {},
+    "other_scoped_rights": [],
+    "legal_coverage": "Documentary eligibility only. Present applicability and compliance unverified.",
+    "review_boundary": "Auditor identifies Alidoro and Landed. The careers page did not establish a current link to the same tool.",
+    "second_pass": {
+      "date": "2026-11-09",
+      "codebook": "0.2",
+      "method": "Same assistant reread decisive source passages, then checked classifications against tool, stage, population and date. Source retrieval limits remain.",
+      "changes": "Reviewed version differences, support channels and conditional rights. See scoped fields and discovery log."
+    }
   }
 ]

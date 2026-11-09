@@ -1,20 +1,12 @@
-# Status — build 0.2, 5 November 2026
+# Status — build 0.3, 9 November 2026
 
-Completed:
+The study has 20 eligible employer groups, including the five deep reviews. Fifteen quick scans were added and reconciled against decisive source passages by the same assistant. The bounded discovery effort ended five groups short of target. See [the build summary](BUILD_SUMMARY_0_3.md) and [the amended protocol](PROTOCOL.md).
 
-- Original Release 1.1 sources and three PDFs remain unchanged on the separate case-study branch.
-- Primary-source/legal ledger and five starter review-kit instruments retained from build 0.1.
-- Citizens source rereading and four additional bounded documentary reviews: Snowflake, Instacart, NBCUniversal and SharkNinja.
-- Five deep sheets and scoped structured records; same-assistant reconciliation under frozen Codebook 0.2, not independent replication.
-- Tool/stage/time qualifications, historical and future provisions, conditional rights and positive counterevidence recorded.
-- Supplemental discovery query, sequencing deviation, duplicate handling and retrieval limitations disclosed.
+The discovery log preserves result sets, tracker row order and the distinction between eligible records, duplicate groups, vendor product audits and unresolved primary sources. The source register preserves dated observations and retrieval limits.
 
 Pending:
 
-1. Add the remaining 20 quick-scan employer groups using logged selection; do not expand the five deep-review target.
-2. Improve the ranked discovery archive and preserve source versions where possible. Original bytes remain unarchived. Recheck all five source sets before final corpus freeze.
-3. Reconcile all 25 records, separate any-tool/primary-tool and assessment-result/final-rejection categories, freeze the corpus, then produce descriptive counts. No citywide prevalence estimate.
-4. Implement, build and audit the existing F1–F5 formal targets, or record precise counterfindings. The LL144 Lean extension is not implemented.
-5. Complete the source-linked public case study and populated review-kit example; prepare the bounded case-study release, provisionally 1.2.
-
-No live employer workflow was tested. No candidate challenge was submitted. No complete legal-compliance or institutional-effectiveness finding is made. No final sample rates or new DOI registration are claimed.
+1. Decide the final denominator after the disclosed shortfall and freeze the source versions. Revisit the original five source sets and preserve dated evidence where available.
+2. Separate primary-tool and any-tool coverage, assessment-result and final-rejection review, and historical and present procedures before reporting sample counts.
+3. Implement and audit the five bounded formal targets, or record precise counterfindings.
+4. Finish the short case-study report and a populated review-kit example for the reproducible release.

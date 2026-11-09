@@ -59,3 +59,18 @@ The original three discovery families returned four eligible groups including th
 Codebook 0.2 is frozen for the remaining quick scan, subject to explicitly logged amendments and recoding. The first five records have been reconciled under it. Second pass means the same assistant reread decisive sections and checked coding against the source set; it is not independent coding or a reliability statistic.
 
 Each observation now carries tool, stage and time scope. Employer-group counts may describe a provision for **some** covered tools, but must not be reported as all-tools coverage. A separate primary-tool analysis is required before final rates. The primary tool remains the first tool in the selected employer notice; other tools receive explicit annotations. Source freshness, present use and operational delivery remain separate questions. No final rates are released in build 0.2.
+
+## Amendment 0.3 — discovery queue, 9 November 2026
+
+The four recorded queries were rerun in order. The available search interface returned one result set per query. Three additional employer leads surfaced (PwC, Aon and DoorDash), leaving the target of 25 out of reach through those results. Preserve their order before adding leads from the ACLU's public Local Law 144 audit tracker, which surfaced in the first query.
+
+For the supplemental queue, record the tracker version and use the order of its public employer listing, deduplicated by corporate group. Take the first eligible groups until reaching 25 total. Verify each lead against an employer-controlled or employer-linked primary document. Keep failed retrievals and reasons for exclusion. Apply the same coding rules and retrieval bounds to included groups. The tracker supplies leads only.
+
+The tracker contains many vendor product audits and several captures for which the underlying employer document could not be read. Its verified employer leads still leave a shortfall against 25. After the tracker queue, run one additional family, `"notice" "automated employment decision tools" "reasonable accommodation" hiring`, with the existing result and deduplication limits. This last family may enrich notices that describe accommodation; keep the discovery stratum visible in any later count.
+
+The accommodation query surfaced a duplicate NBCUniversal notice and no new group. To address the remaining shortfall, run a final pair of employer job-board searches in the order below. Hosted job notices qualify when the posting identifies the employing entity and describes its own tool use. Tag this stratum separately because boards and shared vendor templates can cluster together.
+
+1. `site:job-boards.greenhouse.io "AEDT" "Covey" "NYC"`
+2. `site:jobs.lever.co "automated employment decision tool" "New York City"`
+
+Stop discovery after these results and report any remaining shortfall.

@@ -1,14 +1,14 @@
 # Local Law 144: from published safeguards to an actionable challenge
 
-Travis Darshan · Documentary build 0.2 · 5 November 2026
+Travis Darshan · Documentary build 0.3 · 9 November 2026
 
-**Status: five-employer documentary build, not Release 1.2.** Five deep reviews have been reconciled under Codebook 0.2. The 25-employer corpus, new Lean results and final case-study report are not complete.
+**Status: 20 employer groups reviewed, including five deep reviews.** The bounded discovery effort finished five groups short of target. The 25-employer corpus, new Lean results and final case-study report are not complete.
 
 Question: when an employer publishes AI hiring safeguards, what do the applicable requirements and the available documents establish about a candidate's route to reconsideration and correction?
 
 ## Start here
 
-- [Plain-language build summary](BUILD_SUMMARY_0_2.md).
+- [Plain-language build summary](BUILD_SUMMARY_0_3.md).
 - [Protocol](PROTOCOL.md): fixed sample, selection method, evidence boundaries and stopping point.
 - [Coding rules](CODEBOOK.md): reproducible distinctions for the three scan questions and six deep-review checks.
 - [Primary-source register](data/sources.json) and [legal source ledger](data/legal_claims.json).

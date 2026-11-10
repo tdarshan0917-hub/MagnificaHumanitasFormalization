@@ -7,4 +7,4 @@ name = "MagnificaHumanitas"
 
 [[lean_lib]]
 name = "LocalLaw144Study"
-roots = ["LocalLaw144Study.EmploymentWorkflow"]
+roots = ["LocalLaw144Study.LocalLaw144", "LocalLaw144Study.EmploymentWorkflow"]

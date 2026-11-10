@@ -1,6 +1,6 @@
-# Bounded formal target map — proposed, not proved
+# Bounded formal target map
 
-No Lean definitions or theorems are added in the documentary setup build.
+The implementation and field-level scope are recorded in [formal results](FORMAL_RESULTS.md).
 
 ## Reuse
 
@@ -10,9 +10,9 @@ No Lean definitions or theorems are added in the documentary setup build.
 - `RuleCorrection.lean`: actual change to an operative rule differs from recorded objection.
 - `AppealCorrection.lean`: `completed_path_iff`, `static_safeguards_do_not_supply_handoff`, `ordered_path_corrects_existing_denial` and `handoff_repair_preserves_submission_and_review`. Adapt the scenario and outputs explicitly; do not relabel existing theorems as new empirical findings.
 
-## Planned files
+## Implementation files
 
-`MagnificaHumanitas/Cases/LocalLaw144.lean` and `MagnificaHumanitas/Cases/EmploymentWorkflow.lean`.
+`LocalLaw144Study/LocalLaw144.lean` and `LocalLaw144Study/EmploymentWorkflow.lean`. The dedicated Lake library gives the case study its own proof audit.
 Use a dedicated case-study audit file and build target at implementation time; existing release source manifests stay intact.
 
 ## Fixed questions

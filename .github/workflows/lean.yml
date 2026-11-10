@@ -18,9 +18,11 @@ jobs:
           tar --zstd -xf "$RUNNER_TEMP/lean.tar.zst" -C "$RUNNER_TEMP"
           echo "$RUNNER_TEMP/lean-4.35.0-linux/bin" >> "$GITHUB_PATH"
       - name: Build
-        run: lake build
+        run: lake build MagnificaHumanitas LocalLaw144Study
       - name: Inspect proof dependencies
         run: lake env lean Audit.lean
+      - name: Audit Local Law 144 proof dependencies
+        run: lake env lean LocalLaw144Study/Audit.lean
       - name: Check source integrity
         run: python3 scripts/audit_sources.py
       - name: Verify final documents and source identities

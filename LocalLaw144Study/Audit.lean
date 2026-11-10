@@ -1,0 +1,19 @@
+import LocalLaw144Study.EmploymentWorkflow
+
+open LocalLaw144Study LocalLaw144Study.EmploymentWorkflow
+
+#print axioms example_covered
+#print axioms example_selected_duties
+#print axioms nine_business_days_fails
+#print axioms expired_audit_fails
+#print axioms selected_duties_allow_screen_without_appeal
+#print axioms review_without_remedy_separates_policies
+#print axioms review_without_delivery_leaves_adverse_screen
+#print axioms routing_repair_changes_assessment
+#print axioms application_preserves_context
+#print axioms repaired_trace_preserves_selected_duties_and_accommodation
+#print axioms advances_iff_completed_path
+#print axioms wrong_case_finding_cannot_change_assessment
+#print axioms application_before_review_leaves_assessment
+#print axioms missing_authority_leaves_assessment
+#print axioms missing_delivery_leaves_assessment

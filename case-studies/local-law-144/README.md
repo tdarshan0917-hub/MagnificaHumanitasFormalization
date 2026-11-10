@@ -1,8 +1,8 @@
 # Local Law 144: from published safeguards to an actionable challenge
 
-Travis Darshan · Documentary build 0.4 · 9 November 2026
+Travis Darshan · Case-study build 0.5 · 9 November 2026
 
-**Status: documentary corpus closed at 20 employer groups, including five deep reviews.** The bounded search finished five groups short of target. The five formal targets are ready for implementation.
+**Status: documentary corpus closed at 20 employer groups, including five deep reviews.** The bounded search finished five groups short of target. The two Lean modules implement the five formal targets.
 
 Question: when an employer publishes AI hiring safeguards, what do the applicable requirements and the available documents establish about a candidate's route to reconsideration and correction?
 
@@ -15,7 +15,8 @@ Question: when an employer publishes AI hiring safeguards, what do the applicabl
 - [Primary-source register](data/sources.json) and [legal source ledger](data/legal_claims.json).
 - [First employer: Citizens](employers/E001-citizens.md) and [structured evidence](data/employers.json).
 - [Discovery log](data/discovery_log.json): includes pilot-first selection and unsuccessful searches; no retrospective preregistration claim.
-- [Formal target map](FORMAL_TARGETS.md): proposed targets and reuse of the existing Lean suite.
+- [Formal results and model ledger](FORMAL_RESULTS.md).
+- [Formal target map](FORMAL_TARGETS.md): original targets and reuse of the existing Lean suite.
 - [Review kit](review-kit/README.md): five starter instruments, ready for completing against institution-specific evidence.
 - [Milestones](STATUS.md): exact completed and pending work.
 

@@ -4,3 +4,7 @@ defaultTargets = ["MagnificaHumanitas"]
 
 [[lean_lib]]
 name = "MagnificaHumanitas"
+
+[[lean_lib]]
+name = "LocalLaw144Study"
+roots = ["LocalLaw144Study.EmploymentWorkflow"]

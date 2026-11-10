@@ -1,5 +1,7 @@
 # Institutional review kit — starter instruments 0.1
 
+Start with [worked example: case 7](WORKED_EXAMPLE.md), which completes all five instruments for a synthetic case and separates checked model behavior from proposed operational records.
+
 Use one case identifier throughout all five instruments. These are research recommendations to adapt to an institution's applicable duties, roles and records. No institution has completed an operational test with this kit yet.
 
 1. [Evidence worksheet](worksheet.csv): attach source references and distinguish disclosure, capacity and execution.

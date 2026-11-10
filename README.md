@@ -6,6 +6,11 @@ This project examines what selected AI-governance principles require when put in
 
 The formal suite covers the three agreed domains—employment, public benefits/services and bounded high-stakes autonomy—with examined dispositions for ten target questions and six countermodel questions. The final papers explain both the checked results and the assumptions that make them hold.
 
+## Studies in this repository
+
+- **Original study: Magnifica Humanitas.** A Lean formalization of selected AI-governance commitments from the encyclical. [Read the original public report](output/pdf/MagnificaHumanitas_Plain_Language_Progress_Report.pdf).
+- **Follow-on study: NYC Local Law 144.** A review of 20 employer document sets and Lean models of hiring challenges and correction. [Read the case study and reproduce its results](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/blob/case-study/local-law-144/case-studies/local-law-144/README.md).
+
 ## Read the findings
 
 - [One-page illustrated summary](output/pdf/MagnificaHumanitas_One_Page_Summary.pdf): start here for the purpose, Lean explanation, example, correction-route diagram and institutional checks.
@@ -37,7 +42,7 @@ python3 scripts/audit_sources.py
 python3 scripts/verify_release.py
 ```
 
-The mathematical sources are byte-identical to verified formal checkpoint `0b938e373dbf538fe0853f6282e4d9502e67ea01`. Its [GitHub verification run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41394350840) passed build, proof audit and source checks. The final document commit has its own GitHub Actions run. The companion source package records that exact packaging commit, checksums and CI evidence. It can be circulated with the reports and reproduced without GitHub access; the repository remains private. Its root includes RELEASE_COMMIT.txt, RELEASE_VERIFICATION.json and MANIFEST.sha256.
+The mathematical sources are byte-identical to verified formal checkpoint `0b938e373dbf538fe0853f6282e4d9502e67ea01`. Its [GitHub verification run](https://github.com/tdarshan0917-hub/MagnificaHumanitasFormalization/actions/runs/41394350840) passed build, proof audit and source checks. The final document commit has its own GitHub Actions run. The companion source package records that exact packaging commit, checksums and CI evidence. It can be circulated with the reports and reproduced without GitHub access. This repository is now public. Its root includes RELEASE_COMMIT.txt, RELEASE_VERIFICATION.json and MANIFEST.sha256.
 
 The library has 2,789 Lean lines in 21 files; Audit.lean reports dependencies for 106 selected declarations. These counts are proof inventory, not a count of independent discoveries. The original goal of 10–15 independently substantive positive results is not claimed met; the completion audit documents the mixed outcome of the fixed suite. No additional theorem families were invented to fill that quota.
 
